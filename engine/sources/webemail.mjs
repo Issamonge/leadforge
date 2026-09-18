@@ -8,7 +8,7 @@
  */
 const UA = "Mozilla/5.0 (compatible; lead-machine/1.0; +mailto:ihakizimana11@gmail.com)";
 const EMAIL_RE = /[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/g;
-const BAD = /(example\.com|\.png|\.jpg|\.jpeg|\.gif|\.webp|\.svg|sentry|wixpress|@2x|no-?reply|godaddy|cloudflare|domain\.com|yourdomain|email\.com|sentry\.io|w3\.org|schema\.org)/i;
+const BAD = /(example\.com|example\.org|example\.net|\.png|\.jpg|\.jpeg|\.gif|\.webp|\.svg|sentry|wixpress|@2x|no-?reply|godaddy|cloudflare|domain\.com|yourdomain|yoursite|email\.com|info\.com|test\.com|localhost|\.invalid|sentry\.io|w3\.org|schema\.org|johndoe|john\.doe)/i;
 const CONTACT_PATHS = ["", "/contact", "/contact-us", "/contactus", "/about", "/about-us", "/en/contact", "/impressum"];
 
 async function fetchText(url, timeoutMs = 12000) {

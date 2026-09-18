@@ -15,6 +15,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { sendMail, smtpConfigured } from "./smtp.mjs";
+import { filterDeliverable } from "./validate.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CONTACTED = resolve(ROOT, "data/contacted.json");
@@ -111,9 +112,14 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
   const seen = new Set(contacted.map((c) => c.email));
   const blocked = new Set(optout.map((o) => String(o.email).toLowerCase()));
 
-  const targets = leads
-    .filter((l) => l.email && !seen.has(l.email) && !blocked.has(l.email.toLowerCase()))
-    .slice(0, limit);
+  // deliverability gate: syntax + placeholder blocklist + MX record check
+  const candidates = leads.filter((l) => l.email && !seen.has(l.email) && !blocked.has(l.email.toLowerCase()));
+  const { kept, rejected } = await filterDeliverable(candidates);
+  if (rejected.length) {
+    console.log(`Delivery guard rejected ${rejected.length}: ` +
+      rejected.slice(0, 5).map((r) => `${r.email} (${r.reason})`).join(", "));
+  }
+  const targets = kept.slice(0, limit);
 
   if (!t && !dryRun) {
     return { sent: 0, skipped: targets.length, reason: "no email transport configured (set SMTP_USER+SMTP_PASS, RESEND_API_KEY, or BREVO_API_KEY)", targets: targets.length };
@@ -132,5 +138,5 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
   }
   if (!dryRun) await saveJSON(CONTACTED, contacted);
   const sent = results.filter((r) => r.ok).length;
-  return { sent, failed: results.filter((r) => r.ok === false).length, attempted: results.length, targets: targets.length, cap: limit, results };
+  return { sent, failed: results.filter((r) => r.ok === false).length, attempted: results.length, targets: targets.length, rejected: rejected.length, cap: limit, results };
 }

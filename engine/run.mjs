@@ -18,7 +18,7 @@ import { writeFile, mkdir, readFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { alertNewLeads, alertPhoneCall } from "./notify.mjs";
-import { fromOsmBusinesses } from "./sources/osm.mjs";
+import { fromOsmBusinesses, nextCityBatch } from "./sources/osm.mjs";
 import { fromGooglePlaces } from "./sources/places.mjs";
 import { enrichEmails } from "./sources/webemail.mjs";
 import { annotateWhatsApp } from "./whatsapp.mjs";
@@ -42,7 +42,8 @@ const CONFIG = {
   urgentCall: String(process.env.URGENT_CALL || "").toLowerCase() === "true",
   sendOutreach: String(process.env.SEND_OUTREACH || "").toLowerCase() === "true",
   sendCap: Number(process.env.DAILY_SEND_CAP || 25),
-  targetCities: (process.env.TARGET_CITIES || "Dubai,London,New York").split(",").map((x) => x.trim()).filter(Boolean),
+  targetCities: (process.env.TARGET_CITIES || "auto").split(",").map((x) => x.trim()).filter(Boolean),
+  cityBatch: Number(process.env.CITY_BATCH || 4),
 };
 
 // Services you sell. Keep in sync with the playbook.
@@ -236,7 +237,14 @@ const SOURCES = [
   { name: "Hacker News", fn: fromHackerNews },
   { name: "RemoteOK", fn: fromRemoteOK },
   { name: "Remotive", fn: fromRemotive },
-  { name: "OpenStreetMap", fn: () => fromOsmBusinesses({ cities: CONFIG.targetCities, limitPerCity: 40 }) },
+  { name: "OpenStreetMap", fn: async () => {
+      // "auto" rotates a fresh batch of cities every run (62 cities total)
+      const cities = CONFIG.targetCities.length === 1 && CONFIG.targetCities[0].toLowerCase() === "auto"
+        ? await nextCityBatch(CONFIG.cityBatch)
+        : CONFIG.targetCities;
+      console.log(`OSM city batch: ${cities.join(", ")}`);
+      return fromOsmBusinesses({ cities, limitPerCity: 80 });
+    } },
   { name: "Google Maps", fn: () => fromGooglePlaces({}) },
 ];
 
