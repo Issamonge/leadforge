@@ -78,10 +78,10 @@ function buildQuery(bbox) {
 out center 400;`;
 }
 
-async function overpass(bbox, timeoutMs = 120000) {
+async function overpass(bbox, timeoutMs = 45000) {
   const body = "data=" + encodeURIComponent(buildQuery(bbox));
   let lastErr;
-  for (const endpoint of ENDPOINTS) {
+  for (const endpoint of ENDPOINTS.slice(0, 2)) {
     const ctrl = new AbortController();
     const t = setTimeout(() => ctrl.abort(), timeoutMs);
     try {
