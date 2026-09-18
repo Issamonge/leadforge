@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lead Machine — AI Solutions Engine</title>
+<style>
+  :root{--bg:#0a0e17;--panel:#111827;--panel2:#151d30;--line:#22304d;--text:#e9eef8;--muted:#8ea0c0;--accent:#4f7dff;--green:#22d3a6;--gold:#ffd166;--red:#ff5c7a;--warn:#ffb020;--radius:14px}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif;line-height:1.55;padding-bottom:60px}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 20px}
+  header{background:radial-gradient(900px 320px at 12% -20%,rgba(79,125,255,.30),transparent),radial-gradient(700px 300px at 95% 0%,rgba(34,211,166,.16),transparent);border-bottom:1px solid var(--line);padding:30px 0 24px;margin-bottom:24px}
+  .brand{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .logo{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--accent),var(--green));display:grid;place-items:center;font-weight:900;color:#06101f;font-size:18px}
+  h1{font-size:22px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:13px;margin-top:2px}
+  .badges{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+  .badge{font-size:11px;font-weight:700;padding:5px 11px;border-radius:100px;border:1px solid var(--line);color:var(--muted)}
+  .badge.on{color:var(--green);border-color:rgba(34,211,166,.4);background:rgba(34,211,166,.08)}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:14px;margin-bottom:20px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+  .kpi b{display:block;font-size:26px;letter-spacing:-.02em}
+  .kpi small{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+  .kpi.gold b{color:var(--gold)}.kpi.green b{color:var(--green)}.kpi.blue b{color:#8fb0ff}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px;margin-bottom:18px}
+  .card h2{font-size:15px;margin-bottom:12px;display:flex;align-items:center;gap:9px}
+  .card h2 .dot{width:8px;height:8px;border-radius:50%;background:var(--green)}
+  .goal-head{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+  .goal-head .big{font-size:30px;font-weight:800;color:var(--gold)}
+  .goal-head .of{color:var(--muted);font-size:14px}
+  .bar{height:14px;border-radius:100px;background:rgba(255,255,255,.06);overflow:hidden;border:1px solid var(--line)}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--green));transition:width .5s ease;border-radius:100px}
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+  input,select,button{font-family:inherit;font-size:13px;border-radius:9px;border:1px solid var(--line);background:var(--panel2);color:var(--text);padding:9px 12px;outline:none}
+  input:focus,select:focus{border-color:var(--accent)}
+  button{cursor:pointer;font-weight:600}
+  button:hover{border-color:var(--accent)}
+  button.primary{background:linear-gradient(135deg,var(--accent),#3a63d8);border:none;color:#fff}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.06em;padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+  td{padding:12px 10px;border-bottom:1px solid rgba(34,48,77,.55);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:rgba(79,125,255,.05)}
+  .sc{display:inline-block;min-width:38px;text-align:center;font-weight:800;font-size:12px;padding:4px 8px;border-radius:8px}
+  .sc.hi{background:rgba(34,211,166,.15);color:var(--green)}
+  .sc.mid{background:rgba(255,209,102,.14);color:var(--gold)}
+  .sc.lo{background:rgba(142,160,192,.14);color:var(--muted)}
+  .src{font-size:11px;color:var(--muted);white-space:nowrap}
+  .ttl{font-weight:600;color:#dbe5f6;text-decoration:none;display:block;margin-bottom:3px}
+  .ttl:hover{color:var(--accent)}
+  .svc{font-size:10px;color:#9db4e0;border:1px solid var(--line);border-radius:100px;padding:2px 8px;margin:2px 4px 0 0;display:inline-block}
+  .budget{color:var(--gold);font-weight:700;white-space:nowrap}
+  .muted{color:var(--muted)}
+  .status{font-size:11px;padding:4px 9px;border-radius:100px;border:1px solid var(--line);background:var(--panel2);color:var(--muted);cursor:pointer}
+  .status.contacted{color:#8fb0ff;border-color:rgba(79,125,255,.4);background:rgba(79,125,255,.1)}
+  .status.replied{color:var(--gold);border-color:rgba(255,209,102,.4);background:rgba(255,209,102,.1)}
+  .status.won{color:var(--green);border-color:rgba(34,211,166,.4);background:rgba(34,211,166,.12)}
+  .status.lost{color:var(--red);border-color:rgba(255,92,122,.35);background:rgba(255,92,122,.1)}
+  .act{font-size:11px;color:var(--accent);cursor:pointer;background:none;border:none;padding:0;font-weight:600}
+  .act:hover{text-decoration:underline}
+  .empty{color:var(--muted);text-align:center;padding:34px;font-size:14px}
+  details{border-top:1px solid var(--line);padding-top:12px;margin-top:12px}
+  summary{cursor:pointer;color:#9db4e0;font-size:13px;font-weight:600}
+  pre{background:#0b1220;border:1px solid var(--line);border-radius:10px;padding:14px;font-size:12px;overflow-x:auto;color:#c7d4ee;white-space:pre-wrap;margin-top:10px}
+  .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .steps li{margin:0 0 8px 18px;color:#c6d0e6;font-size:13.5px}
+  footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+  .pill{font-size:11px;padding:3px 9px;border-radius:100px;background:rgba(34,211,166,.1);color:var(--green);border:1px solid rgba(34,211,166,.3)}
+  @media(max-width:760px){.hide-s{display:none}.badges{margin-left:0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">LM</div>
+      <div>
+        <h1>Lead Machine — AI Solutions Engine</h1>
+        <div class="sub">Autonomous lead discovery &amp; outreach dashboard · runs daily on free infrastructure</div>
+      </div>
+      <div class="badges">
+        <span class="badge on">● Live sources</span>
+        <span class="badge" id="genBadge">generated —</span>
+        <span class="badge">$0 hosting</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="kpis">
+    <div class="kpi blue"><b id="kScanned">–</b><small>Targets scanned</small></div>
+    <div class="kpi green"><b id="kQualified">–</b><small>Qualified leads</small></div>
+    <div class="kpi gold"><b id="kPipeline">–</b><small>Listed pipeline value</small></div>
+    <div class="kpi"><b id="kBooked">$0</b><small>Revenue booked</small></div>
+    <div class="kpi"><b id="kOpen">–</b><small>Open leads</small></div>
+  </div>
+
+  <div class="card">
+    <div class="goal-head">
+      <div><span class="big" id="goalNow">$0</span> <span class="of">of <b id="goalTarget">$500</b> monthly goal</span></div>
+      <div class="muted" id="goalMsg">Log a won deal to update progress</div>
+    </div>
+    <div class="bar"><i id="goalBar" style="width:0%"></i></div>
+    <div class="goal-head" style="margin-top:14px">
+      <div class="muted" style="font-size:12px">Update your actual booked revenue:</div>
+      <div style="display:flex;gap:8px">
+        <input id="revInput" type="number" min="0" step="50" placeholder="Amount in USD" style="width:150px">
+        <button class="primary" onclick="addRevenue()">Add revenue</button>
+        <button onclick="resetRevenue()">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot"></span>Today's qualified leads</h2>
+    <div class="controls">
+      <input id="search" placeholder="Search leads…" oninput="render()" style="flex:1;min-width:180px">
+      <select id="srcFilter" onchange="render()"></select>
+      <select id="statusFilter" onchange="render()">
+        <option value="">All statuses</option>
+        <option value="new">New</option>
+        <option value="contacted">Contacted</option>
+        <option value="replied">Replied</option>
+        <option value="won">Won</option>
+        <option value="lost">Lost</option>
+      </select>
+      <button onclick="exportCSV()">Export CSV</button>
+      <button class="primary" onclick="runNow()" id="runBtn">⚡ Run engine now</button>
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th>Score</th><th>Lead</th><th class="hide-s">Source</th><th class="hide-s">Budget</th><th class="hide-s">Age</th><th>Status</th><th>Actions</th>
+        </tr></thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <div id="emptyState" class="empty" style="display:none">No leads match your filters.</div>
+  </div>
+
+  <div class="card">
+    <h2><span class="dot"></span>How money actually arrives — the full loop</h2>
+    <div class="grid2">
+      <div>
+        <ol class="steps">
+          <li><b>Find</b> — engine scans free boards daily for buyers. <span class="pill">automated</span></li>
+          <li><b>Pitch</b> — writes and sends the outreach. <span class="pill">automated</span></li>
+          <li><b>Get paid</b> — the pitch carries your payment link, so a buyer can pay <em>without a conversation</em>. <span class="pill">automated</span></li>
+          <li><b>Alert you</b> — WhatsApp pings your phone the moment a customer is found or money lands. <span class="pill">automated</span></li>
+          <li><b>Deliver</b> — you deliver the work (or the engine generates the code). <span style="color:var(--gold)">needs you</span></li>
+        </ol>
+      </div>
+      <div>
+        <div class="kpi gold" style="margin-bottom:12px"><b id="pilotPrice">$350</b><small>Pilot price in your pitch</small></div>
+        <div class="kpi green" style="margin-bottom:12px"><b id="wappStatus">—</b><small>WhatsApp alerts</small></div>
+        <div class="kpi" style="margin-bottom:12px"><b id="payLink">—</b><small>Payment link</small></div>
+        <div class="kpi blue"><b id="alertsCount">0</b><small>Alerts sent</small></div>
+        <div class="kpi green"><b id="waCount">–</b><small>WhatsApp-reachable</small></div>
+      </div>
+    </div>
+    <details>
+      <summary>Why this closes the loop (and what a calendar can't do)</summary>
+      <p class="muted" style="font-size:13px;margin-top:8px">
+        A calendar only reminds you to act — it produces nothing. This engine produces <b>a stream of buyers</b>,
+        <b>a pitch delivered to each</b>, and <b>a live payment link</b> they can pay the instant they're convinced.
+        You are no longer the bottleneck for finding and pitching. You remain the bottleneck only for
+        delivery and complex negotiations — and the WhatsApp alert tells you exactly when that is.
+      </p>
+    </details>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2><span class="dot"></span>How this runs while you sleep</h2>
+      <ol class="steps">
+        <li><b>Free data sources</b> — n8n &amp; Make.com community boards, Hacker News "Who is hiring", RemoteOK, Remotive. No API keys.</li>
+        <li><b>Scheduled engine</b> — a GitHub Action runs <span class="pill">engine/run.mjs</span> daily, scores leads, and commits fresh data.</li>
+        <li><b>This dashboard</b> — hosted free (GitHub Pages / Vercel / Cloudflare Pages), reads the committed data.</li>
+        <li><b>Digest email</b> — optional: add a free Resend API key and the engine emails you the day's pipeline.</li>
+        <li><b>You only step in</b> — log into Upwork/marketplaces, take calls, close deals.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h2><span class="dot"></span>Deploy in 5 minutes</h2>
+      <pre>git init &amp;&amp; git add . &amp;&amp; git commit -m "lead engine"
+gh repo create lead-engine --public --source=. --push
+
+# then in the repo: Settings → Pages → Source: main /root
+# GitHub Actions runs the engine daily automatically</pre>
+      <details>
+        <summary>Source health (last run)</summary>
+        <pre id="srcHealth"></pre>
+      </details>
+    </div>
+    <div class="card">
+      <h2><span class="dot"></span>Customer alerts (WhatsApp feed)</h2>
+      <div id="alertsList" class="muted" style="font-size:13px">Loading alerts…</div>
+    </div>
+  </div>
+
+  <footer>
+    Lead Machine · free-tier autonomous engine · data auto-refreshes each scheduled run.
+  </footer>
+</div>
+
+<script>
+const EMBEDDED = /*__LEADS_JSON__*/null;
+let DATA = EMBEDDED;
+const STORE_KEY = "leadmachine_state_v1";
+const REV_KEY = "leadmachine_revenue_v1";
+let state = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+
+function money(n){ return "$" + (n||0).toLocaleString(); }
+
+async function init(){
+  if (DATA) { paint(); return; }
+  try {
+    const r = await fetch("data/leads.json", {cache:"no-store"});
+    DATA = await r.json();
+  } catch(e){
+    DATA = {generatedAt:null, stats:{}, leads:[]};
+  }
+  paint();
+}
+
+function paint(){
+  const s = DATA.stats || {};
+  document.getElementById("kScanned").textContent = s.totalScanned ?? "–";
+  document.getElementById("kQualified").textContent = (DATA.leads||[]).length;
+  document.getElementById("kPipeline").textContent = money(s.pipelineValue||0);
+  document.getElementById("goalTarget").textContent = money(s.payoutGoal||500);
+  const gb = document.getElementById("genBadge");
+  if (DATA.generatedAt) gb.textContent = "generated " + new Date(DATA.generatedAt).toLocaleString();
+
+  // source filter options
+  const sel = document.getElementById("srcFilter");
+  const srcs = [...new Set((DATA.leads||[]).map(l=>l.source))];
+  sel.innerHTML = '<option value="">All sources</option>' + srcs.map(x=>`<option value="${x}">${x}</option>`).join("");
+
+  const health = s.sources || {};
+  document.getElementById("srcHealth").textContent = Object.entries(health).map(([k,v])=>`${k}: ${v}`).join("\n");
+
+  updateRevenue();
+  render();
+}
+
+function statusOf(id){ return state[id]?.status || "new"; }
+
+function render(){
+  const q = (document.getElementById("search").value||"").toLowerCase();
+  const sf = document.getElementById("srcFilter").value;
+  const stf = document.getElementById("statusFilter").value;
+  const rows = (DATA.leads||[]).filter(l=>{
+    if (sf && l.source!==sf) return false;
+    if (stf && statusOf(l.id)!==stf) return false;
+    if (q && !((l.title||"")+" "+(l.description||"")+" "+(l.services||[]).join(" ")).toLowerCase().includes(q)) return false;
+    return true;
+  });
+  const tb = document.getElementById("rows");
+  tb.innerHTML = rows.map(l=>{
+    const cls = l.score>=60?"hi":l.score>=40?"mid":"lo";
+    const st = statusOf(l.id);
+    return `<tr>
+      <td><span class="sc ${cls}">${l.score}</span></td>
+      <td>
+        <a class="ttl" href="${l.url}" target="_blank" rel="noopener">${esc(l.title)}</a>
+        <div>${(l.services||[]).map(x=>`<span class="svc">${esc(x)}</span>`).join("")}</div>
+      </td>
+      <td class="hide-s src">${esc(l.source)}</td>
+      <td class="hide-s">${l.budget?`<span class="budget">$${l.budget.toLocaleString()}</span>`:'<span class="muted">—</span>'}</td>
+      <td class="hide-s src">${l.ageDays}d</td>
+      <td><span class="status ${st}" onclick="cycle('${l.id}')">${st}</span></td>
+      <td style="white-space:nowrap">
+        <button class="act" onclick="showDraft('${l.id}')">Draft</button>
+        ${l.waLink ? `<a class="act" href="${l.waLink}" target="_blank" rel="noopener" style="color:var(--green)">WhatsApp</a>` : ''}
+        <button class="act" onclick="markWon('${l.id}')">Won</button>
+      </td>
+    </tr>`;
+  }).join("");
+  document.getElementById("emptyState").style.display = rows.length? "none":"block";
+  document.getElementById("kOpen").textContent = (DATA.leads||[]).filter(l=>!["won","lost"].includes(statusOf(l.id))).length;
+}
+
+function esc(s){ return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+const ORDER = ["new","contacted","replied","won","lost"];
+function cycle(id){
+  const cur = statusOf(id);
+  const next = ORDER[(ORDER.indexOf(cur)+1)%ORDER.length];
+  state[id] = {...(state[id]||{}), status: next};
+  localStorage.setItem(STORE_KEY, JSON.stringify(state));
+  render();
+}
+
+function showDraft(id){
+  const l = (DATA.leads||[]).find(x=>x.id===id); if(!l) return;
+  const o = l.outreach||{};
+  const txt = `TO: (lead)\nSUBJECT: ${o.subject||""}\n\n${o.body||""}`;
+  navigator.clipboard && navigator.clipboard.writeText(txt);
+  alert("Outreach draft copied to clipboard:\n\n" + txt.slice(0,900));
+}
+
+function revenue(){ return Number(localStorage.getItem(REV_KEY) || 0); }
+function addRevenue(){
+  const v = Number(document.getElementById("revInput").value||0);
+  if (!v) return;
+  localStorage.setItem(REV_KEY, String(revenue()+v));
+  document.getElementById("revInput").value="";
+  updateRevenue();
+}
+function resetRevenue(){ localStorage.setItem(REV_KEY,"0"); updateRevenue(); }
+function markWon(id){
+  state[id] = {...(state[id]||{}), status:"won"};
+  localStorage.setItem(STORE_KEY, JSON.stringify(state));
+  render();
+}
+function updateRevenue(){
+  const target = (DATA.stats && DATA.stats.payoutGoal) || 500;
+  const now = revenue();
+  document.getElementById("kBooked").textContent = money(now);
+  document.getElementById("goalNow").textContent = money(now);
+  const pct = Math.min(100, Math.round(now/target*100));
+  document.getElementById("goalBar").style.width = pct + "%";
+  document.getElementById("goalMsg").textContent = now>=target
+    ? "Goal reached — time to raise prices or scale outreach."
+    : `${pct}% of goal · ${money(Math.max(0,target-now))} to go`;
+}
+
+function exportCSV(){
+  const rows = [["score","source","title","services","budget","ageDays","status","url"]];
+  (DATA.leads||[]).forEach(l=>rows.push([l.score,l.source,l.title,(l.services||[]).join("; "),l.budget||"",l.ageDays,statusOf(l.id),l.url]));
+  const csv = rows.map(r=>r.map(c=>`"${String(c).replace(/"/g,'""')}"`).join(",")).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([csv],{type:"text/csv"}));
+  a.download = "leads.csv"; a.click();
+}
+
+async function runNow(){
+  const btn=document.getElementById("runBtn");
+  btn.disabled=true; btn.textContent="Running…";
+  try{
+    const r=await fetch("/api/run",{method:"POST"});
+    const d=await r.json();
+    alert(d.ok? ("Engine finished.\n\n"+(d.log||[]).join("\n")) : ("Engine error:\n"+(d.error||(d.log||[]).join("\n"))));
+    location.reload();
+  }catch(e){
+    alert("Could not reach the engine endpoint. If you are viewing a static copy, run `node engine/run.mjs` instead.");
+  }finally{
+    btn.disabled=false; btn.textContent="\u26a1 Run engine now";
+  }
+}
+async function loadSide(){
+  try{
+    const cfg = (DATA && DATA.config) || {};
+    document.getElementById("pilotPrice").textContent = "$" + (cfg.pilotPrice || 350);
+    document.getElementById("payLink").textContent = cfg.paymentLink ? "set" : "not set";
+    document.getElementById("payLink").style.color = cfg.paymentLink ? "var(--green)" : "var(--warn)";
+    document.getElementById("wappStatus").textContent = cfg.whatsappPhone ? "on" : "off";
+    const al = await (await fetch("/data/alerts.json",{cache:"no-store"})).json();
+    document.getElementById("alertsCount").textContent = al.length;
+    document.getElementById("waCount").textContent = (DATA.stats && DATA.stats.whatsappCapable) || 0;
+    document.getElementById("alertsList").innerHTML = al.slice(0,6).map(a=>{
+      const t = (a.text||"").split("\n").slice(0,4).join("<br>");
+      return `<div style="padding:9px 0;border-bottom:1px solid rgba(34,48,77,.5)"><div class="muted" style="font-size:11px">${new Date(a.at).toLocaleString()} · ${a.transport||"logged"}</div><div style="font-size:12.5px;color:#cdd8ee;margin-top:3px">${t}</div></div>`;
+    }).join("") || '<div class="muted" style="font-size:13px">No alerts yet — run the engine.</div>';
+  }catch(e){ /* static copy */ }
+}
+loadSide();
+init();
+</script>
+</body>
+</html>

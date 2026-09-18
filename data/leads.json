@@ -1,0 +1,1119 @@
+{
+  "generatedAt": "2026-09-18T08:39:41.756Z",
+  "config": {
+    "dailyTarget": 30,
+    "minBudget": 0,
+    "digestEmail": "",
+    "paypalEmail": "",
+    "payoutGoal": 500,
+    "paymentLink": "https://paypal.me/7900861",
+    "pilotPrice": 350,
+    "whatsappPhone": "",
+    "urgentCall": false,
+    "sendOutreach": true,
+    "sendCap": 3,
+    "targetCities": [
+      "Dubai"
+    ]
+  },
+  "stats": {
+    "totalScanned": 221,
+    "qualified": 30,
+    "pipelineValue": 0,
+    "sources": {
+      "n8n Community": 30,
+      "Make.com Community": 30,
+      "Hacker News": 7,
+      "RemoteOK": 99,
+      "Remotive": 15,
+      "OpenStreetMap": 40,
+      "Google Maps": 0
+    },
+    "payoutGoal": 500,
+    "whatsappCapable": 8,
+    "phoneLeads": 26,
+    "emailLeads": 26,
+    "sent": 3,
+    "sendSkipped": 0
+  },
+  "leads": [
+    {
+      "id": "n8n Community-314206",
+      "source": "n8n Community",
+      "title": "Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote from India, INR 9.6-13.2L",
+      "description": "Nexa Consultancy (Surrey, British Columbia, Canada) is hiring a full-time Automation Developer, working remotely from India. We run our own operations on n8n, Make.com and GoHighLevel, and we build the same systems for our clients: lead intake, follow-up sequences, appointment booking, WhatsApp and email notifications, and reporting that shows what is actually working. What you would do Build and maintain automations in n8n and Make.com Set up and manage GoHighLevel: pipelines, workflows, custom fields, calendars, forms and funnels Integrate APIs and webhooks between CRMs, marketing tools and third-party platforms Build dashboards and reporting on leads, follow-ups and conversions Monitor live automations, catch failures before clients do, and fix them Document what you build so the system stays maintainable Who we are looking for 2 to 5 years building automations or integrations Hands-on with at least one of n8n, Make.com or Zapier. We will train you on the rest Comfortable with REST APIs, webhooks and JSON Able to overlap part of your day with Canadian Pacific business hours Clear written English Details Full-time, permanent, fully remote from India INR 80,000 to 110,000 per mont",
+      "url": "https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206",
+      "postedAt": "2026-09-16T23:46:54.763Z",
+      "raw": "Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote from India, INR 9.6-13.2L",
+      "services": [
+        "Workflow automation",
+        "Dashboards & internal tools",
+        "CRM automation"
+      ],
+      "titleServices": [
+        "Workflow automation",
+        "CRM automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 1,
+      "score": 70,
+      "outreach": {
+        "subject": "Quick idea for \"Hiring: Automation Developer (n8n, Make.com, \"",
+        "body": "Hi,\n\nSaw your post: \"Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote from India, INR 9.6-13.2L\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "rok-1137399",
+      "source": "RemoteOK",
+      "title": "AI agent engineer",
+      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
+      "postedAt": "2026-09-16T12:44:27+00:00",
+      "raw": "AI agent engineer ai golang javascript typescript",
+      "services": [
+        "AI agents",
+        "Dashboards & internal tools"
+      ],
+      "titleServices": [
+        "AI agents"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 2,
+      "score": 58,
+      "outreach": {
+        "subject": "Quick idea for \"AI agent engineer\"",
+        "body": "Hi,\n\nSaw your post: \"AI agent engineer\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-275368",
+      "source": "n8n Community",
+      "title": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
+      "description": "Hey everyone, We’re a recruitment (marketing) company based in the Netherlands. We’re looking for a freelance AI Automation Engineer to help us build and maintain automation systems across our operations. What you’ll be building: Meta Ads ops automation (ad copy, creatives, campaign setup) LinkedIn &amp; Indeed scraper for sales outreach Sales &amp; outbound automation workflows Automated dashboards and reporting pipelines Image &amp; creative design automation Stack: n8n, Make, OpenAI/Claude, Meta Graph API, WhatsApp API, Notion, Lemlist (and we want to be on top of the game in with new stuff) The role is a bit more than just building , you’d also be the product owner of our automation systems. That means triaging bugs, evaluating feature requests from the team and owning the weekly alignment with me (founder). Freelance / project-based. Remote, worldwide. must be fluent in English. Rate negotiable. If you’ve built real workflows with n8n and APIs and want interesting projects, reply here or DM me. Tell me what you’ve built.",
+      "url": "https://community.n8n.io/t/hiring-freelance-agency-ai-automation-engineer-n8n-make-apis-remote/275368",
+      "postedAt": "2026-03-10T10:53:26.006Z",
+      "raw": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
+      "services": [
+        "Workflow automation",
+        "Data & scraping",
+        "Dashboards & internal tools"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 192,
+      "score": 55,
+      "outreach": {
+        "subject": "Quick idea for \"📣 HIRING: Freelance/Agency AI Automation Eng\"",
+        "body": "Hi,\n\nSaw your post: \"📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-296828",
+      "source": "n8n Community",
+      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
+      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
+      "postedAt": "2026-05-26T16:56:08.745Z",
+      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "services": [
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 115,
+      "score": 55,
+      "outreach": {
+        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-1540401252",
+      "source": "OpenStreetMap",
+      "title": "Arabian Automobiles - NISSAN — car (طريق الاتحاد, دبي)",
+      "description": "Business in Dubai. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.nissan-dubai.com/. Phone: +97142952222.",
+      "email": "crm@awrostamani.com",
+      "phone": "+97142952222",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.nissan-dubai.com/",
+      "city": "Dubai",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.nissan-dubai.com/",
+      "postedAt": "2026-09-18T08:39:40.168Z",
+      "raw": "Arabian Automobiles - NISSAN car Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Arabian Automobiles - NISSAN: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Arabian Automobiles - NISSAN team,\n\nI build lead follow-up automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-1719299176",
+      "source": "OpenStreetMap",
+      "title": "Galadari — driving school",
+      "description": "Business in Dubai. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://www.gmdc.ae/. Phone: +971 4 267 6166;+971 600 595956.",
+      "email": "info@gmdc.ae",
+      "phone": "+971 4 267 6166;+971 600 595956",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.gmdc.ae/",
+      "city": "Dubai",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.gmdc.ae/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Galadari driving_school Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Galadari: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Galadari team,\n\nI build lesson booking automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2364258509",
+      "source": "OpenStreetMap",
+      "title": "Javeri Jewellery — jewelry (Al Hisn (44th) Street, دبي)",
+      "description": "Business in Dubai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.javerijewellery.com/. Phone: +971 50 45 31 359.",
+      "email": "jayantbj@hotmail.com",
+      "phone": "+971 50 45 31 359",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.javerijewellery.com/",
+      "city": "Dubai",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.javerijewellery.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Javeri Jewellery jewelry Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Javeri Jewellery: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Javeri Jewellery team,\n\nI build clienteling automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971504531359?text=Hello%20Javeri%20Jewellery%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-3828154527",
+      "source": "OpenStreetMap",
+      "title": "Class Living Real Estate Brokers — estate agent (دبي)",
+      "description": "Business in Dubai. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://www.classliving.ae. Phone: +971528532610.",
+      "email": "office@classliving.ae",
+      "phone": "+971528532610",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.classliving.ae",
+      "city": "Dubai",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "http://www.classliving.ae",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Class Living Real Estate Brokers estate_agent Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Class Living Real Estate Brokers: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Class Living Real Estate Brokers team,\n\nI build deal pipeline automation for businesses in Dubai — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971528532610?text=Hello%20Class%20Living%20Real%20Estate%20Brokers%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-3990221334",
+      "source": "OpenStreetMap",
+      "title": "Blue oasis — veterinary",
+      "description": "Business in Dubai. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://www.blueoasispetcare.com/. Phone: +971 4 88 48 580.",
+      "email": "office@blueoasispetcare.com",
+      "phone": "+971 4 88 48 580",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.blueoasispetcare.com/",
+      "city": "Dubai",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.blueoasispetcare.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Blue oasis veterinary Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Blue oasis: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Blue oasis team,\n\nI build booking automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4101045398",
+      "source": "OpenStreetMap",
+      "title": "Femiclinic medicle center — clinic",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://femiclinic.com/. Phone: +97144542640.",
+      "email": "info@femiclinic.com",
+      "phone": "+97144542640",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://femiclinic.com/",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://femiclinic.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Femiclinic medicle center clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Femiclinic medicle center: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Femiclinic medicle center team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4141536189",
+      "source": "OpenStreetMap",
+      "title": "Juma Bin Salmin Trading LLC — computer (Al Raffa Street)",
+      "description": "Business in Dubai. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.fb.com/jbsdubai. Phone: 043936461.",
+      "email": "shifan@jbs.ae",
+      "phone": "043936461",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.fb.com/jbsdubai",
+      "city": "Dubai",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.fb.com/jbsdubai",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Juma Bin Salmin Trading LLC computer Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Juma Bin Salmin Trading LLC: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Juma Bin Salmin Trading LLC team,\n\nI build ai workflow automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4165252292",
+      "source": "OpenStreetMap",
+      "title": "Peugeot — car (Sheikh Zayed Rd - near Times Square Center - Al Quoz Industrial Area 3, Dubai)",
+      "description": "Business in Dubai. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://dubai.peugeot.com/. Phone: +9718007384368.",
+      "email": "peugeot@alnaboodah.com",
+      "phone": "+9718007384368",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://dubai.peugeot.com/",
+      "city": "Dubai",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://dubai.peugeot.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Peugeot car Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Peugeot: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Peugeot team,\n\nI build lead follow-up automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4192540890",
+      "source": "OpenStreetMap",
+      "title": "Used Office Furniture Buyers Company In Dubai — furniture (Al Mussalla Road)",
+      "description": "Business in Dubai. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: 0501410052.",
+      "email": "amanjarwar12@gmail.com",
+      "phone": "0501410052",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Dubai",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/4192540890",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Used Office Furniture Buyers Company In Dubai furniture Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Used Office Furniture Buyers Company In Dubai: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Used Office Furniture Buyers Company In Dubai team,\n\nI build lead follow-up for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971501410052?text=Hello%20Used%20Office%20Furniture%20Buyers%20Company%20In%20Dubai%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4192552289",
+      "source": "OpenStreetMap",
+      "title": "Used Furniture Electronic Buyers In Dubai — electronics (Deira Street)",
+      "description": "Business in Dubai. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: 0501410052.",
+      "email": "amanjarwar12@gmail.com",
+      "phone": "0501410052",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Dubai",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://www.openstreetmap.org/node/4192552289",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Used Furniture Electronic Buyers In Dubai electronics Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Used Furniture Electronic Buyers In Dubai: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Used Furniture Electronic Buyers In Dubai team,\n\nI build lead automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971501410052?text=Hello%20Used%20Furniture%20Electronic%20Buyers%20In%20Dubai%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4279973089",
+      "source": "OpenStreetMap",
+      "title": "Rospina Trading — beauty (Second Industrial Street)",
+      "description": "Business in Dubai. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +971 50 898 6899.",
+      "email": "rospinatrading@gmail.com",
+      "phone": "+971 50 898 6899",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Dubai",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.openstreetmap.org/node/4279973089",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Rospina Trading beauty Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Rospina Trading: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Rospina Trading team,\n\nI build booking automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971508986899?text=Hello%20Rospina%20Trading%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4292496496",
+      "source": "OpenStreetMap",
+      "title": "Iranian Polyclinic — clinic (شارع الوصل)",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.ihd.ae/services/affiliated-clinics/iranian-polyclinic. Phone: +97144046755.",
+      "email": "info@ihd.ae",
+      "phone": "+97144046755",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.ihd.ae/services/affiliated-clinics/iranian-polyclinic",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://www.ihd.ae/services/affiliated-clinics/iranian-polyclinic",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Iranian Polyclinic clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Iranian Polyclinic: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Iranian Polyclinic team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4305735290",
+      "source": "OpenStreetMap",
+      "title": "Jabal Al Safa Carpentry — furniture (University City Road 120 Street)",
+      "description": "Business in Dubai. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: 0553017455.",
+      "email": "alsafacarpentry@gmail.com",
+      "phone": "0553017455",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Dubai",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/4305735290",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Jabal Al Safa Carpentry furniture Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Jabal Al Safa Carpentry: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Jabal Al Safa Carpentry team,\n\nI build lead follow-up for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971553017455?text=Hello%20Jabal%20Al%20Safa%20Carpentry%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4330505889",
+      "source": "OpenStreetMap",
+      "title": "Local business — electronics",
+      "description": "Business in Dubai. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: consulting. com. Phone: 0509412880.",
+      "email": "info@consultdna.com",
+      "phone": "0509412880",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "consulting. com",
+      "city": "Dubai",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "consulting. com",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Local business electronics Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Local business: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Local business team,\n\nI build lead automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971509412880?text=Hello%20Local%20business%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4360615390",
+      "source": "OpenStreetMap",
+      "title": "Dubai Homeopathy Health Centre — clinic (Al Wasl Road)",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.stepsuae.com. Phone: 043953333.",
+      "email": "reception.steps@gmail.com",
+      "phone": "043953333",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.stepsuae.com",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://www.stepsuae.com",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Dubai Homeopathy Health Centre clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dubai Homeopathy Health Centre: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Dubai Homeopathy Health Centre team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4405487992",
+      "source": "OpenStreetMap",
+      "title": "Puthran Chartered Accountants — lawyer (Al Mina Road)",
+      "description": "Business in Dubai. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://puthran.ae/. Phone: 0097143452006.",
+      "email": "puthran@eim.ae",
+      "phone": "0097143452006",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://puthran.ae/",
+      "city": "Dubai",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://puthran.ae/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Puthran Chartered Accountants lawyer Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Puthran Chartered Accountants: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Puthran Chartered Accountants team,\n\nI build client intake automation for businesses in Dubai — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4409515397",
+      "source": "OpenStreetMap",
+      "title": "Galadari — driving school",
+      "description": "Business in Dubai. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://www.gmdc.ae/. Phone: +971 4 285 5057;+971 600 595956.",
+      "email": "br.rashidiya@gmdc.ae",
+      "phone": "+971 4 285 5057;+971 600 595956",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.gmdc.ae/",
+      "city": "Dubai",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.gmdc.ae/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Galadari driving_school Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Galadari: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Galadari team,\n\nI build lesson booking automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4691703289",
+      "source": "OpenStreetMap",
+      "title": "Al Khail Medical Center — clinic (17B St)",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: 043306745.",
+      "email": "alkhailmedicalcenter@gmail.com",
+      "phone": "043306745",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/4691703289",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Al Khail Medical Center clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Al Khail Medical Center: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Al Khail Medical Center team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4728122293",
+      "source": "OpenStreetMap",
+      "title": "Local business — clinic (Al Zahra Street)",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://abrahamsmedical.com. Phone: 065612737.",
+      "email": "abrahamsmedical@gmail.com",
+      "phone": "065612737",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://abrahamsmedical.com",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://abrahamsmedical.com",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Local business clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Local business: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Local business team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4742185721",
+      "source": "OpenStreetMap",
+      "title": "Rails — computer",
+      "description": "Business in Dubai. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: http://Rails.ae. Phone: +971 4 423 7742.",
+      "email": "info@rails.ae",
+      "phone": "+971 4 423 7742",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://Rails.ae",
+      "city": "Dubai",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "http://Rails.ae",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Rails computer Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Rails: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Rails team,\n\nI build ai workflow automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4785702021",
+      "source": "OpenStreetMap",
+      "title": "Cntel Recording Studio — electronics (Al Mina Road)",
+      "description": "Business in Dubai. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: http://www.cntelpro.com. Phone: +971507495939.",
+      "email": "producer@cntelpro.com",
+      "phone": "+971507495939",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.cntelpro.com",
+      "city": "Dubai",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "http://www.cntelpro.com",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Cntel Recording Studio electronics Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Cntel Recording Studio: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Cntel Recording Studio team,\n\nI build lead automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971507495939?text=Hello%20Cntel%20Recording%20Studio%2C%0A%0AI%20help%20businesses%20in%20Dubai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4853152223",
+      "source": "OpenStreetMap",
+      "title": "Elcome International LLC — electronics",
+      "description": "Business in Dubai. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://elcome.com/. Phone: 0097148121333.",
+      "email": "marketing@elcome.com",
+      "phone": "0097148121333",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://elcome.com/",
+      "city": "Dubai",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://elcome.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Elcome International LLC electronics Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Elcome International LLC: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Elcome International LLC team,\n\nI build lead automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4898124127",
+      "source": "OpenStreetMap",
+      "title": "Exotic Cars — car (3 a Street, دبي)",
+      "description": "Business in Dubai. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: http://exoticcarsdubai.com/. Phone: +971 4 339 3309.",
+      "email": "info@exoticcarsdubai.com",
+      "phone": "+971 4 339 3309",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://exoticcarsdubai.com/",
+      "city": "Dubai",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "http://exoticcarsdubai.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Exotic Cars car Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Exotic Cars: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Exotic Cars team,\n\nI build lead follow-up automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4902755391",
+      "source": "OpenStreetMap",
+      "title": "Andaleeb Cars — car (Street 4 - Sheikh Zayed Road, Al Quoz, Dubai)",
+      "description": "Business in Dubai. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://andaleebcars.com. Phone: +971 4 399 9015.",
+      "email": "info@andaleebcars.com",
+      "phone": "+971 4 399 9015",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://andaleebcars.com",
+      "city": "Dubai",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://andaleebcars.com",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Andaleeb Cars car Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Andaleeb Cars: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Andaleeb Cars team,\n\nI build lead follow-up automation for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4911114824",
+      "source": "OpenStreetMap",
+      "title": "American Hospital — clinic (Sheikh Zayed Road)",
+      "description": "Business in Dubai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.ahdubai.com/. Phone: +971 4 377 5500;+971 800 24392.",
+      "email": "info@ahdubai.com",
+      "phone": "+971 4 377 5500;+971 800 24392",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.ahdubai.com/",
+      "city": "Dubai",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.ahdubai.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "American Hospital clinic Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "American Hospital: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi American Hospital team,\n\nI build patient booking automation for businesses in Dubai — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4911580012",
+      "source": "OpenStreetMap",
+      "title": "Sicilia Kitchens — furniture (Salahuddin Road)",
+      "description": "Business in Dubai. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: http://siciliakitchens.com/. Phone: +971 4 338 3324;+971 4 338 3394.",
+      "email": "info@siciliakitchens.com",
+      "phone": "+971 4 338 3324;+971 4 338 3394",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://siciliakitchens.com/",
+      "city": "Dubai",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "http://siciliakitchens.com/",
+      "postedAt": "2026-09-18T08:39:40.169Z",
+      "raw": "Sicilia Kitchens furniture Dubai",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Sicilia Kitchens: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Sicilia Kitchens team,\n\nI build lead follow-up for businesses in Dubai — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    }
+  ]
+}

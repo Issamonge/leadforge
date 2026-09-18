@@ -1,0 +1,47 @@
+name: Lead Engine — 5 rounds/day
+on:
+  schedule:
+    - cron: '0 3,7,11,15,19 * * *'   # 07:00, 11:00, 15:00, 19:00, 23:00 Dubai (UTC+4)
+  workflow_dispatch:                  # manual run from the Actions tab
+permissions:
+  contents: write
+jobs:
+  engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run lead engine
+        env:
+          DAILY_TARGET: '60'
+          MIN_BUDGET: '0'
+          PAYOUT_GOAL: '500'
+          PILOT_PRICE: '350'
+          SEND_OUTREACH: 'true'
+          DAILY_SEND_CAP: '25'
+          TARGET_CITIES: 'Dubai,Abu Dhabi,London,New York'
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          REPLY_TO: ${{ secrets.REPLY_TO }}
+          SENDER_IDENTITY: ${{ secrets.SENDER_IDENTITY }}
+          SENDER_ADDRESS: ${{ secrets.SENDER_ADDRESS }}
+          PAYMENT_LINK: ${{ secrets.PAYMENT_LINK }}
+          WHATSAPP_PHONE: ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_API_KEY: ${{ secrets.CALLMEBOT_API_KEY }}
+        run: node engine/run.mjs
+
+      - name: Rebuild dashboard
+        run: node engine/build-dashboard.mjs
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "lead-engine-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A data index.html
+          git commit -m "chore: leads $(date -u +%F_%H%M)" || echo "no changes"
+          git push

@@ -1,0 +1,13 @@
+{
+  "name": "lead-machine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Autonomous lead discovery + outreach dashboard for AI/automation services.",
+  "scripts": {
+    "engine": "node engine/run.mjs",
+    "build": "node engine/build-dashboard.mjs",
+    "daily": "node engine/run.mjs && node engine/build-dashboard.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
