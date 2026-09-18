@@ -10,6 +10,19 @@
  * Needs GOOGLE_MAPS_API_KEY (Places API enabled + billing on the project).
  */
 import { emailFromWebsite } from "./webemail.mjs";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { resolve, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
+const CACHE = resolve(ROOT, "data/places-cache.json");
+const CACHE_DAYS = Number(process.env.PLACES_CACHE_DAYS || 7);
+
+/* Google bills per request. Caching identical text queries for a week turns
+   ~40 requests/day into ~8 per WEEK — a massive cost difference. */
+async function loadCache() { try { return JSON.parse(await readFile(CACHE, "utf8")); } catch { return {}; } }
+async function saveCache(c) { await mkdir(dirname(CACHE), { recursive: true }); await writeFile(CACHE, JSON.stringify(c, null, 2), "utf8"); }
+const fresh = (entry) => entry && (Date.now() - new Date(entry.fetchedAt).getTime()) < CACHE_DAYS * 86400000;
 
 const FIELD_MASK = [
   "places.displayName",
@@ -48,10 +61,16 @@ export async function searchPlaces(query, key) {
 export async function fromGooglePlaces({ queries = PLACES_QUERIES, withEmails = true, concurrency = 6 } = {}) {
   const key = process.env.GOOGLE_MAPS_API_KEY;
   if (!key) return [];
+  const cache = await loadCache();
   const out = [];
+  let hits = 0, calls = 0;
   for (const q of queries) {
     let places = [];
-    try { places = await searchPlaces(q, key); } catch (e) { console.error(`[places] ${e.message}`); continue; }
+    if (fresh(cache[q])) { places = cache[q].places; hits++; }
+    else {
+      try { places = await searchPlaces(q, key); calls++; cache[q] = { fetchedAt: new Date().toISOString(), places }; }
+      catch (e) { console.error(`[places] ${e.message}`); continue; }
+    }
     const city = (q.match(/in ([A-Za-z ]+)$/) || [])[1] || "";
     for (const p of places) {
       const name = p.displayName?.text || "Business";
@@ -73,6 +92,8 @@ export async function fromGooglePlaces({ queries = PLACES_QUERIES, withEmails = 
       });
     }
   }
+  if (calls) await saveCache(cache);
+  console.error(`[places] ${hits} cached, ${calls} billed API calls`);
   if (withEmails) {
     for (let i = 0; i < out.length; i += concurrency) {
       await Promise.all(out.slice(i, i + concurrency).map(async (l) => {
