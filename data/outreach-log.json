@@ -348,5 +348,105 @@
     "sentAt": "2026-09-19T11:10:29.152Z",
     "lastSentAt": "2026-09-19T11:10:29.152Z",
     "step": 0
+  },
+  {
+    "email": "admin@feathair.com",
+    "business": "Feathair Hair Growth Center — clinic (Jalan Telawi)",
+    "niche": "clinic",
+    "city": "Kuala Lumpur",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-19T14:03:56.122Z",
+    "lastSentAt": "2026-09-19T14:03:56.122Z",
+    "step": 0
+  },
+  {
+    "email": "thedentist@dentalpro.org",
+    "business": "Dentalpro — dentist",
+    "niche": "dentist",
+    "city": "Kuala Lumpur",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-19T14:03:57.752Z",
+    "lastSentAt": "2026-09-19T14:03:57.752Z",
+    "step": 0
+  },
+  {
+    "email": "gbintangauto@live.com",
+    "business": "Le-Hase Auto Sdn. Bhd. — car (jalan 1 off jalan wawasan 4/2)",
+    "niche": "car",
+    "city": "Kuala Lumpur",
+    "service": "Lead follow-up automation",
+    "sentAt": "2026-09-19T14:04:00.179Z",
+    "lastSentAt": "2026-09-19T14:04:00.179Z",
+    "step": 0
+  },
+  {
+    "email": "bangsar@mydentist.com.my",
+    "business": "mydentist — dentist (Jalan Maarof)",
+    "niche": "dentist",
+    "city": "Kuala Lumpur",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-19T14:04:01.606Z",
+    "lastSentAt": "2026-09-19T14:04:01.606Z",
+    "step": 0
+  },
+  {
+    "email": "enquiries@imperialdsc.com",
+    "business": "Imperial Dental Specialist Centre — dentist (Jalan Telawi, Kuala Lumpur)",
+    "niche": "dentist",
+    "city": "Kuala Lumpur",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-19T14:04:03.008Z",
+    "lastSentAt": "2026-09-19T14:04:03.008Z",
+    "step": 0
+  },
+  {
+    "email": "jsliew621@gmail.com",
+    "business": "Aery Jo Academy — beauty (Jalan Pandan Indah 4/6, kuala lumpur)",
+    "niche": "beauty",
+    "city": "Kuala Lumpur",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T14:04:04.429Z",
+    "lastSentAt": "2026-09-19T14:04:04.429Z",
+    "step": 0
+  },
+  {
+    "email": "malaysiadyslexiahq@gmail.com",
+    "business": "Kelas Bimbingan Intensif Disleksia Ampang — childcare (Jalan Ampang)",
+    "niche": "childcare",
+    "city": "Kuala Lumpur",
+    "service": "Enquiry automation",
+    "sentAt": "2026-09-19T14:04:05.895Z",
+    "lastSentAt": "2026-09-19T14:04:05.895Z",
+    "step": 0
+  },
+  {
+    "email": "lkk_2778@yahoo.com",
+    "business": "LKK Speed Motors Sdn Bhd — insurance (JALAN 1/42, SEGAMBUT MUKIM BATU, Kuala Lum",
+    "niche": "insurance",
+    "city": "Kuala Lumpur",
+    "service": "Quote follow-up automation",
+    "sentAt": "2026-09-19T14:04:07.927Z",
+    "lastSentAt": "2026-09-19T14:04:07.927Z",
+    "step": 0
+  },
+  {
+    "email": "info@cvskl.com",
+    "business": "Cardiac Vascular Sentral Kuala Lumpur — clinic",
+    "niche": "clinic",
+    "city": "Kuala Lumpur",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-19T14:04:10.392Z",
+    "lastSentAt": "2026-09-19T14:04:10.392Z",
+    "step": 0
+  },
+  {
+    "email": "afkl.information@gmail.com",
+    "business": "Alliance Française Kuala Lumpur — language school",
+    "niche": "language_school",
+    "city": "Kuala Lumpur",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-19T14:04:12.344Z",
+    "lastSentAt": "2026-09-19T14:04:12.344Z",
+    "step": 0
   }
 ]

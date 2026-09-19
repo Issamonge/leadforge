@@ -590,5 +590,97 @@
   "meentosys.com": {
     "ok": true,
     "at": "2026-09-19T11:10:05.479Z"
+  },
+  "feathair.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:47.549Z"
+  },
+  "dentalpro.org": {
+    "ok": true,
+    "at": "2026-09-19T14:03:47.732Z"
+  },
+  "mydentist.com.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:48.861Z"
+  },
+  "imperialdsc.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:49.208Z"
+  },
+  "cvskl.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:49.321Z"
+  },
+  "millenniumwelt.com.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:49.591Z"
+  },
+  "christopherheng.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:49.756Z"
+  },
+  "mcma.com.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:50.062Z"
+  },
+  "italautomalaysia.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:50.230Z"
+  },
+  "state.com.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:50.557Z"
+  },
+  "apple.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:50.570Z"
+  },
+  "brightclinic.com.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:51.387Z"
+  },
+  "belle-sense.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:51.590Z"
+  },
+  "ymcakl.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.054Z"
+  },
+  "eamdialysis.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.120Z"
+  },
+  "rjclinic.my": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.188Z"
+  },
+  "law-partnership.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.588Z"
+  },
+  "bigbrainfurniture.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.707Z"
+  },
+  "ikano.asia": {
+    "ok": true,
+    "at": "2026-09-19T14:03:52.983Z"
+  },
+  "medconsultasia.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:53.012Z"
+  },
+  "shop4thai.com": {
+    "ok": true,
+    "at": "2026-09-19T14:03:53.133Z"
+  },
+  "drsmilebkk.com": {
+    "ok": false,
+    "at": "2026-09-19T14:03:53.204Z"
+  },
+  "libero.it": {
+    "ok": true,
+    "at": "2026-09-19T14:03:53.627Z"
   }
 }
