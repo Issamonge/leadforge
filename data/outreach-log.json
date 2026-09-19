@@ -1,0 +1,252 @@
+[
+  {
+    "email": "vet@boskruinvet.co.za",
+    "business": "Boskruin Veterinary Clinic — veterinary (Kowie Road)",
+    "niche": "veterinary",
+    "city": "Johannesburg",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T10:20:16.888Z",
+    "lastSentAt": "2026-09-19T10:20:16.888Z",
+    "step": 0
+  },
+  {
+    "email": "admin1@suzukirivonia.co.za",
+    "business": "Suzuki Rivonia — car",
+    "niche": "car",
+    "city": "Johannesburg",
+    "service": "Lead follow-up automation",
+    "sentAt": "2026-09-19T10:20:18.751Z",
+    "lastSentAt": "2026-09-19T10:20:18.751Z",
+    "step": 0
+  },
+  {
+    "email": "albert@huang.co.za",
+    "business": "Huang Attorneys Inc — lawyer (Cumberland Road)",
+    "niche": "lawyer",
+    "city": "Johannesburg",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-19T10:20:20.484Z",
+    "lastSentAt": "2026-09-19T10:20:20.484Z",
+    "step": 0
+  },
+  {
+    "email": "michael@shainproperties.co.za",
+    "business": "Shain Properties — estate agent (Boundary Lane, Parkmore)",
+    "niche": "estate_agent",
+    "city": "Johannesburg",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-19T10:20:22.284Z",
+    "lastSentAt": "2026-09-19T10:20:22.284Z",
+    "step": 0
+  },
+  {
+    "email": "change@changesrehab.co.za",
+    "business": "Changes Addiction Rehab — clinic (Weltevreden Road)",
+    "niche": "clinic",
+    "city": "Johannesburg",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-19T10:20:24.254Z",
+    "lastSentAt": "2026-09-19T10:20:24.254Z",
+    "step": 0
+  },
+  {
+    "email": "info@lawtonsafrica.com",
+    "business": "Lawtons Africa — lawyer (West Street, Sandton)",
+    "niche": "lawyer",
+    "city": "Johannesburg",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-19T10:20:26.067Z",
+    "lastSentAt": "2026-09-19T10:20:26.067Z",
+    "step": 0
+  },
+  {
+    "email": "irma@hashtagnails.co.za",
+    "business": "Hashtag Nails — beauty (11th Avenue)",
+    "niche": "beauty",
+    "city": "Johannesburg",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T10:20:27.500Z",
+    "lastSentAt": "2026-09-19T10:20:27.500Z",
+    "step": 0
+  },
+  {
+    "email": "rivoniavillage@sorbet.co.za",
+    "business": "Sorbet — beauty",
+    "niche": "beauty",
+    "city": "Johannesburg",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T10:20:29.216Z",
+    "lastSentAt": "2026-09-19T10:20:29.216Z",
+    "step": 0
+  },
+  {
+    "email": "mail@cia.co.za",
+    "business": "CIA Building Insurance Specialists — insurance (Riley Road, Germiston)",
+    "niche": "insurance",
+    "city": "Johannesburg",
+    "service": "Quote follow-up automation",
+    "sentAt": "2026-09-19T10:20:30.874Z",
+    "lastSentAt": "2026-09-19T10:20:30.874Z",
+    "step": 0
+  },
+  {
+    "email": "drhddullabh@gmail.com",
+    "business": "Prof. H B Dullabh — dentist (Lilian Ngoyi Street)",
+    "niche": "dentist",
+    "city": "Johannesburg",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-19T10:20:32.261Z",
+    "lastSentAt": "2026-09-19T10:20:32.261Z",
+    "step": 0
+  },
+  {
+    "email": "roni@vajewellery.co.za",
+    "business": "Veronica Anderson Jewellery — jewelry",
+    "niche": "jewelry",
+    "city": "Johannesburg",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-19T10:20:34.002Z",
+    "lastSentAt": "2026-09-19T10:20:34.002Z",
+    "step": 0
+  },
+  {
+    "email": "info@vilailai.co.za",
+    "business": "Vilai Lai Day Spa — beauty",
+    "niche": "beauty",
+    "city": "Johannesburg",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T10:20:35.867Z",
+    "lastSentAt": "2026-09-19T10:20:35.867Z",
+    "step": 0
+  },
+  {
+    "email": "rvc@mweb.co.za",
+    "business": "Riverclub Veterinary Clinic — veterinary (13th Street, Johannesburg)",
+    "niche": "veterinary",
+    "city": "Johannesburg",
+    "service": "Booking automation",
+    "sentAt": "2026-09-19T10:20:37.550Z",
+    "lastSentAt": "2026-09-19T10:20:37.550Z",
+    "step": 0
+  },
+  {
+    "email": "hello@shinyrockpolished.com",
+    "business": "Shiny Rock Polished — jewelry (Jan Smuts Avenue, Johannesburg)",
+    "niche": "jewelry",
+    "city": "Johannesburg",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-19T10:20:39.330Z",
+    "lastSentAt": "2026-09-19T10:20:39.330Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup - Smartwatches — electronics (Augrabies Rd, Midrand)",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:41.054Z",
+    "lastSentAt": "2026-09-19T10:20:41.054Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Smartphones — electronics (Waterfall Office Park, Augrabies Rd, Midrand",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:42.612Z",
+    "lastSentAt": "2026-09-19T10:20:42.612Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Tablets — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:44.658Z",
+    "lastSentAt": "2026-09-19T10:20:44.658Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Headphones and Headsets — electronics (Waterfall Office Park, Augrabies",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:46.606Z",
+    "lastSentAt": "2026-09-19T10:20:46.606Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Desktop CPUs — electronics (Waterfall Office Park, Augrabies Rd, Midran",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:48.603Z",
+    "lastSentAt": "2026-09-19T10:20:48.603Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Graphics Cards — electronics (Waterfall Office Park, Augrabies Rd, Vorn",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:50.233Z",
+    "lastSentAt": "2026-09-19T10:20:50.233Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup M.2 and SATA SSD — electronics (Waterfall Office Park, Augrabies Rd, Mi",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:52.155Z",
+    "lastSentAt": "2026-09-19T10:20:52.155Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Webcams — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:53.968Z",
+    "lastSentAt": "2026-09-19T10:20:53.968Z",
+    "step": 0
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "business": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory — electronics (Waterfall Office",
+    "niche": "electronics",
+    "city": "Johannesburg",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T10:20:56.268Z",
+    "lastSentAt": "2026-09-19T10:20:56.268Z",
+    "step": 0
+  },
+  {
+    "email": "info@prometheus-systems.co.za",
+    "business": "Prometheus Systems — computer (Leicester Road)",
+    "niche": "computer",
+    "city": "Johannesburg",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-19T10:20:58.674Z",
+    "lastSentAt": "2026-09-19T10:20:58.674Z",
+    "step": 0
+  },
+  {
+    "email": "kernot@mweb.co.za",
+    "business": "Angela Kernot Realty — estate agent (Bridge Shopping centre)",
+    "niche": "estate_agent",
+    "city": "Johannesburg",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-19T10:21:00.744Z",
+    "lastSentAt": "2026-09-19T10:21:00.744Z",
+    "step": 0
+  }
+]

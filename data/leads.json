@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-09-19T11:06:36.633Z",
+  "generatedAt": "2026-09-19T10:19:50.473Z",
   "config": {
-    "dailyTarget": 40,
+    "dailyTarget": 60,
     "minBudget": 0,
     "digestEmail": "",
     "paypalEmail": "",
     "payoutGoal": 500,
     "paymentLink": "https://paypal.me/7900861",
     "pilotPrice": 350,
-    "whatsappPhone": "",
+    "whatsappPhone": "+971505852438",
     "urgentCall": false,
     "sendOutreach": true,
     "sendCap": 25,
     "targetCities": [
       "auto"
     ],
-    "cityBatch": 2
+    "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 182,
-    "qualified": 12,
+    "totalScanned": 331,
+    "qualified": 60,
     "pipelineValue": 0,
     "sources": {
       "n8n Community": 30,
@@ -27,14 +27,17 @@
       "Hacker News": 7,
       "RemoteOK": 99,
       "Remotive": 16,
-      "OpenStreetMap": 0,
+      "OpenStreetMap": 149,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 0,
-    "phoneLeads": 0,
+    "whatsappCapable": 55,
+    "phoneLeads": 55,
     "bounceRate": 0,
-    "emailLeads": 0,
+    "emailLeads": 59,
+    "sent": 25,
+    "sendSkipped": 0,
+    "guardRejected": 4,
     "followupsSent": 0,
     "byNiche": {}
   },
@@ -70,314 +73,2187 @@
       "waLink": ""
     },
     {
-      "id": "n8n Community-314555",
-      "source": "n8n Community",
-      "title": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
-      "description": "Hi everyone, We’re NUBO , a small AI implementation agency building AI agents, automations and integrations for companies in Spain and Latin America. n8n is a core part of our technical stack. We’re looking for an experienced n8n builder to work with us on an ongoing, project-by-project basis as our workload grows. We’re not necessarily looking for a senior software developer, we’re looking for someone who is very comfortable with n8n, AI tools and integrations, and who can take well-defined tasks and build them independently. What the work looks like: Building and maintaining n8n workflows for AI agents and business automations. Integrating LLMs such as OpenAI, Claude and Gemini. Working with APIs, webhooks, CRMs, WhatsApp/messaging platforms and databases. Configuring prompts and agent logic. Troubleshooting and improving existing workflows. Occasionally writing or modifying small pieces of JavaScript/Python with the help of AI coding tools such as Claude Code. Configure and mantain automations in Go High Level. Working on different client projects across sales, customer service and operations. We provide the architecture, requirements and guidance for each project. Your role is ",
-      "url": "https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555",
-      "postedAt": "2026-09-18T18:47:56.112Z",
-      "raw": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
+      "id": "osm-node-497021707",
+      "source": "OpenStreetMap",
+      "title": "Boskruin Veterinary Clinic — veterinary (Kowie Road)",
+      "description": "Business in Johannesburg. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://www.boskruinvet.co.za/. Phone: +27 11 792 0484; +27 82 853 4004.",
+      "email": "vet@boskruinvet.co.za",
+      "phone": "+27 11 792 0484; +27 82 853 4004",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.boskruinvet.co.za/",
+      "city": "Johannesburg",
+      "category": "veterinary",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "CRM automation"
+        "Booking automation",
+        "reminder sequences"
       ],
+      "url": "https://www.boskruinvet.co.za/",
+      "postedAt": "2026-09-19T10:17:11.655Z",
+      "raw": "Boskruin Veterinary Clinic veterinary Johannesburg",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Booking automation",
+        "reminder sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 1,
-      "score": 70,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"[ESPAÑOL] Looking for an n8n + AI Automation \"",
-        "body": "Hi,\n\nSaw your post: \"[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Boskruin Veterinary Clinic: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Boskruin Veterinary Clinic team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27117920484?text=Hello%20Boskruin%20Veterinary%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-925176944",
+      "source": "OpenStreetMap",
+      "title": "Suzuki Rivonia — car",
+      "description": "Business in Johannesburg. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.suzukirivonia.co.za/. Phone: +27 11 234 7118.",
+      "email": "admin1@suzukirivonia.co.za",
+      "phone": "+27 11 234 7118",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.suzukirivonia.co.za/",
+      "city": "Johannesburg",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.suzukirivonia.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Suzuki Rivonia car Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Suzuki Rivonia: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Suzuki Rivonia team,\n\nI build lead follow-up automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27112347118?text=Hello%20Suzuki%20Rivonia%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4461777889",
+      "source": "OpenStreetMap",
+      "title": "Huang Attorneys Inc — lawyer (Cumberland Road)",
+      "description": "Business in Johannesburg. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.huang.co.za/. Phone: +27 116159997.",
+      "email": "albert@huang.co.za",
+      "phone": "+27 116159997",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.huang.co.za/",
+      "city": "Johannesburg",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://www.huang.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Huang Attorneys Inc lawyer Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Huang Attorneys Inc: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Huang Attorneys Inc team,\n\nI build client intake automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27116159997?text=Hello%20Huang%20Attorneys%20Inc%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-6694427739",
+      "source": "OpenStreetMap",
+      "title": "Shain Properties — estate agent (Boundary Lane, Parkmore)",
+      "description": "Business in Johannesburg. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://shainproperties.co.za/. Phone: +27 82 6043501.",
+      "email": "michael@shainproperties.co.za",
+      "phone": "+27 82 6043501",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://shainproperties.co.za/",
+      "city": "Johannesburg",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://shainproperties.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Shain Properties estate_agent Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Shain Properties: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Shain Properties team,\n\nI build deal pipeline automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27826043501?text=Hello%20Shain%20Properties%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-7192769085",
+      "source": "OpenStreetMap",
+      "title": "Nsikelelo — estate agent (Maputo Street)",
+      "description": "Business in Johannesburg. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +27 10 224 0666.",
+      "email": "info@nsikelelo.co.zw",
+      "phone": "+27 10 224 0666",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.openstreetmap.org/node/7192769085",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Nsikelelo estate_agent Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nsikelelo: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Nsikelelo team,\n\nI build deal pipeline automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27102240666?text=Hello%20Nsikelelo%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-7356630585",
+      "source": "OpenStreetMap",
+      "title": "Changes Addiction Rehab — clinic (Weltevreden Road)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://ChangesRehab.co.za. Phone: +27 827473422.",
+      "email": "change@changesrehab.co.za",
+      "phone": "+27 827473422",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://ChangesRehab.co.za",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://ChangesRehab.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Changes Addiction Rehab clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Changes Addiction Rehab: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Changes Addiction Rehab team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27827473422?text=Hello%20Changes%20Addiction%20Rehab%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-8655459542",
+      "source": "OpenStreetMap",
+      "title": "Lawtons Africa — lawyer (West Street, Sandton)",
+      "description": "Business in Johannesburg. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.lawtonsafrica.com/. Phone: +27 11 2866900.",
+      "email": "info@lawtonsafrica.com",
+      "phone": "+27 11 2866900",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.lawtonsafrica.com/",
+      "city": "Johannesburg",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://www.lawtonsafrica.com/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Lawtons Africa lawyer Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Lawtons Africa: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Lawtons Africa team,\n\nI build client intake automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27112866900?text=Hello%20Lawtons%20Africa%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10540127309",
+      "source": "OpenStreetMap",
+      "title": "Hashtag Nails — beauty (11th Avenue)",
+      "description": "Business in Johannesburg. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://hashtagnails.co.za. Phone: +27660244047;+27829970663.",
+      "email": "irma@hashtagnails.co.za",
+      "phone": "+27660244047;+27829970663",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://hashtagnails.co.za",
+      "city": "Johannesburg",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://hashtagnails.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Hashtag Nails beauty Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Hashtag Nails: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Hashtag Nails team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27660244047?text=Hello%20Hashtag%20Nails%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10681263079",
+      "source": "OpenStreetMap",
+      "title": "Sorbet — beauty",
+      "description": "Business in Johannesburg. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.sorbet.co.za/. Phone: +27 11 803 8887.",
+      "email": "rivoniavillage@sorbet.co.za",
+      "phone": "+27 11 803 8887",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.sorbet.co.za/",
+      "city": "Johannesburg",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.sorbet.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Sorbet beauty Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Sorbet: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Sorbet team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27118038887?text=Hello%20Sorbet%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11387215410",
+      "source": "OpenStreetMap",
+      "title": "CIA Building Insurance Specialists — insurance (Riley Road, Germiston)",
+      "description": "Business in Johannesburg. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://cia.co.za/. Phone: +27861242777.",
+      "email": "mail@cia.co.za",
+      "phone": "+27861242777",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://cia.co.za/",
+      "city": "Johannesburg",
+      "category": "insurance",
+      "services": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "url": "https://cia.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "CIA Building Insurance Specialists insurance Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "CIA Building Insurance Specialists: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi CIA Building Insurance Specialists team,\n\nI build quote follow-up automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27861242777?text=Hello%20CIA%20Building%20Insurance%20Specialists%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11443454769",
+      "source": "OpenStreetMap",
+      "title": "Prof. H B Dullabh — dentist (Lilian Ngoyi Street)",
+      "description": "Business in Johannesburg. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +27 11 838 5891; +27 11 836 8784; +27 81 328 9257.",
+      "email": "drhddullabh@gmail.com",
+      "phone": "+27 11 838 5891; +27 11 836 8784; +27 81 328 9257",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.openstreetmap.org/node/11443454769",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Prof. H B Dullabh dentist Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Prof. H B Dullabh: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Prof. H B Dullabh team,\n\nI build lead capture & booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27118385891?text=Hello%20Prof.%20H%20B%20Dullabh%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11711159930",
+      "source": "OpenStreetMap",
+      "title": "Veronica Anderson Jewellery — jewelry",
+      "description": "Business in Johannesburg. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.veronicaandersonjewellery.co.za/. Phone: +27 11 268 2021; +27 82 881 0359.",
+      "email": "roni@vajewellery.co.za",
+      "phone": "+27 11 268 2021; +27 82 881 0359",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.veronicaandersonjewellery.co.za/",
+      "city": "Johannesburg",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.veronicaandersonjewellery.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Veronica Anderson Jewellery jewelry Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Veronica Anderson Jewellery: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Veronica Anderson Jewellery team,\n\nI build clienteling automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27112682021?text=Hello%20Veronica%20Anderson%20Jewellery%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11711159932",
+      "source": "OpenStreetMap",
+      "title": "The Cosmetic and Dental Emporium — dentist",
+      "description": "Business in Johannesburg. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.thecde.co.za/. Phone: +27 11 463 5294; +27 76 441 3061.",
+      "email": "bryanston@thecde.co.za",
+      "phone": "+27 11 463 5294; +27 76 441 3061",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.thecde.co.za/",
+      "city": "Johannesburg",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.thecde.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "The Cosmetic and Dental Emporium dentist Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "The Cosmetic and Dental Emporium: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi The Cosmetic and Dental Emporium team,\n\nI build lead capture & booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114635294?text=Hello%20The%20Cosmetic%20and%20Dental%20Emporium%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11898492307",
+      "source": "OpenStreetMap",
+      "title": "Vilai Lai Day Spa — beauty",
+      "description": "Business in Johannesburg. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.vilailai.co.za/. Phone: +27 11 656 1662.",
+      "email": "info@vilailai.co.za",
+      "phone": "+27 11 656 1662",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.vilailai.co.za/",
+      "city": "Johannesburg",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.vilailai.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Vilai Lai Day Spa beauty Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Vilai Lai Day Spa: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Vilai Lai Day Spa team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27116561662?text=Hello%20Vilai%20Lai%20Day%20Spa%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12128499230",
+      "source": "OpenStreetMap",
+      "title": "Riverclub Veterinary Clinic — veterinary (13th Street, Johannesburg)",
+      "description": "Business in Johannesburg. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://www.riverclubvet.co.za/. Phone: +27118844133.",
+      "email": "rvc@mweb.co.za",
+      "phone": "+27118844133",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.riverclubvet.co.za/",
+      "city": "Johannesburg",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.riverclubvet.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Riverclub Veterinary Clinic veterinary Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Riverclub Veterinary Clinic: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Riverclub Veterinary Clinic team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27118844133?text=Hello%20Riverclub%20Veterinary%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12551015702",
+      "source": "OpenStreetMap",
+      "title": "Inter Cars — car (Bradford Road)",
+      "description": "Business in Johannesburg. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: n/a. Phone: +27 71 977 7444;+27 11 822 1210.",
+      "email": "admin@auto-links.ltd",
+      "phone": "+27 71 977 7444;+27 11 822 1210",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.openstreetmap.org/node/12551015702",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Inter Cars car Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Inter Cars: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Inter Cars team,\n\nI build lead follow-up automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27719777444?text=Hello%20Inter%20Cars%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12600003756",
+      "source": "OpenStreetMap",
+      "title": "Shiny Rock Polished — jewelry (Jan Smuts Avenue, Johannesburg)",
+      "description": "Business in Johannesburg. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://shinyrockpolished.com/. Phone: +27872502824.",
+      "email": "hello@shinyrockpolished.com",
+      "phone": "+27872502824",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://shinyrockpolished.com/",
+      "city": "Johannesburg",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://shinyrockpolished.com/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Shiny Rock Polished jewelry Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Shiny Rock Polished: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Shiny Rock Polished team,\n\nI build clienteling automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27872502824?text=Hello%20Shiny%20Rock%20Polished%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12629155094",
+      "source": "OpenStreetMap",
+      "title": "ITworkup - Smartwatches — electronics (Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/smartwatches/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/smartwatches/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/smartwatches/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup - Smartwatches electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup - Smartwatches: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup - Smartwatches team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20-%20Smartwatches%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12631862160",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Smartphones — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/smartphones/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/smartphones/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/smartphones/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Smartphones electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Smartphones: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Smartphones team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Smartphones%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12631995718",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Tablets — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/tablets/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/tablets/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/tablets/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Tablets electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Tablets: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Tablets team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Tablets%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12633411154",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Headphones and Headsets — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/headphones/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/headphones/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/headphones/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Headphones and Headsets electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Headphones and Headsets: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Headphones and Headsets team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Headphones%20and%20Headsets%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12633424414",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Desktop CPUs — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/intel-amd-desktop-cpu/. Phone: +27 798987370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 798987370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/intel-amd-desktop-cpu/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/intel-amd-desktop-cpu/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Desktop CPUs electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Desktop CPUs: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Desktop CPUs team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Desktop%20CPUs%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12642162504",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Graphics Cards — electronics (Waterfall Office Park, Augrabies Rd, Vorna Valley)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/gpu/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/gpu/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/gpu/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Graphics Cards electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Graphics Cards: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Graphics Cards team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Graphics%20Cards%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12642250921",
+      "source": "OpenStreetMap",
+      "title": "ITworkup M.2 and SATA SSD — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/sata-and-m-2-ssd/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/sata-and-m-2-ssd/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/sata-and-m-2-ssd/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup M.2 and SATA SSD electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup M.2 and SATA SSD: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup M.2 and SATA SSD team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20M.2%20and%20SATA%20SSD%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12642254351",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Webcams — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/webcams/. Phone: +27 79 898 7370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 79 898 7370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/webcams/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/webcams/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Webcams electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Webcams: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Webcams team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Webcams%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12642884929",
+      "source": "OpenStreetMap",
+      "title": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://itworkup.co.za/memory/desktop-memory/. Phone: +27 798987370.",
+      "email": "social@itworkup.co.za",
+      "phone": "+27 798987370",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://itworkup.co.za/memory/desktop-memory/",
+      "city": "Johannesburg",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://itworkup.co.za/memory/desktop-memory/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory electronics Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi ITworkup Desktop and Laptop DDR4 and DDR5 Memory team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27798987370?text=Hello%20ITworkup%20Desktop%20and%20Laptop%20DDR4%20and%20DDR5%20Memory%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-13094269901",
+      "source": "OpenStreetMap",
+      "title": "Prometheus Systems — computer (Leicester Road)",
+      "description": "Business in Johannesburg. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://prometheus-systems.co.za/. Phone: +27 78 389 4091.",
+      "email": "info@prometheus-systems.co.za",
+      "phone": "+27 78 389 4091",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://prometheus-systems.co.za/",
+      "city": "Johannesburg",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://prometheus-systems.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Prometheus Systems computer Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Prometheus Systems: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Prometheus Systems team,\n\nI build ai workflow automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27783894091?text=Hello%20Prometheus%20Systems%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-13452280701",
+      "source": "OpenStreetMap",
+      "title": "Angela Kernot Realty — estate agent (Bridge Shopping centre)",
+      "description": "Business in Johannesburg. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.angelakernot.com. Phone: +27 11 804 1730.",
+      "email": "kernot@mweb.co.za",
+      "phone": "+27 11 804 1730",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.angelakernot.com",
+      "city": "Johannesburg",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.angelakernot.com",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Angela Kernot Realty estate_agent Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Angela Kernot Realty: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Angela Kernot Realty team,\n\nI build deal pipeline automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27118041730?text=Hello%20Angela%20Kernot%20Realty%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-13671219845",
+      "source": "OpenStreetMap",
+      "title": "Sandton Men's Clinic — clinic (Vanessa Street, Sandton)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://sandtonmensclinic.co.za/. Phone: +27102059208.",
+      "email": "info@sandtonmensclinic.co.za",
+      "phone": "+27674984812",
+      "mobileNumber": "+27674984812",
+      "hasMobile": true,
+      "website": "https://sandtonmensclinic.co.za/",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://sandtonmensclinic.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Sandton Men's Clinic clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Sandton Men's Clinic: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Sandton Men's Clinic team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27674984812?text=Hello%20Sandton%20Men's%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-13790046991",
+      "source": "OpenStreetMap",
+      "title": "Incanda — furniture (Desmond Street)",
+      "description": "Business in Johannesburg. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: +27 10 001 2627.",
+      "email": "jhbmanager@incanda.co.za",
+      "phone": "+27 10 001 2627",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/13790046991",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Incanda furniture Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Incanda: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Incanda team,\n\nI build lead follow-up for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27100012627?text=Hello%20Incanda%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-13943177209",
+      "source": "OpenStreetMap",
+      "title": "Prodiam Trading — jewelry (Kramer Road, Bedfordview)",
+      "description": "Business in Johannesburg. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.prodiam.co.za/. Phone: +27 74 702 1976.",
+      "email": "sales@prodiam.co.za",
+      "phone": "+27 74 702 1976",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.prodiam.co.za/",
+      "city": "Johannesburg",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.prodiam.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Prodiam Trading jewelry Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Prodiam Trading: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Prodiam Trading team,\n\nI build clienteling automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27747021976?text=Hello%20Prodiam%20Trading%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14008426701",
+      "source": "OpenStreetMap",
+      "title": "DJA — insurance",
+      "description": "Business in Johannesburg. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: n/a. Phone: +27114635550.",
+      "email": "mail@dja-aviation.co.za",
+      "phone": "+27114635550",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "insurance",
+      "services": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "url": "https://www.openstreetmap.org/node/14008426701",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "DJA insurance Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "DJA: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi DJA team,\n\nI build quote follow-up automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114635550?text=Hello%20DJA%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14118332317",
+      "source": "OpenStreetMap",
+      "title": "Bryanston Jewellers — jewelry",
+      "description": "Business in Johannesburg. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: http://www.bryanstonjewellers.co.za/. Phone: +27 11 463 3172.",
+      "email": "sales@bryanstonjewellers.co.za",
+      "phone": "+27 11 463 3172",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.bryanstonjewellers.co.za/",
+      "city": "Johannesburg",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "http://www.bryanstonjewellers.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Bryanston Jewellers jewelry Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Bryanston Jewellers: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Bryanston Jewellers team,\n\nI build clienteling automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114633172?text=Hello%20Bryanston%20Jewellers%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-152242578",
+      "source": "OpenStreetMap",
+      "title": "ONE — insurance (Maxwell Drive, Johannesburg)",
+      "description": "Business in Johannesburg. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.one.za.com. Phone: +27 86 126 6562.",
+      "email": "chantel.t@one.za.com",
+      "phone": "+27 86 126 6562",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.one.za.com",
+      "city": "Johannesburg",
+      "category": "insurance",
+      "services": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "url": "https://www.one.za.com",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "ONE insurance Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ONE: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi ONE team,\n\nI build quote follow-up automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27861266562?text=Hello%20ONE%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-223883705",
+      "source": "OpenStreetMap",
+      "title": "Parkmore Veterinary Clinic — veterinary",
+      "description": "Business in Johannesburg. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://parkmorevet.co.za/. Phone: +27 11 883 4746; +27 11 883 2107.",
+      "email": "reception@parkmorevet.co.za",
+      "phone": "+27 11 883 4746; +27 11 883 2107",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://parkmorevet.co.za/",
+      "city": "Johannesburg",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://parkmorevet.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Parkmore Veterinary Clinic veterinary Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Parkmore Veterinary Clinic: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Parkmore Veterinary Clinic team,\n\nI build booking automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27118834746?text=Hello%20Parkmore%20Veterinary%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-324758679",
+      "source": "OpenStreetMap",
+      "title": "Weltevreden Park Clinic — clinic (C/O Jg Strydom And Jim Fouche, Roodepoort)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 11 679 3623.",
+      "email": "hillezes@joburg.org.za",
+      "phone": "+27 11 679 3623",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/way/324758679",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Weltevreden Park Clinic clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Weltevreden Park Clinic: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Weltevreden Park Clinic team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27116793623?text=Hello%20Weltevreden%20Park%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-614957120",
+      "source": "OpenStreetMap",
+      "title": "Oxford Healthcare Centre — clinic (Oxford Road, Randburg)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 10 350 0350.",
+      "email": "info@oxfordhealthcare.co.za",
+      "phone": "+27 10 350 0350",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/way/614957120",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Oxford Healthcare Centre clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Oxford Healthcare Centre: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Oxford Healthcare Centre team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27103500350?text=Hello%20Oxford%20Healthcare%20Centre%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-622835316",
+      "source": "OpenStreetMap",
+      "title": "24/7 Medclinic — clinic (Simmonds Street, Johannesburg)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 11 039 7748.",
+      "email": "info@medclinic24-7.co.za",
+      "phone": "+27 11 039 7748",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/way/622835316",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "24/7 Medclinic clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "24/7 Medclinic: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi 24/7 Medclinic team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27110397748?text=Hello%2024%2F7%20Medclinic%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-732861662",
+      "source": "OpenStreetMap",
+      "title": "Tarsus Technology Group — it (Johannesburg)",
+      "description": "Business in Johannesburg. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.tarsus.co.za. Phone: +27 11 531 1000.",
+      "email": "info@tarsus.co.za",
+      "phone": "+27 11 531 1000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.tarsus.co.za",
+      "city": "Johannesburg",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.tarsus.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Tarsus Technology Group it Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Tarsus Technology Group: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Tarsus Technology Group team,\n\nI build ai agent & workflow automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27115311000?text=Hello%20Tarsus%20Technology%20Group%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-782603293",
+      "source": "OpenStreetMap",
+      "title": "Goethe-Institut — language school (Jan Smuts Avenue, Johannesburg)",
+      "description": "Business in Johannesburg. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.goethe.de/ins/za/en/. Phone: +27 11 442 3232.",
+      "email": "info-johannesburg@goethe.de",
+      "phone": "+27 11 442 3232",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.goethe.de/ins/za/en/",
+      "city": "Johannesburg",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://www.goethe.de/ins/za/en/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Goethe-Institut language_school Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Goethe-Institut: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Goethe-Institut team,\n\nI build enrolment automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114423232?text=Hello%20Goethe-Institut%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-783525522",
+      "source": "OpenStreetMap",
+      "title": "Warburton Attorneys — lawyer (Dudley road, Johannesburg)",
+      "description": "Business in Johannesburg. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://warburtons.co.za. Phone: +27 11 447 6848.",
+      "email": "admin@warburtons.co.za",
+      "phone": "+27 11 447 6848",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://warburtons.co.za",
+      "city": "Johannesburg",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://warburtons.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Warburton Attorneys lawyer Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Warburton Attorneys: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Warburton Attorneys team,\n\nI build client intake automation for businesses in Johannesburg — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114476848?text=Hello%20Warburton%20Attorneys%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-784377056",
+      "source": "OpenStreetMap",
+      "title": "Design Plus — furniture (Rivonia Road, Johannesburg)",
+      "description": "Business in Johannesburg. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.designplus.co.za. Phone: +27 11 268 0000.",
+      "email": "info@designplus.co.za",
+      "phone": "+27 11 268 0000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.designplus.co.za",
+      "city": "Johannesburg",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.designplus.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Design Plus furniture Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Design Plus: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Design Plus team,\n\nI build lead follow-up for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27112680000?text=Hello%20Design%20Plus%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-784658728",
+      "source": "OpenStreetMap",
+      "title": "Medicross Meldene Medical and Dental Centre — clinic (Cnr 3rd Ave & Main Street, Melville Johannesburg)",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 11 482 2291; +27 11 727 3404.",
+      "email": "meldene@medicross.co.za",
+      "phone": "+27 11 482 2291; +27 11 727 3404",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/way/784658728",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Medicross Meldene Medical and Dental Centre clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Medicross Meldene Medical and Dental Centre: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Medicross Meldene Medical and Dental Centre team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114822291?text=Hello%20Medicross%20Meldene%20Medical%20and%20Dental%20Centre%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-833757656",
+      "source": "OpenStreetMap",
+      "title": "Nizamiye Clinic — clinic",
+      "description": "Business in Johannesburg. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://nizamiyecomplex.co.za/clinic/. Phone: n/a.",
+      "email": "info@nizamiyecomplex.co.za",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://nizamiyecomplex.co.za/clinic/",
+      "city": "Johannesburg",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://nizamiyecomplex.co.za/clinic/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Nizamiye Clinic clinic Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nizamiye Clinic: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Nizamiye Clinic team,\n\nI build patient booking automation for businesses in Johannesburg — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-275368",
-      "source": "n8n Community",
-      "title": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
-      "description": "Hey everyone, We’re a recruitment (marketing) company based in the Netherlands. We’re looking for a freelance AI Automation Engineer to help us build and maintain automation systems across our operations. What you’ll be building: Meta Ads ops automation (ad copy, creatives, campaign setup) LinkedIn &amp; Indeed scraper for sales outreach Sales &amp; outbound automation workflows Automated dashboards and reporting pipelines Image &amp; creative design automation Stack: n8n, Make, OpenAI/Claude, Meta Graph API, WhatsApp API, Notion, Lemlist (and we want to be on top of the game in with new stuff) The role is a bit more than just building , you’d also be the product owner of our automation systems. That means triaging bugs, evaluating feature requests from the team and owning the weekly alignment with me (founder). Freelance / project-based. Remote, worldwide. must be fluent in English. Rate negotiable. If you’ve built real workflows with n8n and APIs and want interesting projects, reply here or DM me. Tell me what you’ve built.",
-      "url": "https://community.n8n.io/t/hiring-freelance-agency-ai-automation-engineer-n8n-make-apis-remote/275368",
-      "postedAt": "2026-03-10T10:53:26.006Z",
-      "raw": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
+      "id": "osm-way-937540356",
+      "source": "OpenStreetMap",
+      "title": "Cyber Connect — electronics (Kent Avenue, Ferndale)",
+      "description": "Business in Johannesburg. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://cyberconnect.shop/shop. Phone: +27117818014.",
+      "email": "support@cyberconnect.co.za",
+      "phone": "+27117818014",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://cyberconnect.shop/shop",
+      "city": "Johannesburg",
+      "category": "electronics",
       "services": [
-        "Workflow automation",
-        "Data & scraping",
-        "Dashboards & internal tools"
+        "Lead automation",
+        "inventory reporting"
       ],
+      "url": "https://cyberconnect.shop/shop",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Cyber Connect electronics Johannesburg",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lead automation",
+        "inventory reporting"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 193,
-      "score": 55,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"📣 HIRING: Freelance/Agency AI Automation Eng\"",
-        "body": "Hi,\n\nSaw your post: \"📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Cyber Connect: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Cyber Connect team,\n\nI build lead automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27117818014?text=Hello%20Cyber%20Connect%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-937965255",
+      "source": "OpenStreetMap",
+      "title": "Jumping Bean — it (Kent Avenue, Ferndale)",
+      "description": "Business in Johannesburg. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://jumpingbean.co.za. Phone: +27117818014.",
+      "email": "support@jumpingbean.co.za",
+      "phone": "+27117818014",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://jumpingbean.co.za",
+      "city": "Johannesburg",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://jumpingbean.co.za",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Jumping Bean it Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Jumping Bean: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Jumping Bean team,\n\nI build ai agent & workflow automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27117818014?text=Hello%20Jumping%20Bean%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-1117320866",
+      "source": "OpenStreetMap",
+      "title": "HAVAL The Glen — car (Boundary Lane)",
+      "description": "Business in Johannesburg. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: n/a. Phone: +27 11 436 1155.",
+      "email": "southdp@ipopsa.com",
+      "phone": "+27 11 436 1155",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Johannesburg",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.openstreetmap.org/way/1117320866",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "HAVAL The Glen car Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "HAVAL The Glen: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi HAVAL The Glen team,\n\nI build lead follow-up automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114361155?text=Hello%20HAVAL%20The%20Glen%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-way-1154833154",
+      "source": "OpenStreetMap",
+      "title": "Suzuki Northcliff — car (Beyers Naudé Drive, Blackheath)",
+      "description": "Business in Johannesburg. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://suzukinorthcliff.co.za/. Phone: +27 11 476 2333.",
+      "email": "newsalesmanager@suzukinorthcliff.co.za",
+      "phone": "+27 11 476 2333",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://suzukinorthcliff.co.za/",
+      "city": "Johannesburg",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://suzukinorthcliff.co.za/",
+      "postedAt": "2026-09-19T10:17:11.656Z",
+      "raw": "Suzuki Northcliff car Johannesburg",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Suzuki Northcliff: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Suzuki Northcliff team,\n\nI build lead follow-up automation for businesses in Johannesburg — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27114762333?text=Hello%20Suzuki%20Northcliff%2C%0A%0AI%20help%20businesses%20in%20Johannesburg%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-484617936",
+      "source": "OpenStreetMap",
+      "title": "Tafelberg Furnishers N1 Northgate — furniture (Platinum Drive, Cape Town)",
+      "description": "Business in Cape Town. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: +27 21 514 5600.",
+      "email": "northgate@tafelberg.co.za",
+      "phone": "+27 21 514 5600",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Cape Town",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/484617936",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Tafelberg Furnishers N1 Northgate furniture Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Tafelberg Furnishers N1 Northgate: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Tafelberg Furnishers N1 Northgate team,\n\nI build lead follow-up for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27215145600?text=Hello%20Tafelberg%20Furnishers%20N1%20Northgate%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-2505871209",
+      "source": "OpenStreetMap",
+      "title": "Kenilworth Medicross — clinic (Rosmead Avenue, Kenilworth)",
+      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 86 605 5061.",
+      "email": "kenilworth@medicross.co.za",
+      "phone": "+27 86 605 5061",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Cape Town",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/2505871209",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Kenilworth Medicross clinic Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Kenilworth Medicross: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Kenilworth Medicross team,\n\nI build patient booking automation for businesses in Cape Town — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27866055061?text=Hello%20Kenilworth%20Medicross%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-2688093345",
+      "source": "OpenStreetMap",
+      "title": "International House Cape Town — language school (Cape Town)",
+      "description": "Business in Cape Town. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://ihcapetown.com. Phone: +27 71 680 9508.",
+      "email": "info@ihcapetown.com",
+      "phone": "+27 71 680 9508",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://ihcapetown.com",
+      "city": "Cape Town",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://ihcapetown.com",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "International House Cape Town language_school Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "International House Cape Town: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi International House Cape Town team,\n\nI build enrolment automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27716809508?text=Hello%20International%20House%20Cape%20Town%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-2688093370",
+      "source": "OpenStreetMap",
+      "title": "Live Real Estate — estate agent (Regent Road, Cape Town)",
+      "description": "Business in Cape Town. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.liverealestate.co.za. Phone: n/a.",
+      "email": "live@liverealestate.co.za",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.liverealestate.co.za",
+      "city": "Cape Town",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.liverealestate.co.za",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Live Real Estate estate_agent Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Live Real Estate: cutting manual intake and follow-up (48-hour pilot)",
+        "body": "Hi Live Real Estate team,\n\nI build deal pipeline automation for businesses in Cape Town — specifically, systems that cut manual intake and follow-up without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-296828",
-      "source": "n8n Community",
-      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
-      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
-      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
-      "postedAt": "2026-05-26T16:56:08.745Z",
-      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "id": "osm-node-2696432195",
+      "source": "OpenStreetMap",
+      "title": "Placecol Sea Point — beauty",
+      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://placecol.com/store/placecol-sea-point. Phone: +27 21 433 1890.",
+      "email": "seapoint@placecol.com",
+      "phone": "+27 21 433 1890",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://placecol.com/store/placecol-sea-point",
+      "city": "Cape Town",
+      "category": "beauty",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "Chatbots & voice"
+        "Booking automation",
+        "rebooking reminders"
       ],
+      "url": "http://placecol.com/store/placecol-sea-point",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Placecol Sea Point beauty Cape Town",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Booking automation",
+        "rebooking reminders"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 116,
-      "score": 55,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Placecol Sea Point: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Placecol Sea Point team,\n\nI build booking automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27214331890?text=Hello%20Placecol%20Sea%20Point%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4238633210",
+      "source": "OpenStreetMap",
+      "title": "The Diamond Works — jewelry (Christiaan Barnard Street, Cape Town)",
+      "description": "Business in Cape Town. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.thediamondworks.co.za. Phone: +27 21 425 1970.",
+      "email": "thediamondworks@tjd.co.za",
+      "phone": "+27 21 425 1970",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.thediamondworks.co.za",
+      "city": "Cape Town",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.thediamondworks.co.za",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "The Diamond Works jewelry Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "The Diamond Works: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi The Diamond Works team,\n\nI build clienteling automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27214251970?text=Hello%20The%20Diamond%20Works%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4349376695",
+      "source": "OpenStreetMap",
+      "title": "Dr. B.M. Sher — dentist (Ashstead Road)",
+      "description": "Business in Cape Town. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.mydentist.co.za. Phone: +27214344521.",
+      "email": "bryan@mydentist.co.za",
+      "phone": "+27214344521",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.mydentist.co.za",
+      "city": "Cape Town",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "http://www.mydentist.co.za",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Dr. B.M. Sher dentist Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dr. B.M. Sher: cutting missed calls and no-shows (48-hour pilot)",
+        "body": "Hi Dr. B.M. Sher team,\n\nI build lead capture & booking automation for businesses in Cape Town — specifically, systems that cut missed calls and no-shows without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/27214344521?text=Hello%20Dr.%20B.M.%20Sher%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4723921343",
+      "source": "OpenStreetMap",
+      "title": "Good Hope Studies — language school (Saint George's Mall, Cape Town)",
+      "description": "Business in Cape Town. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: n/a. Phone: n/a.",
+      "email": "mailbox@ghs.co.za",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Cape Town",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://www.openstreetmap.org/node/4723921343",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Good Hope Studies language_school Cape Town",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Good Hope Studies: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Good Hope Studies team,\n\nI build enrolment automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "rok-1137399",
-      "source": "RemoteOK",
-      "title": "AI agent engineer",
-      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others",
-      "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
-      "postedAt": "2026-09-16T12:44:27+00:00",
-      "raw": "AI agent engineer ai golang javascript typescript",
+      "id": "osm-node-8067683380",
+      "source": "OpenStreetMap",
+      "title": "The Treat — beauty",
+      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://thetreatbydany.co.za. Phone: n/a.",
+      "email": "info@thetreatbydany.co.za",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://thetreatbydany.co.za",
+      "city": "Cape Town",
+      "category": "beauty",
       "services": [
-        "AI agents",
-        "Dashboards & internal tools"
+        "Booking automation",
+        "rebooking reminders"
       ],
+      "url": "https://thetreatbydany.co.za",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "The Treat beauty Cape Town",
+      "_emailLead": true,
       "titleServices": [
-        "AI agents"
+        "Booking automation",
+        "rebooking reminders"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 3,
-      "score": 51,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"AI agent engineer\"",
-        "body": "Hi,\n\nSaw your post: \"AI agent engineer\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "The Treat: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi The Treat team,\n\nI build booking automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-307744",
-      "source": "n8n Community",
-      "title": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
-      "description": "Hi all — looking for an experienced automation developer to build out a multi-agent lead pipeline for a licensed life insurance business (NC/SC markets). Stack: n8n or similar, GoHighLevel (CRM/calendar/SMS), Twilio, Claude API for the conversational/AI-agent layer. What’s being built (phase 1): **•** Lead capture → speed-to-lead SMS response (sub-60-second target) → AI-driven qualifying conversation → calendar booking → CRM sync, all as connected agent workflows **•** State-based filtering logic (NC/SC only) **•** Conditional branching for qualified vs. nurture paths **•** Reminder/confirmation automation tied to booked appointments I have the full architecture and workflow logic already mapped out (agent roles, data flow, branching logic) — I need someone who can translate that into a working, production-ready build, not someone starting from a blank canvas. Ideal experience: **•** Production n8n or GHL workflow builds involving AI agent nodes (Claude or GPT), not just basic Zapier-style automations **•** Comfortable with conditional logic, webhook triggers, and CRM API integrations **•** Bonus: experience with real-time audio/transcription pipelines (a later phase involves live-",
-      "url": "https://community.n8n.io/t/seeking-n8n-ghl-automation-developer-insurance-lead-pipeline-ai-agents-ongoing/307744",
-      "postedAt": "2026-08-15T05:34:14.389Z",
-      "raw": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
+      "id": "osm-node-9489012098",
+      "source": "OpenStreetMap",
+      "title": "The Salvation Army Bonteheuwel Nursery School — childcare",
+      "description": "Business in Cape Town. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +27 66 582 6863.",
+      "email": "bonteheuwel.ecd@saf.salvationarmy.org",
+      "phone": "+27 66 582 6863",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Cape Town",
+      "category": "childcare",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "CRM automation"
+        "Enquiry automation",
+        "parent communication"
       ],
+      "url": "https://www.openstreetmap.org/node/9489012098",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "The Salvation Army Bonteheuwel Nursery School childcare Cape Town",
+      "_emailLead": true,
       "titleServices": [
-        "AI agents",
-        "Workflow automation"
+        "Enquiry automation",
+        "parent communication"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 35,
-      "score": 51,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Seeking n8n/GHL Automation Developer — Insura\"",
-        "body": "Hi,\n\nSaw your post: \"Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "The Salvation Army Bonteheuwel Nursery School: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi The Salvation Army Bonteheuwel Nursery School team,\n\nI build enquiry automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/27665826863?text=Hello%20The%20Salvation%20Army%20Bonteheuwel%20Nursery%20School%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-285442",
-      "source": "n8n Community",
-      "title": "[recruitment] 🥸Looking for long-term AI Agent / Automation collaborators",
-      "description": "Hi I’m currently building a partner network to support AI Agent and workflow automation needs coming from the China market. The demand is large and ongoing. Not all projects are highly complex or deeply technical. In reality, many of them are small-to-medium, practical, business-driven tasks that help clients save time, reduce manual work, organize information, and improve execution. I’m looking for reliable individuals or small teams who can take on these kinds of jobs on a long-term basis. What I value most: reliability delivery quality communication after-sales support long-term cooperation mindset Relevant areas include: AI agents workflow automation RPA lead management document / form processing FAQ / support workflows content summarization structured data extraction other practical automation tasks You do not need to be a big company. You do not need to over-market yourself. What matters is whether you can actually deliver and stay responsible after delivery. If you are interested, feel free to: leave your email send me a private message briefly introduce your strengths share past work, demos, or project experience There is no shortage of demand. What matters is finding trust",
-      "url": "https://community.n8n.io/t/recruitment-looking-for-long-term-ai-agent-automation-collaborators/285442",
-      "postedAt": "2026-04-07T12:21:28.921Z",
-      "raw": "[recruitment] 🥸Looking for long-term AI Agent / Automation collaborators",
+      "id": "osm-node-11813443382",
+      "source": "OpenStreetMap",
+      "title": "Yemenya Spa and Hair — beauty (Regent Road)",
+      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.yemaya.co.za/. Phone: +27 21 439 2266.",
+      "email": "info@yemaya.co.za",
+      "phone": "+27 21 439 2266",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.yemaya.co.za/",
+      "city": "Cape Town",
+      "category": "beauty",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "Data & scraping"
+        "Booking automation",
+        "rebooking reminders"
       ],
+      "url": "https://www.yemaya.co.za/",
+      "postedAt": "2026-09-19T10:17:21.295Z",
+      "raw": "Yemenya Spa and Hair beauty Cape Town",
+      "_emailLead": true,
       "titleServices": [
-        "AI agents"
+        "Booking automation",
+        "rebooking reminders"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 165,
-      "score": 51,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"[recruitment] 🥸Looking for long-term AI Agen\"",
-        "body": "Hi,\n\nSaw your post: \"[recruitment] 🥸Looking for long-term AI Agent / Automation collaborators\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Yemenya Spa and Hair: cutting repetitive manual work (48-hour pilot)",
+        "body": "Hi Yemenya Spa and Hair team,\n\nI build booking automation for businesses in Cape Town — specifically, systems that cut repetitive manual work without adding headcount.\n\nHow it works:\n1. A free 15-minute review of where your team loses time each week.\n2. If it makes sense, a fixed-price $350 pilot delivered in 48-72 hours.\n3. You keep it, or walk away — no retainer unless it's working.\n\nIf you'd like the review, just reply \"yes\" and I'll send two time slots.\n\nReserve the pilot directly: https://paypal.me/7900861\n\n— Issa Hakizimana — AI Automation Studio\nDubai, United Arab Emirates\n\nDon't want to hear from me? Reply \"stop\" and I'll remove you immediately — no hard feelings."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-314417",
-      "source": "n8n Community",
-      "title": "N8n Freelancer needed for workflow",
-      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
-      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
-      "postedAt": "2026-09-18T03:45:18.563Z",
-      "raw": "N8n Freelancer needed for workflow",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 1,
-      "score": 42,
-      "outreach": {
-        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
-        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-312281",
-      "source": "n8n Community",
-      "title": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
-      "description": "I’m Rami. I’m evaluating developers for a focused quote-preparation prototype for electrical parts distributors. This is the scoping and quotation stage. Development has not been commissioned yet. The scope: • Read customer quotation requests from one agreed format, initially a text-based PDF. • Extract product codes, descriptions, quantities and units. • Match items against a supplied catalogue and approved price list. • Flag uncertain matches for human review. • Export an Excel quotation draft. Prices must come from the approved data. Product substitutions require human approval. ERP integration, automatic email sending and a full dashboard are outside this phase. I’m looking for relevant experience with n8n, document extraction and Excel/CSV processing. Send a proposal covering: One relevant project you personally delivered, with a demo if available. Your proposed approach. Estimated fixed price and delivery time, with assumptions and exclusions. Ongoing software costs. Source code, workflow files and handover documentation included. The final scope and price will be agreed after reviewing sample files. Any engagement will begin with a separately agreed paid test and clear deliv",
-      "url": "https://community.n8n.io/t/seeking-estimates-n8n-developer-for-a-small-rfq-to-quote-prototype/312281",
-      "postedAt": "2026-09-10T00:05:41.994Z",
-      "raw": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
-      "services": [
-        "Workflow automation",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 9,
-      "score": 42,
-      "outreach": {
-        "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking estimates: n8n developer for a small RFQ-to-quote prototype\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-314188",
-      "source": "n8n Community",
-      "title": "Looking for 2-3 agencies running AI agents that do something you can't undo",
-      "description": "Short version: I built the policy layer I keep going on about in the agent safety threads. It works. What I don’t have is enough real client workflows to know where it breaks. So I’m looking for two or three agencies running AI agents in production for clients, where the agent does something irreversible — issues refunds, sends mail to your client’s customers, changes records, moves money. What you get: I do the integration myself. Not a docs link and good luck — I map your actions, write the policy set, and wire it in. Shadow mode first. One week where it logs what it would have blocked and changes nothing. If it would have blocked something stupid, you find out with nothing at stake. Full access, no limits, free for as long as this takes. And an audit trail you can put in front of a client, which is the part I’m least sure about and most want torn apart. What I want back: your real workflows, not a test one. Honest feedback including “this is wrong.” And twenty minutes at the end telling me what you’d change. What I don’t want: anyone who hasn’t got agents in production yet. Nothing against you — I just need the failures that only real traffic produces, and a test workflow won’t ",
-      "url": "https://community.n8n.io/t/looking-for-2-3-agencies-running-ai-agents-that-do-something-you-cant-undo/314188",
-      "postedAt": "2026-09-16T18:40:47.915Z",
-      "raw": "Looking for 2-3 agencies running AI agents that do something you can't undo",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [
-        "AI agents"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 3,
-      "score": 35,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for 2-3 agencies running AI agents th\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for 2-3 agencies running AI agents that do something you can't undo\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-280203",
-      "source": "n8n Community",
-      "title": "[Hiring] Expert to complete Automated YouTube News Workflow (n8n + OpenAI)",
-      "description": "Detailed Project Overview 1. Completed Work: Infrastructure: I have a self-hosted n8n environment running via Docker/Portainer ( gbn-automation stack) on a VPS. My instance is live and stable. Workflow Architecture: The core logic is already mapped out in n8n. I have placed the following nodes: Schedule Trigger , RSS Read , Limit , OpenAI (Message a Model) , and Google Sheets (Append Row) . Integrations: Basic credentials for Google Sheets and OpenAI have been initiated. 2. Assistance Needed: Data Mapping &amp; Connections: I am experiencing some UI/UX difficulties in connecting the RSS Read output to the Limit node and ensuring the data schema flows correctly into the OpenAI node. Prompt Engineering: I need help refining the OpenAI prompt to generate high-quality, YouTube-ready news summaries from the RSS descriptions. Data Formatting: Ensuring the output from the AI is correctly parsed into specific columns in Google Sheets (e.g., Date, Title, Summary, Source URL). Error Handling: Implementing “Wait” or “Error” nodes to ensure the workflow doesn’t break if an RSS feed is temporarily down or the AI API hits a limit. Future Expansion: Guidance on eventually connecting this to a vid",
-      "url": "https://community.n8n.io/t/hiring-expert-to-complete-automated-youtube-news-workflow-n8n-openai/280203",
-      "postedAt": "2026-03-23T06:28:39.743Z",
-      "raw": "[Hiring] Expert to complete Automated YouTube News Workflow (n8n + OpenAI)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 180,
-      "score": 27,
-      "outreach": {
-        "subject": "Quick idea for \"[Hiring] Expert to complete Automated YouTube\"",
-        "body": "Hi,\n\nSaw your post: \"[Hiring] Expert to complete Automated YouTube News Workflow (n8n + OpenAI)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-308576",
-      "source": "n8n Community",
-      "title": "Freelancer Required – n8n + AI Automation for Manufacturing",
-      "description": "We are looking for a freelancer / AI Automation Developer who has practical experience with n8n, AI tools, APIs, and workflow automation . We are starting with a small pilot project for manufacturing automation. If the first project goes well, there will be opportunities for regular project-based work. What We Need The freelancer should be comfortable with: n8n workflow creation AI/LLM API integration OpenAI / Gemini / Claude or similar AI APIs REST API &amp; Webhook integration API key / Access Token integration JSON and data processing Basic JavaScript/Python for custom workflow logic Error handling and workflow debugging Connecting different tools/services through n8n Manufacturing Use Case Our goal is to build AI-powered automation solutions for manufacturing businesses , such as: Automated reports Production data processing AI-based analysis Automated alerts/notifications Data collection and processing Document/report automation API-based system integrations Repetitive manual task automation Work Type We are open to both: 1. Project-Based Work Start with a small project and pay on a project basis. 2. Hourly Error Fixing / Support If an existing n8n workflow has an error or API",
-      "url": "https://community.n8n.io/t/freelancer-required-n8n-ai-automation-for-manufacturing/308576",
-      "postedAt": "2026-08-20T11:51:15.866Z",
-      "raw": "Freelancer Required – n8n + AI Automation for Manufacturing",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 30,
-      "score": 27,
-      "outreach": {
-        "subject": "Quick idea for \"Freelancer Required – n8n + AI Automation for\"",
-        "body": "Hi,\n\nSaw your post: \"Freelancer Required – n8n + AI Automation for Manufacturing\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/27214392266?text=Hello%20Yemenya%20Spa%20and%20Hair%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     }
   ]
 }
