@@ -1,0 +1,10 @@
+{
+  "domains": [
+    "mweb.co.za",
+    "itworkup.co.za",
+    "prometheus-systems.co.za",
+    "shawash.com",
+    "lawyer.com"
+  ],
+  "note": "hosts that returned 550 spam blocks"
+}

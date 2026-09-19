@@ -374,5 +374,9 @@
   "eyup14noluasm.com": {
     "ok": true,
     "at": "2026-09-19T07:37:29.190Z"
+  },
+  "example-clinic.com": {
+    "ok": false,
+    "at": "2026-09-19T11:06:48.412Z"
   }
 }

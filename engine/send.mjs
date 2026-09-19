@@ -15,7 +15,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { sendMail, smtpConfigured } from "./smtp.mjs";
-import { filterDeliverable } from "./validate.mjs";
+import { filterDeliverable, loadDomainBlock } from "./validate.mjs";
 import { loadLog, saveLog, dueFollowUps, followUp, MAX_STEP } from "./followup.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -39,33 +39,40 @@ async function saveJSON(path, value) {
 }
 
 export function buildEmail(lead, cfg = {}) {
-  const biz = lead.title.split(" — ")[0].trim();
-  const svc = (lead.services || ["AI automation"])[0];
-  const pain = /dentist|clinic|doctors/.test(lead.category || "")
+  const biz = lead.title.split(" — ")[0].trim().slice(0, 50);
+  const city = lead.city || "your city";
+  const cat = (lead.category || "").toLowerCase();
+
+  // NO links, NO prices, NO payment link in the first touch.
+  // Links and money are the two strongest spam triggers — and they also
+  // convert worse than a plain question, because they ask for money before trust.
+  const pain = /dentist|clinic|doctor|medical|hospital|pharmacy/.test(cat)
     ? "missed calls and no-shows"
-    : /estate|lawyer|accountant|insurance/.test(lead.category || "")
-      ? "manual intake and follow-up"
-      : "repetitive manual work";
-  const subject = `${biz}: cutting ${pain} (48-hour pilot)`;
+    : /real estate|lawyer|accountant|insurance|financial/.test(cat)
+      ? "enquiry follow-up that never happens"
+      : /hotel|restaurant|cafe|beauty|hairdresser|gym|spa/.test(cat)
+        ? "bookings and rebookings going cold"
+        : "manual work that eats the week";
+
+  const subject = `${biz} — quick question about ${pain}`;
+
   const body = [
     `Hi ${biz} team,`,
     ``,
-    `I build ${svc.toLowerCase()} for businesses in ${lead.city || "your city"} — specifically, systems that cut ${pain} without adding headcount.`,
+    `I work with ${cat || "local"} businesses in ${city} on one specific thing: ${pain}.`,
     ``,
-    `How it works:`,
-    `1. A free 15-minute review of where your team loses time each week.`,
-    `2. If it makes sense, a fixed-price $${PILOT} pilot delivered in 48-72 hours.`,
-    `3. You keep it, or walk away — no retainer unless it's working.`,
+    `Quick question — is that something your team handles manually right now, or have you already got a system for it?`,
     ``,
-    `If you'd like the review, just reply "yes" and I'll send two time slots.`,
+    `If it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.`,
     ``,
-    `Reserve the pilot directly: ${PAY_LINK}`,
+    `Either answer is genuinely useful.`,
     ``,
-    `— ${IDENTITY}`,
-    PHYSICAL,
+    `— Issa Hakizimana`,
+    `AI Automation Studio, Dubai`,
     ``,
-    `Don't want to hear from me? Reply "stop" and I'll remove you immediately — no hard feelings.`,
+    `Reply "stop" to be removed immediately.`,
   ].join("\n");
+
   return { subject, body };
 }
 
@@ -111,11 +118,21 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
   const contacted = await loadJSON(CONTACTED, []);
   const log = await loadLog();
   const optout = await loadJSON(OPTOUT, []);
-  const seen = new Set(contacted.map((c) => c.email));
+  const logSeen = (await loadLog()).map((e) => (e.email || "").toLowerCase());
+  const seen = new Set([...contacted.map((c) => (c.email || "").toLowerCase()), ...logSeen]);
   const blocked = new Set(optout.map((o) => String(o.email).toLowerCase()));
 
   // deliverability gate: syntax + placeholder blocklist + MX record check
-  const candidates = leads.filter((l) => l.email && !seen.has(l.email) && !blocked.has(l.email.toLowerCase()));
+  const domBlock = await loadDomainBlock();
+  const batchSeen = new Set();
+  const candidates = leads.filter((l) => {
+    const em = (l.email || "").toLowerCase();
+    if (!em || seen.has(em) || blocked.has(em) || batchSeen.has(em)) return false;   // never twice, ever
+    const dom = em.split("@")[1] || "";
+    if (domBlock.has(dom)) return false;            // hosts that spam-block us
+    batchSeen.add(em);
+    return true;
+  });
   const { kept, rejected } = await filterDeliverable(candidates);
   if (rejected.length) {
     console.log(`Delivery guard rejected ${rejected.length}: ` +

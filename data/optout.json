@@ -53,5 +53,75 @@
     "email": "info@azcreditlawyers.com",
     "reason": "bounced",
     "at": "2026-09-18T00:00:00Z"
+  },
+  {
+    "email": "kernot@mweb.co.za",
+    "reason": "blocked:550 high probability of spam",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "rvc@mweb.co.za",
+    "reason": "blocked:550 high probability of spam",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "info@prometheus-systems.co.za",
+    "reason": "blocked:550 high probability of spam",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "reason": "blocked:550 high probability of spam",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "elias@shawash.com",
+    "reason": "blocked",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "hello@shinyrockpolished.com",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "info@vetmemorial.com.tr",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "njammutafa@yahoo.com",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "info@gatetattoo.com",
+    "reason": "domain not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "info@khodrjewelry.com",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "little_steps_amman@hotmail.com",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "alkhorri@lawyer.com",
+    "reason": "not found",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "info@ihd.ae",
+    "reason": "delivery incomplete",
+    "at": "2026-09-18T18:00:00Z"
+  },
+  {
+    "email": "sanyaistanbul@gmail.com",
+    "reason": "inbox full",
+    "at": "2026-09-18T18:00:00Z"
   }
 ]

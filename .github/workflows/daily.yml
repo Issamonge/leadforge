@@ -22,7 +22,7 @@ jobs:
           PAYOUT_GOAL: '500'
           PILOT_PRICE: '350'
           SEND_OUTREACH: 'true'
-          DAILY_SEND_CAP: '25'
+          DAILY_SEND_CAP: '10'
           TARGET_CITIES: 'auto'
           CITY_BATCH: '4'
           SMTP_USER: ${{ secrets.SMTP_USER }}

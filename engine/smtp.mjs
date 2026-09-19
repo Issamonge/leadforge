@@ -87,6 +87,9 @@ export async function sendMail({ to, subject, text, from, replyTo }) {
       `Subject: ${subject}`,
       `Date: ${new Date().toUTCString()}`,
       `Message-ID: <${Date.now()}.${Math.random().toString(36).slice(2)}@${host}>`,
+      // Mandatory for Gmail/Yahoo bulk senders since Feb 2024 — absence is a spam signal
+      `List-Unsubscribe: <mailto:${replyTo || sender.match(/<(.+)>/)?.[1] || sender}?subject=unsubscribe>`,
+      "List-Unsubscribe-Post: List-Unsubscribe=One-Click",
       "MIME-Version: 1.0",
       'Content-Type: text/plain; charset="UTF-8"',
       "Content-Transfer-Encoding: 8bit",

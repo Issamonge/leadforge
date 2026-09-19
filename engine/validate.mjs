@@ -71,3 +71,11 @@ export async function filterDeliverable(leads, { checkMx = true } = {}) {
   await saveCache(cache);
   return { kept, rejected };
 }
+
+/** Domains that actively reject us (550 spam blocks, dead hosts). */
+export async function loadDomainBlock() {
+  try {
+    const j = JSON.parse(await readFile(resolve(ROOT, "data/domain-block.json"), "utf8"));
+    return new Set((j.domains || []).map((d) => d.toLowerCase()));
+  } catch { return new Set(); }
+}
