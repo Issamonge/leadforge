@@ -1,10 +1,10 @@
 {
-  "offset": 12,
-  "lastRun": "2026-09-18T21:19:10.821Z",
+  "offset": 16,
+  "lastRun": "2026-09-19T07:35:26.110Z",
   "lastBatch": [
-    "Manama",
-    "Amman",
-    "Beirut",
-    "Cairo"
+    "Istanbul",
+    "Nairobi",
+    "Lagos",
+    "Accra"
   ]
 }
