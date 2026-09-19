@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-09-19T21:10:48.432Z",
+    "text": "*LEAD MACHINE* — 20/09/2026, 01:10:48\n\nScanned 423 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-09-19T17:37:33.970Z",
     "text": "*Lead Machine* — 9/19/2026, 5:37:33 PM\n\nScanned 213 · qualified *45*\nListed pipeline: $1,500\n\n*HOT — needs your closing:*\n1. [70] [ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\n   n8n Community\n   https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555\n2. [68] [HIRING] N8N AI Automation Developer (Remote)\n   n8n Community · $1,500\n   https://community.n8n.io/t/hiring-n8n-ai-automation-developer-remote/298577\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
     "kind": "new_leads",
