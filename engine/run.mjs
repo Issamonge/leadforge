@@ -22,7 +22,10 @@ import { fromOsmBusinesses, nextCityBatch } from "./sources/osm.mjs";
 import { fromGooglePlaces } from "./sources/places.mjs";
 import { enrichEmails } from "./sources/webemail.mjs";
 import { annotateWhatsApp } from "./whatsapp.mjs";
-import { sendOutreach, buildEmail } from "./send.mjs";
+import { sendOutreach, sendFollowUps, buildEmail } from "./send.mjs";
+import { fetchRecentHeaders, extractAddress, imapConfigured } from "./imap.mjs";
+import { loadLog, saveLog } from "./followup.mjs";
+import { sendingAllowed, recordSends, recordBounces } from "./health.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -383,21 +386,85 @@ async function main() {
     console.log(`WhatsApp: ${wa.waCapable} of ${wa.total} leads have a mobile number`);
   } catch (e) { console.error(`WhatsApp annotate failed: ${e.message}`); }
 
-  // ---- outbound sending (only to leads with a real published email) ----
+  // ---- 1. REPLY DETECTION (run first: never follow up someone who answered) ----
+  const log = await loadLog();
+  const known = new Map(log.map((e) => [e.email.toLowerCase(), e]));
+  if (CONFIG.sendOutreach && imapConfigured() && known.size) {
+    try {
+      const inbox = await fetchRecentHeaders({ days: 21 });
+      if (inbox.ok) {
+        let newReplies = 0;
+        for (const m of inbox.messages) {
+          const addr = extractAddress(m.from);
+          const entry = known.get(addr);
+          if (entry && !entry.repliedAt) {
+            entry.repliedAt = new Date().toISOString();
+            entry.replySubject = String(m.subject).slice(0, 120);
+            newReplies++;
+            await alertWhatsApp(
+              `*Lead Machine — REPLY RECEIVED*\n\n${entry.business}\n${addr}\nSubject: ${entry.replySubject}\n\n👉 Answer within the hour — this is where the $350 is won.`,
+              { kind: "reply", email: addr }
+            ).catch(() => {});
+          }
+        }
+        if (newReplies) { await saveLog(log); console.log(`Replies detected: ${newReplies}`); }
+        payload.stats.replies = log.filter((e) => e.repliedAt).length;
+        console.log(`Reply scan: ${inbox.messages.length} messages, ${newReplies} new replies, ${payload.stats.replies} total`);
+      } else {
+        console.log(`Reply scan skipped: ${inbox.reason}`);
+      }
+    } catch (e) { console.error(`Reply detection failed: ${e.message}`); }
+  }
+
+  // ---- 2. DELIVERABILITY GUARD ----
+  const guard = await sendingAllowed();
+  payload.stats.bounceRate = Math.round(guard.rate * 1000) / 10;
+  if (!guard.allowed) console.error(`SENDING PAUSED: ${guard.reason}`);
+
+  // ---- 3. OUTBOUND SENDING (only to leads with a real published email) ----
   const emailLeads = qualified.filter((l) => l.email);
   payload.stats.emailLeads = emailLeads.length;
-  if (CONFIG.sendOutreach && emailLeads.length) {
+  if (CONFIG.sendOutreach && emailLeads.length && guard.allowed) {
     try {
       const r = await sendOutreach(emailLeads, { cap: CONFIG.sendCap });
       payload.stats.sent = r.sent;
       payload.stats.sendSkipped = r.skipped || 0;
-      console.log(`Outreach: sent ${r.sent}/${r.attempted || emailLeads.length}${r.reason ? " (" + r.reason + ")" : ""}`);
+      payload.stats.guardRejected = r.rejected || 0;
+      if (r.sent) await recordSends(new Array(r.sent).fill(0));
+      console.log(`Outreach: sent ${r.sent}/${r.targets || emailLeads.length}` +
+        `${r.rejected ? `, blocklisted ${r.rejected}` : ""}${r.reason ? " (" + r.reason + ")" : ""}`);
     } catch (e) {
       console.error(`Outreach failed: ${e.message}`);
     }
+  } else if (emailLeads.length && !guard.allowed) {
+    console.log("Outreach: skipped — account protection is active");
   } else if (emailLeads.length) {
-    console.log(`Outreach: ${emailLeads.length} email leads ready (set SEND_OUTREACH=true + RESEND_API_KEY to send)`);
+    console.log(`Outreach: ${emailLeads.length} email leads ready (set SEND_OUTREACH=true to send)`);
   }
+
+  // ---- 4. FOLLOW-UP SEQUENCE (+3d / +7d / +14d) ----
+  if (CONFIG.sendOutreach && guard.allowed) {
+    try {
+      const f = await sendFollowUps({ limit: CONFIG.sendCap });
+      payload.stats.followupsSent = f.sent;
+      if (f.due) console.log(`Follow-ups: sent ${f.sent}/${f.due} due`);
+      else console.log("Follow-ups: none due this run");
+    } catch (e) { console.error(`Follow-ups failed: ${e.message}`); }
+  }
+
+  // ---- 5. NICHE PERFORMANCE (learns what actually sells) ----
+  const byNiche = {};
+  for (const e of log) {
+    const k = e.niche || "general";
+    byNiche[k] = byNiche[k] || { sent: 0, replied: 0 };
+    byNiche[k].sent++;
+    if (e.repliedAt) byNiche[k].replied++;
+  }
+  payload.stats.byNiche = Object.fromEntries(
+    Object.entries(byNiche)
+      .map(([k, v]) => [k, { ...v, rate: v.sent ? Math.round((v.replied / v.sent) * 1000) / 10 : 0 }])
+      .sort((a, b) => b[1].replied - a[1].replied)
+  );
 
   await writeFile(OUT_FILE, JSON.stringify(payload, null, 2), "utf8");
 

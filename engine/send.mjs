@@ -16,6 +16,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { sendMail, smtpConfigured } from "./smtp.mjs";
 import { filterDeliverable } from "./validate.mjs";
+import { loadLog, saveLog, dueFollowUps, followUp, MAX_STEP } from "./followup.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CONTACTED = resolve(ROOT, "data/contacted.json");
@@ -108,6 +109,7 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
   const t = transport();
   const limit = Math.min(cap || CAP, CAP);
   const contacted = await loadJSON(CONTACTED, []);
+  const log = await loadLog();
   const optout = await loadJSON(OPTOUT, []);
   const seen = new Set(contacted.map((c) => c.email));
   const blocked = new Set(optout.map((o) => String(o.email).toLowerCase()));
@@ -133,10 +135,48 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
     results.push({ email: l.email, ...r });
     if (r.ok) {
       contacted.push({ email: l.email, at: new Date().toISOString(), business: l.title.slice(0, 80), status: "sent" });
+      log.push({
+        email: l.email,
+        business: l.title.slice(0, 80),
+        niche: l.category || (l.services || [])[0] || "general",
+        city: l.city || "",
+        service: (l.services || [])[0] || "automation",
+        sentAt: new Date().toISOString(),
+        lastSentAt: new Date().toISOString(),
+        step: 0,
+      });
     }
     await new Promise((res) => setTimeout(res, 350)); // gentle pacing
   }
-  if (!dryRun) await saveJSON(CONTACTED, contacted);
+  if (!dryRun) { await saveJSON(CONTACTED, contacted); await saveLog(log); }
   const sent = results.filter((r) => r.ok).length;
   return { sent, failed: results.filter((r) => r.ok === false).length, attempted: results.length, targets: targets.length, rejected: rejected.length, cap: limit, results };
+}
+
+
+/** Send all follow-ups that are due. Returns {sent, steps, results}. */
+export async function sendFollowUps({ dryRun = false, limit = 25 } = {}) {
+  const t = transport();
+  if (!t && !dryRun) return { sent: 0, due: 0, reason: "no transport configured" };
+  const log = await loadLog();
+  const due = dueFollowUps(log).slice(0, limit);
+  if (!due.length) return { sent: 0, due: 0 };
+
+  const contacted = await loadJSON(CONTACTED, []);
+  const results = [];
+  for (const entry of due) {
+    const nextStep = entry.step + 1;
+    const { subject, body } = followUp(nextStep, entry);
+    if (dryRun) { results.push({ email: entry.email, step: nextStep, dryRun: true }); continue; }
+    const r = await t.send({ to: entry.email, subject, text: body });
+    results.push({ email: entry.email, step: nextStep, ok: r.ok });
+    if (r.ok) {
+      entry.step = nextStep;
+      entry.lastSentAt = new Date().toISOString();
+      contacted.push({ email: entry.email, at: entry.lastSentAt, business: entry.business, status: "followup_" + nextStep });
+    }
+    await new Promise((res) => setTimeout(res, 350));
+  }
+  if (!dryRun) { await saveLog(log); await saveJSON(CONTACTED, contacted); }
+  return { sent: results.filter((r) => r.ok).length, due: due.length, results };
 }
