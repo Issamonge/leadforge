@@ -25,7 +25,8 @@ import { annotateWhatsApp } from "./whatsapp.mjs";
 import { sendOutreach, sendFollowUps, buildEmail } from "./send.mjs";
 import { fetchRecentHeaders, extractAddress, imapConfigured } from "./imap.mjs";
 import { loadLog, saveLog } from "./followup.mjs";
-import { sendingAllowed, recordSends, recordBounces } from "./health.mjs";
+import { sendingAllowed, recordSends } from "./health.mjs";
+import { processBounces } from "./bounce.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -414,6 +415,21 @@ async function main() {
         console.log(`Reply scan skipped: ${inbox.reason}`);
       }
     } catch (e) { console.error(`Reply detection failed: ${e.message}`); }
+  }
+
+  // ---- 1b. BOUNCE PROCESSING (auto-suppress + auto-block spam hosts) ----
+  if (CONFIG.sendOutreach && imapConfigured()) {
+    try {
+      const b = await processBounces({ days: 5 });
+      if (b.ok) {
+        payload.stats.newSuppressed = b.suppressed.length;
+        if (b.suppressed.length || b.newDomains.length) {
+          console.log(`Bounces processed: ${b.suppressed.length} suppressed, ${b.newDomains.length} domains blocked`);
+        } else {
+          console.log(`Bounces processed: nothing new (${b.scanned} messages scanned)`);
+        }
+      }
+    } catch (e) { console.error(`Bounce processing failed: ${e.message}`); }
   }
 
   // ---- 2. DELIVERABILITY GUARD ----

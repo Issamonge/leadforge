@@ -4,7 +4,8 @@
     "itworkup.co.za",
     "prometheus-systems.co.za",
     "shawash.com",
-    "lawyer.com"
+    "lawyer.com",
+    "chandranipearls.net"
   ],
-  "note": "hosts that returned 550 spam blocks"
+  "note": "auto-added: hosts that spam-blocked us"
 }

@@ -64,9 +64,11 @@ export async function fetchRecentHeaders({ days = 14 } = {}) {
     await send(`LOGIN ${q(user)} ${q(pass)}`);
     await send(`SELECT "INBOX"`);
 
-    const since = new Date(Date.now() - days * 86400000)
-      .toLocaleDateString("en-GB", { day: "2-digit", month: "short", year: "numeric" })
-      .replace(/ /g, "-");                                   // e.g. 05-Sep-2026
+    // IMAP requires exactly 3-letter month codes. Node's en-GB locale returns
+    // "Sept" for September, which silently breaks every search. Format manually.
+    const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    const d0 = new Date(Date.now() - days * 86400000);
+    const since = `${String(d0.getDate()).padStart(2, "0")}-${MON[d0.getMonth()]}-${d0.getFullYear()}`;
     const search = await send(`UID SEARCH SINCE ${since}`);
     const uids = (search.match(/\* SEARCH ([0-9 ]*)/) || [])[1]?.trim().split(/\s+/).filter(Boolean) || [];
     if (!uids.length) { await send("LOGOUT"); sock.destroy(); return { ok: true, messages: [] }; }
@@ -76,13 +78,13 @@ export async function fetchRecentHeaders({ days = 14 } = {}) {
     const batch = uids.slice(-120);
     for (let i = 0; i < batch.length; i += 40) {
       const set = batch.slice(i, i + 40).join(",");
-      const res = await send(`UID FETCH ${set} (BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])`);
+      const res = await send(`UID FETCH ${set} (BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)] BODY.PEEK[TEXT]<0.3000>)`);
       for (const block of res.split(/\* \d+ FETCH/).slice(1)) {
         const from = (block.match(/^From:\s*(.+)$/mi) || [])[1]?.trim() || "";
         const subject = (block.match(/^Subject:\s*(.+)$/mi) || [])[1]?.trim() || "";
         const date = (block.match(/^Date:\s*(.+)$/mi) || [])[1]?.trim() || "";
         const uid = (block.match(/UID (\d+)/) || [])[1] || "";
-        if (from) messages.push({ from, subject, date, uid });
+        if (from) messages.push({ from, subject, date, uid, body: block.slice(0, 3000) });
       }
     }
     await send("LOGOUT").catch(() => {});
