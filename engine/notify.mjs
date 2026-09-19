@@ -80,26 +80,47 @@ export async function alertPhoneCall(text) {
   } catch (e) { return { sent: false, reason: e.message }; }
 }
 
-/** Compose + send the "new customers found" digest alert. */
+/** Compose + send the "new customers found" alert — with TAPPABLE chat links. */
 export async function alertNewLeads(leads, stats) {
-  const hot = leads.filter((l) => l.score >= 65);
+  // rank: WhatsApp-ready first, then by score
+  const ranked = [...leads].sort((a, b) => {
+    if (!!b.waLink !== !!a.waLink) return (b.waLink ? 1 : 0) - (a.waLink ? 1 : 0);
+    return b.score - a.score;
+  });
+  const wa = ranked.filter((l) => l.waLink);
+  const hot = ranked.filter((l) => l.score >= 65);
+
   const lines = [
-    `*Lead Machine* — ${new Date().toLocaleString()}`,
+    `*LEAD MACHINE* — ${new Date().toLocaleString("en-GB", { timeZone: "Asia/Dubai" })}`,
     ``,
     `Scanned ${stats.totalScanned} · qualified *${leads.length}*`,
-    `Listed pipeline: ${money(stats.pipelineValue)}`,
+    `Tap-to-chat: *${wa.length}* · Mobile numbers: ${stats.whatsappCapable || wa.length}`,
     ``,
   ];
-  if (hot.length) {
-    lines.push(`*HOT — needs your closing:*`);
-    hot.slice(0, 4).forEach((l, i) => {
-      lines.push(`${i + 1}. [${l.score}] ${l.title.slice(0, 80)}`);
-      lines.push(`   ${l.source}${l.budget ? " · " + money(l.budget) : ""}`);
-      lines.push(`   ${l.url}`);
+
+  if (wa.length) {
+    lines.push(`*TAP TO CHAT NOW (WhatsApp):*`);
+    wa.slice(0, 5).forEach((l, i) => {
+      lines.push(`${i + 1}. ${l.title.split(" — ")[0].slice(0, 40)}`);
+      lines.push(`   ${l.phone}`);
+      lines.push(`   ${l.waLink}`);        // <- tappable link, opens the chat
+      lines.push(``);
     });
   } else {
-    lines.push(`Top lead: ${leads[0] ? leads[0].title.slice(0, 90) : "none"}`);
+    lines.push(`_No mobile numbers in this batch — email-only run._`);
+    lines.push(``);
   }
-  lines.push(``, `Reply "1" to log a contact, "2" to see all leads.`);
-  return alertWhatsApp(lines.join("\n"), { kind: "new_leads", count: leads.length, hot: hot.length });
+
+  if (hot.length) {
+    lines.push(`*HOT LEADS (needs your closing):*`);
+    hot.slice(0, 3).forEach((l) => {
+      lines.push(`• [${l.score}] ${l.title.split(" — ")[0].slice(0, 42)}`);
+      if (l.email) lines.push(`   ${l.email}`);
+      lines.push(`   ${l.url}`);
+    });
+    lines.push(``);
+  }
+
+  lines.push(`_Open the dashboard for the full list._`);
+  return alertWhatsApp(lines.join("\n"), { kind: "new_leads", count: leads.length, tapToChat: wa.length, hot: hot.length });
 }

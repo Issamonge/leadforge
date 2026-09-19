@@ -41,6 +41,30 @@ export async function nextCityBatch(batchSize = 4) {
   return batch;
 }
 
+/** IANA timezone per city — used so we never pitch a business at 3am. */
+export const TZ_OF = {
+  Dubai:"Asia/Dubai", Sharjah:"Asia/Dubai", "Abu Dhabi":"Asia/Dubai",
+  Riyadh:"Asia/Riyadh", Jeddah:"Asia/Riyadh", Doha:"Asia/Qatar",
+  "Kuwait City":"Asia/Kuwait", Muscat:"Asia/Muscat", Manama:"Asia/Bahrain",
+  Amman:"Asia/Amman", Beirut:"Asia/Beirut", Cairo:"Africa/Cairo", Istanbul:"Europe/Istanbul",
+  Nairobi:"Africa/Nairobi", Lagos:"Africa/Lagos", Accra:"Africa/Accra",
+  Johannesburg:"Africa/Johannesburg", "Cape Town":"Africa/Johannesburg", Casablanca:"Africa/Casablanca",
+  Mumbai:"Asia/Kolkata", Delhi:"Asia/Kolkata", Bangalore:"Asia/Kolkata", Karachi:"Asia/Karachi",
+  Singapore:"Asia/Singapore", "Kuala Lumpur":"Asia/Kuala_Lumpur", Bangkok:"Asia/Bangkok",
+  Jakarta:"Asia/Jakarta", Manila:"Asia/Manila", "Hong Kong":"Asia/Hong_Kong",
+  Tokyo:"Asia/Tokyo", Seoul:"Asia/Seoul",
+  London:"Europe/London", Manchester:"Europe/London", Birmingham:"Europe/London", Dublin:"Europe/Dublin",
+  Paris:"Europe/Paris", Berlin:"Europe/Berlin", Amsterdam:"Europe/Amsterdam", Madrid:"Europe/Madrid",
+  Barcelona:"Europe/Madrid", Rome:"Europe/Rome", Milan:"Europe/Rome", Lisbon:"Europe/Lisbon",
+  Vienna:"Europe/Vienna", Zurich:"Europe/Zurich", Stockholm:"Europe/Stockholm",
+  Warsaw:"Europe/Warsaw", Prague:"Europe/Prague",
+  Toronto:"America/Toronto", Vancouver:"America/Vancouver", Montreal:"America/Toronto",
+  "New York":"America/New_York", Chicago:"America/Chicago", "Los Angeles":"America/Los_Angeles",
+  "San Francisco":"America/Los_Angeles", Seattle:"America/Los_Angeles", Miami:"America/New_York",
+  Houston:"America/Chicago", Austin:"America/Chicago",
+  Sydney:"Australia/Sydney", Melbourne:"Australia/Melbourne", Auckland:"Pacific/Auckland",
+};
+
 export const CITIES = {
   // Gulf / Middle East
   Dubai: [24.90, 55.00, 25.40, 55.50],
@@ -250,6 +274,7 @@ export async function fromOsmBusinesses({ cities = ["Dubai", "London", "New York
         hasMobile: !!mobile,
         website: t.website || t["contact:website"] || "",
         city,
+        tz: TZ_OF[city] || "",
         category: cat,
         services,
         url: t.website || t["contact:website"] || `https://www.openstreetmap.org/${el.type}/${el.id}`,

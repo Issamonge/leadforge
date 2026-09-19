@@ -17,6 +17,7 @@ import { fileURLToPath } from "node:url";
 import { sendMail, smtpConfigured } from "./smtp.mjs";
 import { filterDeliverable, loadDomainBlock } from "./validate.mjs";
 import { loadLog, saveLog, dueFollowUps, followUp, MAX_STEP } from "./followup.mjs";
+import { isBusinessHours } from "./clock.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const CONTACTED = resolve(ROOT, "data/contacted.json");
@@ -130,6 +131,7 @@ export async function sendOutreach(leads, { dryRun = false, cap } = {}) {
     if (!em || seen.has(em) || blocked.has(em) || batchSeen.has(em)) return false;   // never twice, ever
     const dom = em.split("@")[1] || "";
     if (domBlock.has(dom)) return false;            // hosts that spam-block us
+    if (typeof l.tz === "string" && !isBusinessHours(l.tz)) return false;   // not their night
     batchSeen.add(em);
     return true;
   });
