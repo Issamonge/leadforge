@@ -448,5 +448,105 @@
     "sentAt": "2026-09-19T14:04:12.344Z",
     "lastSentAt": "2026-09-19T14:04:12.344Z",
     "step": 0
+  },
+  {
+    "email": "koushin-eifuku@joy.hi-ho.ne.jp",
+    "business": "光進電機 — electronics",
+    "niche": "electronics",
+    "city": "Tokyo",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T17:37:52.087Z",
+    "lastSentAt": "2026-09-19T17:37:52.087Z",
+    "step": 0
+  },
+  {
+    "email": "info.taulli@reframe1001.com",
+    "business": "Taulli Acupuncture & Massage — clinic (渋谷区)",
+    "niche": "clinic",
+    "city": "Tokyo",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-19T17:37:53.724Z",
+    "lastSentAt": "2026-09-19T17:37:53.724Z",
+    "step": 0
+  },
+  {
+    "email": "info@sakura-house.com",
+    "business": "Sakura House Lounge — estate agent (新宿区)",
+    "niche": "estate_agent",
+    "city": "Tokyo",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-19T17:37:55.341Z",
+    "lastSentAt": "2026-09-19T17:37:55.341Z",
+    "step": 0
+  },
+  {
+    "email": "ec-staff@raku-den.net",
+    "business": "ラクデン — electronics (豊島区)",
+    "niche": "electronics",
+    "city": "Tokyo",
+    "service": "Lead automation",
+    "sentAt": "2026-09-19T17:37:56.962Z",
+    "lastSentAt": "2026-09-19T17:37:56.962Z",
+    "step": 0
+  },
+  {
+    "email": "ueno@heya-ichiba.jp",
+    "business": "部屋市場 — estate agent",
+    "niche": "estate_agent",
+    "city": "Tokyo",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-19T17:37:58.582Z",
+    "lastSentAt": "2026-09-19T17:37:58.582Z",
+    "step": 0
+  },
+  {
+    "email": "info@steadiness-law.jp",
+    "business": "法律事務所Steadiness — lawyer (港区)",
+    "niche": "lawyer",
+    "city": "Tokyo",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-19T17:38:00.232Z",
+    "lastSentAt": "2026-09-19T17:38:00.232Z",
+    "step": 0
+  },
+  {
+    "email": "japan@tesla.com",
+    "business": "テスラ - 東京 - 板橋 — car",
+    "niche": "car",
+    "city": "Tokyo",
+    "service": "Lead follow-up automation",
+    "sentAt": "2026-09-19T17:38:01.933Z",
+    "lastSentAt": "2026-09-19T17:38:01.933Z",
+    "step": 0
+  },
+  {
+    "email": "info@rodin-dental.jp",
+    "business": "Rodin Dental Office Tokyo — dentist (港区)",
+    "niche": "dentist",
+    "city": "Tokyo",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-19T17:38:03.726Z",
+    "lastSentAt": "2026-09-19T17:38:03.726Z",
+    "step": 0
+  },
+  {
+    "email": "tokyo@genkijacs.com",
+    "business": "Genki Japanese & Culture School — language school (新宿区)",
+    "niche": "language_school",
+    "city": "Tokyo",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-19T17:38:05.465Z",
+    "lastSentAt": "2026-09-19T17:38:05.465Z",
+    "step": 0
+  },
+  {
+    "email": "wu@nishi-tokyo-jls.com",
+    "business": "芝浦ジャパニーズスクール/東新宿 — language school",
+    "niche": "language_school",
+    "city": "Tokyo",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-19T17:38:07.290Z",
+    "lastSentAt": "2026-09-19T17:38:07.290Z",
+    "step": 0
   }
 ]

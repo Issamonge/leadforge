@@ -128,5 +128,15 @@
     "email": "lajpatnagar@chandranipearls.net",
     "reason": "bounced: spam block",
     "at": "2026-09-19T11:31:13.562Z"
+  },
+  {
+    "email": "sales@davidbirkett.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-19T17:37:44.120Z"
+  },
+  {
+    "email": "info@ukbeautysupplier.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-19T17:37:44.120Z"
   }
 ]
