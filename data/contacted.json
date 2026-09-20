@@ -1306,5 +1306,65 @@
     "at": "2026-09-20T07:59:55.440Z",
     "business": "Saturn — electronics",
     "status": "sent"
+  },
+  {
+    "email": "lumiar@cslumiar.min-saude.pt",
+    "at": "2026-09-20T14:25:50.330Z",
+    "business": "Unidade de Cuidados de Saúde Personalizados do Lumiar — clinic (Alameda das Linh",
+    "status": "sent"
+  },
+  {
+    "email": "mm.benfica@mediamarkt.pt",
+    "at": "2026-09-20T14:25:51.302Z",
+    "business": "Media Market — electronics (Avenida General Norton de Matos, Lisboa)",
+    "status": "sent"
+  },
+  {
+    "email": "ucsp.ajuda@arslvt.min-saude.pt",
+    "at": "2026-09-20T14:25:52.336Z",
+    "business": "Local business — clinic",
+    "status": "sent"
+  },
+  {
+    "email": "aurumalmada@era.pt",
+    "at": "2026-09-20T14:25:53.438Z",
+    "business": "ERA Imobiliária — estate agent (Praça do Movimento das Forças Armadas, Almada)",
+    "status": "sent"
+  },
+  {
+    "email": "ucsp.moscavide@cssacavem.min-saude.pt",
+    "at": "2026-09-20T14:25:54.656Z",
+    "business": "CATUS - Centro de Saúde de Moscavide — clinic (Rua Doutor João Gomes Patacão, Mo",
+    "status": "sent"
+  },
+  {
+    "email": "clinicameficasaojoao@gmail.com",
+    "at": "2026-09-20T14:25:56.062Z",
+    "business": "Clínica Médica de São João — clinic",
+    "status": "sent"
+  },
+  {
+    "email": "clinvetarroios@sapo.pt",
+    "at": "2026-09-20T14:25:57.556Z",
+    "business": "Clínica Veterinária de Arroios — veterinary (Rua de Arroios, Lisboa)",
+    "status": "sent"
+  },
+  {
+    "email": "cvberna@onevetgroup.pt",
+    "at": "2026-09-20T14:25:59.131Z",
+    "business": "Centro Veterinário Berna — veterinary (Avenida de Berna, Lisboa)",
+    "status": "sent"
+  },
+  {
+    "email": "geral@clinicacautela.com",
+    "at": "2026-09-20T14:26:00.277Z",
+    "business": "Clínica Cautela — dentist (Avenida Conde Valbom, Lisboa)",
+    "status": "sent"
+  },
+  {
+    "email": "castilnails@gmail.com",
+    "at": "2026-09-20T14:26:01.223Z",
+    "business": "Castil Beauty — beauty (Rua Castilho)",
+    "status": "sent"
   }
 ]

@@ -648,5 +648,105 @@
     "sentAt": "2026-09-20T07:59:55.440Z",
     "lastSentAt": "2026-09-20T07:59:55.440Z",
     "step": 0
+  },
+  {
+    "email": "lumiar@cslumiar.min-saude.pt",
+    "business": "Unidade de Cuidados de Saúde Personalizados do Lumiar — clinic (Alameda das Linh",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:50.330Z",
+    "lastSentAt": "2026-09-20T14:25:50.330Z",
+    "step": 0
+  },
+  {
+    "email": "mm.benfica@mediamarkt.pt",
+    "business": "Media Market — electronics (Avenida General Norton de Matos, Lisboa)",
+    "niche": "electronics",
+    "city": "Lisbon",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T14:25:51.302Z",
+    "lastSentAt": "2026-09-20T14:25:51.302Z",
+    "step": 0
+  },
+  {
+    "email": "ucsp.ajuda@arslvt.min-saude.pt",
+    "business": "Local business — clinic",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:52.336Z",
+    "lastSentAt": "2026-09-20T14:25:52.336Z",
+    "step": 0
+  },
+  {
+    "email": "aurumalmada@era.pt",
+    "business": "ERA Imobiliária — estate agent (Praça do Movimento das Forças Armadas, Almada)",
+    "niche": "estate_agent",
+    "city": "Lisbon",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-20T14:25:53.438Z",
+    "lastSentAt": "2026-09-20T14:25:53.438Z",
+    "step": 0
+  },
+  {
+    "email": "ucsp.moscavide@cssacavem.min-saude.pt",
+    "business": "CATUS - Centro de Saúde de Moscavide — clinic (Rua Doutor João Gomes Patacão, Mo",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:54.656Z",
+    "lastSentAt": "2026-09-20T14:25:54.656Z",
+    "step": 0
+  },
+  {
+    "email": "clinicameficasaojoao@gmail.com",
+    "business": "Clínica Médica de São João — clinic",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:56.062Z",
+    "lastSentAt": "2026-09-20T14:25:56.062Z",
+    "step": 0
+  },
+  {
+    "email": "clinvetarroios@sapo.pt",
+    "business": "Clínica Veterinária de Arroios — veterinary (Rua de Arroios, Lisboa)",
+    "niche": "veterinary",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:25:57.556Z",
+    "lastSentAt": "2026-09-20T14:25:57.556Z",
+    "step": 0
+  },
+  {
+    "email": "cvberna@onevetgroup.pt",
+    "business": "Centro Veterinário Berna — veterinary (Avenida de Berna, Lisboa)",
+    "niche": "veterinary",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:25:59.131Z",
+    "lastSentAt": "2026-09-20T14:25:59.131Z",
+    "step": 0
+  },
+  {
+    "email": "geral@clinicacautela.com",
+    "business": "Clínica Cautela — dentist (Avenida Conde Valbom, Lisboa)",
+    "niche": "dentist",
+    "city": "Lisbon",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T14:26:00.277Z",
+    "lastSentAt": "2026-09-20T14:26:00.277Z",
+    "step": 0
+  },
+  {
+    "email": "castilnails@gmail.com",
+    "business": "Castil Beauty — beauty (Rua Castilho)",
+    "niche": "beauty",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:26:01.223Z",
+    "lastSentAt": "2026-09-20T14:26:01.223Z",
+    "step": 0
   }
 ]
