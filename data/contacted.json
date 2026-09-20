@@ -1246,5 +1246,65 @@
     "at": "2026-09-19T17:38:07.290Z",
     "business": "芝浦ジャパニーズスクール/東新宿 — language school",
     "status": "sent"
+  },
+  {
+    "email": "berlin-alexanderplatz@saturn.de",
+    "at": "2026-09-20T07:59:46.158Z",
+    "business": "Saturn — electronics (Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@system-ritus.com",
+    "at": "2026-09-20T07:59:47.264Z",
+    "business": "Ritus Möbelsystem — furniture (Lausitzer Platz, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "kitatu@stw.berlin",
+    "at": "2026-09-20T07:59:48.176Z",
+    "business": "Kita an der Technischen Universität Berlin — childcare (Marchstraße, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "kontakt@zahnarztpraxis-speda.de",
+    "at": "2026-09-20T07:59:49.186Z",
+    "business": "Zahnärztliche Gemeinschaftspraxis — dentist",
+    "status": "sent"
+  },
+  {
+    "email": "info@zahnaerzte-wedding.de",
+    "at": "2026-09-20T07:59:50.198Z",
+    "business": "Zahnärzte am Weddingplatz MVZ — dentist (Reinickendorfer Straße, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "karlshorst@zahnklinik-ost.de",
+    "at": "2026-09-20T07:59:51.193Z",
+    "business": "Zahnklinik Ost GmbH — dentist (Treskowallee)",
+    "status": "sent"
+  },
+  {
+    "email": "geschaeft@schmuckwerk-berlin.de",
+    "at": "2026-09-20T07:59:52.141Z",
+    "business": "Schmuckwerk Sabine Dubbers — jewelry (Rosenthaler Straße, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "berlin@bretz.com",
+    "at": "2026-09-20T07:59:53.141Z",
+    "business": "Bretz Store Berlin — furniture (Kantstraße, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "fritzschmuck.berlin@googlemail.com",
+    "at": "2026-09-20T07:59:54.346Z",
+    "business": "Schmuck Fritz — jewelry (Dresdener Straße, Berlin)",
+    "status": "sent"
+  },
+  {
+    "email": "berlin-gesundbrunnen@saturn.de",
+    "at": "2026-09-20T07:59:55.440Z",
+    "business": "Saturn — electronics",
+    "status": "sent"
   }
 ]

@@ -548,5 +548,105 @@
     "sentAt": "2026-09-19T17:38:07.290Z",
     "lastSentAt": "2026-09-19T17:38:07.290Z",
     "step": 0
+  },
+  {
+    "email": "berlin-alexanderplatz@saturn.de",
+    "business": "Saturn — electronics (Berlin)",
+    "niche": "electronics",
+    "city": "Berlin",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T07:59:46.158Z",
+    "lastSentAt": "2026-09-20T07:59:46.158Z",
+    "step": 0
+  },
+  {
+    "email": "info@system-ritus.com",
+    "business": "Ritus Möbelsystem — furniture (Lausitzer Platz, Berlin)",
+    "niche": "furniture",
+    "city": "Berlin",
+    "service": "Lead follow-up",
+    "sentAt": "2026-09-20T07:59:47.264Z",
+    "lastSentAt": "2026-09-20T07:59:47.264Z",
+    "step": 0
+  },
+  {
+    "email": "kitatu@stw.berlin",
+    "business": "Kita an der Technischen Universität Berlin — childcare (Marchstraße, Berlin)",
+    "niche": "childcare",
+    "city": "Berlin",
+    "service": "Enquiry automation",
+    "sentAt": "2026-09-20T07:59:48.176Z",
+    "lastSentAt": "2026-09-20T07:59:48.177Z",
+    "step": 0
+  },
+  {
+    "email": "kontakt@zahnarztpraxis-speda.de",
+    "business": "Zahnärztliche Gemeinschaftspraxis — dentist",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:49.186Z",
+    "lastSentAt": "2026-09-20T07:59:49.186Z",
+    "step": 0
+  },
+  {
+    "email": "info@zahnaerzte-wedding.de",
+    "business": "Zahnärzte am Weddingplatz MVZ — dentist (Reinickendorfer Straße, Berlin)",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:50.198Z",
+    "lastSentAt": "2026-09-20T07:59:50.198Z",
+    "step": 0
+  },
+  {
+    "email": "karlshorst@zahnklinik-ost.de",
+    "business": "Zahnklinik Ost GmbH — dentist (Treskowallee)",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:51.193Z",
+    "lastSentAt": "2026-09-20T07:59:51.193Z",
+    "step": 0
+  },
+  {
+    "email": "geschaeft@schmuckwerk-berlin.de",
+    "business": "Schmuckwerk Sabine Dubbers — jewelry (Rosenthaler Straße, Berlin)",
+    "niche": "jewelry",
+    "city": "Berlin",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-20T07:59:52.141Z",
+    "lastSentAt": "2026-09-20T07:59:52.141Z",
+    "step": 0
+  },
+  {
+    "email": "berlin@bretz.com",
+    "business": "Bretz Store Berlin — furniture (Kantstraße, Berlin)",
+    "niche": "furniture",
+    "city": "Berlin",
+    "service": "Lead follow-up",
+    "sentAt": "2026-09-20T07:59:53.141Z",
+    "lastSentAt": "2026-09-20T07:59:53.141Z",
+    "step": 0
+  },
+  {
+    "email": "fritzschmuck.berlin@googlemail.com",
+    "business": "Schmuck Fritz — jewelry (Dresdener Straße, Berlin)",
+    "niche": "jewelry",
+    "city": "Berlin",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-20T07:59:54.346Z",
+    "lastSentAt": "2026-09-20T07:59:54.346Z",
+    "step": 0
+  },
+  {
+    "email": "berlin-gesundbrunnen@saturn.de",
+    "business": "Saturn — electronics",
+    "niche": "electronics",
+    "city": "Berlin",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T07:59:55.440Z",
+    "lastSentAt": "2026-09-20T07:59:55.440Z",
+    "step": 0
   }
 ]
