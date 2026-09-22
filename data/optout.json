@@ -158,5 +158,10 @@
     "email": "info@scoute.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-20T17:48:58.541Z"
+  },
+  {
+    "email": "smac.phoenix@consultant.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-22T21:46:46.463Z"
   }
 ]
