@@ -459,13 +459,20 @@ async function main() {
   }
 
   // ---- 4. FOLLOW-UP SEQUENCE (+3d / +7d / +14d) ----
-  if (CONFIG.sendOutreach && guard.allowed) {
+  // The cap is for the WHOLE run, not each function — otherwise a run sends
+  // 2x the intended volume and we are back to spam-block territory.
+  const alreadySent = payload.stats.sent || 0;
+  const followUpBudget = Math.max(0, CONFIG.sendCap - alreadySent);
+  if (CONFIG.sendOutreach && guard.allowed && followUpBudget > 0) {
     try {
-      const f = await sendFollowUps({ limit: CONFIG.sendCap });
+      const f = await sendFollowUps({ limit: followUpBudget });
       payload.stats.followupsSent = f.sent;
+      if (f.sent) await recordSends(new Array(f.sent).fill(0));
       if (f.due) console.log(`Follow-ups: sent ${f.sent}/${f.due} due`);
       else console.log("Follow-ups: none due this run");
     } catch (e) { console.error(`Follow-ups failed: ${e.message}`); }
+  } else if (CONFIG.sendOutreach && guard.allowed) {
+    console.log(`Follow-ups: deferred (daily cap of ${CONFIG.sendCap} already used by new sends)`);
   }
 
   // ---- 5. NICHE PERFORMANCE (learns what actually sells) ----
