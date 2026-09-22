@@ -548,5 +548,205 @@
     "sentAt": "2026-09-19T17:38:07.290Z",
     "lastSentAt": "2026-09-19T17:38:07.290Z",
     "step": 0
+  },
+  {
+    "email": "berlin-alexanderplatz@saturn.de",
+    "business": "Saturn — electronics (Berlin)",
+    "niche": "electronics",
+    "city": "Berlin",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T07:59:46.158Z",
+    "lastSentAt": "2026-09-20T07:59:46.158Z",
+    "step": 0
+  },
+  {
+    "email": "info@system-ritus.com",
+    "business": "Ritus Möbelsystem — furniture (Lausitzer Platz, Berlin)",
+    "niche": "furniture",
+    "city": "Berlin",
+    "service": "Lead follow-up",
+    "sentAt": "2026-09-20T07:59:47.264Z",
+    "lastSentAt": "2026-09-20T07:59:47.264Z",
+    "step": 0
+  },
+  {
+    "email": "kitatu@stw.berlin",
+    "business": "Kita an der Technischen Universität Berlin — childcare (Marchstraße, Berlin)",
+    "niche": "childcare",
+    "city": "Berlin",
+    "service": "Enquiry automation",
+    "sentAt": "2026-09-20T07:59:48.176Z",
+    "lastSentAt": "2026-09-20T07:59:48.177Z",
+    "step": 0
+  },
+  {
+    "email": "kontakt@zahnarztpraxis-speda.de",
+    "business": "Zahnärztliche Gemeinschaftspraxis — dentist",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:49.186Z",
+    "lastSentAt": "2026-09-20T07:59:49.186Z",
+    "step": 0
+  },
+  {
+    "email": "info@zahnaerzte-wedding.de",
+    "business": "Zahnärzte am Weddingplatz MVZ — dentist (Reinickendorfer Straße, Berlin)",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:50.198Z",
+    "lastSentAt": "2026-09-20T07:59:50.198Z",
+    "step": 0
+  },
+  {
+    "email": "karlshorst@zahnklinik-ost.de",
+    "business": "Zahnklinik Ost GmbH — dentist (Treskowallee)",
+    "niche": "dentist",
+    "city": "Berlin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T07:59:51.193Z",
+    "lastSentAt": "2026-09-20T07:59:51.193Z",
+    "step": 0
+  },
+  {
+    "email": "geschaeft@schmuckwerk-berlin.de",
+    "business": "Schmuckwerk Sabine Dubbers — jewelry (Rosenthaler Straße, Berlin)",
+    "niche": "jewelry",
+    "city": "Berlin",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-20T07:59:52.141Z",
+    "lastSentAt": "2026-09-20T07:59:52.141Z",
+    "step": 0
+  },
+  {
+    "email": "berlin@bretz.com",
+    "business": "Bretz Store Berlin — furniture (Kantstraße, Berlin)",
+    "niche": "furniture",
+    "city": "Berlin",
+    "service": "Lead follow-up",
+    "sentAt": "2026-09-20T07:59:53.141Z",
+    "lastSentAt": "2026-09-20T07:59:53.141Z",
+    "step": 0
+  },
+  {
+    "email": "fritzschmuck.berlin@googlemail.com",
+    "business": "Schmuck Fritz — jewelry (Dresdener Straße, Berlin)",
+    "niche": "jewelry",
+    "city": "Berlin",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-20T07:59:54.346Z",
+    "lastSentAt": "2026-09-20T07:59:54.346Z",
+    "step": 0
+  },
+  {
+    "email": "berlin-gesundbrunnen@saturn.de",
+    "business": "Saturn — electronics",
+    "niche": "electronics",
+    "city": "Berlin",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T07:59:55.440Z",
+    "lastSentAt": "2026-09-20T07:59:55.440Z",
+    "step": 0
+  },
+  {
+    "email": "lumiar@cslumiar.min-saude.pt",
+    "business": "Unidade de Cuidados de Saúde Personalizados do Lumiar — clinic (Alameda das Linh",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:50.330Z",
+    "lastSentAt": "2026-09-20T14:25:50.330Z",
+    "step": 0
+  },
+  {
+    "email": "mm.benfica@mediamarkt.pt",
+    "business": "Media Market — electronics (Avenida General Norton de Matos, Lisboa)",
+    "niche": "electronics",
+    "city": "Lisbon",
+    "service": "Lead automation",
+    "sentAt": "2026-09-20T14:25:51.302Z",
+    "lastSentAt": "2026-09-20T14:25:51.302Z",
+    "step": 0
+  },
+  {
+    "email": "ucsp.ajuda@arslvt.min-saude.pt",
+    "business": "Local business — clinic",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:52.336Z",
+    "lastSentAt": "2026-09-20T14:25:52.336Z",
+    "step": 0
+  },
+  {
+    "email": "aurumalmada@era.pt",
+    "business": "ERA Imobiliária — estate agent (Praça do Movimento das Forças Armadas, Almada)",
+    "niche": "estate_agent",
+    "city": "Lisbon",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-20T14:25:53.438Z",
+    "lastSentAt": "2026-09-20T14:25:53.438Z",
+    "step": 0
+  },
+  {
+    "email": "ucsp.moscavide@cssacavem.min-saude.pt",
+    "business": "CATUS - Centro de Saúde de Moscavide — clinic (Rua Doutor João Gomes Patacão, Mo",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:54.656Z",
+    "lastSentAt": "2026-09-20T14:25:54.656Z",
+    "step": 0
+  },
+  {
+    "email": "clinicameficasaojoao@gmail.com",
+    "business": "Clínica Médica de São João — clinic",
+    "niche": "clinic",
+    "city": "Lisbon",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-20T14:25:56.062Z",
+    "lastSentAt": "2026-09-20T14:25:56.062Z",
+    "step": 0
+  },
+  {
+    "email": "clinvetarroios@sapo.pt",
+    "business": "Clínica Veterinária de Arroios — veterinary (Rua de Arroios, Lisboa)",
+    "niche": "veterinary",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:25:57.556Z",
+    "lastSentAt": "2026-09-20T14:25:57.556Z",
+    "step": 0
+  },
+  {
+    "email": "cvberna@onevetgroup.pt",
+    "business": "Centro Veterinário Berna — veterinary (Avenida de Berna, Lisboa)",
+    "niche": "veterinary",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:25:59.131Z",
+    "lastSentAt": "2026-09-20T14:25:59.131Z",
+    "step": 0
+  },
+  {
+    "email": "geral@clinicacautela.com",
+    "business": "Clínica Cautela — dentist (Avenida Conde Valbom, Lisboa)",
+    "niche": "dentist",
+    "city": "Lisbon",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-20T14:26:00.277Z",
+    "lastSentAt": "2026-09-20T14:26:00.277Z",
+    "step": 0
+  },
+  {
+    "email": "castilnails@gmail.com",
+    "business": "Castil Beauty — beauty (Rua Castilho)",
+    "niche": "beauty",
+    "city": "Lisbon",
+    "service": "Booking automation",
+    "sentAt": "2026-09-20T14:26:01.223Z",
+    "lastSentAt": "2026-09-20T14:26:01.223Z",
+    "step": 0
   }
 ]
