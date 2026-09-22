@@ -138,5 +138,25 @@
     "email": "info@ukbeautysupplier.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-19T17:37:44.120Z"
+  },
+  {
+    "email": "kontakt@zahnarztpraxis-speda.de",
+    "reason": "bounced: spam block",
+    "at": "2026-09-22T17:42:28.888Z"
+  },
+  {
+    "email": "clinicameficasaojoao@gmail.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-22T17:42:28.888Z"
+  },
+  {
+    "email": "cvberna@onevetgroup.pt",
+    "reason": "bounced: spam block",
+    "at": "2026-09-22T17:42:28.888Z"
+  },
+  {
+    "email": "info@scoute.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-22T17:42:28.888Z"
   }
 ]

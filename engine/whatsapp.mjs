@@ -30,23 +30,74 @@ export function allNumbers(raw) {
   return [...new Set(String(raw).split(/[;,]/).map((x) => toE164(x)).filter(Boolean))];
 }
 
-const isUaeMobile = (d) => /^9715\d{8}$/.test(d);          // 971 + 5X + 7 digits
-const isIntlMobile = (d) => /^\d{11,15}$/.test(d) && !/^971[^5]/.test(d);
+// Country -> mobile number prefixes (after the country code). Without this we
+// wrongly flag landlines as WhatsApp-capable — e.g. Tokyo +81 3 (a landline).
+const MOBILE_PREFIX = {
+  "971": [/^5\d{8}$/],                       // UAE
+  "966": [/^5\d{8}$/],                       // Saudi
+  "974": [/^[3567]\d{7}$/],                  // Qatar
+  "965": [/^[569]\d{7}$/],                   // Kuwait
+  "973": [/^3\d{7}$/],                       // Bahrain
+  "968": [/^[79]\d{7}$/],                    // Oman
+  "962": [/^7\d{8}$/],                       // Jordan
+  "961": [/^[378]\d{6,7}$/],                 // Lebanon
+  "20":  [/^1\d{9}$/],                       // Egypt
+  "90":  [/^5\d{9}$/],                       // Turkey
+  "91":  [/^[6789]\d{9}$/],                  // India
+  "92":  [/^3\d{9}$/],                       // Pakistan
+  "254": [/^[17]\d{8}$/],                    // Kenya
+  "234": [/^[789]\d{9}$/],                   // Nigeria
+  "233": [/^[25]\d{8}$/],                    // Ghana
+  "27":  [/^[678]\d{8}$/],                   // South Africa
+  "212": [/^[67]\d{8}$/],                    // Morocco
+  "44":  [/^7\d{9}$/],                       // UK
+  "353": [/^8[35679]\d{7}$/],                // Ireland
+  "33":  [/^[67]\d{8}$/],                    // France
+  "49":  [/^1[567]\d{8,9}$/],                // Germany
+  "31":  [/^6\d{8}$/],                       // Netherlands
+  "34":  [/^[67]\d{8}$/],                    // Spain
+  "39":  [/^3\d{8,9}$/],                     // Italy
+  "351": [/^9[1236]\d{7}$/],                 // Portugal
+  "43":  [/^6\d{8,9}$/],                     // Austria
+  "41":  [/^7[5-9]\d{7}$/],                  // Switzerland
+  "46":  [/^7[02369]\d{7}$/],                // Sweden
+  "48":  [/^[5-8]\d{8}$/],                   // Poland
+  "420": [/^[67]\d{8}$/],                    // Czechia
+  "1":   [/^\d{10}$/],                        // US / Canada
+  "61":  [/^4\d{8}$/],                       // Australia
+  "64":  [/^2\d{7,9}$/],                     // New Zealand
+  "65":  [/^[89]\d{7}$/],                    // Singapore
+  "60":  [/^1\d{8,9}$/],                     // Malaysia
+  "66":  [/^[689]\d{8}$/],                   // Thailand
+  "62":  [/^8\d{8,11}$/],                    // Indonesia
+  "63":  [/^9\d{9}$/],                       // Philippines
+  "852": [/^[569]\d{7}$/],                   // Hong Kong
+  "81":  [/^[789]0\d{8}$/],                  // Japan (mobile only)
+  "82":  [/^10\d{8}$/],                      // South Korea
+};
 
-/** Returns the first mobile number found, or "" if there is none. */
-export function mobileNumber(raw) {
+/** Is this really a MOBILE number (i.e. has WhatsApp)? Country-aware. */
+export function isMobile(raw) {
   for (const d of allNumbers(raw)) {
-    if (isUaeMobile(d)) return d;
+    for (const [cc, patterns] of Object.entries(MOBILE_PREFIX)) {
+      if (!d.startsWith(cc)) continue;
+      const rest = d.slice(cc.length);
+      if (patterns.some((re) => re.test(rest))) return true;
+    }
   }
-  for (const d of allNumbers(raw)) {
-    if (!d.startsWith("971") && isIntlMobile(d)) return d;
-  }
-  return "";
+  return false;
 }
 
-/** True only if a real MOBILE exists (landlines are correctly excluded). */
-export function isMobile(raw) {
-  return mobileNumber(raw) !== "";
+/** Returns the E.164 mobile if verified, otherwise "". */
+export function mobileNumber(raw) {
+  for (const d of allNumbers(raw)) {
+    for (const [cc, patterns] of Object.entries(MOBILE_PREFIX)) {
+      if (!d.startsWith(cc)) continue;
+      const rest = d.slice(cc.length);
+      if (patterns.some((re) => re.test(rest))) return d;
+    }
+  }
+  return "";
 }
 
 export function normalizePhone(raw) {

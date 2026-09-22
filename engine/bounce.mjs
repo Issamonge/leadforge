@@ -25,6 +25,7 @@ const FAILED = [
   /delivered to\s+<?([\w.+-]+@[\w.-]+\.\w+)>?/i,
   /([\w.+-]+@[\w.-]+\.\w+)\s+because/i,
 ];
+const FREEMAIL = new Set(["gmail.com","googlemail.com","yahoo.com","yahoo.co.uk","hotmail.com","outlook.com","live.com","msn.com","aol.com","icloud.com","me.com","protonmail.com","proton.me","gmx.com","gmx.de","mail.com","yandex.com","yandex.ru","zoho.com","qq.com","163.com","126.com","web.de","t-online.de"]);
 const SPAM_BLOCK = /(high probability of spam|blocked|blacklist|spam|550|554|reputation)/i;
 
 const load = async (f, d) => { try { return JSON.parse(await readFile(resolve(ROOT, f), "utf8")); } catch { return d; } };
@@ -58,7 +59,9 @@ export async function processBounces({ days = 3 } = {}) {
     // a spam block is about the DOMAIN, not the mailbox — block the whole host
     if (isSpam) {
       const dom = addr.split("@")[1];
-      if (dom && !haveDomain.has(dom)) { haveDomain.add(dom); newDomains.push(dom); }
+      // NEVER block a freemail provider: one spam-blocked Gmail user must not
+      // cut off every Gmail address on earth. That is a mailbox problem, not a host problem.
+      if (dom && !FREEMAIL.has(dom) && !haveDomain.has(dom)) { haveDomain.add(dom); newDomains.push(dom); }
     }
   }
 
