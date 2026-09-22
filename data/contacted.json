@@ -1366,5 +1366,125 @@
     "at": "2026-09-20T14:26:01.223Z",
     "business": "Castil Beauty — beauty (Rua Castilho)",
     "status": "sent"
+  },
+  {
+    "email": "smac.phoenix@consultant.com",
+    "at": "2026-09-22T17:50:55.207Z",
+    "business": "Phoenix Corp. LLC — computer (17th Lane Close)",
+    "status": "sent"
+  },
+  {
+    "email": "info@daakyetrust.com",
+    "at": "2026-09-22T17:50:57.192Z",
+    "business": "Daakye Pension Trust — insurance (Nsawam Road, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "info@caldwellgreene.com",
+    "at": "2026-09-22T17:50:58.917Z",
+    "business": "Caldwell Greene Legal Practitioners — lawyer (La Road, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "niceali63@yahoo.com",
+    "at": "2026-09-22T17:51:00.456Z",
+    "business": "Ali-Tech Computer Services — computer (Tshuapa Street, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "info@afriyieworld.com",
+    "at": "2026-09-22T17:51:02.280Z",
+    "business": "Afriyie Ectectro World Limited — computer (Ofankor Asofah Street)",
+    "status": "sent"
+  },
+  {
+    "email": "ttbaah@yahoo.com",
+    "at": "2026-09-22T17:51:03.756Z",
+    "business": "Save the Nation's Sight Clinic — clinic",
+    "status": "sent"
+  },
+  {
+    "email": "info@acheampongassociates.com",
+    "at": "2026-09-22T17:51:06.127Z",
+    "business": "Acheampong and Associates — lawyer (Trinity Avenue, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "info@ndowuona.com",
+    "at": "2026-09-22T17:51:08.226Z",
+    "business": "N. Dowuona & Company — lawyer (Adembra Road, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "info@sonrisagh.com",
+    "at": "2026-09-22T17:51:10.734Z",
+    "business": "Sonrisa Dental Clinic — dentist (Afro Osro Street)",
+    "status": "sent"
+  },
+  {
+    "email": "info@vanjeyecare.org",
+    "at": "2026-09-22T17:51:13.493Z",
+    "business": "Van J Eye Care — clinic (Tetteh Kwei Street, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "vet@boskruinvet.co.za",
+    "at": "2026-09-22T17:51:15.943Z",
+    "business": "Boskruin Veterinary Clinic — veterinary (Kowie Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "admin1@suzukirivonia.co.za",
+    "at": "2026-09-22T17:51:18.760Z",
+    "business": "Suzuki Rivonia — car",
+    "status": "followup_1"
+  },
+  {
+    "email": "albert@huang.co.za",
+    "at": "2026-09-22T17:51:21.257Z",
+    "business": "Huang Attorneys Inc — lawyer (Cumberland Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "michael@shainproperties.co.za",
+    "at": "2026-09-22T17:51:23.072Z",
+    "business": "Shain Properties — estate agent (Boundary Lane, Parkmore)",
+    "status": "followup_1"
+  },
+  {
+    "email": "change@changesrehab.co.za",
+    "at": "2026-09-22T17:51:25.041Z",
+    "business": "Changes Addiction Rehab — clinic (Weltevreden Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@lawtonsafrica.com",
+    "at": "2026-09-22T17:51:26.750Z",
+    "business": "Lawtons Africa — lawyer (West Street, Sandton)",
+    "status": "followup_1"
+  },
+  {
+    "email": "irma@hashtagnails.co.za",
+    "at": "2026-09-22T17:51:29.104Z",
+    "business": "Hashtag Nails — beauty (11th Avenue)",
+    "status": "followup_1"
+  },
+  {
+    "email": "rivoniavillage@sorbet.co.za",
+    "at": "2026-09-22T17:51:32.169Z",
+    "business": "Sorbet — beauty",
+    "status": "followup_1"
+  },
+  {
+    "email": "mail@cia.co.za",
+    "at": "2026-09-22T17:51:35.936Z",
+    "business": "CIA Building Insurance Specialists — insurance (Riley Road, Germiston)",
+    "status": "followup_1"
+  },
+  {
+    "email": "drhddullabh@gmail.com",
+    "at": "2026-09-22T17:51:37.648Z",
+    "business": "Prof. H B Dullabh — dentist (Lilian Ngoyi Street)",
+    "status": "followup_1"
   }
 ]

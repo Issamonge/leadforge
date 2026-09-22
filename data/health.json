@@ -1,5 +1,16 @@
 {
-  "sends": [],
+  "sends": [
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z",
+    "2026-09-22T17:51:13.846Z"
+  ],
   "bounces": [],
   "resetAt": "2026-09-22T17:48:47.853Z",
   "note": "reset after deliverability overhaul (link-free first touch, MX guard, domain blocklist, 32 suppressed addresses). Old bounce data came from the pre-fix engine and no longer reflects reality."

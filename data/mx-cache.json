@@ -1102,5 +1102,57 @@
   "csalvalade.min-saude.pt": {
     "ok": true,
     "at": "2026-09-20T14:25:49.650Z"
+  },
+  "consultant.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:51.240Z"
+  },
+  "asnfinancialservies.com": {
+    "ok": false,
+    "at": "2026-09-22T17:50:51.300Z"
+  },
+  "daakyetrust.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:51.434Z"
+  },
+  "caldwellgreene.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:51.806Z"
+  },
+  "cedarlawgh.com": {
+    "ok": false,
+    "at": "2026-09-22T17:50:51.832Z"
+  },
+  "afriyieworld.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:51.935Z"
+  },
+  "acheampongassociates.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:52.204Z"
+  },
+  "activa-ghana.com": {
+    "ok": false,
+    "at": "2026-09-22T17:50:52.239Z"
+  },
+  "ndowuona.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:52.434Z"
+  },
+  "sonrisagh.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:52.555Z"
+  },
+  "vanjeyecare.org": {
+    "ok": true,
+    "at": "2026-09-22T17:50:52.835Z"
+  },
+  "farmerline.co": {
+    "ok": true,
+    "at": "2026-09-22T17:50:53.148Z"
+  },
+  "zewnic.com": {
+    "ok": true,
+    "at": "2026-09-22T17:50:53.187Z"
   }
 }
