@@ -6,8 +6,8 @@
     "city": "Johannesburg",
     "service": "Booking automation",
     "sentAt": "2026-09-19T10:20:16.888Z",
-    "lastSentAt": "2026-09-19T10:20:16.888Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:15.943Z",
+    "step": 1
   },
   {
     "email": "admin1@suzukirivonia.co.za",
@@ -16,8 +16,8 @@
     "city": "Johannesburg",
     "service": "Lead follow-up automation",
     "sentAt": "2026-09-19T10:20:18.751Z",
-    "lastSentAt": "2026-09-19T10:20:18.751Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:18.760Z",
+    "step": 1
   },
   {
     "email": "albert@huang.co.za",
@@ -26,8 +26,8 @@
     "city": "Johannesburg",
     "service": "Client intake automation",
     "sentAt": "2026-09-19T10:20:20.484Z",
-    "lastSentAt": "2026-09-19T10:20:20.484Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:21.257Z",
+    "step": 1
   },
   {
     "email": "michael@shainproperties.co.za",
@@ -36,8 +36,8 @@
     "city": "Johannesburg",
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-19T10:20:22.284Z",
-    "lastSentAt": "2026-09-19T10:20:22.284Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:23.072Z",
+    "step": 1
   },
   {
     "email": "change@changesrehab.co.za",
@@ -46,8 +46,8 @@
     "city": "Johannesburg",
     "service": "Patient booking automation",
     "sentAt": "2026-09-19T10:20:24.254Z",
-    "lastSentAt": "2026-09-19T10:20:24.254Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:25.041Z",
+    "step": 1
   },
   {
     "email": "info@lawtonsafrica.com",
@@ -56,8 +56,8 @@
     "city": "Johannesburg",
     "service": "Client intake automation",
     "sentAt": "2026-09-19T10:20:26.067Z",
-    "lastSentAt": "2026-09-19T10:20:26.067Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:26.750Z",
+    "step": 1
   },
   {
     "email": "irma@hashtagnails.co.za",
@@ -66,8 +66,8 @@
     "city": "Johannesburg",
     "service": "Booking automation",
     "sentAt": "2026-09-19T10:20:27.500Z",
-    "lastSentAt": "2026-09-19T10:20:27.500Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:29.104Z",
+    "step": 1
   },
   {
     "email": "rivoniavillage@sorbet.co.za",
@@ -76,8 +76,8 @@
     "city": "Johannesburg",
     "service": "Booking automation",
     "sentAt": "2026-09-19T10:20:29.216Z",
-    "lastSentAt": "2026-09-19T10:20:29.216Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:32.169Z",
+    "step": 1
   },
   {
     "email": "mail@cia.co.za",
@@ -86,8 +86,8 @@
     "city": "Johannesburg",
     "service": "Quote follow-up automation",
     "sentAt": "2026-09-19T10:20:30.874Z",
-    "lastSentAt": "2026-09-19T10:20:30.874Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:35.936Z",
+    "step": 1
   },
   {
     "email": "drhddullabh@gmail.com",
@@ -96,8 +96,8 @@
     "city": "Johannesburg",
     "service": "Lead capture & booking automation",
     "sentAt": "2026-09-19T10:20:32.261Z",
-    "lastSentAt": "2026-09-19T10:20:32.261Z",
-    "step": 0
+    "lastSentAt": "2026-09-22T17:51:37.648Z",
+    "step": 1
   },
   {
     "email": "roni@vajewellery.co.za",
@@ -747,6 +747,106 @@
     "service": "Booking automation",
     "sentAt": "2026-09-20T14:26:01.223Z",
     "lastSentAt": "2026-09-20T14:26:01.223Z",
+    "step": 0
+  },
+  {
+    "email": "smac.phoenix@consultant.com",
+    "business": "Phoenix Corp. LLC — computer (17th Lane Close)",
+    "niche": "computer",
+    "city": "Accra",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-22T17:50:55.207Z",
+    "lastSentAt": "2026-09-22T17:50:55.207Z",
+    "step": 0
+  },
+  {
+    "email": "info@daakyetrust.com",
+    "business": "Daakye Pension Trust — insurance (Nsawam Road, Accra)",
+    "niche": "insurance",
+    "city": "Accra",
+    "service": "Quote follow-up automation",
+    "sentAt": "2026-09-22T17:50:57.192Z",
+    "lastSentAt": "2026-09-22T17:50:57.192Z",
+    "step": 0
+  },
+  {
+    "email": "info@caldwellgreene.com",
+    "business": "Caldwell Greene Legal Practitioners — lawyer (La Road, Accra)",
+    "niche": "lawyer",
+    "city": "Accra",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-22T17:50:58.917Z",
+    "lastSentAt": "2026-09-22T17:50:58.917Z",
+    "step": 0
+  },
+  {
+    "email": "niceali63@yahoo.com",
+    "business": "Ali-Tech Computer Services — computer (Tshuapa Street, Accra)",
+    "niche": "computer",
+    "city": "Accra",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-22T17:51:00.456Z",
+    "lastSentAt": "2026-09-22T17:51:00.456Z",
+    "step": 0
+  },
+  {
+    "email": "info@afriyieworld.com",
+    "business": "Afriyie Ectectro World Limited — computer (Ofankor Asofah Street)",
+    "niche": "computer",
+    "city": "Accra",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-22T17:51:02.280Z",
+    "lastSentAt": "2026-09-22T17:51:02.280Z",
+    "step": 0
+  },
+  {
+    "email": "ttbaah@yahoo.com",
+    "business": "Save the Nation's Sight Clinic — clinic",
+    "niche": "clinic",
+    "city": "Accra",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-22T17:51:03.756Z",
+    "lastSentAt": "2026-09-22T17:51:03.756Z",
+    "step": 0
+  },
+  {
+    "email": "info@acheampongassociates.com",
+    "business": "Acheampong and Associates — lawyer (Trinity Avenue, Accra)",
+    "niche": "lawyer",
+    "city": "Accra",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-22T17:51:06.127Z",
+    "lastSentAt": "2026-09-22T17:51:06.127Z",
+    "step": 0
+  },
+  {
+    "email": "info@ndowuona.com",
+    "business": "N. Dowuona & Company — lawyer (Adembra Road, Accra)",
+    "niche": "lawyer",
+    "city": "Accra",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-22T17:51:08.226Z",
+    "lastSentAt": "2026-09-22T17:51:08.226Z",
+    "step": 0
+  },
+  {
+    "email": "info@sonrisagh.com",
+    "business": "Sonrisa Dental Clinic — dentist (Afro Osro Street)",
+    "niche": "dentist",
+    "city": "Accra",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-22T17:51:10.734Z",
+    "lastSentAt": "2026-09-22T17:51:10.734Z",
+    "step": 0
+  },
+  {
+    "email": "info@vanjeyecare.org",
+    "business": "Van J Eye Care — clinic (Tetteh Kwei Street, Accra)",
+    "niche": "clinic",
+    "city": "Accra",
+    "service": "Patient booking automation",
+    "sentAt": "2026-09-22T17:51:13.493Z",
+    "lastSentAt": "2026-09-22T17:51:13.493Z",
     "step": 0
   }
 ]
