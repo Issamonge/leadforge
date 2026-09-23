@@ -1606,5 +1606,65 @@
     "at": "2026-09-23T08:03:59.475Z",
     "business": "YMCA Language School — language school",
     "status": "sent"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:03.065Z",
+    "business": "ITworkup M.2 and SATA SSD — electronics (Waterfall Office Park, Augrabies Rd, Mi",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:04.771Z",
+    "business": "ITworkup Webcams — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:06.092Z",
+    "business": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory — electronics (Waterfall Office",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@prometheus-systems.co.za",
+    "at": "2026-09-23T15:15:07.025Z",
+    "business": "Prometheus Systems — computer (Leicester Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "kernot@mweb.co.za",
+    "at": "2026-09-23T15:15:07.898Z",
+    "business": "Angela Kernot Realty — estate agent (Bridge Shopping centre)",
+    "status": "followup_1"
+  },
+  {
+    "email": "lajpatnagar@chandranipearls.net",
+    "at": "2026-09-23T15:15:08.839Z",
+    "business": "Chandrani Pearls — jewelry (Cinema Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "aagakhan_adv@yahoo.com",
+    "at": "2026-09-23T15:15:09.860Z",
+    "business": "Aaga khan — lawyer (Press Enclave Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "shubhgemsindia@gmail.com",
+    "at": "2026-09-23T15:15:10.774Z",
+    "business": "Shubh gems — jewelry (Shiv Mandir Marg, New Delhi)",
+    "status": "followup_1"
+  },
+  {
+    "email": "dr.skjain@yahoo.com",
+    "at": "2026-09-23T15:15:11.680Z",
+    "business": "Dr Jain's Clinic — clinic (C-20/A New Krishnapark)",
+    "status": "followup_1"
+  },
+  {
+    "email": "sunraz25@gmail.com",
+    "at": "2026-09-23T15:15:13.043Z",
+    "business": "Artline The Creation — computer",
+    "status": "followup_1"
   }
 ]
