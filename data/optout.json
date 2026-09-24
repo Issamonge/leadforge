@@ -163,5 +163,10 @@
     "email": "smac.phoenix@consultant.com",
     "reason": "bounced: spam block",
     "at": "2026-09-22T21:46:46.463Z"
+  },
+  {
+    "email": "greenmegastore@pcgreen.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-24T21:54:53.487Z"
   }
 ]
