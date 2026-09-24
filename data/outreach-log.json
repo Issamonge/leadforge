@@ -1048,5 +1048,105 @@
     "sentAt": "2026-09-24T07:55:34.982Z",
     "lastSentAt": "2026-09-24T07:55:34.982Z",
     "step": 0
+  },
+  {
+    "email": "learn@languages4life.com",
+    "business": "TEFL Iberia — language school (Carrer de València, Barcelona)",
+    "niche": "language_school",
+    "city": "Barcelona",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-24T15:36:53.162Z",
+    "lastSentAt": "2026-09-24T15:36:53.162Z",
+    "step": 0
+  },
+  {
+    "email": "soporte@traxtore.com",
+    "business": "Traxtore — computer (Carrer de Sepúlveda, Barcelona)",
+    "niche": "computer",
+    "city": "Barcelona",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-24T15:36:54.263Z",
+    "lastSentAt": "2026-09-24T15:36:54.263Z",
+    "step": 0
+  },
+  {
+    "email": "sfamilia@garzondental.com",
+    "business": "Clínica Garzón Dental — dentist (Carrer de Provença, Barcelona)",
+    "niche": "dentist",
+    "city": "Barcelona",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-09-24T15:36:55.332Z",
+    "lastSentAt": "2026-09-24T15:36:55.332Z",
+    "step": 0
+  },
+  {
+    "email": "greenmegastore@pcgreen.com",
+    "business": "Green Megastore — computer",
+    "niche": "computer",
+    "city": "Barcelona",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-24T15:36:56.287Z",
+    "lastSentAt": "2026-09-24T15:36:56.287Z",
+    "step": 0
+  },
+  {
+    "email": "info@loebelgonzalez.com",
+    "business": "Löbel & González — lawyer",
+    "niche": "lawyer",
+    "city": "Barcelona",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-24T15:36:57.445Z",
+    "lastSentAt": "2026-09-24T15:36:57.445Z",
+    "step": 0
+  },
+  {
+    "email": "info@autoescuelaoton.com",
+    "business": "Oton autoescola — driving school",
+    "niche": "driving_school",
+    "city": "Barcelona",
+    "service": "Lesson booking automation",
+    "sentAt": "2026-09-24T15:36:58.405Z",
+    "lastSentAt": "2026-09-24T15:36:58.405Z",
+    "step": 0
+  },
+  {
+    "email": "cursos.barcelona@britishcouncil.es",
+    "business": "British Council — language school (Carrer d'Amigó, Barcelona)",
+    "niche": "language_school",
+    "city": "Barcelona",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-24T15:36:59.459Z",
+    "lastSentAt": "2026-09-24T15:36:59.459Z",
+    "step": 0
+  },
+  {
+    "email": "info@institutnordic.com",
+    "business": "Institut Nórdic — language school (Gran Via de les Corts Catalanes, Barcelona)",
+    "niche": "language_school",
+    "city": "Barcelona",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-24T15:37:00.732Z",
+    "lastSentAt": "2026-09-24T15:37:00.732Z",
+    "step": 0
+  },
+  {
+    "email": "administracion@sitep.com",
+    "business": "Sitep S.L. — it (Carrer de la Diputació, Barcelona)",
+    "niche": "it",
+    "city": "Barcelona",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-09-24T15:37:01.925Z",
+    "lastSentAt": "2026-09-24T15:37:01.925Z",
+    "step": 0
+  },
+  {
+    "email": "ainhoaestetica@hotmail.es",
+    "business": "Ainhoa Estetica — beauty (Carrer d'Europa, Badalona)",
+    "niche": "beauty",
+    "city": "Barcelona",
+    "service": "Booking automation",
+    "sentAt": "2026-09-24T15:37:03.041Z",
+    "lastSentAt": "2026-09-24T15:37:03.041Z",
+    "step": 0
   }
 ]
