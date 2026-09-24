@@ -1726,5 +1726,65 @@
     "at": "2026-09-23T21:55:39.040Z",
     "business": "Imperial Dental Specialist Centre — dentist (Jalan Telawi, Kuala Lumpur)",
     "status": "followup_1"
+  },
+  {
+    "email": "info@wyse.ie",
+    "at": "2026-09-24T07:55:18.706Z",
+    "business": "Wyse Property — estate agent (Leeson Street Upper)",
+    "status": "sent"
+  },
+  {
+    "email": "info@sisuclinic.com",
+    "at": "2026-09-24T07:55:20.667Z",
+    "business": "SISU Clinic — beauty (Fields Terrace, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "reception@d6dental.ie",
+    "at": "2026-09-24T07:55:22.485Z",
+    "business": "D6 Dental (Connellan & Associates) — dentist (Rathgar Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@giraffe.ie",
+    "at": "2026-09-24T07:55:24.155Z",
+    "business": "Giraffe Childcare Harcourt Road — childcare (Charlemont Street, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "hello@phoenixdental.ie",
+    "at": "2026-09-24T07:55:25.815Z",
+    "business": "Phoenix Dental — dentist (Ashtown Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@kobash.ie",
+    "at": "2026-09-24T07:55:27.473Z",
+    "business": "Kobash Jewellers & Goldsmith — jewelry (Main Street, Blackrock)",
+    "status": "sent"
+  },
+  {
+    "email": "customercareteam@msl.ie",
+    "at": "2026-09-24T07:55:29.999Z",
+    "business": "MSL Service Centre — car (North Circular Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@blow.ie",
+    "at": "2026-09-24T07:55:31.663Z",
+    "business": "Blow Hair & Beauty — beauty (Leeson Street Upper, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "tan-n-glo@hotmail.com",
+    "at": "2026-09-24T07:55:33.372Z",
+    "business": "Tan n Glo — beauty (Hyde Court, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "reception@rathgarmedicalpractice.ie",
+    "at": "2026-09-24T07:55:34.981Z",
+    "business": "The Rathgar Medical Practice — doctors (Rathgar Road, Dublin)",
+    "status": "sent"
   }
 ]
