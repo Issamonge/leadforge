@@ -168,5 +168,30 @@
     "email": "greenmegastore@pcgreen.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-24T21:54:53.487Z"
+  },
+  {
+    "email": "sklep@format.com.pl",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.973Z"
+  },
+  {
+    "email": "pete+jobs@ambrahealth.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "bartosz.plotka@diamontech.de",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "recruiting@mu-energy.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "klee+careers@everquote.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
   }
 ]

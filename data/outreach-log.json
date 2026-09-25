@@ -1248,5 +1248,105 @@
     "sentAt": "2026-09-25T08:17:56.629Z",
     "lastSentAt": "2026-09-25T08:17:56.629Z",
     "step": 0
+  },
+  {
+    "email": "info@fultongrace.com",
+    "business": "Fulton Grace Realty — estate agent (North Milwaukee Avenue, Chicago)",
+    "niche": "estate_agent",
+    "city": "Chicago",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-25T15:40:14.447Z",
+    "lastSentAt": "2026-09-25T15:40:14.447Z",
+    "step": 0
+  },
+  {
+    "email": "sservice8280@birks.com",
+    "business": "Maison Birks — jewelry (Rue Sainte-Catherine Ouest)",
+    "niche": "jewelry",
+    "city": "Montreal",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-25T15:40:15.612Z",
+    "lastSentAt": "2026-09-25T15:40:15.612Z",
+    "step": 0
+  },
+  {
+    "email": "bijouterielapuce@live.ca",
+    "business": "Bijouterie La Puce — jewelry (Rue Masson)",
+    "niche": "jewelry",
+    "city": "Montreal",
+    "service": "Clienteling automation",
+    "sentAt": "2026-09-25T15:40:16.749Z",
+    "lastSentAt": "2026-09-25T15:40:16.749Z",
+    "step": 0
+  },
+  {
+    "email": "info@koumbit.org",
+    "business": "Réseau Koumbit — it (Rue Atateken, Montréal)",
+    "niche": "it",
+    "city": "Montreal",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-09-25T15:40:17.955Z",
+    "lastSentAt": "2026-09-25T15:40:17.955Z",
+    "step": 0
+  },
+  {
+    "email": "c-stlouis@csdm.qc.ca",
+    "business": "Carrosserie du Nord;Centre Saint-Louis — language school (Rue Marie-Anne;Rue Dro",
+    "niche": "language_school",
+    "city": "Montreal",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-25T15:40:19.500Z",
+    "lastSentAt": "2026-09-25T15:40:19.500Z",
+    "step": 0
+  },
+  {
+    "email": "info@inlibro.com",
+    "business": "Solutions inLibro inc. — it (Rue Waverly, Montréal)",
+    "niche": "it",
+    "city": "Montreal",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-09-25T15:40:21.260Z",
+    "lastSentAt": "2026-09-25T15:40:21.260Z",
+    "step": 0
+  },
+  {
+    "email": "tout-cha-tou@videotron.ca",
+    "business": "Touchattou — veterinary (Rue Atateken)",
+    "niche": "veterinary",
+    "city": "Montreal",
+    "service": "Booking automation",
+    "sentAt": "2026-09-25T15:40:22.575Z",
+    "lastSentAt": "2026-09-25T15:40:22.575Z",
+    "step": 0
+  },
+  {
+    "email": "info@accescomptabilite.ca",
+    "business": "Accès Comptabilité — accountant (Rue Sainte-Catherine Est, Montréal)",
+    "niche": "accountant",
+    "city": "Montreal",
+    "service": "Receipt & expense automation",
+    "sentAt": "2026-09-25T15:40:25.791Z",
+    "lastSentAt": "2026-09-25T15:40:25.791Z",
+    "step": 0
+  },
+  {
+    "email": "office@amservices.ca",
+    "business": "A & M Services - Bookkeeping & Taxes — accountant (Rue Jean-Talon Ouest,, Montre",
+    "niche": "accountant",
+    "city": "Montreal",
+    "service": "Receipt & expense automation",
+    "sentAt": "2026-09-25T15:40:30.489Z",
+    "lastSentAt": "2026-09-25T15:40:30.489Z",
+    "step": 0
+  },
+  {
+    "email": "outremont@remax-ducartier.qc.ca",
+    "business": "RE/MAX du Cartier — estate agent (Avenue Bernard, Montréal)",
+    "niche": "estate_agent",
+    "city": "Montreal",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-09-25T15:40:31.776Z",
+    "lastSentAt": "2026-09-25T15:40:31.776Z",
+    "step": 0
   }
 ]

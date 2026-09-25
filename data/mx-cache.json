@@ -1762,5 +1762,181 @@
   "fractum.pl": {
     "ok": true,
     "at": "2026-09-25T08:17:42.028Z"
+  },
+  "fultongrace.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.037Z"
+  },
+  "birks.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.243Z"
+  },
+  "live.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.268Z"
+  },
+  "koumbit.org": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.620Z"
+  },
+  "csdm.qc.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.747Z"
+  },
+  "inlibro.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.800Z"
+  },
+  "videotron.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:08.861Z"
+  },
+  "accescomptabilite.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.052Z"
+  },
+  "amservices.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.153Z"
+  },
+  "remax-ducartier.qc.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.405Z"
+  },
+  "lasikmd.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.497Z"
+  },
+  "artemano.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.615Z"
+  },
+  "remax-quebec.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.730Z"
+  },
+  "clinicdrbita.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:09.803Z"
+  },
+  "cliniqueangus.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.009Z"
+  },
+  "podiatrieangus.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.079Z"
+  },
+  "cliniqueopus.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.115Z"
+  },
+  "radio-ip.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.399Z"
+  },
+  "rentals.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.488Z"
+  },
+  "venomcb.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.583Z"
+  },
+  "limuro.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.632Z"
+  },
+  "radiologix.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.730Z"
+  },
+  "icloud.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.738Z"
+  },
+  "pconduite.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.896Z"
+  },
+  "cliniquemedicalecrescent.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.961Z"
+  },
+  "hotmail.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:10.998Z"
+  },
+  "centredentairemasson.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.083Z"
+  },
+  "onglessunnybeaute.com": {
+    "ok": false,
+    "at": "2026-09-25T15:40:11.179Z"
+  },
+  "titedent.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.376Z"
+  },
+  "cifproperties.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.605Z"
+  },
+  "dantech.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.612Z"
+  },
+  "centredentairemontrose.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.722Z"
+  },
+  "vetrosemont.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.759Z"
+  },
+  "cliniquequorum.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:11.917Z"
+  },
+  "nuodental.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.085Z"
+  },
+  "cpevilleneuve.org": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.143Z"
+  },
+  "physioverdun.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.207Z"
+  },
+  "galeriedentairesoleil.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.346Z"
+  },
+  "cliniquesante-plateau.ca": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.476Z"
+  },
+  "avenlaw.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.655Z"
+  },
+  "wickerparkvet.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.800Z"
+  },
+  "rubyroom.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:12.975Z"
+  },
+  "trlawyer.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:13.194Z"
+  },
+  "harrisonheld.com": {
+    "ok": true,
+    "at": "2026-09-25T15:40:13.303Z"
   }
 }

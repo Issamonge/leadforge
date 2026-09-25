@@ -1966,5 +1966,65 @@
     "at": "2026-09-25T08:17:56.629Z",
     "business": "ZXStudio! — it (Siennicka, Warszawa)",
     "status": "sent"
+  },
+  {
+    "email": "info@fultongrace.com",
+    "at": "2026-09-25T15:40:14.447Z",
+    "business": "Fulton Grace Realty — estate agent (North Milwaukee Avenue, Chicago)",
+    "status": "sent"
+  },
+  {
+    "email": "sservice8280@birks.com",
+    "at": "2026-09-25T15:40:15.612Z",
+    "business": "Maison Birks — jewelry (Rue Sainte-Catherine Ouest)",
+    "status": "sent"
+  },
+  {
+    "email": "bijouterielapuce@live.ca",
+    "at": "2026-09-25T15:40:16.749Z",
+    "business": "Bijouterie La Puce — jewelry (Rue Masson)",
+    "status": "sent"
+  },
+  {
+    "email": "info@koumbit.org",
+    "at": "2026-09-25T15:40:17.954Z",
+    "business": "Réseau Koumbit — it (Rue Atateken, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "c-stlouis@csdm.qc.ca",
+    "at": "2026-09-25T15:40:19.500Z",
+    "business": "Carrosserie du Nord;Centre Saint-Louis — language school (Rue Marie-Anne;Rue Dro",
+    "status": "sent"
+  },
+  {
+    "email": "info@inlibro.com",
+    "at": "2026-09-25T15:40:21.260Z",
+    "business": "Solutions inLibro inc. — it (Rue Waverly, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "tout-cha-tou@videotron.ca",
+    "at": "2026-09-25T15:40:22.575Z",
+    "business": "Touchattou — veterinary (Rue Atateken)",
+    "status": "sent"
+  },
+  {
+    "email": "info@accescomptabilite.ca",
+    "at": "2026-09-25T15:40:25.791Z",
+    "business": "Accès Comptabilité — accountant (Rue Sainte-Catherine Est, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "office@amservices.ca",
+    "at": "2026-09-25T15:40:30.489Z",
+    "business": "A & M Services - Bookkeeping & Taxes — accountant (Rue Jean-Talon Ouest,, Montre",
+    "status": "sent"
+  },
+  {
+    "email": "outremont@remax-ducartier.qc.ca",
+    "at": "2026-09-25T15:40:31.776Z",
+    "business": "RE/MAX du Cartier — estate agent (Avenue Bernard, Montréal)",
+    "status": "sent"
   }
 ]
