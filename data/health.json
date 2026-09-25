@@ -108,7 +108,9 @@
     "2026-09-25T15:40:07.975Z",
     "2026-09-25T15:40:07.975Z",
     "2026-09-25T15:40:07.975Z",
-    "2026-09-25T15:40:07.975Z"
+    "2026-09-25T15:40:07.975Z",
+    "2026-09-25T21:55:13.142Z",
+    "2026-09-25T21:55:13.142Z"
   ],
   "resetAt": "2026-09-22T17:48:47.853Z",
   "note": "reset after deliverability overhaul (link-free first touch, MX guard, domain blocklist, 32 suppressed addresses). Old bounce data came from the pre-fix engine and no longer reflects reality."

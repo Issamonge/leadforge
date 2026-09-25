@@ -193,5 +193,15 @@
     "email": "klee+careers@everquote.com",
     "reason": "bounced: spam block",
     "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "tout-cha-tou@videotron.ca",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T21:55:13.141Z"
+  },
+  {
+    "email": "info@autoescuelaoton.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-25T21:55:13.141Z"
   }
 ]
