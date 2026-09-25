@@ -1148,5 +1148,105 @@
     "sentAt": "2026-09-24T15:37:03.041Z",
     "lastSentAt": "2026-09-24T15:37:03.041Z",
     "step": 0
+  },
+  {
+    "email": "kocinos@o2.pl",
+    "business": "Gabinet Weterynaryjny Kocinos — veterinary",
+    "niche": "veterinary",
+    "city": "Warsaw",
+    "service": "Booking automation",
+    "sentAt": "2026-09-25T08:17:43.319Z",
+    "lastSentAt": "2026-09-25T08:17:43.319Z",
+    "step": 0
+  },
+  {
+    "email": "kontakt@magwise.pl",
+    "business": "Magwise — doctors",
+    "niche": "doctors",
+    "city": "Warsaw",
+    "service": "Appointment automation",
+    "sentAt": "2026-09-25T08:17:44.908Z",
+    "lastSentAt": "2026-09-25T08:17:44.908Z",
+    "step": 0
+  },
+  {
+    "email": "warszawa1@almatur.pl",
+    "business": "Almatur — travel agent (Mikołaja Kopernika, Warszawa)",
+    "niche": "travel_agent",
+    "city": "Warsaw",
+    "service": "Booking automation",
+    "sentAt": "2026-09-25T08:17:46.397Z",
+    "lastSentAt": "2026-09-25T08:17:46.397Z",
+    "step": 0
+  },
+  {
+    "email": "fundacja@sakura.org.pl",
+    "business": "Sakura — language school (Próżna, Warszawa)",
+    "niche": "language_school",
+    "city": "Warsaw",
+    "service": "Enrolment automation",
+    "sentAt": "2026-09-25T08:17:47.778Z",
+    "lastSentAt": "2026-09-25T08:17:47.778Z",
+    "step": 0
+  },
+  {
+    "email": "biuro@kancelaria-praga.pl",
+    "business": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
+    "niche": "lawyer",
+    "city": "Warsaw",
+    "service": "Client intake automation",
+    "sentAt": "2026-09-25T08:17:49.165Z",
+    "lastSentAt": "2026-09-25T08:17:49.165Z",
+    "step": 0
+  },
+  {
+    "email": "przychodnia.grochowska@multimed.pl",
+    "business": "Multi Med — doctors (Grochowska, Warszawa)",
+    "niche": "doctors",
+    "city": "Warsaw",
+    "service": "Appointment automation",
+    "sentAt": "2026-09-25T08:17:50.658Z",
+    "lastSentAt": "2026-09-25T08:17:50.658Z",
+    "step": 0
+  },
+  {
+    "email": "sklep@format.com.pl",
+    "business": "Format — computer (Jagiellońska, Warszawa)",
+    "niche": "computer",
+    "city": "Warsaw",
+    "service": "AI workflow automation",
+    "sentAt": "2026-09-25T08:17:52.112Z",
+    "lastSentAt": "2026-09-25T08:17:52.112Z",
+    "step": 0
+  },
+  {
+    "email": "recepcja.targowa@polmed.pl",
+    "business": "Pol-Med — doctors (Targowa, Warszawa)",
+    "niche": "doctors",
+    "city": "Warsaw",
+    "service": "Appointment automation",
+    "sentAt": "2026-09-25T08:17:53.112Z",
+    "lastSentAt": "2026-09-25T08:17:53.112Z",
+    "step": 0
+  },
+  {
+    "email": "sklep@meblezrattanu.pl",
+    "business": "Centrum Mebli Rattanowych i Stylowych — furniture (Antoniewska, Warszawa)",
+    "niche": "furniture",
+    "city": "Warsaw",
+    "service": "Lead follow-up",
+    "sentAt": "2026-09-25T08:17:55.102Z",
+    "lastSentAt": "2026-09-25T08:17:55.102Z",
+    "step": 0
+  },
+  {
+    "email": "wiktor@zxstudio.pl",
+    "business": "ZXStudio! — it (Siennicka, Warszawa)",
+    "niche": "it",
+    "city": "Warsaw",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-09-25T08:17:56.629Z",
+    "lastSentAt": "2026-09-25T08:17:56.629Z",
+    "step": 0
   }
 ]

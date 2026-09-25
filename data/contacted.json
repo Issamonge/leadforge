@@ -1906,5 +1906,65 @@
     "at": "2026-09-24T21:55:17.812Z",
     "business": "部屋市場 — estate agent",
     "status": "followup_1"
+  },
+  {
+    "email": "kocinos@o2.pl",
+    "at": "2026-09-25T08:17:43.319Z",
+    "business": "Gabinet Weterynaryjny Kocinos — veterinary",
+    "status": "sent"
+  },
+  {
+    "email": "kontakt@magwise.pl",
+    "at": "2026-09-25T08:17:44.908Z",
+    "business": "Magwise — doctors",
+    "status": "sent"
+  },
+  {
+    "email": "warszawa1@almatur.pl",
+    "at": "2026-09-25T08:17:46.397Z",
+    "business": "Almatur — travel agent (Mikołaja Kopernika, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "fundacja@sakura.org.pl",
+    "at": "2026-09-25T08:17:47.778Z",
+    "business": "Sakura — language school (Próżna, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "biuro@kancelaria-praga.pl",
+    "at": "2026-09-25T08:17:49.165Z",
+    "business": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "przychodnia.grochowska@multimed.pl",
+    "at": "2026-09-25T08:17:50.658Z",
+    "business": "Multi Med — doctors (Grochowska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "sklep@format.com.pl",
+    "at": "2026-09-25T08:17:52.112Z",
+    "business": "Format — computer (Jagiellońska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "recepcja.targowa@polmed.pl",
+    "at": "2026-09-25T08:17:53.112Z",
+    "business": "Pol-Med — doctors (Targowa, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "sklep@meblezrattanu.pl",
+    "at": "2026-09-25T08:17:55.102Z",
+    "business": "Centrum Mebli Rattanowych i Stylowych — furniture (Antoniewska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "wiktor@zxstudio.pl",
+    "at": "2026-09-25T08:17:56.629Z",
+    "business": "ZXStudio! — it (Siennicka, Warszawa)",
+    "status": "sent"
   }
 ]
