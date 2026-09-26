@@ -203,5 +203,10 @@
     "email": "info@autoescuelaoton.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-25T21:55:13.141Z"
+  },
+  {
+    "email": "info@acmaintenancecompany.ae",
+    "reason": "bounced: spam block",
+    "at": "2026-09-26T14:50:32.024Z"
   }
 ]
