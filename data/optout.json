@@ -223,5 +223,10 @@
     "email": "cody@allveesplumbing.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-28T18:21:26.544Z"
+  },
+  {
+    "email": "ejemplo@misitio.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-29T16:42:35.774Z"
   }
 ]
