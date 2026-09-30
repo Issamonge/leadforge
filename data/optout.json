@@ -228,5 +228,10 @@
     "email": "ejemplo@misitio.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-29T16:42:35.774Z"
+  },
+  {
+    "email": "hialeah@patersoninjurylawyer.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-30T16:34:47.722Z"
   }
 ]
