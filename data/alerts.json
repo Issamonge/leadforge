@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-01T09:33:10.364Z",
+    "text": "*LEAD MACHINE* — 01/10/2026, 13:33:10\n\nScanned 343 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-09-30T22:42:17.621Z",
     "text": "*LEAD MACHINE* — 01/10/2026, 02:42:17\n\nScanned 380 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
