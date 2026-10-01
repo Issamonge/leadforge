@@ -233,5 +233,20 @@
     "email": "hialeah@patersoninjurylawyer.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-30T16:34:47.722Z"
+  },
+  {
+    "email": "info@arizonanativeroofing.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "contact@byrddavis.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "eben@eyebytes.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
   }
 ]
