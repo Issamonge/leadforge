@@ -248,5 +248,10 @@
     "email": "eben@eyebytes.com",
     "reason": "bounced: spam block",
     "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "admin@lawsome.com.au",
+    "reason": "bounced: spam block",
+    "at": "2026-10-03T15:00:56.148Z"
   }
 ]
