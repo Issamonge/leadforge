@@ -263,5 +263,20 @@
     "email": "sethtopek@topekandtopek.com",
     "reason": "bounced: undeliverable",
     "at": "2026-10-06T17:00:06.220Z"
+  },
+  {
+    "email": "info@arizonaroofrescue.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "info@asapserve.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "michelle@mikesswatteam.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-07T17:36:30.993Z"
   }
 ]
