@@ -278,5 +278,10 @@
     "email": "michelle@mikesswatteam.com",
     "reason": "bounced: undeliverable",
     "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "you@email.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-08T17:39:23.362Z"
   }
 ]
