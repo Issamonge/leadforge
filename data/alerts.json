@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-09T17:15:03.209Z",
+    "text": "*LEAD MACHINE* — 09/10/2026, 21:15:03\n\nScanned 566 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-09T09:43:59.212Z",
     "text": "*LEAD MACHINE* — 09/10/2026, 13:43:59\n\nScanned 516 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -737,12 +745,5 @@
     "text": "*Lead Machine — CALL ALERT*\n🔴 ESCALATION\nCaller: +14155550123\nEnded: customer-ended-call\n\nSummary: Dental clinic owner wants missed-call follow-up automated; asked for a human about pricing for 3 locations.\n\nTranscript: I run three dental clinics and I want to speak to a real person about pricing.\n👉 Call them back now to close.",
     "kind": "voice_escalate_human",
     "caller": "+14155550123"
-  },
-  {
-    "at": "2026-09-17T10:59:19.200Z",
-    "text": "*Lead Machine* — 9/17/2026, 10:59:19 AM\n\nScanned 179 · qualified *12*\nListed pipeline: $0\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
-    "kind": "new_leads",
-    "count": 12,
-    "hot": 1
   }
 ]
