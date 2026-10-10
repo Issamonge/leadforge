@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-10T09:11:37.398Z",
+    "text": "*LEAD MACHINE* — 10/10/2026, 13:11:37\n\nScanned 486 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-09T22:57:56.892Z",
     "text": "*LEAD MACHINE* — 10/10/2026, 02:57:56\n\nScanned 486 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -741,11 +749,5 @@
     "text": "*Lead Machine — CALL ALERT*\n🟢 INTERESTED\nCaller: +971501234567\nEnded: assistant-ended-call\n\nSummary: Med spa owner interested in the 350 pilot and asked for the payment link.\n\nTranscript: That sounds good, how much? Send me the payment link.\n👉 Send the payment link and close.",
     "kind": "voice_hot",
     "caller": "+971501234567"
-  },
-  {
-    "at": "2026-09-17T11:10:14.547Z",
-    "text": "*Lead Machine — CALL ALERT*\n🟡 NOT INTERESTED\nCaller: +447700900123\nEnded: customer-ended-call\n\nSummary: Roofing company not interested; already has a VA doing follow-up.\n\nTranscript: No thanks, not interested, we already have someone.\n👉 Wants a human? Follow up personally.",
-    "kind": "voice_not_interested",
-    "caller": "+447700900123"
   }
 ]
