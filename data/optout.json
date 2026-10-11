@@ -283,5 +283,15 @@
     "email": "you@email.com",
     "reason": "bounced: spam block",
     "at": "2026-10-08T17:39:23.362Z"
+  },
+  {
+    "email": "info@walkertexaslawyer.us",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-11T16:27:43.822Z"
+  },
+  {
+    "email": "sferrell@ferrell-lawfirm.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-11T16:27:43.822Z"
   }
 ]
