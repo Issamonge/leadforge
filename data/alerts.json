@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-12T09:55:40.444Z",
+    "text": "*LEAD MACHINE* — 12/10/2026, 13:55:40\n\nScanned 358 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-11T22:33:42.991Z",
     "text": "*LEAD MACHINE* — 12/10/2026, 02:33:42\n\nScanned 378 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -754,11 +762,5 @@
     "text": "*Lead Machine — CALL ALERT*\n🟡 NOT INTERESTED\nCaller: +447700900123\nEnded: customer-ended-call\n\nSummary: Roofing company not interested; already has a VA doing follow-up.\n\nTranscript: No thanks, not interested, we already have someone.\n👉 Wants a human? Follow up personally.",
     "kind": "voice_not_interested",
     "caller": "+447700900123"
-  },
-  {
-    "at": "2026-09-17T11:11:00.781Z",
-    "text": "*Lead Machine — CALL ALERT*\n🔴 ESCALATION\nCaller: +14155550123\nEnded: customer-ended-call\n\nSummary: Dental clinic owner wants missed-call follow-up automated; asked for a human about pricing for 3 locations.\n\nTranscript: I run three dental clinics and I want to speak to a real person about pricing.\n👉 Call them back now to close.",
-    "kind": "voice_escalate_human",
-    "caller": "+14155550123"
   }
 ]
