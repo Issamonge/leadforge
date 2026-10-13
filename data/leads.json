@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T17:53:57.904Z",
+  "generatedAt": "2026-10-13T23:11:43.270Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,25 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 325,
-    "qualified": 38,
-    "pipelineValue": 1433100,
+    "totalScanned": 372,
+    "qualified": 60,
+    "pipelineValue": 1285080,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 150,
       "RemoteOK": 99,
       "Remotive": 16,
-      "OpenStreetMap": 0,
+      "OpenStreetMap": 47,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 0,
-    "phoneLeads": 0,
+    "whatsappCapable": 11,
+    "phoneLeads": 46,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 28,
-    "emailLeads": 0,
+    "emailLeads": 32,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -307,7 +307,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "score": 58,
       "outreach": {
         "subject": "Quick idea for \"Irash Tech | Business Development Manager (Fr\"",
@@ -336,11 +336,40 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 217,
+      "ageDays": 218,
       "score": 55,
       "outreach": {
         "subject": "Quick idea for \"📣 HIRING: Freelance/Agency AI Automation Eng\"",
         "body": "Hi,\n\nSaw your post: \"📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-296828",
+      "source": "n8n Community",
+      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
+      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
+      "postedAt": "2026-05-26T16:56:08.745Z",
+      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "services": [
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 140,
+      "score": 55,
+      "outreach": {
+        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -376,33 +405,1792 @@
       "waLink": ""
     },
     {
-      "id": "n8n Community-296828",
-      "source": "n8n Community",
-      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
-      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
-      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
-      "postedAt": "2026-05-26T16:56:08.745Z",
-      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "id": "osm-node-2049299130",
+      "source": "OpenStreetMap",
+      "title": "Avanza Solutions (Pvt.) Ltd. — it",
+      "description": "Business in Karachi. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: n/a. Phone: 092 21 35675240-42.",
+      "email": "sales@avanzasolutions.com",
+      "phone": "092 21 35675240-42",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "it",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "Chatbots & voice"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
+      "url": "https://www.openstreetmap.org/node/2049299130",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Avanza Solutions (Pvt.) Ltd. it Karachi",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 140,
-      "score": 55,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Avanza Solutions (Pvt.) Ltd. — quick question about manual work that eats the week",
+        "body": "Hi Avanza Solutions (Pvt.) Ltd. team,\n\nI work with it businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
+    },
+    {
+      "id": "osm-node-2049306351",
+      "source": "OpenStreetMap",
+      "title": "Folio3 (Pvt.) Limited — it (Shahrah e Faisal, Karachi)",
+      "description": "Business in Karachi. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: n/a. Phone: 092-21-3432 3721-4.",
+      "email": "info@folio3.com",
+      "phone": "092-21-3432 3721-4",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.openstreetmap.org/node/2049306351",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Folio3 (Pvt.) Limited it Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Folio3 (Pvt.) Limited — quick question about manual work that eats the week",
+        "body": "Hi Folio3 (Pvt.) Limited team,\n\nI work with it businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2049312942",
+      "source": "OpenStreetMap",
+      "title": "Premier Software (Pvt.) Ltd. — it (Mumtaz Hasan Road, Karachi)",
+      "description": "Business in Karachi. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: n/a. Phone: (92-21)32400280, 32436238, 32446205-7.",
+      "email": "presoft@mrgc.com.pk",
+      "phone": "(92-21)32400280, 32436238, 32446205-7",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.openstreetmap.org/node/2049312942",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Premier Software (Pvt.) Ltd. it Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Premier Software (Pvt.) Ltd. — quick question about manual work that eats the week",
+        "body": "Hi Premier Software (Pvt.) Ltd. team,\n\nI work with it businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2054742827",
+      "source": "OpenStreetMap",
+      "title": "Royal Cyber Inc. — it",
+      "description": "Business in Karachi. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: n/a. Phone: 847 556 6050.",
+      "email": "mas@royalcyber.com",
+      "phone": "847 556 6050",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.openstreetmap.org/node/2054742827",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Royal Cyber Inc. it Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Royal Cyber Inc. — quick question about manual work that eats the week",
+        "body": "Hi Royal Cyber Inc. team,\n\nI work with it businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4311476589",
+      "source": "OpenStreetMap",
+      "title": "I4U — electronics (Sardar Ali Sabri Road)",
+      "description": "Business in Karachi. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://www.i4u.com.pk/. Phone: 00923333675555.",
+      "email": "info@i4u.com.pk",
+      "phone": "00923333675555",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.i4u.com.pk/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://www.i4u.com.pk/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "I4U electronics Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "I4U — quick question about manual work that eats the week",
+        "body": "Hi I4U team,\n\nI work with electronics businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923333675555?text=Hello%20I4U%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4734370178",
+      "source": "OpenStreetMap",
+      "title": "Honda Site — car (Manghopir Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: hondasite.com.pk. Phone: +92 21 32564926.",
+      "email": "info@hondasite.com.pk",
+      "phone": "+92 21 32564926",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "hondasite.com.pk",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "hondasite.com.pk",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Honda Site car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "emailFrom": "website",
+      "outreach": {
+        "subject": "Honda Site — quick question about manual work that eats the week",
+        "body": "Hi Honda Site team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4734377500",
+      "source": "OpenStreetMap",
+      "title": "Toyota Clifton Motors — car (Shahrah e Firdousi, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: http://www.toyota-clifton.com. Phone: UAN: 021 - 111 800 777 /+92 213 530 2519.",
+      "email": "sales@toyota-clifton.com",
+      "phone": "UAN: 021 - 111 800 777 /+92 213 530 2519",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.toyota-clifton.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "http://www.toyota-clifton.com",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Clifton Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Clifton Motors — quick question about manual work that eats the week",
+        "body": "Hi Toyota Clifton Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4734551221",
+      "source": "OpenStreetMap",
+      "title": "Honda Defence — car (Korangi Industrial Area Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://honda.com.pk/. Phone: +92 21 35805291 / +92-(0)304 1118 882.",
+      "email": "info@honda.com.pk",
+      "phone": "+92 21 35805291 / +92-(0)304 1118 882",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://honda.com.pk/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://honda.com.pk/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Honda Defence car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Honda Defence — quick question about manual work that eats the week",
+        "body": "Hi Honda Defence team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4735579956",
+      "source": "OpenStreetMap",
+      "title": "Honda Drive In Showroom — car (Rashid Minhas Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://hondadrivein.com/. Phone: 021-34992832-37.",
+      "email": "info@hondadrivein.com",
+      "phone": "021-34992832-37",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://hondadrivein.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://hondadrivein.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Honda Drive In Showroom car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Honda Drive In Showroom — quick question about manual work that eats the week",
+        "body": "Hi Honda Drive In Showroom team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4737227108",
+      "source": "OpenStreetMap",
+      "title": "Toyota Central Motors — car (Shahrah e Faisal, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://toyota-central.com/. Phone: 021-34537609 / +92 21 111 786 122.",
+      "email": "customer.relations@toyota-central.com",
+      "phone": "021-34537609 / +92 21 111 786 122",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://toyota-central.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://toyota-central.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Central Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Central Motors — quick question about manual work that eats the week",
+        "body": "Hi Toyota Central Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4759070128",
+      "source": "OpenStreetMap",
+      "title": "Toyota Eastern Motors — car (Rashid Minhas Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: http://www.toyotaeastern.com / www.toyota-indus.com. Phone: UAN: +92-111 836 111 /  (021) 34614077, 34614177, 34614277, 34614377.",
+      "email": "",
+      "phone": "UAN: +92-111 836 111 /  (021) 34614077, 34614177, 34614277, 34614377",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.toyotaeastern.com / www.toyota-indus.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "http://www.toyotaeastern.com / www.toyota-indus.com",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Eastern Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Toyota Eastern Motors — car (Rashid Minhas Ro\"",
+        "body": "Hi,\n\nSaw your post: \"Toyota Eastern Motors — car (Rashid Minhas Road, Karachi)\". This is exactly the kind of lead follow-up automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4769659237",
+      "source": "OpenStreetMap",
+      "title": "Toyota Southern Motors — car (Korangi Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://toyotasouthern.com/. Phone: UAN: +92-21) 111-876-111/ +92-21 35053181-86 | 35061551-4.",
+      "email": "customer.relations@toyotasouthern.com",
+      "phone": "UAN: +92-21) 111-876-111/ +92-21 35053181-86 | 35061551-4",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://toyotasouthern.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://toyotasouthern.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Southern Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Southern Motors — quick question about manual work that eats the week",
+        "body": "Hi Toyota Southern Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4774619850",
+      "source": "OpenStreetMap",
+      "title": "Toyota Defence Motors — car (DHA Phase 1, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://toyotadefence.com/. Phone: UAN +92 21 111 836 836 / +92 21 35888862,49,25 – 35386022-25, 35882028.",
+      "email": "customer.relations@toyotadefence.com",
+      "phone": "UAN +92 21 111 836 836 / +92 21 35888862,49,25 – 35386022-25, 35882028",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://toyotadefence.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://toyotadefence.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Defence Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Defence Motors — quick question about manual work that eats the week",
+        "body": "Hi Toyota Defence Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4810084751",
+      "source": "OpenStreetMap",
+      "title": "WOOD HOMES INTERIOR FURNITURE — furniture (Sehba Akhter Rd, Block 13D-2 Block 13 D 2 Gulshan-e-Iqbal, Karachi,, Karachi)",
+      "description": "Business in Karachi. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03002887213",
+      "mobileNumber": "03002887213",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/4810084751",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "WOOD HOMES INTERIOR FURNITURE furniture Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"WOOD HOMES INTERIOR FURNITURE — furniture (Se\"",
+        "body": "Hi,\n\nSaw your post: \"WOOD HOMES INTERIOR FURNITURE — furniture (Sehba Akhter Rd, Block 13D-2 Block 13 D 2 Gulshan-e-Iqbal, Karachi,, Karachi)\". This is exactly the kind of lead follow-up work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5084590423",
+      "source": "OpenStreetMap",
+      "title": "Eye Land Eye clinic — clinic (Shaheed-e-Millat NE, Karachi)",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.eyeland.pk.com. Phone: 00922134555710.",
+      "email": "my@salateen.com",
+      "phone": "00922134555710",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.eyeland.pk.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://www.eyeland.pk.com",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Eye Land Eye clinic clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Eye Land Eye clinic — quick question about missed calls and no-shows",
+        "body": "Hi Eye Land Eye clinic team,\n\nI work with clinic businesses in Karachi on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5084613424",
+      "source": "OpenStreetMap",
+      "title": "estate traders — estate agent (Khayaban e Jami)",
+      "description": "Business in Karachi. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: n/a.",
+      "email": "my@salateen.com",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.openstreetmap.org/node/5084613424",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "estate traders estate_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "estate traders — quick question about manual work that eats the week",
+        "body": "Hi estate traders team,\n\nI work with estate_agent businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5131112282",
+      "source": "OpenStreetMap",
+      "title": "Toyota Creek Motors — car (Korangi Creek Road, Karachi)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://toyotacreek.com/. Phone: UAN: +92 21 111 334 632 / 021-35092211-8.",
+      "email": "customer.support@toyotacreek.com",
+      "phone": "UAN: +92 21 111 334 632 / 021-35092211-8",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://toyotacreek.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://toyotacreek.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Toyota Creek Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Creek Motors — quick question about manual work that eats the week",
+        "body": "Hi Toyota Creek Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5137527645",
+      "source": "OpenStreetMap",
+      "title": "Xtreme Hardware — computer (M A Jinnah Road, Karachi)",
+      "description": "Business in Karachi. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://xtremehardware.pk. Phone: +923042289925.",
+      "email": "sales@xtremehardware.pk",
+      "phone": "+923042289925",
+      "mobileNumber": "+923042289925",
+      "hasMobile": true,
+      "website": "https://xtremehardware.pk",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://xtremehardware.pk",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Xtreme Hardware computer Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Xtreme Hardware — quick question about manual work that eats the week",
+        "body": "Hi Xtreme Hardware team,\n\nI work with computer businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923042289925?text=Hello%20Xtreme%20Hardware%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-5149746101",
+      "source": "OpenStreetMap",
+      "title": "Decoera Furniture Showroom — furniture (Block, Hassan Apartments, Shop No. T-6, 13-A EXT, Gulshan-e-Iqbal, Karachi,, Karachi)",
+      "description": "Business in Karachi. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://decoera.pk/. Phone: 03363551120.",
+      "email": "decoera19@gmail.com",
+      "phone": "03363551120",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://decoera.pk/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://decoera.pk/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Decoera Furniture Showroom furniture Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Decoera Furniture Showroom — quick question about manual work that eats the week",
+        "body": "Hi Decoera Furniture Showroom team,\n\nI work with furniture businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5526312436",
+      "source": "OpenStreetMap",
+      "title": "Goethe-Institut — language school (Brunton Road, Karachi)",
+      "description": "Business in Karachi. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.goethe.de/ins/pk/en/ueb.html. Phone: +92 21 35661633-6.",
+      "email": "info@karachi.goethe.org",
+      "phone": "+92 21 35661633-6",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.goethe.de/ins/pk/en/ueb.html",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://www.goethe.de/ins/pk/en/ueb.html",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Goethe-Institut language_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Goethe-Institut — quick question about manual work that eats the week",
+        "body": "Hi Goethe-Institut team,\n\nI work with language_school businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5621713423",
+      "source": "OpenStreetMap",
+      "title": "Muzdalfah Motors — car (Stadium Road)",
+      "description": "Business in Karachi. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: n/a. Phone: n/a.",
+      "email": "waqar145@gmail.com",
+      "phone": "+923332185229",
+      "mobileNumber": "+923332185229",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.openstreetmap.org/node/5621713423",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Muzdalfah Motors car Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Muzdalfah Motors — quick question about manual work that eats the week",
+        "body": "Hi Muzdalfah Motors team,\n\nI work with car businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923332185229?text=Hello%20Muzdalfah%20Motors%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-5656201621",
+      "source": "OpenStreetMap",
+      "title": "ACTLAW — lawyer",
+      "description": "Business in Karachi. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.actlaw.org. Phone: 03404000060.",
+      "email": "act.laws@gmail.com",
+      "phone": "03404000060",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.actlaw.org",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "http://www.actlaw.org",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "ACTLAW lawyer Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ACTLAW — quick question about enquiry follow-up that never happens",
+        "body": "Hi ACTLAW team,\n\nI work with lawyer businesses in Karachi on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6833571885",
+      "source": "OpenStreetMap",
+      "title": "Madras Jeweller’s — jewelry (Zaibunnisa Street (Elphinstone Street))",
+      "description": "Business in Karachi. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.madrasjewel.com/. Phone: +922135653832.",
+      "email": "sales@madrasjewel.com",
+      "phone": "+922135653832",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.madrasjewel.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.madrasjewel.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Madras Jeweller’s jewelry Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Madras Jeweller’s — quick question about manual work that eats the week",
+        "body": "Hi Madras Jeweller’s team,\n\nI work with jewelry businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6833571886",
+      "source": "OpenStreetMap",
+      "title": "Madras — jewelry (Dolmen Mall Level 2 Parking)",
+      "description": "Business in Karachi. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.madrasjewel.com/. Phone: +922135296025.",
+      "email": "sales@madrasjewel.com",
+      "phone": "+922135296025",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.madrasjewel.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.madrasjewel.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Madras jewelry Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Madras — quick question about manual work that eats the week",
+        "body": "Hi Madras team,\n\nI work with jewelry businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-10125576286",
+      "source": "OpenStreetMap",
+      "title": "Global Mart — it (Service Lane, Karachi)",
+      "description": "Business in Karachi. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://theglobalmart.com. Phone: +92 21 111 456 225.",
+      "email": "support@theglobalmart.com",
+      "phone": "+92 21 111 456 225",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://theglobalmart.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://theglobalmart.com",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Global Mart it Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Global Mart — quick question about manual work that eats the week",
+        "body": "Hi Global Mart team,\n\nI work with it businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-10185601062",
+      "source": "OpenStreetMap",
+      "title": "GFS House — estate agent (C 10, Gulshan-e-Jamal (Railway Colony) Block B Gulshan e Jamal, Karachi, Sindh, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "+923008231773",
+      "mobileNumber": "+923008231773",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.openstreetmap.org/node/10185601062",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "GFS House estate_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"GFS House — estate agent (C 10, Gulshan-e-Jam\"",
+        "body": "Hi,\n\nSaw your post: \"GFS House — estate agent (C 10, Gulshan-e-Jamal (Railway Colony) Block B Gulshan e Jamal, Karachi, Sindh, Pakistan, Karachi)\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923008231773?text=Hello%20GFS%20House%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10296783354",
+      "source": "OpenStreetMap",
+      "title": "IG ESTAE AND MARKETING — estate agent (Pir Ahmad Zaman Town Phase ll Black-1 D-13 1st floor, near Saadi Town, Block 6 Malir Cantonment, Karachi, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://iglisting.com. Phone: +923360001606.",
+      "email": "info@iglisting.com",
+      "phone": "+923360001606",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://iglisting.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://iglisting.com",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "IG ESTAE AND MARKETING estate_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "IG ESTAE AND MARKETING — quick question about manual work that eats the week",
+        "body": "Hi IG ESTAE AND MARKETING team,\n\nI work with estate_agent businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923360001606?text=Hello%20IG%20ESTAE%20AND%20MARKETING%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10686046905",
+      "source": "OpenStreetMap",
+      "title": "Askari Associates — estate agent (21st Commercial Street)",
+      "description": "Business in Karachi. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://www.askariassociates.pk. Phone: 03004190076.",
+      "email": "askariassociates05@gmail.com",
+      "phone": "03004190076",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.askariassociates.pk",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "http://www.askariassociates.pk",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Askari Associates estate_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Askari Associates — quick question about manual work that eats the week",
+        "body": "Hi Askari Associates team,\n\nI work with estate_agent businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11366874568",
+      "source": "OpenStreetMap",
+      "title": "Men's Care Clinics — clinic",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://menscareclinics.com/. Phone: +92-343-282-1919.",
+      "email": "menscareclinics@gmail.com",
+      "phone": "+92-343-282-1919",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://menscareclinics.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://menscareclinics.com/",
+      "postedAt": "2026-10-13T23:08:57.203Z",
+      "raw": "Men's Care Clinics clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Men's Care Clinics — quick question about missed calls and no-shows",
+        "body": "Hi Men's Care Clinics team,\n\nI work with clinic businesses in Karachi on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923432821919?text=Hello%20Men's%20Care%20Clinics%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12134333303",
+      "source": "OpenStreetMap",
+      "title": "Atemaad Motor Training Driving School Karachi,Gulshan e Iqbal,Gulistan e Jauhar — driving school (Gulistan-e-johar, Block 6 Gulshan-e-Iqbal, Karachi,, Karachi)",
+      "description": "Business in Karachi. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03225387777",
+      "mobileNumber": "03225387777",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12134333303",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Atemaad Motor Training Driving School Karachi,Gulshan e Iqbal,Gulistan e Jauhar driving_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Atemaad Motor Training Driving School Karachi\"",
+        "body": "Hi,\n\nSaw your post: \"Atemaad Motor Training Driving School Karachi,Gulshan e Iqbal,Gulistan e Jauhar — driving school (Gulistan-e-johar, Block 6 Gulshan-e-Iqbal, Karachi,, Karachi)\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12134339033",
+      "source": "OpenStreetMap",
+      "title": "Gulshan Defence Driving School Karachi Since 1970 — driving school (1 Floor Rim Jhim Shaping Mall, near Disco Bakery, Block 6 Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03354661919",
+      "mobileNumber": "03354661919",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12134339033",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Gulshan Defence Driving School Karachi Since 1970 driving_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Gulshan Defence Driving School Karachi Since \"",
+        "body": "Hi,\n\nSaw your post: \"Gulshan Defence Driving School Karachi Since 1970 — driving school (1 Floor Rim Jhim Shaping Mall, near Disco Bakery, Block 6 Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12139587100",
+      "source": "OpenStreetMap",
+      "title": "Sharyar Driving School — driving school (Kashti Chowk, Near by waseembag, Block 13-D Railway pathatk, Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03001013123",
+      "mobileNumber": "03001013123",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12139587100",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Sharyar Driving School driving_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Sharyar Driving School — driving school (Kash\"",
+        "body": "Hi,\n\nSaw your post: \"Sharyar Driving School — driving school (Kashti Chowk, Near by waseembag, Block 13-D Railway pathatk, Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12144379842",
+      "source": "OpenStreetMap",
+      "title": "Lily’s Daycare — childcare (Hassan Square, Karim Square, Block 13 A Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://t.ly/URAw3. Phone: n/a.",
+      "email": "",
+      "phone": "03340101016",
+      "mobileNumber": "03340101016",
+      "hasMobile": true,
+      "website": "https://t.ly/URAw3",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "childcare",
+      "services": [
+        "Enquiry automation",
+        "parent communication"
+      ],
+      "url": "https://t.ly/URAw3",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Lily’s Daycare childcare Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Enquiry automation",
+        "parent communication"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Lily’s Daycare — childcare (Hassan Square, Ka\"",
+        "body": "Hi,\n\nSaw your post: \"Lily’s Daycare — childcare (Hassan Square, Karim Square, Block 13 A Gulshan-e-Iqbal, Karachi, 75300, Pakistan, Karachi)\". This is exactly the kind of enquiry automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12151413639",
+      "source": "OpenStreetMap",
+      "title": "Niazi Dental Clinic — clinic (Plot no 6, 3 S M Taufiq Rd, C Area Liaquatabad Town, Karachi, Sindh, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03430222339",
+      "mobileNumber": "03430222339",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12151413639",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Niazi Dental Clinic clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Niazi Dental Clinic — clinic (Plot no 6, 3 S \"",
+        "body": "Hi,\n\nSaw your post: \"Niazi Dental Clinic — clinic (Plot no 6, 3 S M Taufiq Rd, C Area Liaquatabad Town, Karachi, Sindh, Pakistan, Karachi)\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12157499190",
+      "source": "OpenStreetMap",
+      "title": "Ansari Clinic — clinic (3/421,, kallu pann wali gali, Block 3 Liaquatabad Town, Karachi, Karachi City, Sindh, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03242528990",
+      "mobileNumber": "03242528990",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12157499190",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Ansari Clinic clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Ansari Clinic — clinic (3/421,, kallu pann wa\"",
+        "body": "Hi,\n\nSaw your post: \"Ansari Clinic — clinic (3/421,, kallu pann wali gali, Block 3 Liaquatabad Town, Karachi, Karachi City, Sindh, Pakistan, Karachi)\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12158310051",
+      "source": "OpenStreetMap",
+      "title": "Sajjad khatna (child) — clinic (Jamia masjid furqania, Block 3 Liaquatabad Town, #4, Karachi City, Sindh, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03432007224",
+      "mobileNumber": "03432007224",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12158310051",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Sajjad khatna (child) clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Sajjad khatna (child) — clinic (Jamia masjid \"",
+        "body": "Hi,\n\nSaw your post: \"Sajjad khatna (child) — clinic (Jamia masjid furqania, Block 3 Liaquatabad Town, #4, Karachi City, Sindh, Pakistan, Karachi)\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12160372423",
+      "source": "OpenStreetMap",
+      "title": "Dr. Sofia's Daycare and Learning Center Nazimabad — childcare (10/3, 4-E, Nazimabad No. 4 Block 4 Nazimabad, Karachi, Karachi City, Sindh 74600, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: http://drsofiasdaycare.com/. Phone: n/a.",
+      "email": "info@drsofiasdaycare.com",
+      "phone": "03340077352",
+      "mobileNumber": "03340077352",
+      "hasMobile": true,
+      "website": "http://drsofiasdaycare.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "childcare",
+      "services": [
+        "Enquiry automation",
+        "parent communication"
+      ],
+      "url": "http://drsofiasdaycare.com/",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Dr. Sofia's Daycare and Learning Center Nazimabad childcare Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Enquiry automation",
+        "parent communication"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "emailFrom": "website",
+      "outreach": {
+        "subject": "Dr. Sofia's Daycare and Learning Center Nazimabad — quick question about manual work that eats the week",
+        "body": "Hi Dr. Sofia's Daycare and Learning Center Nazimabad team,\n\nI work with childcare businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12160482755",
+      "source": "OpenStreetMap",
+      "title": "Specialist Care Clinic — doctors (Nazimabad No. 4 Block 4 Nazimabad, Karachi, Karachi City, Sindh 74600, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "02136621061",
+      "mobileNumber": "02136621061",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.openstreetmap.org/node/12160482755",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Specialist Care Clinic doctors Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Specialist Care Clinic — doctors (Nazimabad N\"",
+        "body": "Hi,\n\nSaw your post: \"Specialist Care Clinic — doctors (Nazimabad No. 4 Block 4 Nazimabad, Karachi, Karachi City, Sindh 74600, Pakistan, Karachi)\". This is exactly the kind of appointment automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12161583879",
+      "source": "OpenStreetMap",
+      "title": "Yasir Driving School Nazimabad no 5 — driving school (انڈر پاس, Nazimabad No. 4 Block 2 Nazimabad, Karachi, Karachi)",
+      "description": "Business in Karachi. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03462544355",
+      "mobileNumber": "03462544355",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12161583879",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Yasir Driving School Nazimabad no 5 driving_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Yasir Driving School Nazimabad no 5 — driving\"",
+        "body": "Hi,\n\nSaw your post: \"Yasir Driving School Nazimabad no 5 — driving school (انڈر پاس, Nazimabad No. 4 Block 2 Nazimabad, Karachi, Karachi)\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12162803080",
+      "source": "OpenStreetMap",
+      "title": "Specialist — clinic (II J، 8/6, Nazimabad Number 2 Karachi 6, Karachi, 74600, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03312531428",
+      "mobileNumber": "03312531428",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12162803080",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Specialist clinic Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Specialist — clinic (II J، 8/6, Nazimabad Num\"",
+        "body": "Hi,\n\nSaw your post: \"Specialist — clinic (II J، 8/6, Nazimabad Number 2 Karachi 6, Karachi, 74600, Pakistan, Karachi)\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12184339731",
+      "source": "OpenStreetMap",
+      "title": "Azam Car Driving School — driving school (Ali khan rod, Nawab Siddique Ali Khan Rd, Nazimabad No. 4 Block 4 bas ispot, 7number, Karachi City, Sindh 74600, Pakistan, Karachi)",
+      "description": "Business in Karachi. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "03003503594",
+      "mobileNumber": "03003503594",
+      "hasMobile": true,
+      "website": "",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/12184339731",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Azam Car Driving School driving_school Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Azam Car Driving School — driving school (Ali\"",
+        "body": "Hi,\n\nSaw your post: \"Azam Car Driving School — driving school (Ali khan rod, Nawab Siddique Ali Khan Rd, Nazimabad No. 4 Block 4 bas ispot, 7number, Karachi City, Sindh 74600, Pakistan, Karachi)\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12246094565",
+      "source": "OpenStreetMap",
+      "title": "Gold2Cash - Sell Old Gold Jewelry — jewelry (Gulf Shopping Mall, Karachi)",
+      "description": "Business in Karachi. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://gold2cash.pk/. Phone: 03394099917.",
+      "email": "hello@gold2cash.pk",
+      "phone": "03394099917",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://gold2cash.pk/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://gold2cash.pk/",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Gold2Cash - Sell Old Gold Jewelry jewelry Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Gold2Cash - Sell Old Gold Jewelry — quick question about manual work that eats the week",
+        "body": "Hi Gold2Cash - Sell Old Gold Jewelry team,\n\nI work with jewelry businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12290385745",
+      "source": "OpenStreetMap",
+      "title": "Milkiyat Real Estate — estate agent (G-2, Diamond Arcade, Block, near Waqas Clothe Market, Block 13D-1, Karachi)",
+      "description": "Business in Karachi. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://milkiyat.net. Phone: +923312250976.",
+      "email": "",
+      "phone": "+923312250976",
+      "mobileNumber": "+923312250976",
+      "hasMobile": true,
+      "website": "https://milkiyat.net",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://milkiyat.net",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Milkiyat Real Estate estate_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Milkiyat Real Estate — estate agent (G-2, Dia\"",
+        "body": "Hi,\n\nSaw your post: \"Milkiyat Real Estate — estate agent (G-2, Diamond Arcade, Block, near Waqas Clothe Market, Block 13D-1, Karachi)\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923312250976?text=Hello%20Milkiyat%20Real%20Estate%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-12984927263",
+      "source": "OpenStreetMap",
+      "title": "Legum Law Firm — lawyer (Court Road, Karachi)",
+      "description": "Business in Karachi. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://legumlawfirm.co. Phone: +923366556666.",
+      "email": "contact@legumlawfirm.co",
+      "phone": "+923366556666",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://legumlawfirm.co",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://legumlawfirm.co",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Legum Law Firm lawyer Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Legum Law Firm — quick question about enquiry follow-up that never happens",
+        "body": "Hi Legum Law Firm team,\n\nI work with lawyer businesses in Karachi on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923366556666?text=Hello%20Legum%20Law%20Firm%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14224664218",
+      "source": "OpenStreetMap",
+      "title": "Brilliant Gemstone — jewelry (Raja Ghazanfar Ali Road (Somerset Street), Karachi)",
+      "description": "Business in Karachi. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://brillgems.com/. Phone: n/a.",
+      "email": "zahoorgemologist@gmail.com",
+      "phone": "+92 313 2398547",
+      "mobileNumber": "+92 313 2398547",
+      "hasMobile": true,
+      "website": "https://brillgems.com/",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://brillgems.com/",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Brilliant Gemstone jewelry Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Brilliant Gemstone — quick question about manual work that eats the week",
+        "body": "Hi Brilliant Gemstone team,\n\nI work with jewelry businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923132398547?text=Hello%20Brilliant%20Gemstone%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14265692957",
+      "source": "OpenStreetMap",
+      "title": "Lens Ground — electronics (Golf Course Road 3, Karachi)",
+      "description": "Business in Karachi. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://lensground.com. Phone: +92 300 2506005.",
+      "email": "sales@lensground.com",
+      "phone": "+92 300 2506005",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://lensground.com",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://lensground.com",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "Lens Ground electronics Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Lens Ground — quick question about manual work that eats the week",
+        "body": "Hi Lens Ground team,\n\nI work with electronics businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923002506005?text=Hello%20Lens%20Ground%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14280829703",
+      "source": "OpenStreetMap",
+      "title": "ALAJJ (SMC-Private) Limited — travel agent (Shahrah-e-Faisal Service Lane, Karachi)",
+      "description": "Business in Karachi. Category: travel_agent. Services to pitch: Booking automation, enquiry follow-up. Website: https://alajj.tours. Phone: +92 320 2525563.",
+      "email": "me.alajj@gmail.com",
+      "phone": "+92 320 2525563",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://alajj.tours",
+      "city": "Karachi",
+      "tz": "Asia/Karachi",
+      "category": "travel_agent",
+      "services": [
+        "Booking automation",
+        "enquiry follow-up"
+      ],
+      "url": "https://alajj.tours",
+      "postedAt": "2026-10-13T23:08:57.204Z",
+      "raw": "ALAJJ (SMC-Private) Limited travel_agent Karachi",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "enquiry follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ALAJJ (SMC-Private) Limited — quick question about manual work that eats the week",
+        "body": "Hi ALAJJ (SMC-Private) Limited team,\n\nI work with travel_agent businesses in Karachi on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/923202525563?text=Hello%20ALAJJ%20(SMC-Private)%20Limited%2C%0A%0AI%20help%20businesses%20in%20Karachi%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
       "id": "n8n Community-320146",
@@ -477,669 +2265,6 @@
       "outreach": {
         "subject": "Quick idea for \"Estuary | US-Based &#x2F; Remote | Full-time \"",
         "body": "Hi,\n\nSaw your post: \"Estuary | US-Based &#x2F; Remote | Full-time – https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post–Series A\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-317073",
-      "source": "n8n Community",
-      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
-      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
-      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
-      "postedAt": "2026-09-28T05:23:36.357Z",
-      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
-      "services": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 16,
-      "score": 46,
-      "outreach": {
-        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
-        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-318516",
-      "source": "n8n Community",
-      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
-      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
-      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
-      "postedAt": "2026-10-03T13:30:09.564Z",
-      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
-      "services": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 10,
-      "score": 46,
-      "outreach": {
-        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
-        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-235497",
-      "source": "n8n Community",
-      "title": "Automation Systems Builder (n8n) – Europe (Remote)",
-      "description": "Hi, We’re looking for a practical n8n builder to help us design and maintain production-grade workflows. This is ongoing work on real systems (not one-off zaps, not experiments). The work You’ll be building and maintaining n8n workflows that: • Integrate APIs (REST, webhooks, OAuth) • Handle pagination, retries, rate limits • Deduplicate safely (idempotency matters) • Send alerts only when something *actually* fails • Are readable and maintainable over time There’s room to help shape the logic, not just wire nodes. What we’re looking for You’re likely a good fit if: • You’ve built real workflows in n8n, not just demos • You’re comfortable inspecting execution data • You think about edge cases and failure modes • You’re happy working async • You’re based in Europe (time-zone overlap) No degrees, no corporate titles required. Nice to have (not required) • Stripe, CRMs, internal tools • Function nodes / light JS • Experience maintaining long-running workflows Time &amp; pay • 10–30 hrs / week (flexible) • €25–45 / hour depending on experience • Paid test task (2–3 hrs) • Long-term collaboration if it works well",
-      "url": "https://community.n8n.io/t/automation-systems-builder-n8n-europe-remote/235497",
-      "postedAt": "2025-12-13T13:36:21.745Z",
-      "raw": "Automation Systems Builder (n8n) – Europe (Remote)",
-      "services": [
-        "Workflow automation",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 304,
-      "score": 43,
-      "outreach": {
-        "subject": "Quick idea for \"Automation Systems Builder (n8n) – Europe (Re\"",
-        "body": "Hi,\n\nSaw your post: \"Automation Systems Builder (n8n) – Europe (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-316359",
-      "source": "n8n Community",
-      "title": "Looking for an n8n Freelancer / Automation Builder",
-      "description": "I’m looking for an experienced n8n freelancer to help build WhatsApp automations for local service businesses, including real estate, salons, dealerships, hotels, and home-service companies. You’ll handle technical implementation while I manage clients, requirements, communication, and project management. Projects may include: WhatsApp chatbots Lead capture and qualification AI FAQ responses Human handoff Booking workflows CRM, Sheets, and database integrations Notifications, follow-ups, APIs, and webhooks You should have hands-on n8n experience, understand APIs, JSON, and webhooks, and be comfortable with WhatsApp Business and AI/LLM integrations. Reliability, clear communication, documentation, and maintainable workflows are essential. This starts as project-based freelance work, with potential for a long-term relationship. You’ll handle implementation, testing, documentation, and agreed fixes. To apply, send: Your n8n experience and years of use 2–3 workflow examples WhatsApp/API and AI/LLM experience Pricing and weekly availability Timezone Interest in ongoing projects Portfolio, GitHub, screenshots, or other proof of work A small paid test project may come first. Please DM me ",
-      "url": "https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359",
-      "postedAt": "2026-09-25T15:00:21.415Z",
-      "raw": "Looking for an n8n Freelancer / Automation Builder",
-      "services": [
-        "Workflow automation",
-        "Chatbots & voice"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 18,
-      "score": 42,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for an n8n Freelancer / Automation Bu\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for an n8n Freelancer / Automation Builder\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49937835",
-      "source": "Hacker News",
-      "title": "Middesk | Full-time | NYC &#x2F; SF | Hybrid | middesk.com At Middesk, we&#x27;re building the business identity infrast",
-      "description": "Middesk | Full-time | NYC &#x2F; SF | Hybrid | middesk.com At Middesk, we&#x27;re building the business identity infrastructure that banks, fintechs, and platforms rely on to know who they&#x27;re doing business with — powering KYB (Know Your Business) compliance, fraud prevention, and entity verification at scale. We&#x27;re expanding beyond verification into a full agentic compliance platform — orchestrators and specialist agents that automate what used to be manual compliance review. Backed by YC, Sequoia, and Accel (Series B). We&#x27;re a small, sharp team with high ownership — engineers work closely with customers and leadership, and get to see their work ship fast. Open roles: Forward Deployed Engineer ($148K – $255K) — NYC or SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;a72b1048-1001-49b1-92bd-9c4... (Senior) Software E",
-      "url": "https://news.ycombinator.com/item?id=49937835",
-      "postedAt": "2026-10-02T19:53:53Z",
-      "raw": "Middesk | Full-time | NYC &#x2F; SF | Hybrid | middesk.com At Middesk, we&#x27;re building the business identity infrastructure that banks, fintechs, and platforms rely on to know who they&#x27;re doing business with — powering KYB (Know Your Business) compliance, fraud prevention, and entity verification at scale. We&#x27;re expanding beyond verification into a full agentic compliance platform — orchestrators and specialist agents that automate what used to be manual compliance review. Backed by YC, Sequoia, and Accel (Series B). We&#x27;re a small, sharp team with high ownership — engineers work closely with customers and leadership, and get to see their work ship fast. Open roles: Forward Deployed Engineer ($148K – $255K) — NYC or SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;a72b1048-1001-49b1-92bd-9c4... (Senior) Software Engineer ($148K – $250K) — NYC or SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;e1c6af86-dce1-495f-a710-ad3... Data Scientist ($175K – $210K) — NYC or SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;f0da59d3-43fa-460b-88ea-4fc... Lead Data Scientist ($210K – $250K) — NYC or SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;7fd5aeb2-c33c-4f0a-ad3d-216... Software Engineer, Infrastructure ($148K – $230K) — SF, hybrid (2x&#x2F;week in office) Apply here —&gt; https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;middesk&#x2F;aed2c535-cd58-4920-9618-a0c...",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": false,
-      "budget": 148000,
-      "ageDays": 11,
-      "score": 40,
-      "outreach": {
-        "subject": "Middesk | Full-time | NYC &#x2F; SF | Hybrid | middesk. — fixed-scope plan",
-        "body": "Hi,\n\nSaw your post: \"Middesk | Full-time | NYC &#x2F; SF | Hybrid | middesk.com At Middesk, we&#x27;re building the business identity infrast\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $148000 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-50020012",
-      "source": "Hacker News",
-      "title": "Propel Labs | Staff Full-Stack Engineer, Quality &amp; Delivery | Remote (North America hours) | Full-time | https:&#x2F",
-      "description": "Propel Labs | Staff Full-Stack Engineer, Quality &amp; Delivery | Remote (North America hours) | Full-time | https:&#x2F;&#x2F;propellabs.ai Hello HN, Lisa here from Propel! We&#x27;re a bunch of interdisciplinary builder-maker-designers leading a venture studio and building software for mining and deep-tech companies. Think IDEO for AI: a small senior team, direct CEO involvement, technical depth married with design craft. We are not a dev shop and not a consultancy, we&#x27;re not about scope or hours, we&#x27;re only about outcomes. We embed through the lifecycle of challenges and the same senior people stay on the problem. AI agents have made engineering throughput cheap, so senior judgment is now the scarce asset: what to build, what to gate, what to trust to production. We&#x27;re looking for an experienced engineer to join our small crew and play a ~70&#x2F;30 build-to-lead role: ",
-      "url": "https://news.ycombinator.com/item?id=50020012",
-      "postedAt": "2026-10-09T13:12:43Z",
-      "raw": "Propel Labs | Staff Full-Stack Engineer, Quality &amp; Delivery | Remote (North America hours) | Full-time | https:&#x2F;&#x2F;propellabs.ai Hello HN, Lisa here from Propel! We&#x27;re a bunch of interdisciplinary builder-maker-designers leading a venture studio and building software for mining and deep-tech companies. Think IDEO for AI: a small senior team, direct CEO involvement, technical depth married with design craft. We are not a dev shop and not a consultancy, we&#x27;re not about scope or hours, we&#x27;re only about outcomes. We embed through the lifecycle of challenges and the same senior people stay on the problem. AI agents have made engineering throughput cheap, so senior judgment is now the scarce asset: what to build, what to gate, what to trust to production. We&#x27;re looking for an experienced engineer to join our small crew and play a ~70&#x2F;30 build-to-lead role: - Raise the team’s bar without bureaucracy - Ship production code - Be the human PR review - Own the quality delivery system as a product - Ship spec-first - Orchestrate AI at staff level Stack: TypeScript, React, Python, PostgreSQL, ECS&#x2F;Lambda, Terraform. We work on fascinating projects with physical implications to the world but more importantly we just really don&#x27;t work with a*holes, I wake up happy to see my colleagues, the crew loves to laugh and we walk the walk. Full role details: https:&#x2F;&#x2F;docs.google.com&#x2F;document&#x2F;d&#x2F;1R7rPplGTziBmvnKSocRRQ5Pg... Email lisa@propellabs.ai with a PR, design doc or postmortem you&#x27;re proud of, and why this role. Always happy to jump on short calls for a mutual sus-out. It&#x27;s a call for adventure, after all.",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 4,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"Propel Labs | Staff Full-Stack Engineer, Qual\"",
-        "body": "Hi,\n\nSaw your post: \"Propel Labs | Staff Full-Stack Engineer, Quality &amp; Delivery | Remote (North America hours) | Full-time | https:&#x2F\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-50004401",
-      "source": "Hacker News",
-      "title": "Ojin | Lead Platform Engineer | HYBRID (Berlin) or REMOTE (CET ±2h) | Full-time Hi HN! I&#x27;m Seema, part of the team ",
-      "description": "Ojin | Lead Platform Engineer | HYBRID (Berlin) or REMOTE (CET ±2h) | Full-time Hi HN! I&#x27;m Seema, part of the team at Ojin, and we&#x27;re looking for our next Lead Platform Engineer. We build AI agents that look and sound human - real face, real voice, real-time conversation. The kind of thing that makes people ask if it&#x27;s actually live the first time they see it. Getting there means solving latency at a level most infrastructure can&#x27;t touch, running custom frontier models for lipsync and face generation, and orchestrating all of it live across a globally distributed GPU fabric we own and operate ourselves. This isn&#x27;t a role where you maintain what someone else built. The hard problems are still open: dynamic routing and load balancing across thousands of concurrent GPU servers spanning multiple clouds and regions, keeping latency low enough that conversation feels n",
-      "url": "https://news.ycombinator.com/item?id=50004401",
-      "postedAt": "2026-10-08T11:10:20Z",
-      "raw": "Ojin | Lead Platform Engineer | HYBRID (Berlin) or REMOTE (CET ±2h) | Full-time Hi HN! I&#x27;m Seema, part of the team at Ojin, and we&#x27;re looking for our next Lead Platform Engineer. We build AI agents that look and sound human - real face, real voice, real-time conversation. The kind of thing that makes people ask if it&#x27;s actually live the first time they see it. Getting there means solving latency at a level most infrastructure can&#x27;t touch, running custom frontier models for lipsync and face generation, and orchestrating all of it live across a globally distributed GPU fabric we own and operate ourselves. This isn&#x27;t a role where you maintain what someone else built. The hard problems are still open: dynamic routing and load balancing across thousands of concurrent GPU servers spanning multiple clouds and regions, keeping latency low enough that conversation feels natural, and deployment pipelines that can keep up with a product that&#x27;s moving fast. You&#x27;d set the technical direction for all of it, working directly with the founders on a 15-person team. No layers between you and the decisions that matter. If you&#x27;ve worked on distributed systems at scale, care about how things are built and not just that they work, and want real ownership rather than a slice of someone else&#x27;s architecture — we&#x27;d love to hear from you. Stack: AWS, TypeScript or Go, Terraform&#x2F;Pulumi&#x2F;AWS CDK, Docker, serverless architectures. Looking for: 5+ years hands-on AWS in production, strong IaC, multi-cloud experience, low-latency systems, and startup experience. We&#x27;re not able to offer relocation or visa sponsorship. If you&#x27;re already in Berlin, this is a hybrid role. If you&#x27;re elsewhere, we&#x27;re open to fully remote within CET ±2h. Applications outside these criteria won&#x27;t be progressed. Apply or read more at https:&#x2F;&#x2F;ojin.ai and please mention you found us on Hacker News in your application. We&#x27;re also hiring across sales and marketing.",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 5,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"Ojin | Lead Platform Engineer | HYBRID (Berli\"",
-        "body": "Hi,\n\nSaw your post: \"Ojin | Lead Platform Engineer | HYBRID (Berlin) or REMOTE (CET ±2h) | Full-time Hi HN! I&#x27;m Seema, part of the team \". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49980137",
-      "source": "Hacker News",
-      "title": "RealResponse | Product Engineer | REMOTE (US) | Full-time | https:&#x2F;&#x2F;www.realresponse.com We build software use",
-      "description": "RealResponse | Product Engineer | REMOTE (US) | Full-time | https:&#x2F;&#x2F;www.realresponse.com We build software used across college athletics, professional sports, higher education, and other organizations, from reporting and compliance to live event operations. We&#x27;re a team of &lt; 15 people, with no venture capital, and profitable. This means we get to make decisions for our customers and our team, not for investors. Rails is at the core of everything we build, and we keep reasonable hours and a codebase we&#x27;re proud of. We&#x27;re looking for someone who solves problems across the board: building and improving our applications, shaping products, internal tools, fast prototypes, and the systems that keep quality and security high. You&#x27;d own problems end to end, from understanding what the customer actually needs to shipping the fix. On the AI side, we want someone wh",
-      "url": "https://news.ycombinator.com/item?id=49980137",
-      "postedAt": "2026-10-06T15:39:20Z",
-      "raw": "RealResponse | Product Engineer | REMOTE (US) | Full-time | https:&#x2F;&#x2F;www.realresponse.com We build software used across college athletics, professional sports, higher education, and other organizations, from reporting and compliance to live event operations. We&#x27;re a team of &lt; 15 people, with no venture capital, and profitable. This means we get to make decisions for our customers and our team, not for investors. Rails is at the core of everything we build, and we keep reasonable hours and a codebase we&#x27;re proud of. We&#x27;re looking for someone who solves problems across the board: building and improving our applications, shaping products, internal tools, fast prototypes, and the systems that keep quality and security high. You&#x27;d own problems end to end, from understanding what the customer actually needs to shipping the fix. On the AI side, we want someone who knows how to: - Evaluate new models as they ship, and pick the right one for the job (fast and cheap vs. most capable) - Design agents and multi-agent workflows with tool use, and know when a simpler approach is better - Build retrieval that stays accurate as the underlying content changes (RAG, embeddings, search) - Measure quality with evals and observability, so changes are proven rather than guessed - Keep AI features fast, reliable, and cost-effective under real production load - Handle AI security properly: prompt injection, data isolation between customers, and sensitive data Stack today: Rails 8, Hotwire, Hotwire Native, Postgres, AWS. Rails experience helps but isn&#x27;t required. What matters more is a strong grasp of solid engineering practices and principles, and the judgment to use the right tools to solve the problem. DO NOT send messages via Linked in or directly to any employee. Apply only via the email below. To apply: email jobs@realresponse.com with subject &quot;Product Engineer: [your name]&quot;. Include a link to something you built, a few sentences about a problem you solved end to end, your salary expectations, and your CV.",
-      "services": [
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 7,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"RealResponse | Product Engineer | REMOTE (US)\"",
-        "body": "Hi,\n\nSaw your post: \"RealResponse | Product Engineer | REMOTE (US) | Full-time | https:&#x2F;&#x2F;www.realresponse.com We build software use\". This is exactly the kind of dashboards & internal tools work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "Make.com Community-113873",
-      "source": "Make.com Community",
-      "title": "Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)",
-      "description": "We’re looking for an experienced Airtable + Make.com Automation Systems Specialist for an ongoing, long-term role. Our company runs a significant part of its internal operations through Airtable and Make. We already have an automation specialist managing these systems, and the person we hire will initially work alongside him, learn our infrastructure, help maintain and improve it, and gradually take ownership of important workflows. A major goal for us is redundancy: we do not want critical automation infrastructure to depend on only one person. Because of that, documentation, communication, reliability, and maintainable system design are just as important to us as building new automations. This is not a one-time project . We’re looking for someone who can become a long-term part of our operations. What we need experience with: Strong real-world Airtable experience, including relational database design, linked records, formulas, automations, interfaces, and ideally scripting Strong Make.com experience with multi-step scenarios, routers, filters, iterators, aggregators, webhooks, error handling, retries, and debugging API integrations, HTTP requests, JSON, authentication, and webhoo",
-      "url": "https://community.make.com/t/hiring-long-term-airtable-make-automation-systems-specialist-18-25-hr/113873",
-      "postedAt": "2026-08-26T07:46:52.864Z",
-      "raw": "Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": 18,
-      "ageDays": 48,
-      "score": 39,
-      "outreach": {
-        "subject": "Hiring: Long-Term Airtable + Make Automation Systems Sp — fixed-scope plan",
-        "body": "Hi,\n\nSaw your post: \"Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $18 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-312281",
-      "source": "n8n Community",
-      "title": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
-      "description": "I’m Rami. I’m evaluating developers for a focused quote-preparation prototype for electrical parts distributors. This is the scoping and quotation stage. Development has not been commissioned yet. The scope: • Read customer quotation requests from one agreed format, initially a text-based PDF. • Extract product codes, descriptions, quantities and units. • Match items against a supplied catalogue and approved price list. • Flag uncertain matches for human review. • Export an Excel quotation draft. Prices must come from the approved data. Product substitutions require human approval. ERP integration, automatic email sending and a full dashboard are outside this phase. I’m looking for relevant experience with n8n, document extraction and Excel/CSV processing. Send a proposal covering: One relevant project you personally delivered, with a demo if available. Your proposed approach. Estimated fixed price and delivery time, with assumptions and exclusions. Ongoing software costs. Source code, workflow files and handover documentation included. The final scope and price will be agreed after reviewing sample files. Any engagement will begin with a separately agreed paid test and clear deliv",
-      "url": "https://community.n8n.io/t/seeking-estimates-n8n-developer-for-a-small-rfq-to-quote-prototype/312281",
-      "postedAt": "2026-09-10T00:05:41.994Z",
-      "raw": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
-      "services": [
-        "Workflow automation",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 34,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking estimates: n8n developer for a small RFQ-to-quote prototype\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-279164",
-      "source": "n8n Community",
-      "title": "Need help with n8n workflows (paid)",
-      "description": "Seeking experienced n8n (or similar automation tools) specialist to design and scale finance workflows in a fintech environment. This focuses on developing dependable, structured processes, not just simple automations, by integrating tools like Airtable, Google Sheets, and Slack, leveraging APIs and webhooks, and enhancing existing flows. It’s a plus to have experience with financial data or comparable systems. If this sounds like the right fit for you, feel free to reach out.",
-      "url": "https://community.n8n.io/t/need-help-with-n8n-workflows-paid/279164",
-      "postedAt": "2026-03-19T16:15:47.204Z",
-      "raw": "Need help with n8n workflows (paid)",
-      "services": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 208,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"Need help with n8n workflows (paid)\"",
-        "body": "Hi,\n\nSaw your post: \"Need help with n8n workflows (paid)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-297943",
-      "source": "n8n Community",
-      "title": "N8n Builder Wanted – AI Automation Agency (India)",
-      "description": "Hey everyone! I’m building an AI automation agency here in India and looking for a solid n8n specialist to work with long-term. Here’s the deal: → I handle all the client work — finding them, scoping, sales → You just build the automations and deliver clean work → Paid per project (fair rates, no lowballing) → Flexible — work on your own schedule What I’m looking for: Hands-on experience with n8n Comfortable building AI agents (OpenAI, webhooks, APIs) Good communication — that’s honestly it This is a great fit if you’re freelancing and want a steady stream of projects without the headache of finding clients yourself. Drop a “ ” below or DM me if you’re interested. Happy to jump on a quick call and see if we’re a good fit! -– [Saif], Hyderabad",
-      "url": "https://community.n8n.io/t/n8n-builder-wanted-ai-automation-agency-india/297943",
-      "postedAt": "2026-06-03T20:25:25.073Z",
-      "raw": "N8n Builder Wanted – AI Automation Agency (India)",
-      "services": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 132,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"N8n Builder Wanted – AI Automation Agency (In\"",
-        "body": "Hi,\n\nSaw your post: \"N8n Builder Wanted – AI Automation Agency (India)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-319989",
-      "source": "n8n Community",
-      "title": "[Open to Collabs] Want to build my n8n skills and assist on projects",
-      "description": "Hello everyone, I’m currently running n8n locally via Docker Desktop to learn the ropes. I want to build my skills on n8n and would love to collaborate on projects to see how others use the platform and understand their thought process behind the problems they solve. Right now, I’m not looking for paid gigs yet; instead, I am looking for hands-on, real-world experience. I would love to team up with someone as an assistant or collaborator. You can hand off the repetitive parts of a project to me like mapping out data, setting up credentials or handling webhooks which frees up your time and in return, I get to see how you architecture the final solution. While I’m still learning live server hosting, I can confidently handle local testing, setting up API credentials and building workflows to move data around. I am also comfortable working with webhooks and while I haven’t deployed them in production yet, I regularly use ReqBin to send and test POST requests locally. I also have foundational understanding of the Code node(JavaScript) for simple data manipulation. Once a workflow is built on my end, I can easily export the JSON file directly to you. I’m looking forward to connecting wit",
-      "url": "https://community.n8n.io/t/open-to-collabs-want-to-build-my-n8n-skills-and-assist-on-projects/319989",
-      "postedAt": "2026-10-08T21:37:42.017Z",
-      "raw": "[Open to Collabs] Want to build my n8n skills and assist on projects",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 5,
-      "score": 35,
-      "outreach": {
-        "subject": "Quick idea for \"[Open to Collabs] Want to build my n8n skills\"",
-        "body": "Hi,\n\nSaw your post: \"[Open to Collabs] Want to build my n8n skills and assist on projects\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-315978",
-      "source": "n8n Community",
-      "title": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
-      "description": "Hi all! We’re a busy family in Los Angeles. We’d like to work with an independent engineer or a small studio to set up a private, dependable home system that uses AI to help run our household: calendars, notes, documents, email drafts, and a knowledge base we actually use. Privacy matters a lot to us, so sensitive documents should be handled on a machine in our house, with cloud AI used where it makes sense. It starts as a defined project. If it goes well, it turns into a light ongoing relationship: a check-in twice a year to keep things healthy and add new capabilities as the tools improve. What we have in mind (very open to your suggestions): A Mac mini at home running local models (Ollama or LM Studio) for private document search and processing Claude API / Claude Code for scheduling help, translation and workflow logic n8n for automation (our preference), or Google Apps Script / small custom services if they fit better Notion (family contacts, projects, how-to docs) alongside Google Workspace Meeting notes from Fathom or Granola What we’d like help with: Design how our data moves between the home machine and the cloud, and what stays where Build the automations: meeting notes, ",
-      "url": "https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978",
-      "postedAt": "2026-09-23T22:07:01.984Z",
-      "raw": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 20,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"[HIRING] Part-time \"household CTO\": n8n + Not\"",
-        "body": "Hi,\n\nSaw your post: \"[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "Make.com Community-116649",
-      "source": "Make.com Community",
-      "title": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
-      "description": "Hi everyone, I run Drochaid AI, a UK agency sourcing AI automation projects for B2B tech companies. We handle 100% of client acquisition, scoping, and account management. Looking for 1–2 reliable Make.com developers for white-label execution (per-project payout or revenue share). If you have a solid portfolio of Make / AI workflows and capacity for extra client deals, send me a DM with 2–3 examples of past builds.",
-      "url": "https://community.make.com/t/looking-for-white-label-make-com-automation-developers-agency-partner/116649",
-      "postedAt": "2026-10-05T08:08:03.941Z",
-      "raw": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 8,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for White-Label Make.com Automation D\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for White-Label Make.com Automation Developers (Agency Partner)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49965012",
-      "source": "Hacker News",
-      "title": "Tenki Cloud by Luxor Tech | San Francisco, CA | Founding Sales | Full-time | SF-based preferred | https:&#x2F;&#x2F;tenk",
-      "description": "Tenki Cloud by Luxor Tech | San Francisco, CA | Founding Sales | Full-time | SF-based preferred | https:&#x2F;&#x2F;tenki.cloud&#x2F; We&#x27;re building Tenki, Luxor&#x27;s compute platform for developers and AI agents: faster, cheaper GitHub Actions runners, code-review agents, and isolated sandboxes where agents run code. Next up: agent workflows and CPU&#x2F;GPU compute. Tenki was built by the founding team behind Luxor Technology, a leading provider of Bitcoin mining and AI infrastructure. Teams like Anchor, Omnara, and Naive already rely on it, and MAU has grown ~3.5x since April. We&#x27;re building the infrastructure layer for the next generation of AI companies, and we want Tenki to be the go-to platform for AI teams worldwide. Now we need someone to sell it. You&#x27;ve sold technical products to technical buyers and can talk CI pipelines and infra costs without hiding behind a",
-      "url": "https://news.ycombinator.com/item?id=49965012",
-      "postedAt": "2026-10-05T14:00:02Z",
-      "raw": "Tenki Cloud by Luxor Tech | San Francisco, CA | Founding Sales | Full-time | SF-based preferred | https:&#x2F;&#x2F;tenki.cloud&#x2F; We&#x27;re building Tenki, Luxor&#x27;s compute platform for developers and AI agents: faster, cheaper GitHub Actions runners, code-review agents, and isolated sandboxes where agents run code. Next up: agent workflows and CPU&#x2F;GPU compute. Tenki was built by the founding team behind Luxor Technology, a leading provider of Bitcoin mining and AI infrastructure. Teams like Anchor, Omnara, and Naive already rely on it, and MAU has grown ~3.5x since April. We&#x27;re building the infrastructure layer for the next generation of AI companies, and we want Tenki to be the go-to platform for AI teams worldwide. Now we need someone to sell it. You&#x27;ve sold technical products to technical buyers and can talk CI pipelines and infra costs without hiding behind a sales engineer. Dev tools or cloud infra experience is a big plus. What you&#x27;ll do: - Own the full cycle, from prospecting to close to expansion - Turn self-serve signups into revenue - Work closely with engineering and product, and bring customer feedback into the roadmap - Build the playbook from scratch - Show up at SF meetups, hackathons, and dev events You&#x27;d be the first sales hire on a small, technical team. No playbook yet, full ownership. Apply: https:&#x2F;&#x2F;jobs.ashbyhq.com&#x2F;luxor&#x2F;8d215a01-8cac-4b0e-add6-507db...",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 8,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"Tenki Cloud by Luxor Tech | San Francisco, CA\"",
-        "body": "Hi,\n\nSaw your post: \"Tenki Cloud by Luxor Tech | San Francisco, CA | Founding Sales | Full-time | SF-based preferred | https:&#x2F;&#x2F;tenk\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49961551",
-      "source": "Hacker News",
-      "title": "AssumeAI | AI Engineer (£30&#x2F;hr) and Senior AI Engineer (£50&#x2F;hr) | Contract | REMOTE (UK) | https:&#x2F;&#x2F;a",
-      "description": "AssumeAI | AI Engineer (£30&#x2F;hr) and Senior AI Engineer (£50&#x2F;hr) | Contract | REMOTE (UK) | https:&#x2F;&#x2F;assume-ai.com We are a fast-growing AI startup. We help SMEs find where AI will produce a measurable return, then build the systems that deliver it: AI agents, Claude skills and production-grade business software, up to full business and enterprise systems. Stack: Claude Code, Vercel, Supabase. A good fit for software engineers moving into AI engineering: - Two weeks of paid AI training in our framework and methods before your first project. - Projects typically run over several months, and each one is substantial. - Large token limits for every contractor. You need to: read code in Python, JS&#x2F;TS, SQL, HTML&#x2F;CSS and Bash; design and build databases; use Git and GitHub confidently; and be professional and clear on client calls. The senior role also needs complete",
-      "url": "https://news.ycombinator.com/item?id=49961551",
-      "postedAt": "2026-10-05T07:01:46Z",
-      "raw": "AssumeAI | AI Engineer (£30&#x2F;hr) and Senior AI Engineer (£50&#x2F;hr) | Contract | REMOTE (UK) | https:&#x2F;&#x2F;assume-ai.com We are a fast-growing AI startup. We help SMEs find where AI will produce a measurable return, then build the systems that deliver it: AI agents, Claude skills and production-grade business software, up to full business and enterprise systems. Stack: Claude Code, Vercel, Supabase. A good fit for software engineers moving into AI engineering: - Two weeks of paid AI training in our framework and methods before your first project. - Projects typically run over several months, and each one is substantial. - Large token limits for every contractor. You need to: read code in Python, JS&#x2F;TS, SQL, HTML&#x2F;CSS and Bash; design and build databases; use Git and GitHub confidently; and be professional and clear on client calls. The senior role also needs complete products or systems you have designed and shipped. Nice to have: Claude Code or similar AI tools, building Claude skills, embeddings and vector databases, Vercel&#x2F;Supabase, project or account management. Process: introductory interview, short practical exercise, final interview. Starting as soon as possible. To apply email hugh@assume-ai.com with your CV",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 8,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"AssumeAI | AI Engineer (£30&#x2F;hr) and Seni\"",
-        "body": "Hi,\n\nSaw your post: \"AssumeAI | AI Engineer (£30&#x2F;hr) and Senior AI Engineer (£50&#x2F;hr) | Contract | REMOTE (UK) | https:&#x2F;&#x2F;a\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49936182",
-      "source": "Hacker News",
-      "title": "Oklo | Remote (US) or Santa Clara or Brooklyn | Full time | https:&#x2F;&#x2F;oklo.com Join us in pioneering the next ge",
-      "description": "Oklo | Remote (US) or Santa Clara or Brooklyn | Full time | https:&#x2F;&#x2F;oklo.com Join us in pioneering the next generation of nuclear reactors! You&#x27;ll leverage your software skills alongside nuclear engineers to model, simulate, design, and deploy advanced fission power technology. You will work at the forefront of the nuclear industry, developing novel techniques to reach new levels of safety, efficiency, and resiliency. Come be a part of powering the future with advanced fission power plants to provide clean, reliable, affordable energy. We are hiring for: - Software Engineer: https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;4018702004 - Senior Software Engineer: https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;5739483004 - Software Engineer (Applied AI&#x2F;ML): https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;6150355",
-      "url": "https://news.ycombinator.com/item?id=49936182",
-      "postedAt": "2026-10-02T17:31:35Z",
-      "raw": "Oklo | Remote (US) or Santa Clara or Brooklyn | Full time | https:&#x2F;&#x2F;oklo.com Join us in pioneering the next generation of nuclear reactors! You&#x27;ll leverage your software skills alongside nuclear engineers to model, simulate, design, and deploy advanced fission power technology. You will work at the forefront of the nuclear industry, developing novel techniques to reach new levels of safety, efficiency, and resiliency. Come be a part of powering the future with advanced fission power plants to provide clean, reliable, affordable energy. We are hiring for: - Software Engineer: https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;4018702004 - Senior Software Engineer: https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;5739483004 - Software Engineer (Applied AI&#x2F;ML): https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo&#x2F;jobs&#x2F;6150355004 See more opportunities here: https:&#x2F;&#x2F;job-boards.greenhouse.io&#x2F;oklo Please mention Hacker News in your cover letter!",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 11,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"Oklo | Remote (US) or Santa Clara or Brooklyn\"",
-        "body": "Hi,\n\nSaw your post: \"Oklo | Remote (US) or Santa Clara or Brooklyn | Full time | https:&#x2F;&#x2F;oklo.com Join us in pioneering the next ge\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-315672",
-      "source": "n8n Community",
-      "title": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
-      "description": "Hi, I’m building a small automation service and I’m looking for reliable n8n / Make specialists for ongoing project-based work. I’m looking for people who can work on clearly defined fixed-price projects with agreed deadlines. Typical work may include: • n8n / Make automations • CRM integrations • API integrations • AI workflows • Email and form automations • Shopify / e-commerce automations I’m especially interested in specialists who are comfortable working with fixed project prices rather than hourly billing. Payment would be agreed per project or milestone and paid after the corresponding client milestone is approved and funds are released. Please send: 2–3 examples of workflows you have built Your typical fixed price for a small project Your typical fixed price for a medium project How quickly you can usually start I’m looking for long-term cooperation if the first projects go well.",
-      "url": "https://community.n8n.io/t/looking-for-n8n-make-automation-specialist-for-ongoing-fixed-price-projects/315672",
-      "postedAt": "2026-09-22T16:54:24.169Z",
-      "raw": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 21,
-      "score": 30,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for n8n / Make Automation Specialist \"",
-        "body": "Hi,\n\nSaw your post: \"Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-316792",
-      "source": "n8n Community",
-      "title": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
-      "description": "Hi everyone, I’m building a new AI automation agency focused on WhatsApp automation for service businesses. We’re starting from zero, with no existing clients or fixed monthly salary. I’m looking for 1–2 reliable n8n builders to work on a project basis as clients are acquired. What I’m looking for You should be comfortable with: n8n workflow development WhatsApp Business/API integrations AI/LLM integrations APIs and webhooks Google Sheets, CRMs, calendars and other business tools Lead qualification, follow-ups and booking workflows Human handoff/fallback logic Error handling, testing and troubleshooting Deployment, monitoring and maintenance Basic technical documentation Strong WhatsApp automation experience is especially valuable. Example projects WhatsApp AI lead qualification FAQ and customer-support bots Lead capture and CRM integration Appointment booking and rescheduling Automated follow-ups Human-agent handoff Notifications and internal alerts AI-powered business workflows Working arrangement This is project-based, not salaried: Client acquired → scope agreed → builder assigned → paid build/testing → deployment → maintenance if required I am not asking anyone to work for fre",
-      "url": "https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792",
-      "postedAt": "2026-09-26T14:01:38.093Z",
-      "raw": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 17,
-      "score": 30,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for 1–2 n8n Builders for Long-Term Collaboration\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49972736",
-      "source": "Hacker News",
-      "title": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo",
-      "description": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
-      "url": "https://news.ycombinator.com/item?id=49972736",
-      "postedAt": "2026-10-06T00:42:59Z",
-      "raw": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 8,
-      "score": 30,
-      "outreach": {
-        "subject": "Quick idea for \"CoreWeave | Specialist Field Engineers | full\"",
-        "body": "Hi,\n\nSaw your post: \"CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-314417",
-      "source": "n8n Community",
-      "title": "N8n Freelancer needed for workflow",
-      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
-      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
-      "postedAt": "2026-09-18T03:45:18.563Z",
-      "raw": "N8n Freelancer needed for workflow",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 26,
-      "score": 27,
-      "outreach": {
-        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
-        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-292053",
-      "source": "n8n Community",
-      "title": "(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup",
-      "description": "RestaurantFlow OS is a revenue automation platform for independent restaurants. We intercept booking data from OpenTable and SevenRooms, run it through a workflow n8n automation layer, and personalise every guest interaction based on visit history. The system architecture is complete. We have a full technical master spec covering every workflow, every data flow, every edge case and every error state. We are not asking someone to design this — we need someone to build it precisely, with clean error handling, idempotency on every inbound webhook, and a Loom walkthrough per workflow group. The Stack You Connect Supabase GHL Printnode openweatherapp The Architecture Principle Every workflow validates restaurant_id as step one. Scheduled workflows loop through active restaurants one at a time — no state bleeding between clients. Idempotency checks on every inbound webhook using unique_event_id logged to Supabase event_log. HMAC-SHA256 signature validation on every inbound webhook. Error handler WF-20 catches all failures, logs full context, sends admin alert. This is not MVP code — it is production architecture from day one. WHAT WE ARE OFFERING Paid build fee for the initial workflow i",
-      "url": "https://community.n8n.io/t/hiring-automation-engineer-wanted-n8n-core-role-restaurant-tech-startup/292053",
-      "postedAt": "2026-04-27T19:14:47.731Z",
-      "raw": "(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 169,
-      "score": 27,
-      "outreach": {
-        "subject": "Quick idea for \"(HIRING)Automation Engineer Wanted — n8n Core\"",
-        "body": "Hi,\n\nSaw your post: \"(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "Make.com Community-113000",
-      "source": "Make.com Community",
-      "title": "Ai Agent for DJ Business",
-      "description": "Hi! I’m looking for someone to build an AI sales agent for my mobile DJ business. The first version should focus specifically on responding to new leads from Eventective . Here is the workflow I’m looking for: • A new Eventective lead comes in. • The AI is notified immediately and starts the conversation by text message (or email if texting isn't available). • The AI answers common questions about our DJ services. • It qualifies the lead by asking questions such as: ◦ Venue/location ◦ Ceremony and reception or reception only ◦ Total hours needed • Based on their answers, it provides the appropriate pricing and package information. • The AI continues the conversation naturally, answers follow-up questions, handles common objections, and encourages the lead to schedule a consultation. • When appropriate, it sends my Calendly link to book a call. • If the lead asks something outside of its knowledge, requests custom pricing, or is ready to book, the AI should notify me and seamlessly hand off the conversation. Integrations I’d like: **• Eventective** – Trigger the workflow whenever a new lead is received. **• Gmail** – Read new Eventective lead emails, send pricing guides, and continu",
-      "url": "https://community.make.com/t/ai-agent-for-dj-business/113000",
-      "postedAt": "2026-08-05T18:35:08.937Z",
-      "raw": "Ai Agent for DJ Business",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [
-        "AI agents"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 69,
-      "score": 27,
-      "outreach": {
-        "subject": "Quick idea for \"Ai Agent for DJ Business\"",
-        "body": "Hi,\n\nSaw your post: \"Ai Agent for DJ Business\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "hn-49963906",
-      "source": "Hacker News",
-      "title": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;",
-      "description": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;www.infohawk.com Fraud reaches people through ads, cloned brand sites, counterfeit shops and AI-generated video, and it moves faster than any manual review. InfoHawk detects it while it is still running, correlates it across platforms and formats, and surfaces it early enough for our customers to act. We are a small team of engineers plus security, privacy and fraud specialists. Pre-seed, $2.25M led by Moonshots Capital: https:&#x2F;&#x2F;www.infohawk.com&#x2F;news&#x2F;2026-06-08-pre-seed-funding-an ... You’d own how data gets in: scrapers and collectors that survive source changes, official APIs where they exist, undocumented endpoints where they don’t. Sources break constantly. Can you figure out how to use AI to spot the change and adapt automatically? Stack: TypeSc",
-      "url": "https://news.ycombinator.com/item?id=49963906",
-      "postedAt": "2026-10-05T12:22:10Z",
-      "raw": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;www.infohawk.com Fraud reaches people through ads, cloned brand sites, counterfeit shops and AI-generated video, and it moves faster than any manual review. InfoHawk detects it while it is still running, correlates it across platforms and formats, and surfaces it early enough for our customers to act. We are a small team of engineers plus security, privacy and fraud specialists. Pre-seed, $2.25M led by Moonshots Capital: https:&#x2F;&#x2F;www.infohawk.com&#x2F;news&#x2F;2026-06-08-pre-seed-funding-an ... You’d own how data gets in: scrapers and collectors that survive source changes, official APIs where they exist, undocumented endpoints where they don’t. Sources break constantly. Can you figure out how to use AI to spot the change and adapt automatically? Stack: TypeScript, Node, SvelteKit, Postgres, Playwright, heavy AI-assisted development. We’re looking for ~3-5 years building scraping or integration systems in production, but if you’re a great engineer who doesn’t tick every box we’d still like to hear from you. UK-based for London, US-based for NYC; we cannot sponsor visas. Two of our three founders are engineers, one in each city, and you’ll work with them directly. james@infohawk.com",
-      "services": [
-        "Data & scraping"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": false,
-      "budget": 2,
-      "ageDays": 8,
-      "score": 27,
-      "outreach": {
-        "subject": "InfoHawk | Software Engineer | London, UK or NYC | HYBR — fixed-scope plan",
-        "body": "Hi,\n\nSaw your post: \"InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;\". This is exactly the kind of data & scraping work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $2 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
