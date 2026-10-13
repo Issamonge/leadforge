@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:51:10.726Z",
+  "generatedAt": "2026-10-13T17:53:57.904Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,25 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 353,
-    "qualified": 60,
-    "pipelineValue": 1433098,
+    "totalScanned": 325,
+    "qualified": 38,
+    "pipelineValue": 1433100,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 150,
       "RemoteOK": 99,
-      "Remotive": 15,
-      "OpenStreetMap": 29,
+      "Remotive": 16,
+      "OpenStreetMap": 0,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 17,
-    "phoneLeads": 27,
+    "whatsappCapable": 0,
+    "phoneLeads": 0,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 28,
-    "emailLeads": 29,
+    "emailLeads": 0,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -347,35 +347,6 @@
       "waLink": ""
     },
     {
-      "id": "n8n Community-296828",
-      "source": "n8n Community",
-      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
-      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
-      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
-      "postedAt": "2026-05-26T16:56:08.745Z",
-      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
-      "services": [
-        "AI agents",
-        "Workflow automation",
-        "Chatbots & voice"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 140,
-      "score": 55,
-      "outreach": {
-        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
       "id": "n8n Community-314555",
       "source": "n8n Community",
       "title": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
@@ -405,1106 +376,33 @@
       "waLink": ""
     },
     {
-      "id": "osm-node-4334856289",
-      "source": "OpenStreetMap",
-      "title": "Live2living Furniture — furniture (Iyalla Street)",
-      "description": "Business in Lagos. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://live2living.com/. Phone: +2349038376463.",
-      "email": "service@live2living.com",
-      "phone": "+2349038376463",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://live2living.com/",
-      "city": "Lagos",
-      "tz": "Africa/Lagos",
-      "category": "furniture",
+      "id": "n8n Community-296828",
+      "source": "n8n Community",
+      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
+      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
+      "postedAt": "2026-05-26T16:56:08.745Z",
+      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://live2living.com/",
-      "postedAt": "2026-10-13T09:48:57.404Z",
-      "raw": "Live2living Furniture furniture Lagos",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 140,
+      "score": 55,
       "outreach": {
-        "subject": "Live2living Furniture — quick question about manual work that eats the week",
-        "body": "Hi Live2living Furniture team,\n\nI work with furniture businesses in Lagos on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/2349038376463?text=Hello%20Live2living%20Furniture%2C%0A%0AI%20help%20businesses%20in%20Lagos%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4552551189",
-      "source": "OpenStreetMap",
-      "title": "General Marble and Granite Co. Ltd. — furniture",
-      "description": "Business in Lagos. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: http://www.generalmarbleng.com. Phone: n/a.",
-      "email": "generalmarble2@yahoo.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.generalmarbleng.com",
-      "city": "Lagos",
-      "tz": "Africa/Lagos",
-      "category": "furniture",
-      "services": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "url": "http://www.generalmarbleng.com",
-      "postedAt": "2026-10-13T09:48:57.405Z",
-      "raw": "General Marble and Granite Co. Ltd. furniture Lagos",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "General Marble and Granite Co. Ltd. — quick question about manual work that eats the week",
-        "body": "Hi General Marble and Granite Co. Ltd. team,\n\nI work with furniture businesses in Lagos on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
-    },
-    {
-      "id": "osm-node-5624735721",
-      "source": "OpenStreetMap",
-      "title": "M. O. A. Pitan Legal Advocates (Right-Angel Chambers) — lawyer (Ajoke Lewis Street)",
-      "description": "Business in Lagos. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: 08032422692.",
-      "email": "legal.ademike@yahoo.com",
-      "phone": "08032422692",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Lagos",
-      "tz": "Africa/Lagos",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.openstreetmap.org/node/5624735721",
-      "postedAt": "2026-10-13T09:48:57.405Z",
-      "raw": "M. O. A. Pitan Legal Advocates (Right-Angel Chambers) lawyer Lagos",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "M. O. A. Pitan Legal Advocates (Right-Angel Chambe — quick question about enquiry follow-up that never happens",
-        "body": "Hi M. O. A. Pitan Legal Advocates (Right-Angel Chambe team,\n\nI work with lawyer businesses in Lagos on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-11384633104",
-      "source": "OpenStreetMap",
-      "title": "BeautybyAD — beauty (Oladimeji Alo Street, lekki)",
-      "description": "Business in Lagos. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.beautybyad.com/. Phone: +234 809 948 3333.",
-      "email": "beautybyad10@gmail.come",
-      "phone": "+234 809 948 3333",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.beautybyad.com/",
-      "city": "Lagos",
-      "tz": "Africa/Lagos",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.beautybyad.com/",
-      "postedAt": "2026-10-13T09:48:57.405Z",
-      "raw": "BeautybyAD beauty Lagos",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "BeautybyAD — quick question about bookings and rebookings going cold",
-        "body": "Hi BeautybyAD team,\n\nI work with beauty businesses in Lagos on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/2348099483333?text=Hello%20BeautybyAD%2C%0A%0AI%20help%20businesses%20in%20Lagos%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12198546248",
-      "source": "OpenStreetMap",
-      "title": "Olive Spa — beauty (Shakiru Anjorin Street, Lagos)",
-      "description": "Business in Lagos. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +2348107891063.",
-      "email": "theolivespang@gmail.com",
-      "phone": "+2348107891063",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Lagos",
-      "tz": "Africa/Lagos",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/12198546248",
-      "postedAt": "2026-10-13T09:48:57.405Z",
-      "raw": "Olive Spa beauty Lagos",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Olive Spa — quick question about bookings and rebookings going cold",
-        "body": "Hi Olive Spa team,\n\nI work with beauty businesses in Lagos on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/2348107891063?text=Hello%20Olive%20Spa%2C%0A%0AI%20help%20businesses%20in%20Lagos%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4556922689",
-      "source": "OpenStreetMap",
-      "title": "Phoenix Corp. LLC — computer (17th Lane Close)",
-      "description": "Business in Accra. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: n/a. Phone: +233244709199.",
-      "email": "smac.phoenix@consultant.com",
-      "phone": "+233244709199",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://www.openstreetmap.org/node/4556922689",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Phoenix Corp. LLC computer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Phoenix Corp. LLC — quick question about manual work that eats the week",
-        "body": "Hi Phoenix Corp. LLC team,\n\nI work with computer businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233244709199?text=Hello%20Phoenix%20Corp.%20LLC%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4557115489",
-      "source": "OpenStreetMap",
-      "title": "Deavey electronics limited — electronics (17th Lane Close)",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: +233242819885.",
-      "email": "deaveygh@gmail.com",
-      "phone": "+233242819885",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://www.openstreetmap.org/node/4557115489",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Deavey electronics limited electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Deavey electronics limited — quick question about manual work that eats the week",
-        "body": "Hi Deavey electronics limited team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233242819885?text=Hello%20Deavey%20electronics%20limited%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5218670488",
-      "source": "OpenStreetMap",
-      "title": "ASN Financial Servies Limited, Head Office — insurance",
-      "description": "Business in Accra. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: http://asnfinancialservies.com. Phone: +233 207900571.",
-      "email": "info@asnfinancialservies.com",
-      "phone": "+233 207900571",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://asnfinancialservies.com",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "http://asnfinancialservies.com",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "ASN Financial Servies Limited, Head Office insurance Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "ASN Financial Servies Limited, Head Office — quick question about enquiry follow-up that never happens",
-        "body": "Hi ASN Financial Servies Limited, Head Office team,\n\nI work with insurance businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233207900571?text=Hello%20ASN%20Financial%20Servies%20Limited%2C%20Head%20Office%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5370793375",
-      "source": "OpenStreetMap",
-      "title": "Daakye Pension Trust — insurance (Nsawam Road, Accra)",
-      "description": "Business in Accra. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.daakyetrust.com/. Phone: 030 240 8444.",
-      "email": "info@daakyetrust.com",
-      "phone": "030 240 8444",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.daakyetrust.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://www.daakyetrust.com/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Daakye Pension Trust insurance Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Daakye Pension Trust — quick question about enquiry follow-up that never happens",
-        "body": "Hi Daakye Pension Trust team,\n\nI work with insurance businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5850307084",
-      "source": "OpenStreetMap",
-      "title": "Caldwell Greene Legal Practitioners — lawyer (La Road, Accra)",
-      "description": "Business in Accra. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://caldwellgreene.com/. Phone: 0244496191.",
-      "email": "info@caldwellgreene.com",
-      "phone": "0244496191",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://caldwellgreene.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://caldwellgreene.com/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Caldwell Greene Legal Practitioners lawyer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Caldwell Greene Legal Practitioners — quick question about enquiry follow-up that never happens",
-        "body": "Hi Caldwell Greene Legal Practitioners team,\n\nI work with lawyer businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6285774573",
-      "source": "OpenStreetMap",
-      "title": "Wise 1 Electricals — electronics (Kwashie Bezrot Street, Accra)",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: 0200928272.",
-      "email": "wise1services@gmail.com",
-      "phone": "0200928272",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://www.openstreetmap.org/node/6285774573",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Wise 1 Electricals electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Wise 1 Electricals — quick question about manual work that eats the week",
-        "body": "Hi Wise 1 Electricals team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6290813578",
-      "source": "OpenStreetMap",
-      "title": "Ali-Tech Computer Services — computer (Tshuapa Street, Accra)",
-      "description": "Business in Accra. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: n/a. Phone: 0207674660.",
-      "email": "niceali63@yahoo.com",
-      "phone": "0207674660",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://www.openstreetmap.org/node/6290813578",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Ali-Tech Computer Services computer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ali-Tech Computer Services — quick question about manual work that eats the week",
-        "body": "Hi Ali-Tech Computer Services team,\n\nI work with computer businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6603137085",
-      "source": "OpenStreetMap",
-      "title": "Cedar Heights Law Consult — lawyer (Dome Pillar Two Road)",
-      "description": "Business in Accra. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: +233 244304935.",
-      "email": "info@cedarlawgh.com",
-      "phone": "+233 244304935",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.openstreetmap.org/node/6603137085",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Cedar Heights Law Consult lawyer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Cedar Heights Law Consult — quick question about enquiry follow-up that never happens",
-        "body": "Hi Cedar Heights Law Consult team,\n\nI work with lawyer businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233244304935?text=Hello%20Cedar%20Heights%20Law%20Consult%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7124865205",
-      "source": "OpenStreetMap",
-      "title": "Afriyie Ectectro World Limited — computer (Ofankor Asofah Street)",
-      "description": "Business in Accra. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://afriyieelectroworld.net/. Phone: +233244678123.",
-      "email": "info@afriyieworld.com",
-      "phone": "+233244678123",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://afriyieelectroworld.net/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://afriyieelectroworld.net/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Afriyie Ectectro World Limited computer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Afriyie Ectectro World Limited — quick question about manual work that eats the week",
-        "body": "Hi Afriyie Ectectro World Limited team,\n\nI work with computer businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233244678123?text=Hello%20Afriyie%20Ectectro%20World%20Limited%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7127853157",
-      "source": "OpenStreetMap",
-      "title": "Save the Nation's Sight Clinic — clinic",
-      "description": "Business in Accra. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +233244014656.",
-      "email": "ttbaah@yahoo.com",
-      "phone": "+233244014656",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/7127853157",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Save the Nation's Sight Clinic clinic Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Save the Nation's Sight Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Save the Nation's Sight Clinic team,\n\nI work with clinic businesses in Accra on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233244014656?text=Hello%20Save%20the%20Nation's%20Sight%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-9668202893",
-      "source": "OpenStreetMap",
-      "title": "Acheampong and Associates — lawyer (Trinity Avenue, Accra)",
-      "description": "Business in Accra. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://acheampongassociates.com/. Phone: +233 30 254 1870.",
-      "email": "info@acheampongassociates.com",
-      "phone": "+233 30 254 1870",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://acheampongassociates.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://acheampongassociates.com/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Acheampong and Associates lawyer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Acheampong and Associates — quick question about enquiry follow-up that never happens",
-        "body": "Hi Acheampong and Associates team,\n\nI work with lawyer businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-9941139280",
-      "source": "OpenStreetMap",
-      "title": "Mishvet Veterinary Home Call Services — veterinary",
-      "description": "Business in Accra. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: n/a. Phone: +233 20 607 1917.",
-      "email": "mishvetservices@gmail.com",
-      "phone": "+233 20 607 1917",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "veterinary",
-      "services": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/9941139280",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Mishvet Veterinary Home Call Services veterinary Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Mishvet Veterinary Home Call Services — quick question about manual work that eats the week",
-        "body": "Hi Mishvet Veterinary Home Call Services team,\n\nI work with veterinary businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233206071917?text=Hello%20Mishvet%20Veterinary%20Home%20Call%20Services%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-9977853475",
-      "source": "OpenStreetMap",
-      "title": "Activa International Insurance — insurance (Houphouet Boigny Road, Accra)",
-      "description": "Business in Accra. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: http://www.activa-ghana.com/. Phone: +233 30 268 6352; +233 30 268 5118; +233 30 268 5120.",
-      "email": "info@activa-ghana.com",
-      "phone": "+233 30 268 6352; +233 30 268 5118; +233 30 268 5120",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.activa-ghana.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "http://www.activa-ghana.com/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Activa International Insurance insurance Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Activa International Insurance — quick question about enquiry follow-up that never happens",
-        "body": "Hi Activa International Insurance team,\n\nI work with insurance businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-10291093403",
-      "source": "OpenStreetMap",
-      "title": "Jehovah iShop — electronics",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://jehovahishop.company.site/. Phone: +233 57 462 0941.",
-      "email": "phones.jehovahphones@gmail.com",
-      "phone": "+233 57 462 0941",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://jehovahishop.company.site/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://jehovahishop.company.site/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Jehovah iShop electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Jehovah iShop — quick question about manual work that eats the week",
-        "body": "Hi Jehovah iShop team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233574620941?text=Hello%20Jehovah%20iShop%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-10763525400",
-      "source": "OpenStreetMap",
-      "title": "N. Dowuona & Company — lawyer (Adembra Road, Accra)",
-      "description": "Business in Accra. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.ndowuona.com. Phone: +233 30 263 2043.",
-      "email": "info@ndowuona.com",
-      "phone": "+233 30 263 2043",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.ndowuona.com",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.ndowuona.com",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "N. Dowuona & Company lawyer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "N. Dowuona & Company — quick question about enquiry follow-up that never happens",
-        "body": "Hi N. Dowuona & Company team,\n\nI work with lawyer businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-10768781305",
-      "source": "OpenStreetMap",
-      "title": "Sonrisa Dental Clinic — dentist (Afro Osro Street)",
-      "description": "Business in Accra. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://sonrisagh.com/. Phone: +233201288884.",
-      "email": "info@sonrisagh.com",
-      "phone": "+233201288884",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://sonrisagh.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://sonrisagh.com/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Sonrisa Dental Clinic dentist Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Sonrisa Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Sonrisa Dental Clinic team,\n\nI work with dentist businesses in Accra on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233201288884?text=Hello%20Sonrisa%20Dental%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-10891515059",
-      "source": "OpenStreetMap",
-      "title": "Van J Eye Care — clinic (Tetteh Kwei Street, Accra)",
-      "description": "Business in Accra. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.vanjeyecare.org/. Phone: +233 208130301.",
-      "email": "info@vanjeyecare.org",
-      "phone": "+233 208130301",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.vanjeyecare.org/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.vanjeyecare.org/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Van J Eye Care clinic Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Van J Eye Care — quick question about missed calls and no-shows",
-        "body": "Hi Van J Eye Care team,\n\nI work with clinic businesses in Accra on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233208130301?text=Hello%20Van%20J%20Eye%20Care%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11136096767",
-      "source": "OpenStreetMap",
-      "title": "Linkinforlife Shop — electronics",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://linkinforlife-shop.business.site. Phone: +233 54 142 7156.",
-      "email": "vigourmario@gmail.com",
-      "phone": "+233 54 142 7156",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://linkinforlife-shop.business.site",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://linkinforlife-shop.business.site",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Linkinforlife Shop electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Linkinforlife Shop — quick question about manual work that eats the week",
-        "body": "Hi Linkinforlife Shop team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233541427156?text=Hello%20Linkinforlife%20Shop%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11136154163",
-      "source": "OpenStreetMap",
-      "title": "The Car Buddy Ghana Limited — car",
-      "description": "Business in Accra. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: n/a. Phone: +233 24 430 7780.",
-      "email": "carbuddygh@gmail.com",
-      "phone": "+233 24 430 7780",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://www.openstreetmap.org/node/11136154163",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "The Car Buddy Ghana Limited car Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "The Car Buddy Ghana Limited — quick question about manual work that eats the week",
-        "body": "Hi The Car Buddy Ghana Limited team,\n\nI work with car businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233244307780?text=Hello%20The%20Car%20Buddy%20Ghana%20Limited%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11748298698",
-      "source": "OpenStreetMap",
-      "title": "Farmerline Accra Office — it",
-      "description": "Business in Accra. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://farmerline.co/. Phone: +233559705112.",
-      "email": "comms@farmerline.co",
-      "phone": "+233559705112",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://farmerline.co/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://farmerline.co/",
-      "postedAt": "2026-10-13T09:49:18.494Z",
-      "raw": "Farmerline Accra Office it Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Farmerline Accra Office — quick question about manual work that eats the week",
-        "body": "Hi Farmerline Accra Office team,\n\nI work with it businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233559705112?text=Hello%20Farmerline%20Accra%20Office%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12317908604",
-      "source": "OpenStreetMap",
-      "title": "Ohene Gyan & Associates Unlimited — lawyer",
-      "description": "Business in Accra. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: n/a.",
-      "email": "ohenegyan71@gmail.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.openstreetmap.org/node/12317908604",
-      "postedAt": "2026-10-13T09:49:18.495Z",
-      "raw": "Ohene Gyan & Associates Unlimited lawyer Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ohene Gyan & Associates Unlimited — quick question about enquiry follow-up that never happens",
-        "body": "Hi Ohene Gyan & Associates Unlimited team,\n\nI work with lawyer businesses in Accra on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13339965156",
-      "source": "OpenStreetMap",
-      "title": "Zewnic — electronics (La Bawaleshi Road, Accra)",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://www.zewnic.com/. Phone: +23326000574.",
-      "email": "support@zewnic.com",
-      "phone": "+23326000574",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.zewnic.com/",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://www.zewnic.com/",
-      "postedAt": "2026-10-13T09:49:18.495Z",
-      "raw": "Zewnic electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Zewnic — quick question about manual work that eats the week",
-        "body": "Hi Zewnic team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13502468401",
-      "source": "OpenStreetMap",
-      "title": "SAMSUNG COMPANY LIMITED — electronics (Spintex Road)",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: 0207055893.",
-      "email": "samsungghanalimited80@gmail.com",
-      "phone": "0207055893",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://www.openstreetmap.org/node/13502468401",
-      "postedAt": "2026-10-13T09:49:18.495Z",
-      "raw": "SAMSUNG COMPANY LIMITED electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "SAMSUNG COMPANY LIMITED — quick question about manual work that eats the week",
-        "body": "Hi SAMSUNG COMPANY LIMITED team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13527398540",
-      "source": "OpenStreetMap",
-      "title": "Christcap Systems — electronics",
-      "description": "Business in Accra. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: +233 20 817 5512; + 233 24 427 5903.",
-      "email": "christcapgh@yahoo.com",
-      "phone": "+233 20 817 5512; + 233 24 427 5903",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Accra",
-      "tz": "Africa/Accra",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://www.openstreetmap.org/node/13527398540",
-      "postedAt": "2026-10-13T09:49:18.495Z",
-      "raw": "Christcap Systems electronics Accra",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Christcap Systems — quick question about manual work that eats the week",
-        "body": "Hi Christcap Systems team,\n\nI work with electronics businesses in Accra on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/233208175512?text=Hello%20Christcap%20Systems%2C%0A%0AI%20help%20businesses%20in%20Accra%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
       "id": "n8n Community-320146",
@@ -1535,6 +433,56 @@
       "waLink": ""
     },
     {
+      "id": "hn-50075162",
+      "source": "Hacker News",
+      "title": "Baserow ( https:&#x2F;&#x2F;baserow.io ) | Product Specialist | REMOTE (Europe) | Full-time | German-speaking We&#x27;re",
+      "description": "Baserow ( https:&#x2F;&#x2F;baserow.io ) | Product Specialist | REMOTE (Europe) | Full-time | German-speaking We&#x27;re building an open-source no-code platform for databases, applications, and automations. We&#x27;re looking for a technical, customer-facing Product Specialist to help customers build solutions with Baserow. Ideal experience includes Airtable, n8n, APIs, databases, and automation. Fluent German and English required. Remote-first, flexible hours, competitive salary + stock options. Details &amp; apply: https:&#x2F;&#x2F;baserow.io&#x2F;jobs&#x2F;product-specialist-baserow",
+      "url": "https://news.ycombinator.com/item?id=50075162",
+      "postedAt": "2026-10-13T17:11:22Z",
+      "raw": "Baserow ( https:&#x2F;&#x2F;baserow.io ) | Product Specialist | REMOTE (Europe) | Full-time | German-speaking We&#x27;re building an open-source no-code platform for databases, applications, and automations. We&#x27;re looking for a technical, customer-facing Product Specialist to help customers build solutions with Baserow. Ideal experience includes Airtable, n8n, APIs, databases, and automation. Fluent German and English required. Remote-first, flexible hours, competitive salary + stock options. Details &amp; apply: https:&#x2F;&#x2F;baserow.io&#x2F;jobs&#x2F;product-specialist-baserow",
+      "services": [
+        "Workflow automation"
+      ],
+      "titleServices": [],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 46,
+      "outreach": {
+        "subject": "Quick idea for \"Baserow ( https:&#x2F;&#x2F;baserow.io ) | Pr\"",
+        "body": "Hi,\n\nSaw your post: \"Baserow ( https:&#x2F;&#x2F;baserow.io ) | Product Specialist | REMOTE (Europe) | Full-time | German-speaking We&#x27;re\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "hn-50071142",
+      "source": "Hacker News",
+      "title": "Estuary | US-Based &#x2F; Remote | Full-time – https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post–Series A",
+      "description": "Estuary | US-Based &#x2F; Remote | Full-time – https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post–Series A startup powering right-time data replication and transform — from sub-second CDC replication to terabyte-scale OLAP data flows. We&#x27;re open-source, developer-first, and focused on making data movement radically simpler across both our Platform and Applications layers. We&#x27;re hiring for: Head of Engineering — Own the engineering function end-to-end as a partner to our founder CTO: strategy, people, delivery, and operations across a compact but high-leverage team. You&#x27;ll grow the leaders already running our teams, set technical strategy jointly with the CTO, and be accountable for what engineering ships and what it costs. Product Manager — Own product areas end-to-end, working closely with engineering and design to shape the roadmap and deliver a great devel",
+      "url": "https://news.ycombinator.com/item?id=50071142",
+      "postedAt": "2026-10-13T13:09:40Z",
+      "raw": "Estuary | US-Based &#x2F; Remote | Full-time – https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post–Series A startup powering right-time data replication and transform — from sub-second CDC replication to terabyte-scale OLAP data flows. We&#x27;re open-source, developer-first, and focused on making data movement radically simpler across both our Platform and Applications layers. We&#x27;re hiring for: Head of Engineering — Own the engineering function end-to-end as a partner to our founder CTO: strategy, people, delivery, and operations across a compact but high-leverage team. You&#x27;ll grow the leaders already running our teams, set technical strategy jointly with the CTO, and be accountable for what engineering ships and what it costs. Product Manager — Own product areas end-to-end, working closely with engineering and design to shape the roadmap and deliver a great developer experience. Engage with users, translate real-world use cases into product decisions, and help define how modern data infrastructure should feel to build with. Customer Success Manager — Own the post-sale relationship for our data engineering and platform customers as our first CS hire. You&#x27;ll build onboarding, account health monitoring, and the expansion playbook from scratch while staying technical enough to resolve most issues yourself. Technical Product Marketing Manager — Founding product marketing hire working closely with Estuary&#x27;s Head of Marketing and Developer Relations team. Help shape how we position and communicate the platform to technical audiences through product launches, messaging, technical content, demos, customer stories, and developer-facing campaigns. Senior Growth Marketer, Content &amp; Video — Take the technical content our team already produces and multiply its reach: slicing long-form posts into social, video, and email, running our webinar program, and owning our social and lifecycle channels. You&#x27;re a hands-on writer, designer, and video editor who knows how to turn one strong piece into a dozen that actually get seen. Senior Compliance Engineer — Own our GDPR and PCI DSS programs while keeping our audited SOC 2 and HIPAA programs running smoothly, alongside hands-on ownership of identity, endpoint, and SaaS estate management. This is a governance-first role for someone who has run a compliance program end-to-end, not just contributed to one. What we&#x27;re looking for: People who care about building reliable, maintainable systems and processes and enjoy working with complex APIs, data flows, or customer relationships. We value curiosity, clear communication, and a willingness to learn. Bonus points for experience with CDC tools, open source contributions, or fast-paced startups. To apply: Email your resume to careers@estuary.dev",
+      "services": [
+        "AI agents"
+      ],
+      "titleServices": [],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 46,
+      "outreach": {
+        "subject": "Quick idea for \"Estuary | US-Based &#x2F; Remote | Full-time \"",
+        "body": "Hi,\n\nSaw your post: \"Estuary | US-Based &#x2F; Remote | Full-time – https:&#x2F;&#x2F;estuary.dev&#x2F; Estuary is a VC-backed, post–Series A\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
       "id": "n8n Community-317073",
       "source": "n8n Community",
       "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
@@ -1553,7 +501,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 15,
+      "ageDays": 16,
       "score": 46,
       "outreach": {
         "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
@@ -1586,34 +534,6 @@
       "outreach": {
         "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
         "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "rok-1137399",
-      "source": "RemoteOK",
-      "title": "AI agent engineer",
-      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed Identify where agents can help and build them accordingly. Work with department leads to assess AI needs. Help connect agents to appropriate third-party and internal tools. Measure results and remove agents that don't deliver. Test new tools and models as they ship and adopt what works. Advise others",
-      "url": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
-      "postedAt": "2026-09-16T12:44:27+00:00",
-      "raw": "AI agent engineer ai golang javascript typescript",
-      "services": [
-        "AI agents",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "AI agents"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 27,
-      "score": 43,
-      "outreach": {
-        "subject": "Quick idea for \"AI agent engineer\"",
-        "body": "Hi,\n\nSaw your post: \"AI agent engineer\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -1818,7 +738,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 33,
+      "ageDays": 34,
       "score": 39,
       "outreach": {
         "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
@@ -1885,31 +805,6 @@
       "waLink": ""
     },
     {
-      "id": "hn-49972736",
-      "source": "Hacker News",
-      "title": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo",
-      "description": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
-      "url": "https://news.ycombinator.com/item?id=49972736",
-      "postedAt": "2026-10-06T00:42:59Z",
-      "raw": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
-      "services": [
-        "AI agents"
-      ],
-      "titleServices": [],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 7,
-      "score": 35,
-      "outreach": {
-        "subject": "Quick idea for \"CoreWeave | Specialist Field Engineers | full\"",
-        "body": "Hi,\n\nSaw your post: \"CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
       "id": "n8n Community-319989",
       "source": "n8n Community",
       "title": "[Open to Collabs] Want to build my n8n skills and assist on projects",
@@ -1953,7 +848,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 19,
+      "ageDays": 20,
       "score": 34,
       "outreach": {
         "subject": "Quick idea for \"[HIRING] Part-time \"household CTO\": n8n + Not\"",
@@ -2060,6 +955,191 @@
       "outreach": {
         "subject": "Quick idea for \"Oklo | Remote (US) or Santa Clara or Brooklyn\"",
         "body": "Hi,\n\nSaw your post: \"Oklo | Remote (US) or Santa Clara or Brooklyn | Full time | https:&#x2F;&#x2F;oklo.com Join us in pioneering the next ge\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-315672",
+      "source": "n8n Community",
+      "title": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
+      "description": "Hi, I’m building a small automation service and I’m looking for reliable n8n / Make specialists for ongoing project-based work. I’m looking for people who can work on clearly defined fixed-price projects with agreed deadlines. Typical work may include: • n8n / Make automations • CRM integrations • API integrations • AI workflows • Email and form automations • Shopify / e-commerce automations I’m especially interested in specialists who are comfortable working with fixed project prices rather than hourly billing. Payment would be agreed per project or milestone and paid after the corresponding client milestone is approved and funds are released. Please send: 2–3 examples of workflows you have built Your typical fixed price for a small project Your typical fixed price for a medium project How quickly you can usually start I’m looking for long-term cooperation if the first projects go well.",
+      "url": "https://community.n8n.io/t/looking-for-n8n-make-automation-specialist-for-ongoing-fixed-price-projects/315672",
+      "postedAt": "2026-09-22T16:54:24.169Z",
+      "raw": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
+      "services": [
+        "Workflow automation"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 21,
+      "score": 30,
+      "outreach": {
+        "subject": "Quick idea for \"Looking for n8n / Make Automation Specialist \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-316792",
+      "source": "n8n Community",
+      "title": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
+      "description": "Hi everyone, I’m building a new AI automation agency focused on WhatsApp automation for service businesses. We’re starting from zero, with no existing clients or fixed monthly salary. I’m looking for 1–2 reliable n8n builders to work on a project basis as clients are acquired. What I’m looking for You should be comfortable with: n8n workflow development WhatsApp Business/API integrations AI/LLM integrations APIs and webhooks Google Sheets, CRMs, calendars and other business tools Lead qualification, follow-ups and booking workflows Human handoff/fallback logic Error handling, testing and troubleshooting Deployment, monitoring and maintenance Basic technical documentation Strong WhatsApp automation experience is especially valuable. Example projects WhatsApp AI lead qualification FAQ and customer-support bots Lead capture and CRM integration Appointment booking and rescheduling Automated follow-ups Human-agent handoff Notifications and internal alerts AI-powered business workflows Working arrangement This is project-based, not salaried: Client acquired → scope agreed → builder assigned → paid build/testing → deployment → maintenance if required I am not asking anyone to work for fre",
+      "url": "https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792",
+      "postedAt": "2026-09-26T14:01:38.093Z",
+      "raw": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
+      "services": [
+        "Workflow automation"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 17,
+      "score": 30,
+      "outreach": {
+        "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for 1–2 n8n Builders for Long-Term Collaboration\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "hn-49972736",
+      "source": "Hacker News",
+      "title": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo",
+      "description": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
+      "url": "https://news.ycombinator.com/item?id=49972736",
+      "postedAt": "2026-10-06T00:42:59Z",
+      "raw": "CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Join my illustrious team of Specialist Field Engineers at CoreWeave! Work hand in hand with the companies pushing the boundaries of AI, helping solve some of the hardest problems in high performance computing and large scale Kubernetes clusters. We&#x27;re looking for people who have strong hands-on experience, not only using but often building the technologies in their specialization. Specifically, we&#x27;re hiring for one each of: - Kubernetes: https:&#x2F;&#x2F;grnh.se&#x2F;7j1kydde6us - Security: https:&#x2F;&#x2F;grnh.se&#x2F;jxbek1o66us - Compute infra (GB200&#x2F;GB300): https:&#x2F;&#x2F;grnh.se&#x2F;q3hmrcf56us - Storage (NFS, S3): https:&#x2F;&#x2F;grnh.se&#x2F;137kuvyv6us Apply at the links above. Email tsaleh@coreweave.com with any questions.",
+      "services": [
+        "AI agents"
+      ],
+      "titleServices": [],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 8,
+      "score": 30,
+      "outreach": {
+        "subject": "Quick idea for \"CoreWeave | Specialist Field Engineers | full\"",
+        "body": "Hi,\n\nSaw your post: \"CoreWeave | Specialist Field Engineers | full-time | hybrid, 3d&#x2F;w commute to SF CA, Sunnyvale CA, or Bellevue WA Jo\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-314417",
+      "source": "n8n Community",
+      "title": "N8n Freelancer needed for workflow",
+      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
+      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
+      "postedAt": "2026-09-18T03:45:18.563Z",
+      "raw": "N8n Freelancer needed for workflow",
+      "services": [
+        "Workflow automation"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 26,
+      "score": 27,
+      "outreach": {
+        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
+        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-292053",
+      "source": "n8n Community",
+      "title": "(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup",
+      "description": "RestaurantFlow OS is a revenue automation platform for independent restaurants. We intercept booking data from OpenTable and SevenRooms, run it through a workflow n8n automation layer, and personalise every guest interaction based on visit history. The system architecture is complete. We have a full technical master spec covering every workflow, every data flow, every edge case and every error state. We are not asking someone to design this — we need someone to build it precisely, with clean error handling, idempotency on every inbound webhook, and a Loom walkthrough per workflow group. The Stack You Connect Supabase GHL Printnode openweatherapp The Architecture Principle Every workflow validates restaurant_id as step one. Scheduled workflows loop through active restaurants one at a time — no state bleeding between clients. Idempotency checks on every inbound webhook using unique_event_id logged to Supabase event_log. HMAC-SHA256 signature validation on every inbound webhook. Error handler WF-20 catches all failures, logs full context, sends admin alert. This is not MVP code — it is production architecture from day one. WHAT WE ARE OFFERING Paid build fee for the initial workflow i",
+      "url": "https://community.n8n.io/t/hiring-automation-engineer-wanted-n8n-core-role-restaurant-tech-startup/292053",
+      "postedAt": "2026-04-27T19:14:47.731Z",
+      "raw": "(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup",
+      "services": [
+        "Workflow automation"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 169,
+      "score": 27,
+      "outreach": {
+        "subject": "Quick idea for \"(HIRING)Automation Engineer Wanted — n8n Core\"",
+        "body": "Hi,\n\nSaw your post: \"(HIRING)Automation Engineer Wanted — n8n Core Role — Restaurant Tech Startup\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "Make.com Community-113000",
+      "source": "Make.com Community",
+      "title": "Ai Agent for DJ Business",
+      "description": "Hi! I’m looking for someone to build an AI sales agent for my mobile DJ business. The first version should focus specifically on responding to new leads from Eventective . Here is the workflow I’m looking for: • A new Eventective lead comes in. • The AI is notified immediately and starts the conversation by text message (or email if texting isn't available). • The AI answers common questions about our DJ services. • It qualifies the lead by asking questions such as: ◦ Venue/location ◦ Ceremony and reception or reception only ◦ Total hours needed • Based on their answers, it provides the appropriate pricing and package information. • The AI continues the conversation naturally, answers follow-up questions, handles common objections, and encourages the lead to schedule a consultation. • When appropriate, it sends my Calendly link to book a call. • If the lead asks something outside of its knowledge, requests custom pricing, or is ready to book, the AI should notify me and seamlessly hand off the conversation. Integrations I’d like: **• Eventective** – Trigger the workflow whenever a new lead is received. **• Gmail** – Read new Eventective lead emails, send pricing guides, and continu",
+      "url": "https://community.make.com/t/ai-agent-for-dj-business/113000",
+      "postedAt": "2026-08-05T18:35:08.937Z",
+      "raw": "Ai Agent for DJ Business",
+      "services": [
+        "AI agents"
+      ],
+      "titleServices": [
+        "AI agents"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 69,
+      "score": 27,
+      "outreach": {
+        "subject": "Quick idea for \"Ai Agent for DJ Business\"",
+        "body": "Hi,\n\nSaw your post: \"Ai Agent for DJ Business\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "hn-49963906",
+      "source": "Hacker News",
+      "title": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;",
+      "description": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;www.infohawk.com Fraud reaches people through ads, cloned brand sites, counterfeit shops and AI-generated video, and it moves faster than any manual review. InfoHawk detects it while it is still running, correlates it across platforms and formats, and surfaces it early enough for our customers to act. We are a small team of engineers plus security, privacy and fraud specialists. Pre-seed, $2.25M led by Moonshots Capital: https:&#x2F;&#x2F;www.infohawk.com&#x2F;news&#x2F;2026-06-08-pre-seed-funding-an ... You’d own how data gets in: scrapers and collectors that survive source changes, official APIs where they exist, undocumented endpoints where they don’t. Sources break constantly. Can you figure out how to use AI to spot the change and adapt automatically? Stack: TypeSc",
+      "url": "https://news.ycombinator.com/item?id=49963906",
+      "postedAt": "2026-10-05T12:22:10Z",
+      "raw": "InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;www.infohawk.com Fraud reaches people through ads, cloned brand sites, counterfeit shops and AI-generated video, and it moves faster than any manual review. InfoHawk detects it while it is still running, correlates it across platforms and formats, and surfaces it early enough for our customers to act. We are a small team of engineers plus security, privacy and fraud specialists. Pre-seed, $2.25M led by Moonshots Capital: https:&#x2F;&#x2F;www.infohawk.com&#x2F;news&#x2F;2026-06-08-pre-seed-funding-an ... You’d own how data gets in: scrapers and collectors that survive source changes, official APIs where they exist, undocumented endpoints where they don’t. Sources break constantly. Can you figure out how to use AI to spot the change and adapt automatically? Stack: TypeScript, Node, SvelteKit, Postgres, Playwright, heavy AI-assisted development. We’re looking for ~3-5 years building scraping or integration systems in production, but if you’re a great engineer who doesn’t tick every box we’d still like to hear from you. UK-based for London, US-based for NYC; we cannot sponsor visas. Two of our three founders are engineers, one in each city, and you’ll work with them directly. james@infohawk.com",
+      "services": [
+        "Data & scraping"
+      ],
+      "titleServices": [],
+      "isCompetitor": false,
+      "isHiring": false,
+      "budget": 2,
+      "ageDays": 8,
+      "score": 27,
+      "outreach": {
+        "subject": "InfoHawk | Software Engineer | London, UK or NYC | HYBR — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"InfoHawk | Software Engineer | London, UK or NYC | HYBRID (UK or US), occasional onsite | Full-time | https:&#x2F;&#x2F;\". This is exactly the kind of data & scraping work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $2 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
