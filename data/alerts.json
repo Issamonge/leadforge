@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-14T08:08:29.230Z",
+    "text": "*LEAD MACHINE* — 14/10/2026, 12:08:29\n\nScanned 343 · qualified *56*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [66] Typify.dev ( https:&#x2F;&#x2F;typify.dev \n   https://news.ycombinator.com/item?id=50063001\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 56,
+    "tapToChat": 0,
+    "hot": 1
+  },
+  {
     "at": "2026-10-13T23:11:43.287Z",
     "text": "*LEAD MACHINE* — 14/10/2026, 03:11:43\n\nScanned 372 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [66] Typify.dev ( https:&#x2F;&#x2F;typify.dev \n   https://news.ycombinator.com/item?id=50063001\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -764,11 +772,5 @@
     "text": "*Lead Machine — CALL ALERT*\n🔴 ESCALATION\nCaller: +14155550123\nEnded: customer-ended-call\n\nSummary: Dental clinic owner wants missed-call follow-up; asked for a human about pricing for 3 locations.\n\nTranscript: I run three dental clinics and I want to speak to a real person about pricing.\n👉 Call them back now to close.",
     "kind": "voice_escalate_human",
     "caller": "+14155550123"
-  },
-  {
-    "at": "2026-09-17T11:12:03.125Z",
-    "text": "*Lead Machine — CALL ALERT*\n🟡 NOT INTERESTED\nCaller: +447700900123\n\nSummary: Roofing company not interested; has a VA already.\n\nTranscript: No thanks, not interested.\n👉 Wants a human? Follow up personally.",
-    "kind": "voice_not_interested",
-    "caller": "+447700900123"
   }
 ]
