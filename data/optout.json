@@ -298,5 +298,25 @@
     "email": "info@1800hurt911ga.com",
     "reason": "bounced: spam block",
     "at": "2026-10-12T20:04:50.201Z"
+  },
+  {
+    "email": "contact@ey.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "hello@evolfe.co.uk",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "john.battison2@ntlworld.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "info@vistauae.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-14T15:39:46.942Z"
   }
 ]
