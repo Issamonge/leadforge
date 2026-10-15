@@ -318,5 +318,15 @@
     "email": "info@vistauae.com",
     "reason": "bounced: undeliverable",
     "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "info@arcadiaelectric.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-15T15:25:19.566Z"
+  },
+  {
+    "email": "hello@mannalandscapes.com.au",
+    "reason": "bounced: spam block",
+    "at": "2026-10-15T15:25:19.566Z"
   }
 ]
