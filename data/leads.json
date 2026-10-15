@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T22:01:16.534Z",
+  "generatedAt": "2026-10-15T07:49:25.230Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,7 +18,7 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 484,
+    "totalScanned": 564,
     "qualified": 60,
     "pipelineValue": 1575080,
     "sources": {
@@ -27,16 +27,16 @@
       "Hacker News": 150,
       "RemoteOK": 99,
       "Remotive": 15,
-      "OpenStreetMap": 160,
+      "OpenStreetMap": 240,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 1,
-    "phoneLeads": 51,
+    "whatsappCapable": 11,
+    "phoneLeads": 49,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 32,
-    "emailLeads": 52,
+    "emailLeads": 50,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -202,7 +202,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": 185000,
-      "ageDays": 8,
+      "ageDays": 9,
       "score": 59,
       "outreach": {
         "subject": "Cloudflare | Senior Systems Engineers – Basin (Pipeline — fixed-scope plan",
@@ -227,7 +227,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": 750000,
-      "ageDays": 9,
+      "ageDays": 10,
       "score": 59,
       "outreach": {
         "subject": "ALBERT | REMOTE ALMOST ANYWHERE IN THE WORLD| Hiring pr — fixed-scope plan",
@@ -252,7 +252,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": 180000,
-      "ageDays": 11,
+      "ageDays": 12,
       "score": 59,
       "outreach": {
         "subject": "GC AI | Member of Technical Staff, Applied AI | REMOTE  — fixed-scope plan",
@@ -341,1203 +341,25 @@
       "waLink": ""
     },
     {
-      "id": "osm-node-475365926",
+      "id": "osm-node-266169118",
       "source": "OpenStreetMap",
-      "title": "Wyse Property — estate agent (Leeson Street Upper)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.wyse.ie/. Phone: +353 1 568 8900.",
-      "email": "info@wyse.ie",
-      "phone": "+353 1 568 8900",
+      "title": "Escuela Oficial de Idiomas de Madrid-Valdezarza — language school (Calle Isla Malaita)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.educa.madrid.org/eoi.valdezarza.madrid. Phone: +34913863098;+34913731588;+34913863091.",
+      "email": "eoi.valdezarza.madrid@educa.madrid.org",
+      "phone": "+34913863098;+34913731588;+34913863091",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.wyse.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.wyse.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Wyse Property estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Wyse Property — quick question about manual work that eats the week",
-        "body": "Hi Wyse Property team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-564076265",
-      "source": "OpenStreetMap",
-      "title": "SISU Clinic — beauty (Fields Terrace, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://sisuclinic.com/sisu-clinic-ranelagh-dublin/. Phone: n/a.",
-      "email": "info@sisuclinic.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://sisuclinic.com/sisu-clinic-ranelagh-dublin/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://sisuclinic.com/sisu-clinic-ranelagh-dublin/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "SISU Clinic beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "SISU Clinic — quick question about bookings and rebookings going cold",
-        "body": "Hi SISU Clinic team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-564907484",
-      "source": "OpenStreetMap",
-      "title": "D6 Dental (Connellan & Associates) — dentist (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://d6dental.ie/. Phone: +353 1 496 6246.",
-      "email": "reception@d6dental.ie",
-      "phone": "+353 1 496 6246",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://d6dental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://d6dental.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "D6 Dental (Connellan & Associates) dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "D6 Dental (Connellan & Associates) — quick question about missed calls and no-shows",
-        "body": "Hi D6 Dental (Connellan & Associates) team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-646871427",
-      "source": "OpenStreetMap",
-      "title": "Giraffe Childcare Harcourt Road — childcare (Charlemont Street, Dublin)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.giraffe.ie/. Phone: +353 1 254 1347.",
-      "email": "info@giraffe.ie",
-      "phone": "+353 1 254 1347",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.giraffe.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.giraffe.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Giraffe Childcare Harcourt Road childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Giraffe Childcare Harcourt Road — quick question about manual work that eats the week",
-        "body": "Hi Giraffe Childcare Harcourt Road team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-1423538031",
-      "source": "OpenStreetMap",
-      "title": "Phoenix Dental — dentist (Ashtown Road)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://phoenixdental.ie/. Phone: +353 1 866 4080.",
-      "email": "hello@phoenixdental.ie",
-      "phone": "+353 1 866 4080",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://phoenixdental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://phoenixdental.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Phoenix Dental dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Phoenix Dental — quick question about missed calls and no-shows",
-        "body": "Hi Phoenix Dental team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-1609324726",
-      "source": "OpenStreetMap",
-      "title": "Kobash Jewellers & Goldsmith — jewelry (Main Street, Blackrock)",
-      "description": "Business in Dublin. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: http://www.kobash.ie/. Phone: +353 1 559 2034.",
-      "email": "info@kobash.ie",
-      "phone": "+353 1 559 2034",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.kobash.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "http://www.kobash.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Kobash Jewellers & Goldsmith jewelry Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Kobash Jewellers & Goldsmith — quick question about manual work that eats the week",
-        "body": "Hi Kobash Jewellers & Goldsmith team,\n\nI work with jewelry businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-1720549569",
-      "source": "OpenStreetMap",
-      "title": "MSL Service Centre — car (North Circular Road)",
-      "description": "Business in Dublin. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre. Phone: +353 1 869 1350.",
-      "email": "customercareteam@msl.ie",
-      "phone": "+353 1 869 1350",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "MSL Service Centre car Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "MSL Service Centre — quick question about manual work that eats the week",
-        "body": "Hi MSL Service Centre team,\n\nI work with car businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2001070418",
-      "source": "OpenStreetMap",
-      "title": "Blow Hair & Beauty — beauty (Leeson Street Upper, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.blow.ie/. Phone: +353 1 607 0222.",
-      "email": "info@blow.ie",
-      "phone": "+353 1 607 0222",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.blow.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.blow.ie/",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Blow Hair & Beauty beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Blow Hair & Beauty — quick question about bookings and rebookings going cold",
-        "body": "Hi Blow Hair & Beauty team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2531423259",
-      "source": "OpenStreetMap",
-      "title": "Tan n Glo — beauty (Hyde Court, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +353 85 276 404.",
-      "email": "tan-n-glo@hotmail.com",
-      "phone": "+353 85 276 404",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/2531423259",
-      "postedAt": "2026-10-14T21:59:01.409Z",
-      "raw": "Tan n Glo beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Tan n Glo — quick question about bookings and rebookings going cold",
-        "body": "Hi Tan n Glo team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2772635770",
-      "source": "OpenStreetMap",
-      "title": "The Rathgar Medical Practice — doctors (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.rathgarmedicalpractice.ie/. Phone: +353 1 497 7106.",
-      "email": "reception@rathgarmedicalpractice.ie",
-      "phone": "+353 1 497 7106",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rathgarmedicalpractice.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.rathgarmedicalpractice.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "The Rathgar Medical Practice doctors Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "The Rathgar Medical Practice — quick question about missed calls and no-shows",
-        "body": "Hi The Rathgar Medical Practice team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2797135297",
-      "source": "OpenStreetMap",
-      "title": "Sherry FitzGerald — estate agent (Rathmines Road Lower, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.sherryfitz.ie/branch/rathmines. Phone: +353 1 496 6066.",
-      "email": "rathmines@sherryfitz.ie",
-      "phone": "+353 1 496 6066",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.sherryfitz.ie/branch/rathmines",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.sherryfitz.ie/branch/rathmines",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Sherry FitzGerald estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Sherry FitzGerald — quick question about manual work that eats the week",
-        "body": "Hi Sherry FitzGerald team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2886074909",
-      "source": "OpenStreetMap",
-      "title": "Rathgar Dental Clinic — dentist (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.rathgardentist.ie/. Phone: +353 1 496 9596.",
-      "email": "info@rathgardentist.ie",
-      "phone": "+353 87 271 7797",
-      "mobileNumber": "+353 87 271 7797",
-      "hasMobile": true,
-      "website": "https://www.rathgardentist.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.rathgardentist.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Rathgar Dental Clinic dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rathgar Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Rathgar Dental Clinic team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/353872717797?text=Hello%20Rathgar%20Dental%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Dublin%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2886210902",
-      "source": "OpenStreetMap",
-      "title": "Rathmines Dental — dentist (Rathmines Road Lower)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.rathminesdental.ie/. Phone: +353 1 497 6543.",
-      "email": "rathminesdental183@gmail.com",
-      "phone": "+353 1 497 6543",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rathminesdental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.rathminesdental.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Rathmines Dental dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rathmines Dental — quick question about missed calls and no-shows",
-        "body": "Hi Rathmines Dental team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2985495379",
-      "source": "OpenStreetMap",
-      "title": "Charltons Solicitors — lawyer (Leeson Street Upper, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://charltons.ie/. Phone: +353 1 230 2881.",
-      "email": "info@charltons.ie",
-      "phone": "+353 1 230 2881",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://charltons.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://charltons.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Charltons Solicitors lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Charltons Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Charltons Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2986730985",
-      "source": "OpenStreetMap",
-      "title": "Reliance — estate agent (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://reliancepropertyconsultants.ie/. Phone: +353 1 537 7800.",
-      "email": "office@reliancepropertyconsultants.ie",
-      "phone": "+353 1 537 7800",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://reliancepropertyconsultants.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://reliancepropertyconsultants.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Reliance estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Reliance — quick question about manual work that eats the week",
-        "body": "Hi Reliance team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2994960417",
-      "source": "OpenStreetMap",
-      "title": "Brady — doctors (Harrington Street, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://doctorbrady.ie/. Phone: +353 1 475 6300.",
-      "email": "info@doctorbrady.ie",
-      "phone": "+353 1 475 6300",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://doctorbrady.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://doctorbrady.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Brady doctors Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Brady — quick question about missed calls and no-shows",
-        "body": "Hi Brady team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2995295930",
-      "source": "OpenStreetMap",
-      "title": "Ups a Daisy Childcare — childcare (Somerville Park)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: http://www.upsadaisy.ie. Phone: +353 1 455 0035.",
-      "email": "info@upsadaisy.ie",
-      "phone": "+353 1 455 0035",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.upsadaisy.ie",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "http://www.upsadaisy.ie",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Ups a Daisy Childcare childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ups a Daisy Childcare — quick question about manual work that eats the week",
-        "body": "Hi Ups a Daisy Childcare team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3005887709",
-      "source": "OpenStreetMap",
-      "title": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://dmpc.ie/. Phone: +353 1 4967574.",
-      "email": "info@dmpc.ie",
-      "phone": "+353 1 4967574",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://dmpc.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://dmpc.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Dillon Marshall estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dillon Marshall — quick question about manual work that eats the week",
-        "body": "Hi Dillon Marshall team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3005899377",
-      "source": "OpenStreetMap",
-      "title": "Brian Crowe & Co. Solicitors — lawyer (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.bcrowe.ie/. Phone: +353 1 4911380.",
-      "email": "info@bcrowe.ie",
-      "phone": "+353 1 4911380",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.bcrowe.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.bcrowe.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Brian Crowe & Co. Solicitors lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Brian Crowe & Co. Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Brian Crowe & Co. Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3042075585",
-      "source": "OpenStreetMap",
-      "title": "Blink & Wink — beauty (Dawson Street, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +353 1 662 4772.",
-      "email": "hello@blinkandwink.ie",
-      "phone": "+353 1 662 4772",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/3042075585",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Blink & Wink beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Blink & Wink — quick question about bookings and rebookings going cold",
-        "body": "Hi Blink & Wink team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3042216354",
-      "source": "OpenStreetMap",
-      "title": "New Ireland Assurance Company plc — insurance (Dawson Street, Dublin)",
-      "description": "Business in Dublin. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.newireland.ie/. Phone: +353 1 617 2000.",
-      "email": "info@newireland.ie",
-      "phone": "+353 1 617 2000",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.newireland.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://www.newireland.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "New Ireland Assurance Company plc insurance Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "New Ireland Assurance Company plc — quick question about enquiry follow-up that never happens",
-        "body": "Hi New Ireland Assurance Company plc team,\n\nI work with insurance businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3055647958",
-      "source": "OpenStreetMap",
-      "title": "Belgrave Dental Clinic — dentist (Belgrave Square East, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.belgravedentalclinic.ie/. Phone: +353 1 496 7661.",
-      "email": "info@belgravedentalclinic.ie",
-      "phone": "+353 1 496 7661",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.belgravedentalclinic.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "http://www.belgravedentalclinic.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Belgrave Dental Clinic dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Belgrave Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Belgrave Dental Clinic team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3055715816",
-      "source": "OpenStreetMap",
-      "title": "Young's Estate Agents — estate agent (Ranelagh, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://youngs.ie/. Phone: +353 1 497 5581.",
-      "email": "info@youngs.ie",
-      "phone": "+353 1 497 5581",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://youngs.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://youngs.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Young's Estate Agents estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Young's Estate Agents — quick question about manual work that eats the week",
-        "body": "Hi Young's Estate Agents team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3106271526",
-      "source": "OpenStreetMap",
-      "title": "Ray Cooke — estate agent (Terenure Road North)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.raycooke.ie/. Phone: +353 1 687 5800.",
-      "email": "terenure@raycooke.ie",
-      "phone": "+353 1 687 5800",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.raycooke.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.raycooke.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Ray Cooke estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ray Cooke — quick question about manual work that eats the week",
-        "body": "Hi Ray Cooke team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3106286535",
-      "source": "OpenStreetMap",
-      "title": "Cronin & Company — accountant (Terenure Place)",
-      "description": "Business in Dublin. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: https://www.croninco.ie/. Phone: +353 1 490 1670.",
-      "email": "info@croninco.ie",
-      "phone": "+353 1 490 1670",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.croninco.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "https://www.croninco.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Cronin & Company accountant Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Cronin & Company — quick question about enquiry follow-up that never happens",
-        "body": "Hi Cronin & Company team,\n\nI work with accountant businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3124379310",
-      "source": "OpenStreetMap",
-      "title": "Bumbles Creche & Montessori — childcare (Rathmines Road Upper, Dublin)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: http://www.bumbles.ie/. Phone: +353 1 4911051.",
-      "email": "bumbles@eircom.net",
-      "phone": "+353 1 4911051",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.bumbles.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "http://www.bumbles.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Bumbles Creche & Montessori childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bumbles Creche & Montessori — quick question about manual work that eats the week",
-        "body": "Hi Bumbles Creche & Montessori team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3133935919",
-      "source": "OpenStreetMap",
-      "title": "The Dawson Spa — beauty (Dawson Street)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.thedawson.ie/the-dawnson-spa.html. Phone: +353 1 671 7099.",
-      "email": "spa@thedawson.ie",
-      "phone": "+353 1 671 7099",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.thedawson.ie/the-dawnson-spa.html",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.thedawson.ie/the-dawnson-spa.html",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "The Dawson Spa beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "The Dawson Spa — quick question about bookings and rebookings going cold",
-        "body": "Hi The Dawson Spa team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3136124827",
-      "source": "OpenStreetMap",
-      "title": "Linders Renault Finglas — car (Clearwater Shopping Centre, Dublin)",
-      "description": "Business in Dublin. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.lindersrenault.ie/. Phone: +353 1 8648212.",
-      "email": "finglas@lindersrenault.ie",
-      "phone": "+353 1 8648212",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.lindersrenault.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://www.lindersrenault.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Linders Renault Finglas car Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Linders Renault Finglas — quick question about manual work that eats the week",
-        "body": "Hi Linders Renault Finglas team,\n\nI work with car businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3191509818",
-      "source": "OpenStreetMap",
-      "title": "Mercer's Medical Centre — doctors (Stephen Street Lower, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.mercersmedicalcentre.com/. Phone: +353 1 402 2300.",
-      "email": "gpreception@rcsi.com",
-      "phone": "+353 1 402 2300",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.mercersmedicalcentre.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.mercersmedicalcentre.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Mercer's Medical Centre doctors Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Mercer's Medical Centre — quick question about missed calls and no-shows",
-        "body": "Hi Mercer's Medical Centre team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3436216532",
-      "source": "OpenStreetMap",
-      "title": "Savvi Beauty Salon — beauty (Swords Road, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.savvibeauty.ie/. Phone: +353 1 8428653.",
-      "email": "info@savvibeauty.ie",
-      "phone": "+353 1 8428653",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.savvibeauty.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.savvibeauty.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Savvi Beauty Salon beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Savvi Beauty Salon — quick question about bookings and rebookings going cold",
-        "body": "Hi Savvi Beauty Salon team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3450108625",
-      "source": "OpenStreetMap",
-      "title": "Celtrino — it (Parnell Street, Dublin)",
-      "description": "Business in Dublin. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.celtrino.com/. Phone: +353 1 8739900.",
-      "email": "info@celtrino.com",
-      "phone": "+353 1 8739900",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.celtrino.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://www.celtrino.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Celtrino it Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Celtrino — quick question about manual work that eats the week",
-        "body": "Hi Celtrino team,\n\nI work with it businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3470507588",
-      "source": "OpenStreetMap",
-      "title": "Centre of English Studies — language school (Dame Street, Dublin)",
-      "description": "Business in Dublin. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://ces-schools.com/locations/dublin. Phone: +353 1 671 4233.",
-      "email": "info@ces-schools.com",
-      "phone": "+353 1 671 4233",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://ces-schools.com/locations/dublin",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
+      "website": "https://www.educa.madrid.org/eoi.valdezarza.madrid",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
       "category": "language_school",
       "services": [
         "Enrolment automation",
         "lead nurturing"
       ],
-      "url": "https://ces-schools.com/locations/dublin",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Centre of English Studies language_school Dublin",
+      "url": "https://www.educa.madrid.org/eoi.valdezarza.madrid",
+      "postedAt": "2026-10-15T07:47:28.144Z",
+      "raw": "Escuela Oficial de Idiomas de Madrid-Valdezarza language_school Madrid",
       "_emailLead": true,
       "titleServices": [
         "Enrolment automation",
@@ -1549,37 +371,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Centre of English Studies — quick question about manual work that eats the week",
-        "body": "Hi Centre of English Studies team,\n\nI work with language_school businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Escuela Oficial de Idiomas de Madrid-Valdezarza — quick question about manual work that eats the week",
+        "body": "Hi Escuela Oficial de Idiomas de Madrid-Valdezarza team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3477073354",
+      "id": "osm-node-266169124",
       "source": "OpenStreetMap",
-      "title": "Connolly Lowe — lawyer (Inns Quay, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://connollylowe.com/. Phone: +353 1 8044130.",
-      "email": "info@legalcosts.net",
-      "phone": "+353 1 8044130",
+      "title": "Escuela Oficial de Idiomas de Madrid-Carabanchel — language school (Calle de Portalegre)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.educa.madrid.org/eoi.carabanchel.madrid. Phone: +34914695812.",
+      "email": "eoi.carabanchel.madrid@educa.madrid.org",
+      "phone": "+34914695812",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://connollylowe.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
+      "website": "https://www.educa.madrid.org/eoi.carabanchel.madrid",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "language_school",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Enrolment automation",
+        "lead nurturing"
       ],
-      "url": "https://connollylowe.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Connolly Lowe lawyer Dublin",
+      "url": "https://www.educa.madrid.org/eoi.carabanchel.madrid",
+      "postedAt": "2026-10-15T07:47:28.144Z",
+      "raw": "Escuela Oficial de Idiomas de Madrid-Carabanchel language_school Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Enrolment automation",
+        "lead nurturing"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -1587,37 +409,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Connolly Lowe — quick question about enquiry follow-up that never happens",
-        "body": "Hi Connolly Lowe team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Escuela Oficial de Idiomas de Madrid-Carabanchel — quick question about manual work that eats the week",
+        "body": "Hi Escuela Oficial de Idiomas de Madrid-Carabanchel team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3477073359",
+      "id": "osm-node-1922637398",
       "source": "OpenStreetMap",
-      "title": "Pearts Solicitors — lawyer (Ormond Quay Upper, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://pearts.ie/. Phone: +353 1 8722311.",
-      "email": "agency@pearts.ie",
-      "phone": "+353 1 8722311",
+      "title": "Clínica González & Campos — doctors (Plaza de Castilla, Madrid)",
+      "description": "Business in Madrid. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.gonzalezycampos.es/. Phone: +34 91 315 81 85.",
+      "email": "info@gonzalezycampos.es",
+      "phone": "+34 91 315 81 85",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://pearts.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
+      "website": "https://www.gonzalezycampos.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "doctors",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Appointment automation",
+        "intake processing"
       ],
-      "url": "https://pearts.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Pearts Solicitors lawyer Dublin",
+      "url": "https://www.gonzalezycampos.es/",
+      "postedAt": "2026-10-15T07:47:28.144Z",
+      "raw": "Clínica González & Campos doctors Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Appointment automation",
+        "intake processing"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -1625,299 +447,33 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Pearts Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Pearts Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Clínica González & Campos — quick question about missed calls and no-shows",
+        "body": "Hi Clínica González & Campos team,\n\nI work with doctors businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3477073365",
+      "id": "osm-node-2339190626",
       "source": "OpenStreetMap",
-      "title": "Bowler Geraghty & Company — lawyer (Ormond Quay Lower, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.bglaw.ie/. Phone: +353 1 8728233.",
-      "email": "bg@bowlergeraghty.ie",
-      "phone": "+353 1 8728233",
+      "title": "Tecnocasa — estate agent (Calle de Ricardo Ortiz, Madrid)",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.tecnocasa.es/agencia-inmobiliaria/madrid/ricardo_ortiz_el_carmen/md030.html. Phone: +34 912401599.",
+      "email": "md030@tecnocasa.es",
+      "phone": "+34 912401599",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.bglaw.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.bglaw.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Bowler Geraghty & Company lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bowler Geraghty & Company — quick question about enquiry follow-up that never happens",
-        "body": "Hi Bowler Geraghty & Company team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3477082226",
-      "source": "OpenStreetMap",
-      "title": "CQ Commuunications — electronics (Ormond Quay Lower, Dublin)",
-      "description": "Business in Dublin. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://cqcomms.com/. Phone: +353 1 8722752.",
-      "email": "sales@cqcomms.com",
-      "phone": "+353 1 8722752",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cqcomms.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "electronics",
-      "services": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "url": "https://cqcomms.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "CQ Commuunications electronics Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead automation",
-        "inventory reporting"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "CQ Commuunications — quick question about manual work that eats the week",
-        "body": "Hi CQ Commuunications team,\n\nI work with electronics businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3477753532",
-      "source": "OpenStreetMap",
-      "title": "Ryan & Associates — lawyer (North Strand Road, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.ryansols.ie/. Phone: +353 1 836 3369.",
-      "email": "info@ryansols.ie",
-      "phone": "+353 1 836 3369",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.ryansols.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.ryansols.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Ryan & Associates lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ryan & Associates — quick question about enquiry follow-up that never happens",
-        "body": "Hi Ryan & Associates team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3479141816",
-      "source": "OpenStreetMap",
-      "title": "The Insurance Shop — insurance (North Strand Road, Dublin)",
-      "description": "Business in Dublin. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://tis.ie/. Phone: +353 1 8366663.",
-      "email": "info@tis.ie",
-      "phone": "+353 1 8366663",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://tis.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://tis.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "The Insurance Shop insurance Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "The Insurance Shop — quick question about enquiry follow-up that never happens",
-        "body": "Hi The Insurance Shop team,\n\nI work with insurance businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3479141817",
-      "source": "OpenStreetMap",
-      "title": "BKRM — accountant (North Strand Road, Dublin)",
-      "description": "Business in Dublin. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: http://www.bkrm.ie/. Phone: +353 1 8365522.",
-      "email": "info@bkrm.ie",
-      "phone": "+353 1 8365522",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.bkrm.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "http://www.bkrm.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "BKRM accountant Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "BKRM — quick question about enquiry follow-up that never happens",
-        "body": "Hi BKRM team,\n\nI work with accountant businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3479192084",
-      "source": "OpenStreetMap",
-      "title": "Lockhart & Cleary — lawyer (Annesley Bridge Road, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.lockhartcleary.ie/. Phone: +353 1 8555255.",
-      "email": "info@lockhart.ie",
-      "phone": "+353 1 8555255",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.lockhartcleary.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.lockhartcleary.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Lockhart & Cleary lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Lockhart & Cleary — quick question about enquiry follow-up that never happens",
-        "body": "Hi Lockhart & Cleary team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3481459335",
-      "source": "OpenStreetMap",
-      "title": "Early & Baldwin — lawyer (Marino Mart, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.baldwinlegal.com/. Phone: +353 18333097.",
-      "email": "info@baldwinlegal.com",
-      "phone": "+353 18333097",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.baldwinlegal.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "http://www.baldwinlegal.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Early & Baldwin lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Early & Baldwin — quick question about enquiry follow-up that never happens",
-        "body": "Hi Early & Baldwin team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3481459336",
-      "source": "OpenStreetMap",
-      "title": "Gallagher Quigley — estate agent (Marino Mart, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.gallagherquigley.ie/contact. Phone: +353 1 818 3000.",
-      "email": "info@gallagherquigley.ie",
-      "phone": "+353 1 818 3000",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.gallagherquigley.ie/contact",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
+      "website": "https://www.tecnocasa.es/agencia-inmobiliaria/madrid/ricardo_ortiz_el_carmen/md030.html",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
       "category": "estate_agent",
       "services": [
         "Deal pipeline automation",
         "lead enrichment"
       ],
-      "url": "https://www.gallagherquigley.ie/contact",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Gallagher Quigley estate_agent Dublin",
+      "url": "https://www.tecnocasa.es/agencia-inmobiliaria/madrid/ricardo_ortiz_el_carmen/md030.html",
+      "postedAt": "2026-10-15T07:47:28.144Z",
+      "raw": "Tecnocasa estate_agent Madrid",
       "_emailLead": true,
       "titleServices": [
         "Deal pipeline automation",
@@ -1929,37 +485,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Gallagher Quigley — quick question about manual work that eats the week",
-        "body": "Hi Gallagher Quigley team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Tecnocasa — quick question about manual work that eats the week",
+        "body": "Hi Tecnocasa team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3481459338",
+      "id": "osm-node-2492874439",
       "source": "OpenStreetMap",
-      "title": "Local business — beauty (Marino Mart, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.sparklebeauty.ie/. Phone: +353 1 8186794.",
-      "email": "info@sparklebeauty.ie",
-      "phone": "+353 1 8186794",
+      "title": "Doctor Fernando Caudevilla — doctors (Calle de la Alameda, Madrid)",
+      "description": "Business in Madrid. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://doctorcaudevilla.com/. Phone: +34 608 40 70 19.",
+      "email": "caudevilla@gmail.com",
+      "phone": "+34 608 40 70 19",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.sparklebeauty.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
+      "website": "https://doctorcaudevilla.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "doctors",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Appointment automation",
+        "intake processing"
       ],
-      "url": "https://www.sparklebeauty.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Local business beauty Dublin",
+      "url": "https://doctorcaudevilla.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Doctor Fernando Caudevilla doctors Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Appointment automation",
+        "intake processing"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -1967,37 +523,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Local business — quick question about bookings and rebookings going cold",
-        "body": "Hi Local business team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Doctor Fernando Caudevilla — quick question about missed calls and no-shows",
+        "body": "Hi Doctor Fernando Caudevilla team,\n\nI work with doctors businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/34608407019?text=Hello%20Doctor%20Fernando%20Caudevilla%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-3482840889",
+      "id": "osm-node-2559186989",
       "source": "OpenStreetMap",
-      "title": "Gaffney Halligan & Co. Solicitors — lawyer (Mornington Park, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://gaffneyhalligan.com/. Phone: +353 1 8312470.",
-      "email": "info@gaffneyhalligan.com",
-      "phone": "+353 1 8312470",
+      "title": "Efecto 2000 — computer (Calle de Valderribas, Madrid)",
+      "description": "Business in Madrid. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.efecto2000.es/. Phone: +34 919 017 700.",
+      "email": "web@efecto2000.es",
+      "phone": "+34 919 017 700",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://gaffneyhalligan.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
+      "website": "https://www.efecto2000.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "computer",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI workflow automation",
+        "data pipelines"
       ],
-      "url": "https://gaffneyhalligan.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Gaffney Halligan & Co. Solicitors lawyer Dublin",
+      "url": "https://www.efecto2000.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Efecto 2000 computer Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "AI workflow automation",
+        "data pipelines"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -2005,227 +561,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Gaffney Halligan & Co. Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Gaffney Halligan & Co. Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Efecto 2000 — quick question about manual work that eats the week",
+        "body": "Hi Efecto 2000 team,\n\nI work with computer businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3521465545",
+      "id": "osm-node-2635923699",
       "source": "OpenStreetMap",
-      "title": "Rathmines Road Dental — dentist (Rathmines Road Upper, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://rathminesroaddentalclinic.ie/. Phone: +353 1 406 2084.",
-      "email": "info@rathminesroaddentalclinic.ie",
-      "phone": "+353 1 406 2084",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://rathminesroaddentalclinic.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://rathminesroaddentalclinic.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Rathmines Road Dental dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rathmines Road Dental — quick question about missed calls and no-shows",
-        "body": "Hi Rathmines Road Dental team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3563319304",
-      "source": "OpenStreetMap",
-      "title": "Qualcom — it (Liberty Lane, Dublin)",
-      "description": "Business in Dublin. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.qualcom.ie/. Phone: +353 1 475 0202.",
-      "email": "info@qualcom.ie",
-      "phone": "+353 1 475 0202",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.qualcom.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://www.qualcom.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Qualcom it Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Qualcom — quick question about manual work that eats the week",
-        "body": "Hi Qualcom team,\n\nI work with it businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3563371309",
-      "source": "OpenStreetMap",
-      "title": "Hibernian Estates — estate agent",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://hibernianestates.com/. Phone: +353 1 4783000.",
-      "email": "info@hibernianestates.com",
-      "phone": "+353 1 4783000",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://hibernianestates.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "http://hibernianestates.com/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Hibernian Estates estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Hibernian Estates — quick question about manual work that eats the week",
-        "body": "Hi Hibernian Estates team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3567111771",
-      "source": "OpenStreetMap",
-      "title": "Portobello Dental Clinic — dentist (South Circular Road)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.portobellodental.ie/. Phone: +353 1 454 2022.",
-      "email": "info@portobellodental.com",
-      "phone": "+353 1 454 2022",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.portobellodental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.portobellodental.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Portobello Dental Clinic dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Portobello Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Portobello Dental Clinic team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3579222573",
-      "source": "OpenStreetMap",
-      "title": "Perfect Lady — beauty (James Joyce Street, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.perfectlady.ie/. Phone: +353 1 894 4769.",
-      "email": "info@perfectlady.ie",
-      "phone": "+353 1 894 4769",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.perfectlady.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.perfectlady.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Perfect Lady beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Perfect Lady — quick question about bookings and rebookings going cold",
-        "body": "Hi Perfect Lady team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3595106926",
-      "source": "OpenStreetMap",
-      "title": "Dix Jewellery Tools & Equipment — jewelry (Aston Quay, Dublin)",
-      "description": "Business in Dublin. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: +353 1 671 7144.",
-      "email": "info@pjdix.ie",
-      "phone": "+353 1 671 7144",
+      "title": "La Casa Agency — estate agent (Calle de Antonio López, Madrid)",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +34911594440.",
+      "email": "28019a@lacasa.net",
+      "phone": "+34911594440",
       "mobileNumber": "",
       "hasMobile": false,
       "website": "",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "jewelry",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "estate_agent",
       "services": [
-        "Clienteling automation",
-        "order follow-up"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
-      "url": "https://www.openstreetmap.org/node/3595106926",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Dix Jewellery Tools & Equipment jewelry Dublin",
+      "url": "https://www.openstreetmap.org/node/2635923699",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "La Casa Agency estate_agent Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -2233,37 +599,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Dix Jewellery Tools & Equipment — quick question about manual work that eats the week",
-        "body": "Hi Dix Jewellery Tools & Equipment team,\n\nI work with jewelry businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "La Casa Agency — quick question about manual work that eats the week",
+        "body": "Hi La Casa Agency team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3597714538",
+      "id": "osm-node-2653850823",
       "source": "OpenStreetMap",
-      "title": "Oisin Nolan Solicitors — lawyer (Rathmines Road Lower, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.oisinnolan.ie/. Phone: +353 1 4969952.",
-      "email": "info@oisinnolan.ie",
-      "phone": "+353 1 4969952",
+      "title": "Tecnocasa — estate agent (Calle de San Bernardo, Madrid)",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.tecnocasa.es/agencias/inmobiliaria/comunidad+de+madrid/madrid/mdae2.html. Phone: +34 915234115.",
+      "email": "mdae2@tecnocasa.es",
+      "phone": "+34 915234115",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "http://www.oisinnolan.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
+      "website": "https://www.tecnocasa.es/agencias/inmobiliaria/comunidad+de+madrid/madrid/mdae2.html",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "estate_agent",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
-      "url": "http://www.oisinnolan.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Oisin Nolan Solicitors lawyer Dublin",
+      "url": "https://www.tecnocasa.es/agencias/inmobiliaria/comunidad+de+madrid/madrid/mdae2.html",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Tecnocasa estate_agent Madrid",
       "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -2271,33 +637,109 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Oisin Nolan Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Oisin Nolan Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Tecnocasa — quick question about manual work that eats the week",
+        "body": "Hi Tecnocasa team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3609138350",
+      "id": "osm-node-2671175814",
       "source": "OpenStreetMap",
-      "title": "Alexandra School of Motoring — driving school (Marino Mart, Dublin)",
-      "description": "Business in Dublin. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://www.alexandraschoolofmotoring.ie/. Phone: +353 1 836 3344.",
-      "email": "info@alexandraschoolofmotoring.ie",
-      "phone": "+353 1 836 3344",
+      "title": "Retif — furniture (Calle de Vallehermoso, Madrid)",
+      "description": "Business in Madrid. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.retif.es/nuestras-tiendas/retif-madrid-centro-.html. Phone: +34 914 444 281.",
+      "email": "retifvallermoso@retif.eu",
+      "phone": "+34 914 444 281",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.alexandraschoolofmotoring.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
+      "website": "https://www.retif.es/nuestras-tiendas/retif-madrid-centro-.html",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.retif.es/nuestras-tiendas/retif-madrid-centro-.html",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Retif furniture Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Retif — quick question about manual work that eats the week",
+        "body": "Hi Retif team,\n\nI work with furniture businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2674349878",
+      "source": "OpenStreetMap",
+      "title": "Clínica Dental Ruiz de Gopegui — dentist (Calle de Ibiza, Madrid)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.clinicaruizdegopegui.com/. Phone: +34 915 743 900.",
+      "email": "info@clinicaruizdegopegui.com",
+      "phone": "+34 915 743 900",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.clinicaruizdegopegui.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.clinicaruizdegopegui.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clínica Dental Ruiz de Gopegui dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Clínica Dental Ruiz de Gopegui — quick question about missed calls and no-shows",
+        "body": "Hi Clínica Dental Ruiz de Gopegui team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2676855004",
+      "source": "OpenStreetMap",
+      "title": "Fitipaldi — driving school (Calle de San Bernardo, Madrid)",
+      "description": "Business in Madrid. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://www.autoescuelafitipaldi.com/. Phone: +34 911690198.",
+      "email": "info@autoescuelafitipaldi.com",
+      "phone": "+34 911690198",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.autoescuelafitipaldi.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
       "category": "driving_school",
       "services": [
         "Lesson booking automation",
         "reminder sequences"
       ],
-      "url": "https://www.alexandraschoolofmotoring.ie/",
-      "postedAt": "2026-10-14T21:59:01.410Z",
-      "raw": "Alexandra School of Motoring driving_school Dublin",
+      "url": "https://www.autoescuelafitipaldi.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Fitipaldi driving_school Madrid",
       "_emailLead": true,
       "titleServices": [
         "Lesson booking automation",
@@ -2309,8 +751,1566 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Alexandra School of Motoring — quick question about manual work that eats the week",
-        "body": "Hi Alexandra School of Motoring team,\n\nI work with driving_school businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Fitipaldi — quick question about manual work that eats the week",
+        "body": "Hi Fitipaldi team,\n\nI work with driving_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2681923260",
+      "source": "OpenStreetMap",
+      "title": "Clínica Dental Reyes 9 — dentist (Calle de los Reyes, Madrid)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.clinicareyes9.com/. Phone: +34 917 647 826.",
+      "email": "info@clinicareyes9.com",
+      "phone": "+34 628 365 285",
+      "mobileNumber": "+34 628 365 285",
+      "hasMobile": true,
+      "website": "https://www.clinicareyes9.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.clinicareyes9.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clínica Dental Reyes 9 dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Clínica Dental Reyes 9 — quick question about missed calls and no-shows",
+        "body": "Hi Clínica Dental Reyes 9 team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34628365285?text=Hello%20Cl%C3%ADnica%20Dental%20Reyes%209%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-2683834794",
+      "source": "OpenStreetMap",
+      "title": "Joyería Relojería Fernando Garrote — jewelry (Calle de Andrés Borrego, Madrid)",
+      "description": "Business in Madrid. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.joyeriagarrote.es/. Phone: +34 915 31 59 65.",
+      "email": "info@joyeriagarrote.es",
+      "phone": "+34 915 31 59 65",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.joyeriagarrote.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.joyeriagarrote.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Joyería Relojería Fernando Garrote jewelry Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Joyería Relojería Fernando Garrote — quick question about manual work that eats the week",
+        "body": "Hi Joyería Relojería Fernando Garrote team,\n\nI work with jewelry businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2686626101",
+      "source": "OpenStreetMap",
+      "title": "Vitaldent — dentist (Calle de San Bernardo, Madrid)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.vitaldent.com/pagina_clinica.jsp?codigoClinica=497633. Phone: +34 915594300.",
+      "email": "sanbernardo@vitaldent.com",
+      "phone": "+34 915594300",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.vitaldent.com/pagina_clinica.jsp?codigoClinica=497633",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.vitaldent.com/pagina_clinica.jsp?codigoClinica=497633",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Vitaldent dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Vitaldent — quick question about missed calls and no-shows",
+        "body": "Hi Vitaldent team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2777306978",
+      "source": "OpenStreetMap",
+      "title": "Autoescuela Malasaña — driving school (Calle del Pez, Madrid)",
+      "description": "Business in Madrid. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: http://www.aemalasana.com/. Phone: +34 91 521 94 20.",
+      "email": "info@aemalasana.com",
+      "phone": "+34 91 521 94 20",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.aemalasana.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "driving_school",
+      "services": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "url": "http://www.aemalasana.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Autoescuela Malasaña driving_school Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lesson booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Autoescuela Malasaña — quick question about manual work that eats the week",
+        "body": "Hi Autoescuela Malasaña team,\n\nI work with driving_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2811058297",
+      "source": "OpenStreetMap",
+      "title": "Mayú Cooperativa — accountant",
+      "description": "Business in Madrid. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: https://mayucooperativa.org/. Phone: +34 662440854.",
+      "email": "contacto@mayucooperativa.org",
+      "phone": "+34 662440854",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://mayucooperativa.org/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "accountant",
+      "services": [
+        "Receipt & expense automation",
+        "client reminders"
+      ],
+      "url": "https://mayucooperativa.org/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Mayú Cooperativa accountant Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Receipt & expense automation",
+        "client reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Mayú Cooperativa — quick question about enquiry follow-up that never happens",
+        "body": "Hi Mayú Cooperativa team,\n\nI work with accountant businesses in Madrid on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34662440854?text=Hello%20May%C3%BA%20Cooperativa%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-2911647301",
+      "source": "OpenStreetMap",
+      "title": "Tecnocasa — estate agent (Calle de San Restituto, Madrid)",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +34 91 311 9021.",
+      "email": "mdae5@tecnocasa.es",
+      "phone": "+34 91 311 9021",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.openstreetmap.org/node/2911647301",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Tecnocasa estate_agent Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Tecnocasa — quick question about manual work that eats the week",
+        "body": "Hi Tecnocasa team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2957269477",
+      "source": "OpenStreetMap",
+      "title": "Openvet — veterinary (Calle del Doctor Juan José López Ibor, Madrid)",
+      "description": "Business in Madrid. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: http://www.openvet.es. Phone: +34 913864180.",
+      "email": "info@openvet.es",
+      "phone": "+34 913864180",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.openvet.es",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "http://www.openvet.es",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Openvet veterinary Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Openvet — quick question about manual work that eats the week",
+        "body": "Hi Openvet team,\n\nI work with veterinary businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-2961305931",
+      "source": "OpenStreetMap",
+      "title": "Mafyc Administración de fincas e Inmobiliaria Alfa — estate agent (Plaza del Corregidor Sancho de Córdoba, Madrid)",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://mafyc.com/. Phone: +34914304171;+34615563221.",
+      "email": "administracion@mafyc.com",
+      "phone": "+34914304171;+34615563221",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://mafyc.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://mafyc.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Mafyc Administración de fincas e Inmobiliaria Alfa estate_agent Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Mafyc Administración de fincas e Inmobiliaria Alfa — quick question about manual work that eats the week",
+        "body": "Hi Mafyc Administración de fincas e Inmobiliaria Alfa team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34615563221?text=Hello%20Mafyc%20Administraci%C3%B3n%20de%20fincas%20e%20Inmobiliaria%20Alfa%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-3068950036",
+      "source": "OpenStreetMap",
+      "title": "HiperShop — furniture",
+      "description": "Business in Madrid. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://hipershoptienda.es/. Phone: +34 91 565 26 45.",
+      "email": "info@hipershoptienda.es",
+      "phone": "+34 91 565 26 45",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://hipershoptienda.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://hipershoptienda.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "HiperShop furniture Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "HiperShop — quick question about manual work that eats the week",
+        "body": "Hi HiperShop team,\n\nI work with furniture businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-3271451848",
+      "source": "OpenStreetMap",
+      "title": "MediaMarkt — electronics (Calle de Alcalá, Madrid)",
+      "description": "Business in Madrid. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "+34696093396",
+      "mobileNumber": "+34696093396",
+      "hasMobile": true,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://www.openstreetmap.org/node/3271451848",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "MediaMarkt electronics Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"MediaMarkt — electronics (Calle de Alcalá, Ma\"",
+        "body": "Hi,\n\nSaw your post: \"MediaMarkt — electronics (Calle de Alcalá, Madrid)\". This is exactly the kind of lead automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34696093396?text=Hello%20MediaMarkt%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-3368048353",
+      "source": "OpenStreetMap",
+      "title": "Workshop PC — computer (Calle de El Escorial, Madrid)",
+      "description": "Business in Madrid. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: http://www.workshop-pc.com/. Phone: +34 91 014 84 29.",
+      "email": "info@workshop-pc.com",
+      "phone": "+34 91 014 84 29",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.workshop-pc.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "http://www.workshop-pc.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Workshop PC computer Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Workshop PC — quick question about manual work that eats the week",
+        "body": "Hi Workshop PC team,\n\nI work with computer businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-3415078372",
+      "source": "OpenStreetMap",
+      "title": "Aden Odontología Integral — dentist (Calle de Vargas, Madrid)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.odontoaden.com/. Phone: +34 91 242 10 00.",
+      "email": "aden@odontoaden.com",
+      "phone": "+34 91 242 10 00",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.odontoaden.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.odontoaden.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Aden Odontología Integral dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Aden Odontología Integral — quick question about missed calls and no-shows",
+        "body": "Hi Aden Odontología Integral team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-3626480439",
+      "source": "OpenStreetMap",
+      "title": "Ingletes — clinic (Calle de Alberto Aguilera, Madrid)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.ecox4d.com/. Phone: +34 911 269 226.",
+      "email": "info.madrid@ecox4d.com",
+      "phone": "+34 911 269 226",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.ecox4d.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://www.ecox4d.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Ingletes clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Ingletes — quick question about missed calls and no-shows",
+        "body": "Hi Ingletes team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-3634290119",
+      "source": "OpenStreetMap",
+      "title": "AGE Ginecología y Obstetricia — clinic (Paseo de Eduardo Dato)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.agrupacionginecologica.es/. Phone: n/a.",
+      "email": "info@agrupacionginecologica.es",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.agrupacionginecologica.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.agrupacionginecologica.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "AGE Ginecología y Obstetricia clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "AGE Ginecología y Obstetricia — quick question about missed calls and no-shows",
+        "body": "Hi AGE Ginecología y Obstetricia team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-3650944278",
+      "source": "OpenStreetMap",
+      "title": "Kaleidos INC sucursal España — it (Calle Max Aub, Madrid)",
+      "description": "Business in Madrid. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://kaleidos.net/. Phone: n/a.",
+      "email": "hello@kaleidos.net",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://kaleidos.net/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://kaleidos.net/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Kaleidos INC sucursal España it Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Kaleidos INC sucursal España — quick question about manual work that eats the week",
+        "body": "Hi Kaleidos INC sucursal España team,\n\nI work with it businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4103113189",
+      "source": "OpenStreetMap",
+      "title": "Clínica Dental Dra. Marina Población — dentist",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://lafabricadesonrisas.com. Phone: +34 913814692.",
+      "email": "clinica@doctorapoblacion.com",
+      "phone": "+34 913814692",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://lafabricadesonrisas.com",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "http://lafabricadesonrisas.com",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clínica Dental Dra. Marina Población dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Clínica Dental Dra. Marina Población — quick question about missed calls and no-shows",
+        "body": "Hi Clínica Dental Dra. Marina Población team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4149995389",
+      "source": "OpenStreetMap",
+      "title": "Local business — dentist (Calle Luis Gómez, Madrid)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +34 914285270.",
+      "email": "labvipal@yahoo.es",
+      "phone": "+34 914285270",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.openstreetmap.org/node/4149995389",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Local business dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Local business — quick question about missed calls and no-shows",
+        "body": "Hi Local business team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4263118990",
+      "source": "OpenStreetMap",
+      "title": "Clinica del Pie — clinic (Calle del Camino Viejo de Leganés, Madrid)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.tuclinicadelpie.com/. Phone: +34 914656539.",
+      "email": "info@tuclinicadelpie.com",
+      "phone": "+34 914656539",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.tuclinicadelpie.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.tuclinicadelpie.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clinica del Pie clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Clinica del Pie — quick question about missed calls and no-shows",
+        "body": "Hi Clinica del Pie team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4366000190",
+      "source": "OpenStreetMap",
+      "title": "Instituto de Investigaciones del Sueño — clinic",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.iis.es/. Phone: +34 913454129.",
+      "email": "iis@iis.es",
+      "phone": "+34 913454129",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.iis.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.iis.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Instituto de Investigaciones del Sueño clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Instituto de Investigaciones del Sueño — quick question about missed calls and no-shows",
+        "body": "Hi Instituto de Investigaciones del Sueño team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4435926491",
+      "source": "OpenStreetMap",
+      "title": "Clinica Dental Canals — dentist (Calle de Jorge Juan)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +34 915766343.",
+      "email": "clinicadentalcanalsb@gmail.com",
+      "phone": "+34 915766343",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.openstreetmap.org/node/4435926491",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clinica Dental Canals dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Clinica Dental Canals — quick question about missed calls and no-shows",
+        "body": "Hi Clinica Dental Canals team,\n\nI work with dentist businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4500555380",
+      "source": "OpenStreetMap",
+      "title": "ULIC Centre — language school (Calle de Gaztambide, Madrid)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://ulic.es/. Phone: +34 910325276.",
+      "email": "admon@ulic.es",
+      "phone": "+34 910325276",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://ulic.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://ulic.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "ULIC Centre language_school Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ULIC Centre — quick question about manual work that eats the week",
+        "body": "Hi ULIC Centre team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4582592303",
+      "source": "OpenStreetMap",
+      "title": "Madrid Health Chiropractic — doctors (Calle de O'Donnell, Madrid)",
+      "description": "Business in Madrid. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.madridhealth.com/. Phone: +34 619 96 37 70.",
+      "email": "drbenpayne@outlook.com",
+      "phone": "+34 619 96 37 70",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.madridhealth.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.madridhealth.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Madrid Health Chiropractic doctors Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Madrid Health Chiropractic — quick question about missed calls and no-shows",
+        "body": "Hi Madrid Health Chiropractic team,\n\nI work with doctors businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34619963770?text=Hello%20Madrid%20Health%20Chiropractic%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4582839595",
+      "source": "OpenStreetMap",
+      "title": "Macvb (Apple service) — electronics (Calle de Jorge Juan, Madrid)",
+      "description": "Business in Madrid. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://cvb.es/. Phone: +34 915 93 76 51.",
+      "email": "info@cvb.es",
+      "phone": "+34 915 93 76 51",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://cvb.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://cvb.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Macvb (Apple service) electronics Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Macvb (Apple service) — quick question about manual work that eats the week",
+        "body": "Hi Macvb (Apple service) team,\n\nI work with electronics businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4885020992",
+      "source": "OpenStreetMap",
+      "title": "Degussa — jewelry (Calle de Velázquez, Madrid)",
+      "description": "Business in Madrid. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.degussa-mp.es. Phone: +34 91 19 82 900.",
+      "email": "info@degussa-mp.es",
+      "phone": "+34 91 19 82 900",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.degussa-mp.es",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.degussa-mp.es",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Degussa jewelry Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Degussa — quick question about manual work that eats the week",
+        "body": "Hi Degussa team,\n\nI work with jewelry businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5119398433",
+      "source": "OpenStreetMap",
+      "title": "eFISIO — clinic (Calle de Portalegre, Madrid)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.efisio.es/clinica/fisioterapia-carabanchel/. Phone: +34 910 05 23 63.",
+      "email": "contacto@efisio.es",
+      "phone": "+34 910 05 23 63",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.efisio.es/clinica/fisioterapia-carabanchel/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.efisio.es/clinica/fisioterapia-carabanchel/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "eFISIO clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "eFISIO — quick question about missed calls and no-shows",
+        "body": "Hi eFISIO team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5339146002",
+      "source": "OpenStreetMap",
+      "title": "Hospital Veterinario Alberto Alcocer — veterinary",
+      "description": "Business in Madrid. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://clinicaveterinariaalbertoalcocer.com/. Phone: +34 913 45 25 15.",
+      "email": "clinica@cvalbertoalcocer.com",
+      "phone": "+34 913 45 25 15",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://clinicaveterinariaalbertoalcocer.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://clinicaveterinariaalbertoalcocer.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Hospital Veterinario Alberto Alcocer veterinary Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Hospital Veterinario Alberto Alcocer — quick question about manual work that eats the week",
+        "body": "Hi Hospital Veterinario Alberto Alcocer team,\n\nI work with veterinary businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5418315054",
+      "source": "OpenStreetMap",
+      "title": "EsAsia Idiomas — language school (Calle de Agustín de Foxá, Madrid)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: http://www.esasiaidiomas.com/. Phone: +34910838666.",
+      "email": "info@esasiaidiomas.com",
+      "phone": "+34910838666",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.esasiaidiomas.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "http://www.esasiaidiomas.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "EsAsia Idiomas language_school Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "EsAsia Idiomas — quick question about manual work that eats the week",
+        "body": "Hi EsAsia Idiomas team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5422311444",
+      "source": "OpenStreetMap",
+      "title": "Dermasana — beauty (Calle de Alcalá, Madrid)",
+      "description": "Business in Madrid. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.clinicadermasana.com/. Phone: +34 913610225.",
+      "email": "alcala@clinicadermasana.com",
+      "phone": "+34 913610225",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.clinicadermasana.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.clinicadermasana.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Dermasana beauty Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dermasana — quick question about bookings and rebookings going cold",
+        "body": "Hi Dermasana team,\n\nI work with beauty businesses in Madrid on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5906563085",
+      "source": "OpenStreetMap",
+      "title": "Psiconueve — clinic (Calle de María de Guzmán)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://psiconueve.es. Phone: +34 695642851.",
+      "email": "info@psiconueve.es",
+      "phone": "+34 695642851",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://psiconueve.es",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://psiconueve.es",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Psiconueve clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Psiconueve — quick question about missed calls and no-shows",
+        "body": "Hi Psiconueve team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34695642851?text=Hello%20Psiconueve%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-6042417342",
+      "source": "OpenStreetMap",
+      "title": "Fast English - Prosperidad — language school (Calle de Malcampo, Madrid)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.thekellymethod.com/. Phone: +34 911874483.",
+      "email": "info@thekellymethod.com",
+      "phone": "+34 911874483",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.thekellymethod.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://www.thekellymethod.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Fast English - Prosperidad language_school Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Fast English - Prosperidad — quick question about manual work that eats the week",
+        "body": "Hi Fast English - Prosperidad team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6042417970",
+      "source": "OpenStreetMap",
+      "title": "Fast English - Carabanchel — language school (Calle de Juanita, Madrid)",
+      "description": "Business in Madrid. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://www.thekellymethod.com/. Phone: +34 91 115 75 17.",
+      "email": "info@thekellymethod.com",
+      "phone": "+34 91 115 75 17",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.thekellymethod.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "language_school",
+      "services": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "url": "https://www.thekellymethod.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Fast English - Carabanchel language_school Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Enrolment automation",
+        "lead nurturing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Fast English - Carabanchel — quick question about manual work that eats the week",
+        "body": "Hi Fast English - Carabanchel team,\n\nI work with language_school businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6236049515",
+      "source": "OpenStreetMap",
+      "title": "Dogend Informática — computer (Avenida de Monforte de Lemos, Madrid)",
+      "description": "Business in Madrid. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://dogend.es/. Phone: +34 911467875.",
+      "email": "info@dogend.es",
+      "phone": "+34 911467875",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://dogend.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://dogend.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Dogend Informática computer Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dogend Informática — quick question about manual work that eats the week",
+        "body": "Hi Dogend Informática team,\n\nI work with computer businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6348111310",
+      "source": "OpenStreetMap",
+      "title": "Tu piso en Madrid — estate agent",
+      "description": "Business in Madrid. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://www.tupisoenmadrid.es. Phone: n/a.",
+      "email": "info@tupisoenmadrid.es",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.tupisoenmadrid.es",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "http://www.tupisoenmadrid.es",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Tu piso en Madrid estate_agent Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Tu piso en Madrid — quick question about manual work that eats the week",
+        "body": "Hi Tu piso en Madrid team,\n\nI work with estate_agent businesses in Madrid on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6582123734",
+      "source": "OpenStreetMap",
+      "title": "Vital Láser y Estética — beauty (Calle del Camino de los Vinateros, Madrid)",
+      "description": "Business in Madrid. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://vitallaseryesteticamoratalaz.com/. Phone: +34 674 96 13 20.",
+      "email": "vitlaseryesteticaavanzada@gmail.com",
+      "phone": "+34 674 96 13 20",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://vitallaseryesteticamoratalaz.com/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://vitallaseryesteticamoratalaz.com/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Vital Láser y Estética beauty Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Vital Láser y Estética — quick question about bookings and rebookings going cold",
+        "body": "Hi Vital Láser y Estética team,\n\nI work with beauty businesses in Madrid on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34674961320?text=Hello%20Vital%20L%C3%A1ser%20y%20Est%C3%A9tica%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-6677063885",
+      "source": "OpenStreetMap",
+      "title": "Gestoria Sánchez y Soria agrupados S.L. — lawyer (Calle del Parador del Sol)",
+      "description": "Business in Madrid. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: +34 915691604.",
+      "email": "anagestora73@gmail.com",
+      "phone": "+34 915691604",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://www.openstreetmap.org/node/6677063885",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Gestoria Sánchez y Soria agrupados S.L. lawyer Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Gestoria Sánchez y Soria agrupados S.L. — quick question about enquiry follow-up that never happens",
+        "body": "Hi Gestoria Sánchez y Soria agrupados S.L. team,\n\nI work with lawyer businesses in Madrid on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-6764780923",
+      "source": "OpenStreetMap",
+      "title": "Eternal Beauty Clinic — clinic (Calle del Príncipe de Vergara)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.eternalbeatyclinic.com. Phone: +34 678 048 401.",
+      "email": "pv@eternalbeautyclinic.com",
+      "phone": "+34 678 048 401",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.eternalbeatyclinic.com",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://www.eternalbeatyclinic.com",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Eternal Beauty Clinic clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Eternal Beauty Clinic — quick question about missed calls and no-shows",
+        "body": "Hi Eternal Beauty Clinic team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34678048401?text=Hello%20Eternal%20Beauty%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-6764785305",
+      "source": "OpenStreetMap",
+      "title": "Eternal Beauty Clinic — doctors (Avenida del General Perón)",
+      "description": "Business in Madrid. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.eternalbeautyclinic.com. Phone: +34 678 04 83 52.",
+      "email": "gp@eternalbeautyclinic.com",
+      "phone": "+34 678 04 83 52",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.eternalbeautyclinic.com",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.eternalbeautyclinic.com",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Eternal Beauty Clinic doctors Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Eternal Beauty Clinic — quick question about missed calls and no-shows",
+        "body": "Hi Eternal Beauty Clinic team,\n\nI work with doctors businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34678048352?text=Hello%20Eternal%20Beauty%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-7093514890",
+      "source": "OpenStreetMap",
+      "title": "Clínica Dental Plaza — dentist (Calle de Emilio Vargas)",
+      "description": "Business in Madrid. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +34 91 519 94 77.",
+      "email": "",
+      "phone": "+34 648 036 700",
+      "mobileNumber": "+34 648 036 700",
+      "hasMobile": true,
+      "website": "",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.openstreetmap.org/node/7093514890",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Clínica Dental Plaza dentist Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Quick idea for \"Clínica Dental Plaza — dentist (Calle de Emil\"",
+        "body": "Hi,\n\nSaw your post: \"Clínica Dental Plaza — dentist (Calle de Emilio Vargas)\". This is exactly the kind of lead capture & booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/34648036700?text=Hello%20Cl%C3%ADnica%20Dental%20Plaza%2C%0A%0AI%20help%20businesses%20in%20Madrid%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-7098666977",
+      "source": "OpenStreetMap",
+      "title": "Policlínica Ipacsa — clinic",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.ipacsa.es/. Phone: +34 914 13 01 61.",
+      "email": "info@ipacsa.es",
+      "phone": "+34 914 13 01 61",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.ipacsa.es/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.ipacsa.es/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Policlínica Ipacsa clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Policlínica Ipacsa — quick question about missed calls and no-shows",
+        "body": "Hi Policlínica Ipacsa team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-7098666978",
+      "source": "OpenStreetMap",
+      "title": "Ascires López de Hoyos — clinic (Calle de López de Hoyos)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.clinicasascires.com/ascires-lopez-hoyos/. Phone: +34 91 413 12 66;+34 91 519 34 45.",
+      "email": "lopezdehoyos@ascires.com",
+      "phone": "+34 91 413 12 66;+34 91 519 34 45",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.clinicasascires.com/ascires-lopez-hoyos/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.clinicasascires.com/ascires-lopez-hoyos/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Ascires López de Hoyos clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Ascires López de Hoyos — quick question about missed calls and no-shows",
+        "body": "Hi Ascires López de Hoyos team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-7098666979",
+      "source": "OpenStreetMap",
+      "title": "Cellosa Madrid — clinic (Calle Antonio Zapata)",
+      "description": "Business in Madrid. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://cellosa.es/cellosa-madrid/. Phone: +34 911 84 04 94.",
+      "email": "nfo@cellosa.es",
+      "phone": "+34 911 84 04 94",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://cellosa.es/cellosa-madrid/",
+      "city": "Madrid",
+      "tz": "Europe/Madrid",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://cellosa.es/cellosa-madrid/",
+      "postedAt": "2026-10-15T07:47:28.145Z",
+      "raw": "Cellosa Madrid clinic Madrid",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Cellosa Madrid — quick question about missed calls and no-shows",
+        "body": "Hi Cellosa Madrid team,\n\nI work with clinic businesses in Madrid on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,

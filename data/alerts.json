@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-15T07:49:25.246Z",
+    "text": "*LEAD MACHINE* — 15/10/2026, 11:49:25\n\nScanned 564 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [71] 3Gimbals | https:&#x2F;&#x2F;www.linkedin.\n   https://news.ycombinator.com/item?id=50095249\n• [66] Typify.dev ( https:&#x2F;&#x2F;typify.dev \n   https://news.ycombinator.com/item?id=50063001\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 2
+  },
+  {
     "at": "2026-10-14T22:01:16.547Z",
     "text": "*LEAD MACHINE* — 15/10/2026, 02:01:16\n\nScanned 484 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [71] 3Gimbals | https:&#x2F;&#x2F;www.linkedin.\n   https://news.ycombinator.com/item?id=50095249\n• [66] Typify.dev ( https:&#x2F;&#x2F;typify.dev \n   https://news.ycombinator.com/item?id=50063001\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -770,11 +778,5 @@
     "kind": "new_leads",
     "count": 14,
     "hot": 1
-  },
-  {
-    "at": "2026-09-17T11:12:21.804Z",
-    "text": "*Lead Machine — CALL ALERT*\n🟢 INTERESTED\nCaller: +971501234567\n\nSummary: Med spa owner interested in the 350 pilot and asked for the payment link.\n\nTranscript: Sounds good, how much? Send me the payment link.\n👉 Send the payment link and close.",
-    "kind": "voice_hot",
-    "caller": "+971501234567"
   }
 ]
