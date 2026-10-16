@@ -328,5 +328,10 @@
     "email": "hello@mannalandscapes.com.au",
     "reason": "bounced: spam block",
     "at": "2026-10-15T15:25:19.566Z"
+  },
+  {
+    "email": "hector@deltorolaw.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-16T21:50:08.239Z"
   }
 ]

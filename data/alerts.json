@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-16T21:49:41.886Z",
+    "text": "*LEAD MACHINE* — 17/10/2026, 01:49:41\n\nScanned 175 · qualified *24*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 24,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-16T15:04:42.803Z",
     "text": "*LEAD MACHINE* — 16/10/2026, 19:04:42\n\nScanned 214 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [68] N8N AI Automation Developer (Remote)\n   https://community.n8n.io/t/n8n-ai-automation-developer-remote/299818\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -772,13 +780,6 @@
   {
     "at": "2026-09-17T16:30:18.521Z",
     "text": "*Lead Machine* — 9/17/2026, 4:30:18 PM\n\nScanned 181 · qualified *14*\nListed pipeline: $18\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
-    "kind": "new_leads",
-    "count": 14,
-    "hot": 1
-  },
-  {
-    "at": "2026-09-17T16:30:13.425Z",
-    "text": "*Lead Machine* — 9/17/2026, 4:30:13 PM\n\nScanned 181 · qualified *14*\nListed pipeline: $18\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
     "kind": "new_leads",
     "count": 14,
     "hot": 1
