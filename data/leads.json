@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:54:41.268Z",
+  "generatedAt": "2026-10-16T07:37:03.956Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,25 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 494,
-    "qualified": 60,
-    "pipelineValue": 0,
+    "totalScanned": 174,
+    "qualified": 25,
+    "pipelineValue": 5575,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 14,
-      "OpenStreetMap": 320,
+      "OpenStreetMap": 0,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 25,
-    "phoneLeads": 55,
+    "whatsappCapable": 0,
+    "phoneLeads": 0,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 34,
-    "emailLeads": 59,
+    "emailLeads": 0,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -137,2284 +137,703 @@
   },
   "leads": [
     {
-      "id": "osm-node-3789883967",
-      "source": "OpenStreetMap",
-      "title": "Poliform — furniture (West Pender Street, Vancouver)",
-      "description": "Business in Vancouver. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.poliform.it/en-us/stores/poliform-vancouver/. Phone: +1 604 656 6466.",
-      "email": "info@poliformvancouver.com",
-      "phone": "+1 604 656 6466",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.poliform.it/en-us/stores/poliform-vancouver/",
-      "city": "Vancouver",
-      "tz": "America/Vancouver",
-      "category": "furniture",
+      "id": "n8n Community-299818",
+      "source": "n8n Community",
+      "title": "N8N AI Automation Developer (Remote)",
+      "description": "Compensation: • $1,500 USD per month • Payments are made exclusively via Wise We are looking for an experienced n8n developer to build and maintain AI-powered automation workflows. Requirements: • Strong experience with n8n • Experience building AI automation systems and workflows • Knowledge of LLMs such as ChatGPT, Claude, Gemini, etc. • Strong prompt engineering skills • Experience creating automations for tasks such as script generation, content creation, research, and AI-assisted workflows • Ability to integrate APIs and third-party tools • Strong problem-solving skills and attention to detail • Good written and spoken English Nice to Have: • Experience with Python or JavaScript • Experience with vector databases, RAG systems, or AI agents • Familiarity with video, content, or social media automation workflows Responsibilities: • Design and build AI-powered workflows in n8n • Create and optimize prompts for reliable AI outputs • Integrate AI models and external services • Improve workflow performance, scalability, and reliability • Troubleshoot and maintain existing automations To Apply: Please send: • A 5–7 minute Loom video covering: 1–3 relevant projects you have built The ",
+      "url": "https://community.n8n.io/t/n8n-ai-automation-developer-remote/299818",
+      "postedAt": "2026-06-17T14:50:22.441Z",
+      "raw": "N8N AI Automation Developer (Remote)",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.poliform.it/en-us/stores/poliform-vancouver/",
-      "postedAt": "2026-10-15T21:54:41.246Z",
-      "raw": "Poliform furniture Vancouver",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
+      "budget": 1500,
+      "ageDays": 121,
+      "score": 68,
       "outreach": {
-        "subject": "Poliform — quick question about manual work that eats the week",
-        "body": "Hi Poliform team,\n\nI work with furniture businesses in Vancouver on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/16046566466?text=Hello%20Poliform%2C%0A%0AI%20help%20businesses%20in%20Vancouver%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-310411989",
-      "source": "OpenStreetMap",
-      "title": "Gabinet Weterynaryjny Kocinos — veterinary",
-      "description": "Business in Warsaw. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://kocinos2.wixsite.com/website. Phone: +48 22 810 34 61.",
-      "email": "kocinos@o2.pl",
-      "phone": "+48 22 810 34 61",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://kocinos2.wixsite.com/website",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "veterinary",
-      "services": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://kocinos2.wixsite.com/website",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Gabinet Weterynaryjny Kocinos veterinary Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Gabinet Weterynaryjny Kocinos — quick question about manual work that eats the week",
-        "body": "Hi Gabinet Weterynaryjny Kocinos team,\n\nI work with veterinary businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "N8N AI Automation Developer (Remote) — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"N8N AI Automation Developer (Remote)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $1500 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-411117445",
-      "source": "OpenStreetMap",
-      "title": "Magwise — doctors",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://magwise.pl. Phone: +48 662 277 477.",
-      "email": "kontakt@magwise.pl",
-      "phone": "+48 662 277 477",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://magwise.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-282569",
+      "source": "n8n Community",
+      "title": "Job Title: AI Automation Engineer (n8n & Voice AI Specialist)",
+      "description": "Job Title: AI Automation Engineer (n8n &amp; Voice AI Specialist) The Role: We are a high-ticket AI Automation Agency (AAA) specializing in Voice AI (Vapi) and Autonomous Internal Agents (OpenClaw) . We are looking for a technical powerhouse to handle the backend architecture of our client builds. You will turn business requirements into bulletproof, scalable workflows. Technical Stack: n8n: Advanced workflow construction (Error handling, Split-in-batches, Function nodes). Voice AI: Deep experience with Vapi.ai (Custom Tools/Function Calling). LLMs: Prompt engineering for Claude 3.5 Sonnet and GPT-4o . Infrastructure: Webhooks, REST APIs, Supabase/Airtable, and Google Workspace integrations. Optional: Experience with OpenClaw or self-hosted AI setups. Key Responsibilities: Build and “Stress Test” the n8n logic for $4k - $10k client projects. Configure Vapi Custom Tools to allow voice agents to read/write to calendars and CRMs. Document workflows so they can be easily duplicated for future clients. Perform monthly “Brain Updates” and API maintenance for retained clients. Compensation: Project-Based: $500 – $1,200 per build (based on complexity). Performance Bonus: % of the setup fee",
+      "url": "https://community.n8n.io/t/job-title-ai-automation-engineer-n8n-voice-ai-specialist/282569",
+      "postedAt": "2026-03-29T12:23:15.908Z",
+      "raw": "Job Title: AI Automation Engineer (n8n & Voice AI Specialist)",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://magwise.pl",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Magwise doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation",
+        "Chatbots & voice"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 4000,
+      "ageDays": 201,
+      "score": 64,
       "outreach": {
-        "subject": "Magwise — quick question about missed calls and no-shows",
-        "body": "Hi Magwise team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48662277477?text=Hello%20Magwise%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-659107883",
-      "source": "OpenStreetMap",
-      "title": "M&N Beauty — beauty (Grochowska, Warszawa)",
-      "description": "Business in Warsaw. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +48 574 143 050.",
-      "email": "",
-      "phone": "+48 732 914 335",
-      "mobileNumber": "+48 732 914 335",
-      "hasMobile": true,
-      "website": "",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/659107883",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "M&N Beauty beauty Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"M&N Beauty — beauty (Grochowska, Warszawa)\"",
-        "body": "Hi,\n\nSaw your post: \"M&N Beauty — beauty (Grochowska, Warszawa)\". This is exactly the kind of booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48732914335?text=Hello%20M%26N%20Beauty%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-746513238",
-      "source": "OpenStreetMap",
-      "title": "Almatur — travel agent (Mikołaja Kopernika, Warszawa)",
-      "description": "Business in Warsaw. Category: travel_agent. Services to pitch: Booking automation, enquiry follow-up. Website: https://www.almatur.pl/. Phone: +48 22 826 26 39;+48 22 826 35 12.",
-      "email": "warszawa1@almatur.pl",
-      "phone": "+48 22 826 26 39;+48 22 826 35 12",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.almatur.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "travel_agent",
-      "services": [
-        "Booking automation",
-        "enquiry follow-up"
-      ],
-      "url": "https://www.almatur.pl/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Almatur travel_agent Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "enquiry follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Almatur — quick question about manual work that eats the week",
-        "body": "Hi Almatur team,\n\nI work with travel_agent businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Job Title: AI Automation Engineer (n8n & Voice AI Speci — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"Job Title: AI Automation Engineer (n8n & Voice AI Specialist)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $4000 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-775917469",
-      "source": "OpenStreetMap",
-      "title": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://kancelaria-praga.pl/. Phone: +48224037703.",
-      "email": "biuro@kancelaria-praga.pl",
-      "phone": "+48 693 445 280",
-      "mobileNumber": "+48 693 445 280",
-      "hasMobile": true,
-      "website": "https://kancelaria-praga.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
+      "id": "n8n Community-275368",
+      "source": "n8n Community",
+      "title": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
+      "description": "Hey everyone, We’re a recruitment (marketing) company based in the Netherlands. We’re looking for a freelance AI Automation Engineer to help us build and maintain automation systems across our operations. What you’ll be building: Meta Ads ops automation (ad copy, creatives, campaign setup) LinkedIn &amp; Indeed scraper for sales outreach Sales &amp; outbound automation workflows Automated dashboards and reporting pipelines Image &amp; creative design automation Stack: n8n, Make, OpenAI/Claude, Meta Graph API, WhatsApp API, Notion, Lemlist (and we want to be on top of the game in with new stuff) The role is a bit more than just building , you’d also be the product owner of our automation systems. That means triaging bugs, evaluating feature requests from the team and owning the weekly alignment with me (founder). Freelance / project-based. Remote, worldwide. must be fluent in English. Rate negotiable. If you’ve built real workflows with n8n and APIs and want interesting projects, reply here or DM me. Tell me what you’ve built.",
+      "url": "https://community.n8n.io/t/hiring-freelance-agency-ai-automation-engineer-n8n-make-apis-remote/275368",
+      "postedAt": "2026-03-10T10:53:26.006Z",
+      "raw": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation",
+        "Data & scraping",
+        "Dashboards & internal tools"
       ],
-      "url": "https://kancelaria-praga.pl/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Kancelaria Praga lawyer Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 220,
+      "score": 55,
       "outreach": {
-        "subject": "Kancelaria Praga — quick question about enquiry follow-up that never happens",
-        "body": "Hi Kancelaria Praga team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48693445280?text=Hello%20Kancelaria%20Praga%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-839598629",
-      "source": "OpenStreetMap",
-      "title": "Multi Med — doctors (Grochowska, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://multimed.pl/placowki/przychodnia-multi-med-grochowska-234240-warszawa/. Phone: +48 22 636 47 74.",
-      "email": "przychodnia.grochowska@multimed.pl",
-      "phone": "+48 22 636 47 74",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://multimed.pl/placowki/przychodnia-multi-med-grochowska-234240-warszawa/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://multimed.pl/placowki/przychodnia-multi-med-grochowska-234240-warszawa/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Multi Med doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Multi Med — quick question about missed calls and no-shows",
-        "body": "Hi Multi Med team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"📣 HIRING: Freelance/Agency AI Automation Eng\"",
+        "body": "Hi,\n\nSaw your post: \"📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-952193932",
-      "source": "OpenStreetMap",
-      "title": "Nawijka — language school (Jagiellońska, Warszawa)",
-      "description": "Business in Warsaw. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://nawijka.com. Phone: +48 695 720 968.",
-      "email": "nawijka.szkola.jezyk.kawa@gmail.com",
-      "phone": "+48 695 720 968",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://nawijka.com",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "language_school",
+      "id": "n8n Community-314555",
+      "source": "n8n Community",
+      "title": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
+      "description": "Hi everyone, We’re NUBO , a small AI implementation agency building AI agents, automations and integrations for companies in Spain and Latin America. n8n is a core part of our technical stack. We’re looking for an experienced n8n builder to work with us on an ongoing, project-by-project basis as our workload grows. We’re not necessarily looking for a senior software developer, we’re looking for someone who is very comfortable with n8n, AI tools and integrations, and who can take well-defined tasks and build them independently. What the work looks like: Building and maintaining n8n workflows for AI agents and business automations. Integrating LLMs such as OpenAI, Claude and Gemini. Working with APIs, webhooks, CRMs, WhatsApp/messaging platforms and databases. Configuring prompts and agent logic. Troubleshooting and improving existing workflows. Occasionally writing or modifying small pieces of JavaScript/Python with the help of AI coding tools such as Claude Code. Configure and mantain automations in Go High Level. Working on different client projects across sales, customer service and operations. We provide the architecture, requirements and guidance for each project. Your role is ",
+      "url": "https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555",
+      "postedAt": "2026-09-18T18:47:56.112Z",
+      "raw": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
       "services": [
-        "Enrolment automation",
-        "lead nurturing"
+        "AI agents",
+        "Workflow automation",
+        "CRM automation"
       ],
-      "url": "https://nawijka.com",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Nawijka language_school Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Enrolment automation",
-        "lead nurturing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 28,
+      "score": 55,
       "outreach": {
-        "subject": "Nawijka — quick question about manual work that eats the week",
-        "body": "Hi Nawijka team,\n\nI work with language_school businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48695720968?text=Hello%20Nawijka%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-1490193544",
-      "source": "OpenStreetMap",
-      "title": "Format — computer (Jagiellońska, Warszawa)",
-      "description": "Business in Warsaw. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://format.com.pl/. Phone: +48224635201.",
-      "email": "sklep@format.com.pl",
-      "phone": "+48224635201",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://format.com.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://format.com.pl/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Format computer Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Format — quick question about manual work that eats the week",
-        "body": "Hi Format team,\n\nI work with computer businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[ESPAÑOL] Looking for an n8n + AI Automation \"",
+        "body": "Hi,\n\nSaw your post: \"[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-1779578860",
-      "source": "OpenStreetMap",
-      "title": "Pol-Med — doctors (Targowa, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://polmed.pl/placowki/centrum-medyczne-polmed-warszawa-targowa. Phone: +48 22 100 63 78;+48 58 775 95 99;+48 801 033 200.",
-      "email": "recepcja.targowa@polmed.pl",
-      "phone": "+48 22 100 63 78;+48 58 775 95 99;+48 801 033 200",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://polmed.pl/placowki/centrum-medyczne-polmed-warszawa-targowa",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-296828",
+      "source": "n8n Community",
+      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
+      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
+      "postedAt": "2026-05-26T16:56:08.745Z",
+      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://polmed.pl/placowki/centrum-medyczne-polmed-warszawa-targowa",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Pol-Med doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 143,
+      "score": 55,
       "outreach": {
-        "subject": "Pol-Med — quick question about missed calls and no-shows",
-        "body": "Hi Pol-Med team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48587759599?text=Hello%20Pol-Med%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-1801547213",
-      "source": "OpenStreetMap",
-      "title": "Poliklinika 24 — doctors (Bitwy Warszawskiej 1920 roku, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://poliklinika24.pl/. Phone: +48 22 379 80 80.",
-      "email": "kontakt@continuumcare.pl",
-      "phone": "+48 22 379 80 80",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://poliklinika24.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://poliklinika24.pl/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Poliklinika 24 doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Poliklinika 24 — quick question about missed calls and no-shows",
-        "body": "Hi Poliklinika 24 team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2025588627",
-      "source": "OpenStreetMap",
-      "title": "Centrum Mebli Rattanowych i Stylowych — furniture (Antoniewska, Warszawa)",
-      "description": "Business in Warsaw. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.meblezrattanu.pl/. Phone: +48 22 851 61 01.",
-      "email": "sklep@meblezrattanu.pl",
-      "phone": "+48 22 851 61 01",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.meblezrattanu.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "furniture",
+      "id": "n8n Community-319256",
+      "source": "n8n Community",
+      "title": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
+      "description": "Hi everyone, I’m looking for an experienced n8n specialist to review and stress-test several AI agents I’ve already built before I demonstrate them to paying clients. Stack includes n8n, Vapi, Twilio, ElevenLabs, OpenAI/Claude and APIs/webhooks . I’m looking for someone who can review existing workflows, identify bugs/failure points, test edge cases and error handling, check integrations and AI behaviour, and recommend/fix anything that isn’t client-ready. I’m not looking for the agents to be rebuilt from scratch. I’d like to start with one agent as a paid trial , with ongoing work available if we’re a good fit. If interested, please DM me with: Your location/time zone Your rate Relevant n8n/AI experience Any Vapi/Twilio/ElevenLabs experience Examples of similar work Thanks",
+      "url": "https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256",
+      "postedAt": "2026-10-06T21:10:54.225Z",
+      "raw": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.meblezrattanu.pl/",
-      "postedAt": "2026-10-15T21:52:41.616Z",
-      "raw": "Centrum Mebli Rattanowych i Stylowych furniture Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 9,
       "score": 54,
       "outreach": {
-        "subject": "Centrum Mebli Rattanowych i Stylowych — quick question about manual work that eats the week",
-        "body": "Hi Centrum Mebli Rattanowych i Stylowych team,\n\nI work with furniture businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / AI Automation Specialist – \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2025673221",
-      "source": "OpenStreetMap",
-      "title": "ZXStudio! — it (Siennicka, Warszawa)",
-      "description": "Business in Warsaw. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://zxstudio.pl. Phone: n/a.",
-      "email": "wiktor@zxstudio.pl",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://zxstudio.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "it",
+      "id": "n8n Community-307744",
+      "source": "n8n Community",
+      "title": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
+      "description": "Hi all — looking for an experienced automation developer to build out a multi-agent lead pipeline for a licensed life insurance business (NC/SC markets). Stack: n8n or similar, GoHighLevel (CRM/calendar/SMS), Twilio, Claude API for the conversational/AI-agent layer. What’s being built (phase 1): **•** Lead capture → speed-to-lead SMS response (sub-60-second target) → AI-driven qualifying conversation → calendar booking → CRM sync, all as connected agent workflows **•** State-based filtering logic (NC/SC only) **•** Conditional branching for qualified vs. nurture paths **•** Reminder/confirmation automation tied to booked appointments I have the full architecture and workflow logic already mapped out (agent roles, data flow, branching logic) — I need someone who can translate that into a working, production-ready build, not someone starting from a blank canvas. Ideal experience: **•** Production n8n or GHL workflow builds involving AI agent nodes (Claude or GPT), not just basic Zapier-style automations **•** Comfortable with conditional logic, webhook triggers, and CRM API integrations **•** Bonus: experience with real-time audio/transcription pipelines (a later phase involves live-",
+      "url": "https://community.n8n.io/t/seeking-n8n-ghl-automation-developer-insurance-lead-pipeline-ai-agents-ongoing/307744",
+      "postedAt": "2026-08-15T05:34:14.389Z",
+      "raw": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
       "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "AI agents",
+        "Workflow automation",
+        "CRM automation"
       ],
-      "url": "https://zxstudio.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "ZXStudio! it Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 62,
+      "score": 51,
       "outreach": {
-        "subject": "ZXStudio! — quick question about manual work that eats the week",
-        "body": "Hi ZXStudio! team,\n\nI work with it businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking n8n/GHL Automation Developer — Insura\"",
+        "body": "Hi,\n\nSaw your post: \"Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2343559276",
-      "source": "OpenStreetMap",
-      "title": "Mazowieckie Centrum Terapii Hiperbarycznej — clinic",
-      "description": "Business in Warsaw. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.hiperbaria.pl. Phone: +48226103144.",
-      "email": "hiperbaria@hiperbaria.pl",
-      "phone": "+48226103144",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.hiperbaria.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "clinic",
+      "id": "n8n Community-320146",
+      "source": "n8n Community",
+      "title": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
+      "description": "AI Marketing &amp; n8n Automation Specialist for chill life — Potential Long-Term Partnership Hi, I’m Beth Levis, founder of chill life, a purpose-driven lifestyle brand. We believe happier people create healthier communities. Our apparel, products, and initiatives promote positivity, mental fitness, and meaningful real-life connection. Two key areas of our work are encouraging healthier youth sports culture and helping people take daily breaks from technology to be more present. I’m looking for an experienced AI marketing and automation specialist who can help translate this mission into consistent storytelling, audience growth, and measurable sales. What I’m looking to build A coordinated marketing system using n8n and AI tools such as Claude or OpenAI to: ● Develop content grounded in our brand voice, values, and product offerings. ● Create and repurpose social posts, video scripts, and email campaigns. ● Manage a content calendar and approval process. ● Connect relevant tools across our Shopify store, email marketing, and social channels. ● Track performance and use those insights to improve campaigns. Preserving the authenticity of chill life’s message is essential. The system",
+      "url": "https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146",
+      "postedAt": "2026-10-09T20:48:10.083Z",
+      "raw": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "http://www.hiperbaria.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Mazowieckie Centrum Terapii Hiperbarycznej clinic Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 6,
+      "score": 47,
       "outreach": {
-        "subject": "Mazowieckie Centrum Terapii Hiperbarycznej — quick question about missed calls and no-shows",
-        "body": "Hi Mazowieckie Centrum Terapii Hiperbarycznej team,\n\nI work with clinic businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"AI Marketing & n8n Automation Specialist for \"",
+        "body": "Hi,\n\nSaw your post: \"AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2482327761",
-      "source": "OpenStreetMap",
-      "title": "Klimaszewska, Smyk & Wspólnicy — lawyer (Emilii Plater, Warszawa)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.klimaszewskasmyk.pl/. Phone: +48 22 622 22 61.",
-      "email": "kancelaria@klimaszewskasmyk.pl",
-      "phone": "+48 22 622 22 61",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.klimaszewskasmyk.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
+      "id": "n8n Community-317073",
+      "source": "n8n Community",
+      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
+      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
+      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
+      "postedAt": "2026-09-28T05:23:36.357Z",
+      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.klimaszewskasmyk.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Klimaszewska, Smyk & Wspólnicy lawyer Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 18,
+      "score": 46,
       "outreach": {
-        "subject": "Klimaszewska, Smyk & Wspólnicy — quick question about enquiry follow-up that never happens",
-        "body": "Hi Klimaszewska, Smyk & Wspólnicy team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3118059211",
-      "source": "OpenStreetMap",
-      "title": "Best Friends — veterinary (Przejazd, Warszawa)",
-      "description": "Business in Warsaw. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://bestfriends.com.pl/. Phone: +48 884 938 923.",
-      "email": "mokotow@bestfriends.com.pl",
-      "phone": "+48 884 938 923",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://bestfriends.com.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "veterinary",
+      "id": "n8n Community-318516",
+      "source": "n8n Community",
+      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
+      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
+      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
+      "postedAt": "2026-10-03T13:30:09.564Z",
+      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
       "services": [
-        "Booking automation",
-        "reminder sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://bestfriends.com.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Best Friends veterinary Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 13,
+      "score": 46,
       "outreach": {
-        "subject": "Best Friends — quick question about manual work that eats the week",
-        "body": "Hi Best Friends team,\n\nI work with veterinary businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48884938923?text=Hello%20Best%20Friends%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3189102509",
-      "source": "OpenStreetMap",
-      "title": "Lasermed — doctors (Hoża)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://www.lasermed.pl. Phone: +48226271584.",
-      "email": "lasermed@lasermed.pl",
-      "phone": "+48226271584",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.lasermed.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://www.lasermed.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Lasermed doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Lasermed — quick question about missed calls and no-shows",
-        "body": "Hi Lasermed team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
+        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3232641921",
-      "source": "OpenStreetMap",
-      "title": "Aneta Sitnicka-Urbaniak — lawyer (Ogrodowa, Warszawa)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://notariusz-wola.pl. Phone: +48226123095.",
-      "email": "sitnicka@notariusze.waw.pl",
-      "phone": "+48226123095",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://notariusz-wola.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
+      "id": "n8n Community-200092",
+      "source": "n8n Community",
+      "title": "Hiring n8n experts for ongoing collaboration - remote",
+      "description": "I’m working with a small group of AI engineers on high-impact multi-agent and automation projects. This post is an open door for ongoing collaborations with sharp, execution-driven builders. What I’m Looking For Workflow automations and AI agents : n8n, Airtable, custom Python flows Business growth systems: small-business operations, M&amp;A, or data-driven marketing (Bonus) Experience with funnels, ads, or growth ops What You Should Bring Can ship fast MVPs that actually run Writes clean, logical workflows Communicates clearly, works async, delivers on time How to Apply Share one project you’ve built Tell me what you’re best at, agents, workflows, APIs, etc. This is always open, I’m building a circle of reliable, fast, and clear automation pros. If that’s you, let’s test a build.",
+      "url": "https://community.n8n.io/t/hiring-n8n-experts-for-ongoing-collaboration-remote/200092",
+      "postedAt": "2025-10-06T01:53:59.293Z",
+      "raw": "Hiring n8n experts for ongoing collaboration - remote",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://notariusz-wola.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Aneta Sitnicka-Urbaniak lawyer Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 375,
+      "score": 43,
       "outreach": {
-        "subject": "Aneta Sitnicka-Urbaniak — quick question about enquiry follow-up that never happens",
-        "body": "Hi Aneta Sitnicka-Urbaniak team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring n8n experts for ongoing collaboration \"",
+        "body": "Hi,\n\nSaw your post: \"Hiring n8n experts for ongoing collaboration - remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3387840178",
-      "source": "OpenStreetMap",
-      "title": "BoConcept — furniture (Jana Pawła Woronicza, Warszawa)",
-      "description": "Business in Warsaw. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.boconcept.com/pl-pl/stores/find-your-local-store/poland/boconcept-warszawa. Phone: +48 22 636 77 70.",
-      "email": "warszawa@boconcept.pl",
-      "phone": "+48 22 636 77 70",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.boconcept.com/pl-pl/stores/find-your-local-store/poland/boconcept-warszawa",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "furniture",
+      "id": "n8n Community-299853",
+      "source": "n8n Community",
+      "title": "🚀 Hiring: Freelance AI Automation Engineer (Remote)",
+      "description": "I’m looking for an elite AI Automation Engineer / AI Systems Builder to join the team at TargetPatientsMD.com. We are looking for an expert to help design, implement, and manage AI-powered workflows to scale our online lead generation. If you know how to build and optimize systems that turn traffic and scraped data into qualified leads, we want to talk to you. The Non-Negotiables: - Claude Expertise: Minimum 2 years of hands-on experience working specifically with Claude (Anthropic) APIs and prompt engineering. - Lead Gen Mastery: Proven track record of building and running AI systems specifically for online lead generation and outbound outreach. - Perfect Communication: Fluent/excellent spoken and written English. - Time Zone: Must be available to work and communicate during USA EST (New York) business hours. Projects You Will Work On: - Scale our existing outbound engine: Take over our custom-built system that scrapes Google Maps data, generates lead spreadsheets for our cold callers, and sends automated emails via Instantly. Our IPs are already warmed up—we just need you to run it at full speed, troubleshoot issues, and improve the workflow. - Build AI lead qualification chatbot",
+      "url": "https://community.n8n.io/t/hiring-freelance-ai-automation-engineer-remote/299853",
+      "postedAt": "2026-06-17T18:33:40.441Z",
+      "raw": "🚀 Hiring: Freelance AI Automation Engineer (Remote)",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.boconcept.com/pl-pl/stores/find-your-local-store/poland/boconcept-warszawa",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "BoConcept furniture Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 121,
+      "score": 43,
       "outreach": {
-        "subject": "BoConcept — quick question about manual work that eats the week",
-        "body": "Hi BoConcept team,\n\nI work with furniture businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"🚀 Hiring: Freelance AI Automation Engineer (\"",
+        "body": "Hi,\n\nSaw your post: \"🚀 Hiring: Freelance AI Automation Engineer (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3441819880",
-      "source": "OpenStreetMap",
-      "title": "Optomdent — dentist (Zabłocińska, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://optimdent.pl/. Phone: +48 22 100 62 22.",
-      "email": "info@optimdent.pl",
-      "phone": "+48 22 100 62 22",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://optimdent.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
+      "id": "n8n Community-235497",
+      "source": "n8n Community",
+      "title": "Automation Systems Builder (n8n) – Europe (Remote)",
+      "description": "Hi, We’re looking for a practical n8n builder to help us design and maintain production-grade workflows. This is ongoing work on real systems (not one-off zaps, not experiments). The work You’ll be building and maintaining n8n workflows that: • Integrate APIs (REST, webhooks, OAuth) • Handle pagination, retries, rate limits • Deduplicate safely (idempotency matters) • Send alerts only when something *actually* fails • Are readable and maintainable over time There’s room to help shape the logic, not just wire nodes. What we’re looking for You’re likely a good fit if: • You’ve built real workflows in n8n, not just demos • You’re comfortable inspecting execution data • You think about edge cases and failure modes • You’re happy working async • You’re based in Europe (time-zone overlap) No degrees, no corporate titles required. Nice to have (not required) • Stripe, CRMs, internal tools • Function nodes / light JS • Experience maintaining long-running workflows Time &amp; pay • 10–30 hrs / week (flexible) • €25–45 / hour depending on experience • Paid test task (2–3 hrs) • Long-term collaboration if it works well",
+      "url": "https://community.n8n.io/t/automation-systems-builder-n8n-europe-remote/235497",
+      "postedAt": "2025-12-13T13:36:21.745Z",
+      "raw": "Automation Systems Builder (n8n) – Europe (Remote)",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation",
+        "Dashboards & internal tools"
       ],
-      "url": "https://optimdent.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Optomdent dentist Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 307,
+      "score": 43,
       "outreach": {
-        "subject": "Optomdent — quick question about missed calls and no-shows",
-        "body": "Hi Optomdent team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Automation Systems Builder (n8n) – Europe (Re\"",
+        "body": "Hi,\n\nSaw your post: \"Automation Systems Builder (n8n) – Europe (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3469718852",
-      "source": "OpenStreetMap",
-      "title": "Gabinet Lekarsko-Stomatologiczny Agnieszka Wieczorek — dentist (Egipska, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.stomatologagnieszkawieczorek.waw.pl. Phone: +48 226724163.",
-      "email": "info@stomatologagnieszkawieczorek.waw.pl",
-      "phone": "+48 226724163",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.stomatologagnieszkawieczorek.waw.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
+      "id": "n8n Community-321496",
+      "source": "n8n Community",
+      "title": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
+      "description": "Hi, I’m Pony, founder of Weft. I’m looking to connect with n8n implementers who work on SaaS customer-request workflows across support, product and engineering. To be clear: I’m validating the service and have no client build to refer yet. This is an exploratory partner introduction, not an open paid job or a promise of work. Weft’s package covers reviewing one workflow, mapping the current and proposed process, defining owners and required data, and documenting exception paths and acceptance checks. Implementation is separately scoped. The collaboration I’d like to explore is: Weft prepares the process brief; an implementer checks technical feasibility and, if there is a suitable client project, quotes the build separately. Access, APIs, hosting, monitoring and support responsibilities would need agreement before any build. For example, a customer update should depend on confirmed release availability for that account, rather than just a task moving to Done. I want the handover brief to explain that rule and what happens when data is missing or a sync fails. An illustrative sample of the planning deliverable is here: Weft | Sample SaaS workflow improvement blueprint It is not a cl",
+      "url": "https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496",
+      "postedAt": "2026-10-14T19:43:02.445Z",
+      "raw": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
-      "url": "http://www.stomatologagnieszkawieczorek.waw.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Gabinet Lekarsko-Stomatologiczny Agnieszka Wieczorek dentist Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 1,
+      "score": 42,
       "outreach": {
-        "subject": "Gabinet Lekarsko-Stomatologiczny Agnieszka Wieczor — quick question about missed calls and no-shows",
-        "body": "Hi Gabinet Lekarsko-Stomatologiczny Agnieszka Wieczor team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Exploring n8n implementation partnerships for\"",
+        "body": "Hi,\n\nSaw your post: \"Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3612888688",
-      "source": "OpenStreetMap",
-      "title": "Dental Care 32 — dentist (Zwycięzców, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://dentalcare32.pl/. Phone: +48 22 404 89 43.",
-      "email": "kontakt@dentalcare32.pl",
-      "phone": "+48 22 404 89 43",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://dentalcare32.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
+      "id": "n8n Community-312281",
+      "source": "n8n Community",
+      "title": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
+      "description": "I’m Rami. I’m evaluating developers for a focused quote-preparation prototype for electrical parts distributors. This is the scoping and quotation stage. Development has not been commissioned yet. The scope: • Read customer quotation requests from one agreed format, initially a text-based PDF. • Extract product codes, descriptions, quantities and units. • Match items against a supplied catalogue and approved price list. • Flag uncertain matches for human review. • Export an Excel quotation draft. Prices must come from the approved data. Product substitutions require human approval. ERP integration, automatic email sending and a full dashboard are outside this phase. I’m looking for relevant experience with n8n, document extraction and Excel/CSV processing. Send a proposal covering: One relevant project you personally delivered, with a demo if available. Your proposed approach. Estimated fixed price and delivery time, with assumptions and exclusions. Ongoing software costs. Source code, workflow files and handover documentation included. The final scope and price will be agreed after reviewing sample files. Any engagement will begin with a separately agreed paid test and clear deliv",
+      "url": "https://community.n8n.io/t/seeking-estimates-n8n-developer-for-a-small-rfq-to-quote-prototype/312281",
+      "postedAt": "2026-09-10T00:05:41.994Z",
+      "raw": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation",
+        "Dashboards & internal tools"
       ],
-      "url": "https://dentalcare32.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Dental Care 32 dentist Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 36,
+      "score": 39,
       "outreach": {
-        "subject": "Dental Care 32 — quick question about missed calls and no-shows",
-        "body": "Hi Dental Care 32 team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking estimates: n8n developer for a small RFQ-to-quote prototype\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-3797463174",
-      "source": "OpenStreetMap",
-      "title": "Smart Nails — beauty (Grójecka)",
-      "description": "Business in Warsaw. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://smart-nails.pl/. Phone: +48 795 004 555.",
-      "email": "kontakt@smart-nails.pl",
-      "phone": "+48 795 004 555",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://smart-nails.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "beauty",
+      "id": "n8n Community-279164",
+      "source": "n8n Community",
+      "title": "Need help with n8n workflows (paid)",
+      "description": "Seeking experienced n8n (or similar automation tools) specialist to design and scale finance workflows in a fintech environment. This focuses on developing dependable, structured processes, not just simple automations, by integrating tools like Airtable, Google Sheets, and Slack, leveraging APIs and webhooks, and enhancing existing flows. It’s a plus to have experience with financial data or comparable systems. If this sounds like the right fit for you, feel free to reach out.",
+      "url": "https://community.n8n.io/t/need-help-with-n8n-workflows-paid/279164",
+      "postedAt": "2026-03-19T16:15:47.204Z",
+      "raw": "Need help with n8n workflows (paid)",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://smart-nails.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Smart Nails beauty Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 211,
+      "score": 39,
       "outreach": {
-        "subject": "Smart Nails — quick question about bookings and rebookings going cold",
-        "body": "Hi Smart Nails team,\n\nI work with beauty businesses in Warsaw on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48795004555?text=Hello%20Smart%20Nails%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4042123345",
-      "source": "OpenStreetMap",
-      "title": "City Dent — dentist (Domaniewska)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.city-dent.com.pl/. Phone: +48 228479393.",
-      "email": "citydent@wp.pl",
-      "phone": "+48 887402781",
-      "mobileNumber": "+48 887402781",
-      "hasMobile": true,
-      "website": "https://www.city-dent.com.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.city-dent.com.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "City Dent dentist Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "City Dent — quick question about missed calls and no-shows",
-        "body": "Hi City Dent team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48887402781?text=Hello%20City%20Dent%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4090416175",
-      "source": "OpenStreetMap",
-      "title": "Pracownia Rodziny Madurar — childcare (Aleja Wojska Polskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: n/a.",
-      "email": "madurar@op.pl",
-      "phone": "+48 511 142 057",
-      "mobileNumber": "+48 511 142 057",
-      "hasMobile": true,
-      "website": "",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/4090416175",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Pracownia Rodziny Madurar childcare Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Pracownia Rodziny Madurar — quick question about manual work that eats the week",
-        "body": "Hi Pracownia Rodziny Madurar team,\n\nI work with childcare businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48511142057?text=Hello%20Pracownia%20Rodziny%20Madurar%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4245198919",
-      "source": "OpenStreetMap",
-      "title": "Przychodnia MULTI MED Okopowa — doctors (Okopowa, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://multimed.pl/placowki/przychodnia-multi-med-okopowa-33-warszawa/. Phone: +48 22 636 47 74.",
-      "email": "przychodnia.okopowa@multimed.pl",
-      "phone": "+48 22 636 47 74",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://multimed.pl/placowki/przychodnia-multi-med-okopowa-33-warszawa/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://multimed.pl/placowki/przychodnia-multi-med-okopowa-33-warszawa/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Przychodnia MULTI MED Okopowa doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Przychodnia MULTI MED Okopowa — quick question about missed calls and no-shows",
-        "body": "Hi Przychodnia MULTI MED Okopowa team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Need help with n8n workflows (paid)\"",
+        "body": "Hi,\n\nSaw your post: \"Need help with n8n workflows (paid)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4297795969",
-      "source": "OpenStreetMap",
-      "title": "Multi Med — doctors (Ludwika Waryńskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://multimed.pl/placowki/przychodnia-multi-med-warynskiego-6-warszawa/. Phone: +48 22 636 47 74.",
-      "email": "przychodnia.warynskiego@multimed.pl",
-      "phone": "+48 22 636 47 74",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://multimed.pl/placowki/przychodnia-multi-med-warynskiego-6-warszawa/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-315655",
+      "source": "n8n Community",
+      "title": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
+      "description": "Buscamos AI Automation Engineer / n8n Developer Somos una empresa de procesamiento de pagos en Latinoamérica y buscamos un desarrollador con experiencia en n8n + IA para automatizar nuestro equipo de soporte. Queremos construir un sistema capaz de: • Entender y clasificar conversaciones • Responder automáticamente preguntas frecuentes • Consultar nuestras bases de datos y APIs • Ejecutar acciones automáticamente • Escalar casos complejos a operadores humanos • Mantener el contexto de las conversaciones Stack: n8n + LLMs + APIs Buscamos alguien que pueda entender un proceso de negocio y convertirlo en una solución de IA. Experiencia con n8n, AI agents, OpenAI/Claude, APIs, vector databases es importante. JavaScript/Python y PostgreSQL es preferiblemente. Experiencia en customer support es un plus. Trabajarás directamente con los fundadores y tendrás mucha autonomía para diseñar la solución Puede ser full-time o contractor, con posibilidad de colaboración a largo plazo. Interesado? Contáctame por WhatsApp: +573235816890 Por favor, comparte: • Tu experiencia con n8n + IA • 1–3 proyectos relevantes • GitHub/portfolio • Disponibilidad y tarifa aproximada",
+      "url": "https://community.n8n.io/t/buscamos-ai-automation-engineer-para-construir-nuestro-sistema-de-soporte-con-ia/315655",
+      "postedAt": "2026-09-22T16:52:06.596Z",
+      "raw": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://multimed.pl/placowki/przychodnia-multi-med-warynskiego-6-warszawa/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Multi Med doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 24,
+      "score": 39,
       "outreach": {
-        "subject": "Multi Med — quick question about missed calls and no-shows",
-        "body": "Hi Multi Med team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Buscamos AI Automation Engineer para construi\"",
+        "body": "Hi,\n\nSaw your post: \"Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4297856490",
-      "source": "OpenStreetMap",
-      "title": "Multi Med — doctors (Polna, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://multimed.pl/placowki/przychodnia-multi-med-polna-3-warszawa/. Phone: +48 22 636 47 74.",
-      "email": "przychodnia.polna@multimed.pl",
-      "phone": "+48 22 636 47 74",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://multimed.pl/placowki/przychodnia-multi-med-polna-3-warszawa/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-315978",
+      "source": "n8n Community",
+      "title": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
+      "description": "Hi all! We’re a busy family in Los Angeles. We’d like to work with an independent engineer or a small studio to set up a private, dependable home system that uses AI to help run our household: calendars, notes, documents, email drafts, and a knowledge base we actually use. Privacy matters a lot to us, so sensitive documents should be handled on a machine in our house, with cloud AI used where it makes sense. It starts as a defined project. If it goes well, it turns into a light ongoing relationship: a check-in twice a year to keep things healthy and add new capabilities as the tools improve. What we have in mind (very open to your suggestions): A Mac mini at home running local models (Ollama or LM Studio) for private document search and processing Claude API / Claude Code for scheduling help, translation and workflow logic n8n for automation (our preference), or Google Apps Script / small custom services if they fit better Notion (family contacts, projects, how-to docs) alongside Google Workspace Meeting notes from Fathom or Granola What we’d like help with: Design how our data moves between the home machine and the cloud, and what stays where Build the automations: meeting notes, ",
+      "url": "https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978",
+      "postedAt": "2026-09-23T22:07:01.984Z",
+      "raw": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
-      "url": "https://multimed.pl/placowki/przychodnia-multi-med-polna-3-warszawa/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Multi Med doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 22,
+      "score": 31,
       "outreach": {
-        "subject": "Multi Med — quick question about missed calls and no-shows",
-        "body": "Hi Multi Med team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[HIRING] Part-time \"household CTO\": n8n + Not\"",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4297873021",
-      "source": "OpenStreetMap",
-      "title": "Rezonans Magnetyczny Multimed Warszawa — doctors (Aleja Stanów Zjednoczonych, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://multimed.pl/placowki/pracownia-rezonansu-magnetycznego-w-warszawie/. Phone: +48 22 636 47 74.",
-      "email": "rezonans.warszawa@multimed.pl",
-      "phone": "+48 22 636 47 74",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://multimed.pl/placowki/pracownia-rezonansu-magnetycznego-w-warszawie/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-64258",
+      "source": "n8n Community",
+      "title": "Looking for Full Time n8n expert to join Video Game Team",
+      "description": "N8N Automation Engineer About Robot Sea Monster Robot Sea Monster is a digital production studio with an extensive background in designing and developing mobile and web games, AR/VR, Web3 blockchain, and commercial applications. Founded in 2012, the studio has successfully shipped over 40 products, serving major brands such as Blue Shield and Pearson, as well as innovators like LO3 Energy and Occipital. Our work has been profiled in major media outlets, such as The New York Times, CNBC, and TED. We are looking to build our team with creative people who want to make games and apps that engage, delight, and educate users. Opportunity ​This is a full time (30 - 40 hours per week), by remote position. We are a 100% virtual company with a diverse team of people working all over the globe. We are a software games company turned mobile and web application developer. In addition to having AR, VR, and Games, we also have regular and ongoing AI, Process Automation, and Full Stack web projects. Job Description Since we are a small software development company where everyone works by remote, you will need to supply your own tools, meaning a computer that is connected to a stable high speed int",
+      "url": "https://community.n8n.io/t/looking-for-full-time-n8n-expert-to-join-video-game-team/64258",
+      "postedAt": "2024-12-06T01:24:40.763Z",
+      "raw": "Looking for Full Time n8n expert to join Video Game Team",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
-      "url": "https://multimed.pl/placowki/pracownia-rezonansu-magnetycznego-w-warszawie/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Rezonans Magnetyczny Multimed Warszawa doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 679,
+      "score": 31,
       "outreach": {
-        "subject": "Rezonans Magnetyczny Multimed Warszawa — quick question about missed calls and no-shows",
-        "body": "Hi Rezonans Magnetyczny Multimed Warszawa team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for Full Time n8n expert to join Vide\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for Full Time n8n expert to join Video Game Team\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4364233087",
-      "source": "OpenStreetMap",
-      "title": "AB Ortodoncja — dentist (Rudzka, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.ortodonta.info/. Phone: n/a.",
-      "email": "gabinet@ortodonta.info",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.ortodonta.info/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
+      "id": "n8n Community-277583",
+      "source": "n8n Community",
+      "title": "[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)",
+      "description": "Hey everyone, I run a digital marketing agency. Looking for an experienced n8n specialist to partner with on an ongoing basis. Two projects to start: Project 1: B2B lead gen for a workplace food solutions company expanding in Poland. Need to automatically find and qualify companies with 50+ employees, enrich with decision-maker contacts, AI-score for fit, output to Google Sheets/Airtable. Runs daily. Project 2: Lead gen for a European fintech company. Need to identify newly registered businesses, e-commerce launches, startups across Europe that likely need banking/payment services. AI-score by likelihood, enrich with founder contacts, output daily. What I’m looking for: Someone who has built similar scraping + AI qualification workflows in n8n You propose the architecture and data sources — I want your expertise, not just execution Working proof-of-concept with real data before full payment Long-term collaboration: these are the first two of many workflows we’ll need built Ongoing: maintenance, optimization, and new workflow builds as we scale. If you’ve built something similar, I’d love to see examples. Drop a reply or DM me. Thanks!",
+      "url": "https://community.n8n.io/t/hiring-n8n-specialist-for-automated-b2b-lead-generation-systems-ongoing-work/277583",
+      "postedAt": "2026-03-16T09:40:47.675Z",
+      "raw": "[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
-      "url": "https://www.ortodonta.info/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "AB Ortodoncja dentist Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 214,
+      "score": 31,
       "outreach": {
-        "subject": "AB Ortodoncja — quick question about missed calls and no-shows",
-        "body": "Hi AB Ortodoncja team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[Hiring] n8n Specialist for Automated B2B Lea\"",
+        "body": "Hi,\n\nSaw your post: \"[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4403299418",
-      "source": "OpenStreetMap",
-      "title": "PZM Travel — travel agent (Antoniego Józefa Madalińskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: travel_agent. Services to pitch: Booking automation, enquiry follow-up. Website: https://www.pzmtravel.com.pl/. Phone: n/a.",
-      "email": "btm@pzmtravel.com.pl",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.pzmtravel.com.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "travel_agent",
+      "id": "n8n Community-316792",
+      "source": "n8n Community",
+      "title": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
+      "description": "Hi everyone, I’m building a new AI automation agency focused on WhatsApp automation for service businesses. We’re starting from zero, with no existing clients or fixed monthly salary. I’m looking for 1–2 reliable n8n builders to work on a project basis as clients are acquired. What I’m looking for You should be comfortable with: n8n workflow development WhatsApp Business/API integrations AI/LLM integrations APIs and webhooks Google Sheets, CRMs, calendars and other business tools Lead qualification, follow-ups and booking workflows Human handoff/fallback logic Error handling, testing and troubleshooting Deployment, monitoring and maintenance Basic technical documentation Strong WhatsApp automation experience is especially valuable. Example projects WhatsApp AI lead qualification FAQ and customer-support bots Lead capture and CRM integration Appointment booking and rescheduling Automated follow-ups Human-agent handoff Notifications and internal alerts AI-powered business workflows Working arrangement This is project-based, not salaried: Client acquired → scope agreed → builder assigned → paid build/testing → deployment → maintenance if required I am not asking anyone to work for fre",
+      "url": "https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792",
+      "postedAt": "2026-09-26T14:01:38.093Z",
+      "raw": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
       "services": [
-        "Booking automation",
-        "enquiry follow-up"
+        "Workflow automation"
       ],
-      "url": "https://www.pzmtravel.com.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "PZM Travel travel_agent Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "enquiry follow-up"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 20,
+      "score": 30,
       "outreach": {
-        "subject": "PZM Travel — quick question about manual work that eats the week",
-        "body": "Hi PZM Travel team,\n\nI work with travel_agent businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for 1–2 n8n Builders for Long-Term Collaboration\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4489945696",
-      "source": "OpenStreetMap",
-      "title": "Białobrzeska — veterinary (Częstochowska, Warszawa)",
-      "description": "Business in Warsaw. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://bialobrzeska.waw.pl/. Phone: +48 22 824 29 46.",
-      "email": "recepcja@bialobrzeska.waw.pl",
-      "phone": "+48 22 824 29 46",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://bialobrzeska.waw.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "veterinary",
+      "id": "Make.com Community-117128",
+      "source": "Make.com Community",
+      "title": "[Available Now] Make.com Automation Builder | Webhooks, Google Sheets Sync & Speed-to-Lead Alerts ($75 Flat)",
+      "description": "Hi Makers, I am taking on 2–3 quick scenario builds this week with same-day turnaround: • Lead Intake to Google Sheets: Capture incoming website forms, Type form, or Calendly bookings cleanly into formatted Google Sheets with zero duplicate entries. • Instant Speed-to-Lead Notifications: Wire immediate email, SMS, or Slack alerts the second a new lead submits. • Webhook &amp; Scenario Fixes: Resolve broken webhook payloads, JSON parsing errors, or dropped scenario runs. Pricing: Flat $75 per standard workflow. Tested live with sample data before delivery. Reply below or send me a direct message if you’d like your workflow wired and tested today!",
+      "url": "https://community.make.com/t/available-now-make-com-automation-builder-webhooks-google-sheets-sync-speed-to-lead-alerts-75-flat/117128",
+      "postedAt": "2026-10-12T09:15:20.027Z",
+      "raw": "[Available Now] Make.com Automation Builder | Webhooks, Google Sheets Sync & Speed-to-Lead Alerts ($75 Flat)",
       "services": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
-      "url": "https://bialobrzeska.waw.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Białobrzeska veterinary Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "isHiring": false,
+      "budget": 75,
+      "ageDays": 4,
+      "score": 28,
       "outreach": {
-        "subject": "Białobrzeska — quick question about manual work that eats the week",
-        "body": "Hi Białobrzeska team,\n\nI work with veterinary businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "[Available Now] Make.com Automation Builder | Webhooks, — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"[Available Now] Make.com Automation Builder | Webhooks, Google Sheets Sync & Speed-to-Lead Alerts ($75 Flat)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $75 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4560340860",
-      "source": "OpenStreetMap",
-      "title": "VenaMed — doctors (Grzybowska, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://cmvenamed.pl/. Phone: +48 501 514 056.",
-      "email": "rejestracja@cmvenamed.pl",
-      "phone": "+48 501 514 056",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cmvenamed.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-314417",
+      "source": "n8n Community",
+      "title": "N8n Freelancer needed for workflow",
+      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
+      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
+      "postedAt": "2026-09-18T03:45:18.563Z",
+      "raw": "N8n Freelancer needed for workflow",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
-      "url": "https://cmvenamed.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "VenaMed doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 28,
+      "score": 27,
       "outreach": {
-        "subject": "VenaMed — quick question about missed calls and no-shows",
-        "body": "Hi VenaMed team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48501514056?text=Hello%20VenaMed%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4581199331",
-      "source": "OpenStreetMap",
-      "title": "LaptopControl.pl — computer (Smolna, Warszawa)",
-      "description": "Business in Warsaw. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://laptopcontrol.pl/. Phone: +48 22 826 14 48.",
-      "email": "biuro@laptopcontrol.pl",
-      "phone": "+48 22 826 14 48",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://laptopcontrol.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://laptopcontrol.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "LaptopControl.pl computer Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "LaptopControl.pl — quick question about manual work that eats the week",
-        "body": "Hi LaptopControl.pl team,\n\nI work with computer businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
+        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4619366190",
-      "source": "OpenStreetMap",
-      "title": "Prof-Med — doctors (Grzybowska)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://prof-med.pl. Phone: +48 22 627 41 69.",
-      "email": "przychodnia@prof-med.pl",
-      "phone": "+48 22 627 41 69",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://prof-med.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
+      "id": "n8n Community-315672",
+      "source": "n8n Community",
+      "title": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
+      "description": "Hi, I’m building a small automation service and I’m looking for reliable n8n / Make specialists for ongoing project-based work. I’m looking for people who can work on clearly defined fixed-price projects with agreed deadlines. Typical work may include: • n8n / Make automations • CRM integrations • API integrations • AI workflows • Email and form automations • Shopify / e-commerce automations I’m especially interested in specialists who are comfortable working with fixed project prices rather than hourly billing. Payment would be agreed per project or milestone and paid after the corresponding client milestone is approved and funds are released. Please send: 2–3 examples of workflows you have built Your typical fixed price for a small project Your typical fixed price for a medium project How quickly you can usually start I’m looking for long-term cooperation if the first projects go well.",
+      "url": "https://community.n8n.io/t/looking-for-n8n-make-automation-specialist-for-ongoing-fixed-price-projects/315672",
+      "postedAt": "2026-09-22T16:54:24.169Z",
+      "raw": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
-      "url": "https://prof-med.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Prof-Med doctors Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 24,
+      "score": 27,
       "outreach": {
-        "subject": "Prof-Med — quick question about missed calls and no-shows",
-        "body": "Hi Prof-Med team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / Make Automation Specialist \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4696747290",
-      "source": "OpenStreetMap",
-      "title": "Klinika Ciała — beauty (Wawrzyszewska)",
-      "description": "Business in Warsaw. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://www.klinikaciala.com.pl. Phone: +48512755912.",
-      "email": "salon@klinikaciala.com.pl",
-      "phone": "+48512755912",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.klinikaciala.com.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "beauty",
+      "id": "n8n Community-260701",
+      "source": "n8n Community",
+      "title": "Build 2-Way Task Sync Between Craft.do and Todoist Using n8n (or Make/Zapier Alternative) – Quick Project\"",
+      "description": "Job Description / Post Body: Hi! I’m looking for an experienced n8n freelancer (or expert in Make.com/Zapier if n8n isn’t your specialty) to build a reliable two-way task synchronization between Craft.do and Todoist. I don’t have time nor the expertise to set this up myself, so I need someone who can handle the full build, testing, and handover quickly. Key Requirements: When a new task is created in Craft.do → create it in Todoist with a back-link to the Craft task (using craft://open? scheme or share link if possible). When a task is completed in Todoist → mark it as done in Craft.do . When a task is completed in Craft.do → mark it as done/completed in Todoist. Handle basic matching to avoid duplicates (e.g., store Todoist task ID in a Craft sub-block/note, and Craft block ID in Todoist description). Use polling/scheduling for Craft (since no webhooks), e.g., every 10–30 minutes. Use Todoist triggers/webhooks where possible for faster updates. Deploy on n8n Cloud (I’ll provide account access or set up a shared workflow). Include error handling, logging, and easy way for me to pause/monitor. Provided by me: Craft.do API base Craft API token (Bearer auth) Craft document ID and spac",
+      "url": "https://community.n8n.io/t/build-2-way-task-sync-between-craft-do-and-todoist-using-n8n-or-make-zapier-alternative-quick-project/260701",
+      "postedAt": "2026-02-04T18:22:03.303Z",
+      "raw": "Build 2-Way Task Sync Between Craft.do and Todoist Using n8n (or Make/Zapier Alternative) – Quick Project\"",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
-      "url": "http://www.klinikaciala.com.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Klinika Ciała beauty Warsaw",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 254,
+      "score": 27,
       "outreach": {
-        "subject": "Klinika Ciała — quick question about bookings and rebookings going cold",
-        "body": "Hi Klinika Ciała team,\n\nI work with beauty businesses in Warsaw on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48512755912?text=Hello%20Klinika%20Cia%C5%82a%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4779745170",
-      "source": "OpenStreetMap",
-      "title": "Chata Eko Skrzata — childcare (Obozowa, Warszawa)",
-      "description": "Business in Warsaw. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.przedszkolewola.pl/. Phone: n/a.",
-      "email": "ekoskrzat@przedszkolewola.pl",
-      "phone": "+48 797 316 373",
-      "mobileNumber": "+48 797 316 373",
-      "hasMobile": true,
-      "website": "https://www.przedszkolewola.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.przedszkolewola.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Chata Eko Skrzata childcare Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Chata Eko Skrzata — quick question about manual work that eats the week",
-        "body": "Hi Chata Eko Skrzata team,\n\nI work with childcare businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48797316373?text=Hello%20Chata%20Eko%20Skrzata%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4855863625",
-      "source": "OpenStreetMap",
-      "title": "Łukasz Warchoł — lawyer (Jana Zamoyskiego)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.komornik-warchol.pl/. Phone: +48 507 157 776.",
-      "email": "warszawa22@komornik.pl",
-      "phone": "+48 507 157 776",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.komornik-warchol.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "http://www.komornik-warchol.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Łukasz Warchoł lawyer Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Łukasz Warchoł — quick question about enquiry follow-up that never happens",
-        "body": "Hi Łukasz Warchoł team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48507157776?text=Hello%20%C5%81ukasz%20Warcho%C5%82%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4914586991",
-      "source": "OpenStreetMap",
-      "title": "Magenda — estate agent (Francuska)",
-      "description": "Business in Warsaw. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.magenda.pl/. Phone: +48506118751.",
-      "email": "biuro@magenda.pl",
-      "phone": "+48506118751",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.magenda.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.magenda.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Magenda estate_agent Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Magenda — quick question about manual work that eats the week",
-        "body": "Hi Magenda team,\n\nI work with estate_agent businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48506118751?text=Hello%20Magenda%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5235959913",
-      "source": "OpenStreetMap",
-      "title": "Lisiewski Group — jewelry (Elektoralna)",
-      "description": "Business in Warsaw. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.sklepjubilerski.com/. Phone: n/a.",
-      "email": "zamowienia@lisiewski.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.sklepjubilerski.com/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.sklepjubilerski.com/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Lisiewski Group jewelry Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Lisiewski Group — quick question about manual work that eats the week",
-        "body": "Hi Lisiewski Group team,\n\nI work with jewelry businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Build 2-Way Task Sync Between Craft.do and To\"",
+        "body": "Hi,\n\nSaw your post: \"Build 2-Way Task Sync Between Craft.do and Todoist Using n8n (or Make/Zapier Alternative) – Quick Project\"\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
-    },
-    {
-      "id": "osm-node-5334914322",
-      "source": "OpenStreetMap",
-      "title": "CUK Ubezpieczenia — insurance",
-      "description": "Business in Warsaw. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://cuk.pl/placowki/warszawa-rudnickiego. Phone: +48 22 639 44 05.",
-      "email": "warszawa@cuk.pl",
-      "phone": "+48 22 639 44 05",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cuk.pl/placowki/warszawa-rudnickiego",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://cuk.pl/placowki/warszawa-rudnickiego",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "CUK Ubezpieczenia insurance Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "CUK Ubezpieczenia — quick question about enquiry follow-up that never happens",
-        "body": "Hi CUK Ubezpieczenia team,\n\nI work with insurance businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5455806375",
-      "source": "OpenStreetMap",
-      "title": "BrainworkZ — it (Edwarda Jelinka, Warszawa)",
-      "description": "Business in Warsaw. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: http://brainworks.pl. Phone: +48 504 410 909.",
-      "email": "info@brainworkz.eu",
-      "phone": "+48 504 410 909",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://brainworks.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "http://brainworks.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "BrainworkZ it Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "BrainworkZ — quick question about manual work that eats the week",
-        "body": "Hi BrainworkZ team,\n\nI work with it businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48504410909?text=Hello%20BrainworkZ%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5464911290",
-      "source": "OpenStreetMap",
-      "title": "EMM8 — it (Okrąg, Warszawa)",
-      "description": "Business in Warsaw. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://emm8.pl/. Phone: +48 603 338 970.",
-      "email": "kontakt@emm8.pl",
-      "phone": "+48 603 338 970",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://emm8.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://emm8.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "EMM8 it Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "EMM8 — quick question about manual work that eats the week",
-        "body": "Hi EMM8 team,\n\nI work with it businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48603338970?text=Hello%20EMM8%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5629410519",
-      "source": "OpenStreetMap",
-      "title": "Gabinety Lekarskie Łucka — doctors (Łucka, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://www.gabinety-lucka.pl/. Phone: +48 22 654 24 64.",
-      "email": "recepcja@gabinety-lucka.pl",
-      "phone": "+48 22 654 24 64",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.gabinety-lucka.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://www.gabinety-lucka.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Gabinety Lekarskie Łucka doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Gabinety Lekarskie Łucka — quick question about missed calls and no-shows",
-        "body": "Hi Gabinety Lekarskie Łucka team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5657151509",
-      "source": "OpenStreetMap",
-      "title": "MCU — insurance (Opaczewska, Warszawa)",
-      "description": "Business in Warsaw. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: http://mycieubezpieczymy.pl/. Phone: +48 500 200 013.",
-      "email": "mycieubezpieczymy@gmail.com",
-      "phone": "+48 500 200 013",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://mycieubezpieczymy.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "http://mycieubezpieczymy.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "MCU insurance Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "MCU — quick question about enquiry follow-up that never happens",
-        "body": "Hi MCU team,\n\nI work with insurance businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48500200013?text=Hello%20MCU%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5659524331",
-      "source": "OpenStreetMap",
-      "title": "Best-Dent — dentist (Szymona Askenazego, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://best-dent.com/. Phone: +48 22 425 43 00.",
-      "email": "gabinet@best-dent.com",
-      "phone": "+48 665 071 070",
-      "mobileNumber": "+48 665 071 070",
-      "hasMobile": true,
-      "website": "https://best-dent.com/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://best-dent.com/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Best-Dent dentist Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Best-Dent — quick question about missed calls and no-shows",
-        "body": "Hi Best-Dent team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48665071070?text=Hello%20Best-Dent%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5688274856",
-      "source": "OpenStreetMap",
-      "title": "Przystanek Uroda — beauty (Adama Mickiewicza, Warszawa)",
-      "description": "Business in Warsaw. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://przystanek-uroda.pl/. Phone: +48 783 558 082.",
-      "email": "info@przystanek-uroda.pl",
-      "phone": "+48 783 558 082",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://przystanek-uroda.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "http://przystanek-uroda.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Przystanek Uroda beauty Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Przystanek Uroda — quick question about bookings and rebookings going cold",
-        "body": "Hi Przystanek Uroda team,\n\nI work with beauty businesses in Warsaw on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48783558082?text=Hello%20Przystanek%20Uroda%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5779324797",
-      "source": "OpenStreetMap",
-      "title": "Kancelaria Adwokacka Dąbrowski Radziejewska — lawyer (Śmiała, Warszawa)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.kancelariadr.com/. Phone: +48 22 354 60 72.",
-      "email": "sekretariat@kancelariadr.com",
-      "phone": "+48 22 354 60 72",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.kancelariadr.com/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "http://www.kancelariadr.com/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Kancelaria Adwokacka Dąbrowski Radziejewska lawyer Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Kancelaria Adwokacka Dąbrowski Radziejewska — quick question about enquiry follow-up that never happens",
-        "body": "Hi Kancelaria Adwokacka Dąbrowski Radziejewska team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5828763955",
-      "source": "OpenStreetMap",
-      "title": "Bartosz Mulawa — dentist (Zygmunta Słomińskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://stomatologia-mulawa.pl/. Phone: +48 604 445 669.",
-      "email": "kontakt@stomatologia-mulawa.pl",
-      "phone": "+48 604 445 669",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://stomatologia-mulawa.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "http://stomatologia-mulawa.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Bartosz Mulawa dentist Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bartosz Mulawa — quick question about missed calls and no-shows",
-        "body": "Hi Bartosz Mulawa team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48604445669?text=Hello%20Bartosz%20Mulawa%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5828763982",
-      "source": "OpenStreetMap",
-      "title": "Smile Design Clinic — dentist (Zygmunta Słomińskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.smiledesignclinic.pl. Phone: +48 22 291 80 80.",
-      "email": "klinika@smiledesignclinic.pl",
-      "phone": "+48 22 291 80 80",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.smiledesignclinic.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.smiledesignclinic.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Smile Design Clinic dentist Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Smile Design Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Smile Design Clinic team,\n\nI work with dentist businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5828883537",
-      "source": "OpenStreetMap",
-      "title": "Centrum Medyczne SonoFem — doctors (Ateńska, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://sonofem.pl/. Phone: +48 515 09 09 00.",
-      "email": "kontakt@sonofem.pl",
-      "phone": "+48 515 09 09 00",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://sonofem.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://sonofem.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Centrum Medyczne SonoFem doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Centrum Medyczne SonoFem — quick question about missed calls and no-shows",
-        "body": "Hi Centrum Medyczne SonoFem team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48515090900?text=Hello%20Centrum%20Medyczne%20SonoFem%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5867527829",
-      "source": "OpenStreetMap",
-      "title": "PFESO — doctors (Mokotowska)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.pfeso.edu.pl. Phone: +48 223314140.",
-      "email": "przychodnia@pfeso.edu.pl",
-      "phone": "+48 223314140",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.pfeso.edu.pl",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.pfeso.edu.pl",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "PFESO doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "PFESO — quick question about missed calls and no-shows",
-        "body": "Hi PFESO team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5940195037",
-      "source": "OpenStreetMap",
-      "title": "Centrum Zdrowia i Psychoterapii — doctors (Ogrodowa, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.centrum-psych.pl/. Phone: +48 22 654 10 38.",
-      "email": "ogrodowa@centrum-psych.com.pl",
-      "phone": "+48 22 654 10 38",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.centrum-psych.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.centrum-psych.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Centrum Zdrowia i Psychoterapii doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Centrum Zdrowia i Psychoterapii — quick question about missed calls and no-shows",
-        "body": "Hi Centrum Zdrowia i Psychoterapii team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6035202784",
-      "source": "OpenStreetMap",
-      "title": "Anna Bergiel — lawyer (Sienna, Warszawa)",
-      "description": "Business in Warsaw. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://kancelaria-bergiel.pl/. Phone: +48 502 157 832.",
-      "email": "anna.bergiel@kancelaria-bergiel.pl",
-      "phone": "+48 502 157 832",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://kancelaria-bergiel.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "http://kancelaria-bergiel.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Anna Bergiel lawyer Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Anna Bergiel — quick question about enquiry follow-up that never happens",
-        "body": "Hi Anna Bergiel team,\n\nI work with lawyer businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48502157832?text=Hello%20Anna%20Bergiel%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-6067338126",
-      "source": "OpenStreetMap",
-      "title": "Uni-Group — estate agent (Plac Thomasa Woodrowa Wilsona)",
-      "description": "Business in Warsaw. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.uni-group.pl/. Phone: +48 22 869 30 20.",
-      "email": "zoliborz@uni-group.pl",
-      "phone": "+48 22 869 30 20",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.uni-group.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.uni-group.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Uni-Group estate_agent Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Uni-Group — quick question about manual work that eats the week",
-        "body": "Hi Uni-Group team,\n\nI work with estate_agent businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6120182258",
-      "source": "OpenStreetMap",
-      "title": "Wolskie Centrum Zdrowia Psychicznego — doctors (Marcina Kasprzaka, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.wolski.med.pl/pl57/teksty169/WolskieCentrumZdrowiaPsychicznego. Phone: +48 22 389 48 80.",
-      "email": "wczp@wolski.med.pl",
-      "phone": "+48 22 389 48 80",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.wolski.med.pl/pl57/teksty169/WolskieCentrumZdrowiaPsychicznego",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.wolski.med.pl/pl57/teksty169/WolskieCentrumZdrowiaPsychicznego",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Wolskie Centrum Zdrowia Psychicznego doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Wolskie Centrum Zdrowia Psychicznego — quick question about missed calls and no-shows",
-        "body": "Hi Wolskie Centrum Zdrowia Psychicznego team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6124778398",
-      "source": "OpenStreetMap",
-      "title": "Dialog — doctors (Zygmunta Słomińskiego, Warszawa)",
-      "description": "Business in Warsaw. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.psychiatrzy.warszawa.pl/. Phone: +48 22 436 83 50.",
-      "email": "przychodnia@terapiadialog.pl",
-      "phone": "+48 22 436 83 50",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.psychiatrzy.warszawa.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.psychiatrzy.warszawa.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Dialog doctors Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dialog — quick question about missed calls and no-shows",
-        "body": "Hi Dialog team,\n\nI work with doctors businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6163936685",
-      "source": "OpenStreetMap",
-      "title": "Pomelo — childcare",
-      "description": "Business in Warsaw. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.pomelo.edu.pl/. Phone: n/a.",
-      "email": "hello@pomelo.edu.pl",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.pomelo.edu.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.pomelo.edu.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Pomelo childcare Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Pomelo — quick question about manual work that eats the week",
-        "body": "Hi Pomelo team,\n\nI work with childcare businesses in Warsaw on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6218792978",
-      "source": "OpenStreetMap",
-      "title": "Biuro Rachunkowe Fractum s.c. — accountant (Aleja Jana Pawła II, Warszawa)",
-      "description": "Business in Warsaw. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: https://www.fractum.pl/. Phone: +48 501 799 808; +48 509 870 790.",
-      "email": "biuro@fractum.pl",
-      "phone": "+48 501 799 808; +48 509 870 790",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.fractum.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "https://www.fractum.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Biuro Rachunkowe Fractum s.c. accountant Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Biuro Rachunkowe Fractum s.c. — quick question about enquiry follow-up that never happens",
-        "body": "Hi Biuro Rachunkowe Fractum s.c. team,\n\nI work with accountant businesses in Warsaw on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48501799808?text=Hello%20Biuro%20Rachunkowe%20Fractum%20s.c.%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-6327683590",
-      "source": "OpenStreetMap",
-      "title": "Warszawskie Kręgi — clinic (Karola Bohdanowicza, Warszawa)",
-      "description": "Business in Warsaw. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://warszawskiekregi.pl/. Phone: +48739984710.",
-      "email": "warszawskiekregi@gmail.com",
-      "phone": "+48739984710",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://warszawskiekregi.pl/",
-      "city": "Warsaw",
-      "tz": "Europe/Warsaw",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://warszawskiekregi.pl/",
-      "postedAt": "2026-10-15T21:52:41.617Z",
-      "raw": "Warszawskie Kręgi clinic Warsaw",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Warszawskie Kręgi — quick question about missed calls and no-shows",
-        "body": "Hi Warszawskie Kręgi team,\n\nI work with clinic businesses in Warsaw on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/48739984710?text=Hello%20Warszawskie%20Kr%C4%99gi%2C%0A%0AI%20help%20businesses%20in%20Warsaw%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     }
   ]
 }
