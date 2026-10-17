@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T21:49:41.871Z",
+  "generatedAt": "2026-10-17T07:17:20.039Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,8 +18,8 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 175,
-    "qualified": 24,
+    "totalScanned": 203,
+    "qualified": 49,
     "pipelineValue": 0,
     "sources": {
       "n8n Community": 30,
@@ -27,16 +27,16 @@
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 15,
-      "OpenStreetMap": 0,
+      "OpenStreetMap": 28,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 0,
-    "phoneLeads": 0,
+    "whatsappCapable": 7,
+    "phoneLeads": 26,
     "replies": 0,
-    "newSuppressed": 1,
+    "newSuppressed": 0,
     "bounceRate": 35,
-    "emailLeads": 0,
+    "emailLeads": 28,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -155,7 +155,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 28,
+      "ageDays": 29,
       "score": 55,
       "outreach": {
         "subject": "Quick idea for \"[ESPAÑOL] Looking for an n8n + AI Automation \"",
@@ -184,11 +184,1075 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 143,
+      "ageDays": 144,
       "score": 55,
       "outreach": {
         "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
         "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4270149194",
+      "source": "OpenStreetMap",
+      "title": "INFOFIX FUTURE TECHNOLOGIES — computer (Al Bayan)",
+      "description": "Business in Riyadh. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.infofixksa.com/. Phone: 0559007533.",
+      "email": "info@infofixksa.com",
+      "phone": "0559007533",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.infofixksa.com/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.infofixksa.com/",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "INFOFIX FUTURE TECHNOLOGIES computer Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "INFOFIX FUTURE TECHNOLOGIES — quick question about manual work that eats the week",
+        "body": "Hi INFOFIX FUTURE TECHNOLOGIES team,\n\nI work with computer businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971559007533?text=Hello%20INFOFIX%20FUTURE%20TECHNOLOGIES%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4424840189",
+      "source": "OpenStreetMap",
+      "title": "الزهراني للمطابخ — furniture (Osama Bin Zayed Street)",
+      "description": "Business in Riyadh. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: 0501542234.",
+      "email": "fahdz1403@gmail.com",
+      "phone": "0501542234",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.openstreetmap.org/node/4424840189",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "الزهراني للمطابخ furniture Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "الزهراني للمطابخ — quick question about manual work that eats the week",
+        "body": "Hi الزهراني للمطابخ team,\n\nI work with furniture businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971501542234?text=Hello%20%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D9%86%D9%8A%20%D9%84%D9%84%D9%85%D8%B7%D8%A7%D8%A8%D8%AE%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4878791225",
+      "source": "OpenStreetMap",
+      "title": "للتبرید والتکیف — electronics (شارع الدھنا)",
+      "description": "Business in Riyadh. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: 0500703589.",
+      "email": "gohar411@gmail.com",
+      "phone": "0500703589",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://www.openstreetmap.org/node/4878791225",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "للتبرید والتکیف electronics Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "للتبرید والتکیف — quick question about manual work that eats the week",
+        "body": "Hi للتبرید والتکیف team,\n\nI work with electronics businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971500703589?text=Hello%20%D9%84%D9%84%D8%AA%D8%A8%D8%B1%DB%8C%D8%AF%20%D9%88%D8%A7%D9%84%D8%AA%DA%A9%DB%8C%D9%81%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-5004638967",
+      "source": "OpenStreetMap",
+      "title": "دليل الطاقه — electronics (Hafsa Bint Omar)",
+      "description": "Business in Riyadh. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: http://www.dleeltaqah.com. Phone: 0553838637.",
+      "email": "al-rubaish@hotmail.com",
+      "phone": "0553838637",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.dleeltaqah.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "http://www.dleeltaqah.com",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "دليل الطاقه electronics Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "دليل الطاقه — quick question about manual work that eats the week",
+        "body": "Hi دليل الطاقه team,\n\nI work with electronics businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/971553838637?text=Hello%20%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D9%87%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-6618517293",
+      "source": "OpenStreetMap",
+      "title": "برج النخيل — estate agent (طريق الملك فهد, الرياض)",
+      "description": "Business in Riyadh. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://www.alajlan-global.com/. Phone: +966112121212.",
+      "email": "info@alajlan-global.com",
+      "phone": "+966112121212",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.alajlan-global.com/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "http://www.alajlan-global.com/",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "برج النخيل estate_agent Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "برج النخيل — quick question about manual work that eats the week",
+        "body": "Hi برج النخيل team,\n\nI work with estate_agent businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-8108425782",
+      "source": "OpenStreetMap",
+      "title": "SUNTECH BUSINESS SOLUTIONS — computer",
+      "description": "Business in Riyadh. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.suntech-global.com/. Phone: +966 11 292 7150;+966 53 609 6221.",
+      "email": "info@suntech-global.com",
+      "phone": "+966 11 292 7150;+966 53 609 6221",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.suntech-global.com/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.suntech-global.com/",
+      "postedAt": "2026-10-17T07:17:17.800Z",
+      "raw": "SUNTECH BUSINESS SOLUTIONS computer Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "SUNTECH BUSINESS SOLUTIONS — quick question about manual work that eats the week",
+        "body": "Hi SUNTECH BUSINESS SOLUTIONS team,\n\nI work with computer businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/966536096221?text=Hello%20SUNTECH%20BUSINESS%20SOLUTIONS%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-8108425783",
+      "source": "OpenStreetMap",
+      "title": "Medical Regulations Gate — lawyer",
+      "description": "Business in Riyadh. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.mr-gate.com/. Phone: +966 56 766 3377.",
+      "email": "info@mr-gate.com",
+      "phone": "+966 56 766 3377",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.mr-gate.com/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://www.mr-gate.com/",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Medical Regulations Gate lawyer Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Medical Regulations Gate — quick question about enquiry follow-up that never happens",
+        "body": "Hi Medical Regulations Gate team,\n\nI work with lawyer businesses in Riyadh on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/966567663377?text=Hello%20Medical%20Regulations%20Gate%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10676547705",
+      "source": "OpenStreetMap",
+      "title": "مغربي — clinic (الإمام عبد الله بن سعود بن عبد العزيز)",
+      "description": "Business in Riyadh. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://magrabi.com.sa. Phone: n/a.",
+      "email": "info@magrabi.com.sa",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://magrabi.com.sa",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "http://magrabi.com.sa",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "مغربي clinic Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "مغربي — quick question about missed calls and no-shows",
+        "body": "Hi مغربي team,\n\nI work with clinic businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-10687800067",
+      "source": "OpenStreetMap",
+      "title": "ALNAMI LAW FIRM — lawyer (AL Nahdha, RIYADH)",
+      "description": "Business in Riyadh. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: ALNAMILAWFIRM.SA. Phone: +966114767161.",
+      "email": "info@alnamilawfirm.sa",
+      "phone": "+966114767161",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "ALNAMILAWFIRM.SA",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "ALNAMILAWFIRM.SA",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "ALNAMI LAW FIRM lawyer Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ALNAMI LAW FIRM — quick question about enquiry follow-up that never happens",
+        "body": "Hi ALNAMI LAW FIRM team,\n\nI work with lawyer businesses in Riyadh on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-10937040471",
+      "source": "OpenStreetMap",
+      "title": "Petromin Nissan — car (Riyadh)",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.petromin-nissan.com. Phone: +966 8004420010.",
+      "email": "crm.management@petromin.com",
+      "phone": "+966 8004420010",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.petromin-nissan.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.petromin-nissan.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Petromin Nissan car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Petromin Nissan — quick question about manual work that eats the week",
+        "body": "Hi Petromin Nissan team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11681204138",
+      "source": "OpenStreetMap",
+      "title": "Pan Home — furniture",
+      "description": "Business in Riyadh. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.panhomestores.com/ksa_en. Phone: +966 800 302 8000.",
+      "email": "care@panhomestores.com",
+      "phone": "+966 800 302 8000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.panhomestores.com/ksa_en",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.panhomestores.com/ksa_en",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Pan Home furniture Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Pan Home — quick question about manual work that eats the week",
+        "body": "Hi Pan Home team,\n\nI work with furniture businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11753026040",
+      "source": "OpenStreetMap",
+      "title": "Petromin Nissan — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.petromin-nissan.com. Phone: +966 800 442 0010.",
+      "email": "crm.management@petromin.com",
+      "phone": "+966 800 442 0010",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.petromin-nissan.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.petromin-nissan.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Petromin Nissan car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Petromin Nissan — quick question about manual work that eats the week",
+        "body": "Hi Petromin Nissan team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11753026041",
+      "source": "OpenStreetMap",
+      "title": "Petromin Nissan — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.petromin-nissan.com. Phone: +966 800 442 0010.",
+      "email": "crm.management@petromin.com",
+      "phone": "+966 800 442 0010",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.petromin-nissan.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.petromin-nissan.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Petromin Nissan car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Petromin Nissan — quick question about manual work that eats the week",
+        "body": "Hi Petromin Nissan team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11753026042",
+      "source": "OpenStreetMap",
+      "title": "Petromin Nissan — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.petromin-nissan.com. Phone: +966 800 442 0010.",
+      "email": "crm.management@petromin.com",
+      "phone": "+966 800 442 0010",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.petromin-nissan.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.petromin-nissan.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Petromin Nissan car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Petromin Nissan — quick question about manual work that eats the week",
+        "body": "Hi Petromin Nissan team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11915786420",
+      "source": "OpenStreetMap",
+      "title": "Petromin Nissan — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.petromin-nissan.com. Phone: +966 800 442 0010.",
+      "email": "crm.management@petromin.com",
+      "phone": "+966 800 442 0010",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.petromin-nissan.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.petromin-nissan.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Petromin Nissan car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Petromin Nissan — quick question about manual work that eats the week",
+        "body": "Hi Petromin Nissan team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11987046656",
+      "source": "OpenStreetMap",
+      "title": "Biolab — doctors",
+      "description": "Business in Riyadh. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.biolab.sa. Phone: +966 9200 66765.",
+      "email": "info@biolab.sa",
+      "phone": "+966 9200 66765",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.biolab.sa",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.biolab.sa",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Biolab doctors Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Biolab — quick question about missed calls and no-shows",
+        "body": "Hi Biolab team,\n\nI work with doctors businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-11987046657",
+      "source": "OpenStreetMap",
+      "title": "Biolab — doctors",
+      "description": "Business in Riyadh. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.biolab.sa. Phone: +966 9200 66765.",
+      "email": "info@biolab.sa",
+      "phone": "+966 9200 66765",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.biolab.sa",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.biolab.sa",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Biolab doctors Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Biolab — quick question about missed calls and no-shows",
+        "body": "Hi Biolab team,\n\nI work with doctors businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12046116906",
+      "source": "OpenStreetMap",
+      "title": "Pan Home — furniture",
+      "description": "Business in Riyadh. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.panhomestores.com/ksa_en. Phone: +966 800 302 8000.",
+      "email": "care@panhomestores.com",
+      "phone": "+966 800 302 8000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.panhomestores.com/ksa_en",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.panhomestores.com/ksa_en",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Pan Home furniture Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Pan Home — quick question about manual work that eats the week",
+        "body": "Hi Pan Home team,\n\nI work with furniture businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12174345961",
+      "source": "OpenStreetMap",
+      "title": "Nextcare — insurance",
+      "description": "Business in Riyadh. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.nextcarehealth.com. Phone: +966 11 203 3541.",
+      "email": "info-ksa@nextcarehealth.com",
+      "phone": "+966 11 203 3541",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.nextcarehealth.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "insurance",
+      "services": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "url": "https://www.nextcarehealth.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Nextcare insurance Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nextcare — quick question about enquiry follow-up that never happens",
+        "body": "Hi Nextcare team,\n\nI work with insurance businesses in Riyadh on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12204333635",
+      "source": "OpenStreetMap",
+      "title": "Balubaid auto — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://haval.balubaidauto.com. Phone: +966 800 760 6000.",
+      "email": "sm@balubaidauto.com",
+      "phone": "+966 800 760 6000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://haval.balubaidauto.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://haval.balubaidauto.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Balubaid auto car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Balubaid auto — quick question about manual work that eats the week",
+        "body": "Hi Balubaid auto team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12204496048",
+      "source": "OpenStreetMap",
+      "title": "اوتوزون — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://autozone.com.sa/. Phone: +966 800 760 6000.",
+      "email": "info@autozone.com.sa",
+      "phone": "+966 800 760 6000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://autozone.com.sa/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://autozone.com.sa/",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "اوتوزون car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "اوتوزون — quick question about manual work that eats the week",
+        "body": "Hi اوتوزون team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12204496058",
+      "source": "OpenStreetMap",
+      "title": "اوتوزون — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://haval.balubaidauto.com. Phone: +966 800 760 6000.",
+      "email": "sm@balubaidauto.com",
+      "phone": "+966 800 760 6000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://haval.balubaidauto.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://haval.balubaidauto.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "اوتوزون car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "اوتوزون — quick question about manual work that eats the week",
+        "body": "Hi اوتوزون team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12399579427",
+      "source": "OpenStreetMap",
+      "title": "اوتوزون — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://autozone.com.sa. Phone: +966 800 760 6000.",
+      "email": "info@autozone.com.sa",
+      "phone": "+966 800 760 6000",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://autozone.com.sa",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://autozone.com.sa",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "اوتوزون car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "اوتوزون — quick question about manual work that eats the week",
+        "body": "Hi اوتوزون team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-12866345390",
+      "source": "OpenStreetMap",
+      "title": "Biolab — doctors",
+      "description": "Business in Riyadh. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.biolab.sa. Phone: +966 9200 66765.",
+      "email": "info@biolab.sa",
+      "phone": "+966 9200 66765",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.biolab.sa",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.biolab.sa",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Biolab doctors Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Biolab — quick question about missed calls and no-shows",
+        "body": "Hi Biolab team,\n\nI work with doctors businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-13328287224",
+      "source": "OpenStreetMap",
+      "title": "لومي — car",
+      "description": "Business in Riyadh. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://lumirental.com. Phone: +966 9200 28428.",
+      "email": "info@lumirental.com",
+      "phone": "+966 9200 28428",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://lumirental.com",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://lumirental.com",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "لومي car Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "لومي — quick question about manual work that eats the week",
+        "body": "Hi لومي team,\n\nI work with car businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-14069829235",
+      "source": "OpenStreetMap",
+      "title": "ديرمور — doctors",
+      "description": "Business in Riyadh. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: n/a. Phone: n/a.",
+      "email": "info@dermoresa.com",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.openstreetmap.org/node/14069829235",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "ديرمور doctors Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ديرمور — quick question about missed calls and no-shows",
+        "body": "Hi ديرمور team,\n\nI work with doctors businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-14098928486",
+      "source": "OpenStreetMap",
+      "title": "عيادة رفق كير البيطرية — veterinary (الامام الشافعي, Riyadh)",
+      "description": "Business in Riyadh. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: n/a. Phone: n/a.",
+      "email": "rifqveterinaryclinic@gmail.com",
+      "phone": "+966539868828",
+      "mobileNumber": "+966539868828",
+      "hasMobile": true,
+      "website": "",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "https://www.openstreetmap.org/node/14098928486",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "عيادة رفق كير البيطرية veterinary Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "عيادة رفق كير البيطرية — quick question about manual work that eats the week",
+        "body": "Hi عيادة رفق كير البيطرية team,\n\nI work with veterinary businesses in Riyadh on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/966539868828?text=Hello%20%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9%20%D8%B1%D9%81%D9%82%20%D9%83%D9%8A%D8%B1%20%D8%A7%D9%84%D8%A8%D9%8A%D8%B7%D8%B1%D9%8A%D8%A9%2C%0A%0AI%20help%20businesses%20in%20Riyadh%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-14178468837",
+      "source": "OpenStreetMap",
+      "title": "Loran Dental Clinic — dentist",
+      "description": "Business in Riyadh. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.loranclinics.com/. Phone: +966 920011217.",
+      "email": "info@loranclinics.com",
+      "phone": "+966 920011217",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.loranclinics.com/",
+      "city": "Riyadh",
+      "tz": "Asia/Riyadh",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "http://www.loranclinics.com/",
+      "postedAt": "2026-10-17T07:17:17.801Z",
+      "raw": "Loran Dental Clinic dentist Riyadh",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Loran Dental Clinic — quick question about missed calls and no-shows",
+        "body": "Hi Loran Dental Clinic team,\n\nI work with dentist businesses in Riyadh on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
@@ -327,7 +1391,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 13,
+      "ageDays": 14,
       "score": 46,
       "outreach": {
         "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
@@ -355,39 +1419,11 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 307,
+      "ageDays": 308,
       "score": 43,
       "outreach": {
         "subject": "Quick idea for \"Automation Systems Builder (n8n) – Europe (Re\"",
         "body": "Hi,\n\nSaw your post: \"Automation Systems Builder (n8n) – Europe (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-316359",
-      "source": "n8n Community",
-      "title": "Looking for an n8n Freelancer / Automation Builder",
-      "description": "I’m looking for an experienced n8n freelancer to help build WhatsApp automations for local service businesses, including real estate, salons, dealerships, hotels, and home-service companies. You’ll handle technical implementation while I manage clients, requirements, communication, and project management. Projects may include: WhatsApp chatbots Lead capture and qualification AI FAQ responses Human handoff Booking workflows CRM, Sheets, and database integrations Notifications, follow-ups, APIs, and webhooks You should have hands-on n8n experience, understand APIs, JSON, and webhooks, and be comfortable with WhatsApp Business and AI/LLM integrations. Reliability, clear communication, documentation, and maintainable workflows are essential. This starts as project-based freelance work, with potential for a long-term relationship. You’ll handle implementation, testing, documentation, and agreed fixes. To apply, send: Your n8n experience and years of use 2–3 workflow examples WhatsApp/API and AI/LLM experience Pricing and weekly availability Timezone Interest in ongoing projects Portfolio, GitHub, screenshots, or other proof of work A small paid test project may come first. Please DM me ",
-      "url": "https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359",
-      "postedAt": "2026-09-25T15:00:21.415Z",
-      "raw": "Looking for an n8n Freelancer / Automation Builder",
-      "services": [
-        "Workflow automation",
-        "Chatbots & voice"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 21,
-      "score": 42,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for an n8n Freelancer / Automation Bu\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for an n8n Freelancer / Automation Builder\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -476,6 +1512,62 @@
       "waLink": ""
     },
     {
+      "id": "n8n Community-316359",
+      "source": "n8n Community",
+      "title": "Looking for an n8n Freelancer / Automation Builder",
+      "description": "I’m looking for an experienced n8n freelancer to help build WhatsApp automations for local service businesses, including real estate, salons, dealerships, hotels, and home-service companies. You’ll handle technical implementation while I manage clients, requirements, communication, and project management. Projects may include: WhatsApp chatbots Lead capture and qualification AI FAQ responses Human handoff Booking workflows CRM, Sheets, and database integrations Notifications, follow-ups, APIs, and webhooks You should have hands-on n8n experience, understand APIs, JSON, and webhooks, and be comfortable with WhatsApp Business and AI/LLM integrations. Reliability, clear communication, documentation, and maintainable workflows are essential. This starts as project-based freelance work, with potential for a long-term relationship. You’ll handle implementation, testing, documentation, and agreed fixes. To apply, send: Your n8n experience and years of use 2–3 workflow examples WhatsApp/API and AI/LLM experience Pricing and weekly availability Timezone Interest in ongoing projects Portfolio, GitHub, screenshots, or other proof of work A small paid test project may come first. Please DM me ",
+      "url": "https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359",
+      "postedAt": "2026-09-25T15:00:21.415Z",
+      "raw": "Looking for an n8n Freelancer / Automation Builder",
+      "services": [
+        "Workflow automation",
+        "Chatbots & voice"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 22,
+      "score": 39,
+      "outreach": {
+        "subject": "Quick idea for \"Looking for an n8n Freelancer / Automation Bu\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for an n8n Freelancer / Automation Builder\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "n8n Community-315655",
+      "source": "n8n Community",
+      "title": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
+      "description": "Buscamos AI Automation Engineer / n8n Developer Somos una empresa de procesamiento de pagos en Latinoamérica y buscamos un desarrollador con experiencia en n8n + IA para automatizar nuestro equipo de soporte. Queremos construir un sistema capaz de: • Entender y clasificar conversaciones • Responder automáticamente preguntas frecuentes • Consultar nuestras bases de datos y APIs • Ejecutar acciones automáticamente • Escalar casos complejos a operadores humanos • Mantener el contexto de las conversaciones Stack: n8n + LLMs + APIs Buscamos alguien que pueda entender un proceso de negocio y convertirlo en una solución de IA. Experiencia con n8n, AI agents, OpenAI/Claude, APIs, vector databases es importante. JavaScript/Python y PostgreSQL es preferiblemente. Experiencia en customer support es un plus. Trabajarás directamente con los fundadores y tendrás mucha autonomía para diseñar la solución Puede ser full-time o contractor, con posibilidad de colaboración a largo plazo. Interesado? Contáctame por WhatsApp: +573235816890 Por favor, comparte: • Tu experiencia con n8n + IA • 1–3 proyectos relevantes • GitHub/portfolio • Disponibilidad y tarifa aproximada",
+      "url": "https://community.n8n.io/t/buscamos-ai-automation-engineer-para-construir-nuestro-sistema-de-soporte-con-ia/315655",
+      "postedAt": "2026-09-22T16:52:06.596Z",
+      "raw": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
+      "services": [
+        "AI agents",
+        "Workflow automation"
+      ],
+      "titleServices": [
+        "Workflow automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 25,
+      "score": 39,
+      "outreach": {
+        "subject": "Quick idea for \"Buscamos AI Automation Engineer para construi\"",
+        "body": "Hi,\n\nSaw your post: \"Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
       "id": "n8n Community-297943",
       "source": "n8n Community",
       "title": "N8n Builder Wanted – AI Automation Agency (India)",
@@ -504,34 +1596,6 @@
       "waLink": ""
     },
     {
-      "id": "n8n Community-315655",
-      "source": "n8n Community",
-      "title": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
-      "description": "Buscamos AI Automation Engineer / n8n Developer Somos una empresa de procesamiento de pagos en Latinoamérica y buscamos un desarrollador con experiencia en n8n + IA para automatizar nuestro equipo de soporte. Queremos construir un sistema capaz de: • Entender y clasificar conversaciones • Responder automáticamente preguntas frecuentes • Consultar nuestras bases de datos y APIs • Ejecutar acciones automáticamente • Escalar casos complejos a operadores humanos • Mantener el contexto de las conversaciones Stack: n8n + LLMs + APIs Buscamos alguien que pueda entender un proceso de negocio y convertirlo en una solución de IA. Experiencia con n8n, AI agents, OpenAI/Claude, APIs, vector databases es importante. JavaScript/Python y PostgreSQL es preferiblemente. Experiencia en customer support es un plus. Trabajarás directamente con los fundadores y tendrás mucha autonomía para diseñar la solución Puede ser full-time o contractor, con posibilidad de colaboración a largo plazo. Interesado? Contáctame por WhatsApp: +573235816890 Por favor, comparte: • Tu experiencia con n8n + IA • 1–3 proyectos relevantes • GitHub/portfolio • Disponibilidad y tarifa aproximada",
-      "url": "https://community.n8n.io/t/buscamos-ai-automation-engineer-para-construir-nuestro-sistema-de-soporte-con-ia/315655",
-      "postedAt": "2026-09-22T16:52:06.596Z",
-      "raw": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
-      "services": [
-        "AI agents",
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 24,
-      "score": 39,
-      "outreach": {
-        "subject": "Quick idea for \"Buscamos AI Automation Engineer para construi\"",
-        "body": "Hi,\n\nSaw your post: \"Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
       "id": "n8n Community-279164",
       "source": "n8n Community",
       "title": "Need help with n8n workflows (paid)",
@@ -549,38 +1613,11 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 211,
+      "ageDays": 212,
       "score": 39,
       "outreach": {
         "subject": "Quick idea for \"Need help with n8n workflows (paid)\"",
         "body": "Hi,\n\nSaw your post: \"Need help with n8n workflows (paid)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "Make.com Community-116649",
-      "source": "Make.com Community",
-      "title": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
-      "description": "Hi everyone, I run Drochaid AI, a UK agency sourcing AI automation projects for B2B tech companies. We handle 100% of client acquisition, scoping, and account management. Looking for 1–2 reliable Make.com developers for white-label execution (per-project payout or revenue share). If you have a solid portfolio of Make / AI workflows and capacity for extra client deals, send me a DM with 2–3 examples of past builds.",
-      "url": "https://community.make.com/t/looking-for-white-label-make-com-automation-developers-agency-partner/116649",
-      "postedAt": "2026-10-05T08:08:03.941Z",
-      "raw": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 12,
-      "score": 34,
-      "outreach": {
-        "subject": "Quick idea for \"Looking for White-Label Make.com Automation D\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for White-Label Make.com Automation Developers (Agency Partner)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -603,38 +1640,11 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 21,
-      "score": 34,
+      "ageDays": 22,
+      "score": 31,
       "outreach": {
         "subject": "Quick idea for \"WordPress, Make.com & Brevo Integration Exper\"",
         "body": "Hi,\n\nSaw your post: \"WordPress, Make.com & Brevo Integration Expert\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-315978",
-      "source": "n8n Community",
-      "title": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
-      "description": "Hi all! We’re a busy family in Los Angeles. We’d like to work with an independent engineer or a small studio to set up a private, dependable home system that uses AI to help run our household: calendars, notes, documents, email drafts, and a knowledge base we actually use. Privacy matters a lot to us, so sensitive documents should be handled on a machine in our house, with cloud AI used where it makes sense. It starts as a defined project. If it goes well, it turns into a light ongoing relationship: a check-in twice a year to keep things healthy and add new capabilities as the tools improve. What we have in mind (very open to your suggestions): A Mac mini at home running local models (Ollama or LM Studio) for private document search and processing Claude API / Claude Code for scheduling help, translation and workflow logic n8n for automation (our preference), or Google Apps Script / small custom services if they fit better Notion (family contacts, projects, how-to docs) alongside Google Workspace Meeting notes from Fathom or Granola What we’d like help with: Design how our data moves between the home machine and the cloud, and what stays where Build the automations: meeting notes, ",
-      "url": "https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978",
-      "postedAt": "2026-09-23T22:07:01.984Z",
-      "raw": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
-      "services": [
-        "Workflow automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 23,
-      "score": 31,
-      "outreach": {
-        "subject": "Quick idea for \"[HIRING] Part-time \"household CTO\": n8n + Not\"",
-        "body": "Hi,\n\nSaw your post: \"[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -657,7 +1667,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 20,
+      "ageDays": 21,
       "score": 30,
       "outreach": {
         "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
@@ -684,38 +1694,11 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 10,
+      "ageDays": 11,
       "score": 30,
       "outreach": {
         "subject": "Quick idea for \"Looking for a B2B Lead Generation / Sales Par\"",
         "body": "Hi,\n\nSaw your post: \"Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "Make.com Community-116268",
-      "source": "Make.com Community",
-      "title": "Eleven Labs Voice Agents - Hire A Pro",
-      "description": "Hi, I’m looking for someone with expertise in building AI voice agents in Eleven Labs. Ideally also with experience within Azure and Deepgram. If you know anyone or this sounds like you could you please get in touch on fiona@fionachallis.com Thanks Fiona",
-      "url": "https://community.make.com/t/eleven-labs-voice-agents-hire-a-pro/116268",
-      "postedAt": "2026-09-30T10:47:12.144Z",
-      "raw": "Eleven Labs Voice Agents - Hire A Pro",
-      "services": [
-        "Chatbots & voice"
-      ],
-      "titleServices": [
-        "Chatbots & voice"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 16,
-      "score": 30,
-      "outreach": {
-        "subject": "Quick idea for \"Eleven Labs Voice Agents - Hire A Pro\"",
-        "body": "Hi,\n\nSaw your post: \"Eleven Labs Voice Agents - Hire A Pro\". This is exactly the kind of chatbots & voice work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
@@ -738,7 +1721,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 24,
+      "ageDays": 25,
       "score": 27,
       "outreach": {
         "subject": "Quick idea for \"Looking for n8n / Make Automation Specialist \"",
@@ -792,7 +1775,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 254,
+      "ageDays": 255,
       "score": 27,
       "outreach": {
         "subject": "Quick idea for \"Build 2-Way Task Sync Between Craft.do and To\"",
