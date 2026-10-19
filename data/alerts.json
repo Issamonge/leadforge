@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-19T08:12:35.361Z",
+    "text": "*LEAD MACHINE* — 19/10/2026, 12:12:35\n\nScanned 280 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-18T21:11:50.294Z",
     "text": "*LEAD MACHINE* — 19/10/2026, 01:11:50\n\nScanned 184 · qualified *31*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -781,13 +789,6 @@
   {
     "at": "2026-09-18T21:20:17.387Z",
     "text": "*Lead Machine* — 9/18/2026, 9:20:17 PM\n\nScanned 269 · qualified *60*\nListed pipeline: $0\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n2. [70] [ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\n   n8n Community\n   https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
-    "kind": "new_leads",
-    "count": 60,
-    "hot": 2
-  },
-  {
-    "at": "2026-09-18T19:26:26.653Z",
-    "text": "*Lead Machine* — 9/18/2026, 7:26:26 PM\n\nScanned 245 · qualified *60*\nListed pipeline: $0\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n2. [70] [ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\n   n8n Community\n   https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
     "kind": "new_leads",
     "count": 60,
     "hot": 2
