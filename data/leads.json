@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T08:12:35.346Z",
+  "generatedAt": "2026-10-19T17:17:26.391Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,25 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 280,
-    "qualified": 60,
-    "pipelineValue": 35,
+    "totalScanned": 172,
+    "qualified": 25,
+    "pipelineValue": 73,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 12,
-      "OpenStreetMap": 108,
+      "OpenStreetMap": 0,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 4,
-    "phoneLeads": 58,
+    "whatsappCapable": 0,
+    "phoneLeads": 0,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 36,
-    "emailLeads": 59,
+    "emailLeads": 0,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -165,789 +165,134 @@
       "waLink": ""
     },
     {
-      "id": "osm-node-1866394692",
-      "source": "OpenStreetMap",
-      "title": "Valentine's Vets — veterinary (Manchester New Road, Middleton)",
-      "description": "Business in Manchester. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://www.valentinevets.co.uk/branches/middleton. Phone: +44 161 643 3097.",
-      "email": "reception.middleton@valentinevets.co.uk",
-      "phone": "+44 161 643 3097",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.valentinevets.co.uk/branches/middleton",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "veterinary",
+      "id": "n8n Community-322645",
+      "source": "n8n Community",
+      "title": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
+      "description": "I’m looking for an opportunity as an n8n Developer / AI Automation Engineer. What’s actually built, not “worked on”: → 36 workflows, 3 production systems, not tutorial projects, systems that run → Multi-agent AI stacks wired into real databases, not a spreadsheet pretending to be a backend → APIs, webhooks, end-to-end business logic. The unglamorous plumbing that decides whether a company’s ops actually work or just look like they do Every system is documented down to the architecture, not a screenshot dump, an actual paper trail of decisions. Portfolio: https://bykeyur.vercel.app Go roast it if you want. Genuinely open to reviews of the systems I’ve built, if something’s weak, I’d rather hear it from you than find out in an interview. Open to remote India or international, if the role’s legit. Hiring, or know someone who is? Say something. Silence doesn’t close deals.",
+      "url": "https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645",
+      "postedAt": "2026-10-19T02:44:27.207Z",
+      "raw": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
       "services": [
-        "Booking automation",
-        "reminder sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.valentinevets.co.uk/branches/middleton",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Valentine's Vets veterinary Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 1,
       "score": 58,
       "outreach": {
-        "subject": "Valentine's Vets — quick question about manual work that eats the week",
-        "body": "Hi Valentine's Vets team,\n\nI work with veterinary businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Stop calling it \"workflow automation.\" That's\"",
+        "body": "Hi,\n\nSaw your post: \"Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2415203981",
-      "source": "OpenStreetMap",
-      "title": "NHS Ordsall Health Surgery — clinic (Phoebe Street, Salford)",
-      "description": "Business in Manchester. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.ordsallhealthsurgery.nhs.uk/. Phone: +44 161 983 0080.",
-      "email": "salccg.ordsallhealthsurgery@nhs.net",
-      "phone": "+44 161 983 0080",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.ordsallhealthsurgery.nhs.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "clinic",
+      "id": "n8n Community-314555",
+      "source": "n8n Community",
+      "title": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
+      "description": "Hi everyone, We’re NUBO , a small AI implementation agency building AI agents, automations and integrations for companies in Spain and Latin America. n8n is a core part of our technical stack. We’re looking for an experienced n8n builder to work with us on an ongoing, project-by-project basis as our workload grows. We’re not necessarily looking for a senior software developer, we’re looking for someone who is very comfortable with n8n, AI tools and integrations, and who can take well-defined tasks and build them independently. What the work looks like: Building and maintaining n8n workflows for AI agents and business automations. Integrating LLMs such as OpenAI, Claude and Gemini. Working with APIs, webhooks, CRMs, WhatsApp/messaging platforms and databases. Configuring prompts and agent logic. Troubleshooting and improving existing workflows. Occasionally writing or modifying small pieces of JavaScript/Python with the help of AI coding tools such as Claude Code. Configure and mantain automations in Go High Level. Working on different client projects across sales, customer service and operations. We provide the architecture, requirements and guidance for each project. Your role is ",
+      "url": "https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555",
+      "postedAt": "2026-09-18T18:47:56.112Z",
+      "raw": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation",
+        "CRM automation"
       ],
-      "url": "https://www.ordsallhealthsurgery.nhs.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "NHS Ordsall Health Surgery clinic Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 58,
+      "ageDays": 31,
+      "score": 55,
       "outreach": {
-        "subject": "NHS Ordsall Health Surgery — quick question about missed calls and no-shows",
-        "body": "Hi NHS Ordsall Health Surgery team,\n\nI work with clinic businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[ESPAÑOL] Looking for an n8n + AI Automation \"",
+        "body": "Hi,\n\nSaw your post: \"[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-5597976304",
-      "source": "OpenStreetMap",
-      "title": "Mayfair Estates — estate agent (Crumpsall Lane, Manchester)",
-      "description": "Business in Manchester. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.mayfairestates.co.uk/. Phone: +44 161 795 6800.",
-      "email": "info@mayfairestates.co.uk",
-      "phone": "+44 161 795 6800",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.mayfairestates.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "estate_agent",
+      "id": "n8n Community-296828",
+      "source": "n8n Community",
+      "title": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
+      "description": "Hi all, I run a small AI consulting and implementation firm. We build AI agents, agentic workflows, RAG systems, and integrations for small and mid-market clients. n8n is core to our delivery stack. I’m looking for a developer (or a couple) to bring in on a contract, per-project basis as work comes up. Recurring projects are likely for the right fit — I’d rather build a steady relationship with someone dependable than start from scratch each time. How the work is structured: You build and fully test workflows in a sandbox/staging environment I provide — using test accounts, sandbox API keys, and synthetic data. You hand off the finished workflow as version-controlled, documented JSON. I handle production credentials and the final connection to live client systems on my side. This keeps client data tightly controlled and keeps the engagement clean and well-scoped for both of us. What the work looks like: Building n8n workflows and integrations against a variety of APIs (LLM APIs, Twilio/SMS, voice AI platforms, CRMs, webhooks, vector databases) Designing flows that are maintainable and well-documented — not held together with duct tape Building in solid error handling, retries, and ",
+      "url": "https://community.n8n.io/t/seeking-a-reliable-n8n-developer-for-ongoing-project-based-work-build-maintain/296828",
+      "postedAt": "2026-05-26T16:56:08.745Z",
+      "raw": "Seeking a reliable n8n developer for ongoing project-based work (build + maintain)",
       "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.mayfairestates.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Mayfair Estates estate_agent Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 58,
+      "ageDays": 146,
+      "score": 55,
       "outreach": {
-        "subject": "Mayfair Estates — quick question about manual work that eats the week",
-        "body": "Hi Mayfair Estates team,\n\nI work with estate_agent businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking a reliable n8n developer for ongoing \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking a reliable n8n developer for ongoing project-based work (build + maintain)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-6262313796",
-      "source": "OpenStreetMap",
-      "title": "Urban Village Medical Practice — doctors (Old Mill Street, Manchester)",
-      "description": "Business in Manchester. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://uvmp.co.uk/. Phone: +441612725656.",
-      "email": "nmccg.uvmp@nhs.net",
-      "phone": "+441612725656",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://uvmp.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "doctors",
+      "id": "n8n Community-319256",
+      "source": "n8n Community",
+      "title": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
+      "description": "Hi everyone, I’m looking for an experienced n8n specialist to review and stress-test several AI agents I’ve already built before I demonstrate them to paying clients. Stack includes n8n, Vapi, Twilio, ElevenLabs, OpenAI/Claude and APIs/webhooks . I’m looking for someone who can review existing workflows, identify bugs/failure points, test edge cases and error handling, check integrations and AI behaviour, and recommend/fix anything that isn’t client-ready. I’m not looking for the agents to be rebuilt from scratch. I’d like to start with one agent as a paid trial , with ongoing work available if we’re a good fit. If interested, please DM me with: Your location/time zone Your rate Relevant n8n/AI experience Any Vapi/Twilio/ElevenLabs experience Examples of similar work Thanks",
+      "url": "https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256",
+      "postedAt": "2026-10-06T21:10:54.225Z",
+      "raw": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://uvmp.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Urban Village Medical Practice doctors Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 58,
+      "ageDays": 13,
+      "score": 54,
       "outreach": {
-        "subject": "Urban Village Medical Practice — quick question about missed calls and no-shows",
-        "body": "Hi Urban Village Medical Practice team,\n\nI work with doctors businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / AI Automation Specialist – \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-6470899677",
-      "source": "OpenStreetMap",
-      "title": "We Let Properties — estate agent (Duke Street, Manchester)",
-      "description": "Business in Manchester. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: http://www.weletproperties.co.uk. Phone: +44 161 839 2372.",
-      "email": "info@weletproperties.co.uk",
-      "phone": "+44 161 839 2372",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.weletproperties.co.uk",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "estate_agent",
+      "id": "Make.com Community-117567",
+      "source": "Make.com Community",
+      "title": "Need Make.com Expert to Debug & Launch Existing Outreach Automation",
+      "description": "Absolutely. Since you’re posting under Hire a Pro → Hire Help , I’d make it clear that you want someone to debug and finish an existing Make build , not rebuild everything from scratch. Title: Need Make.com Expert to Debug &amp; Launch Existing Outreach Automation Post body: Hi everyone, I’m looking for an experienced Make.com professional to help me diagnose and finish an existing automation for my staffing company. The system is already largely built and includes: Apify / Indeed job sourcing Apollo contact search and enrichment AI-based decision-maker ranking HubSpot company/contact handling Gmail draft creation Manual approval before sending A separate outreach sending scenario Day 4 and Day 9 follow-ups Reply, bounce, opt-out, and manual-review handling Duplicate-send protection using deterministic action keys Pending-before-send protection and failure handling Make Data Stores for outreach status and action history The main issue is with the dedicated Maverick Outreach Sending scenario. The scenario currently validates successfully with no blocking errors, but Run Once ends before the first module executes . I also cloned the scenario into a separate runtime-test copy, and the",
+      "url": "https://community.make.com/t/need-make-com-expert-to-debug-launch-existing-outreach-automation/117567",
+      "postedAt": "2026-10-19T06:31:23.425Z",
+      "raw": "Need Make.com Expert to Debug & Launch Existing Outreach Automation",
       "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation",
+        "Data & scraping"
       ],
-      "url": "http://www.weletproperties.co.uk",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "We Let Properties estate_agent Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "We Let Properties — quick question about manual work that eats the week",
-        "body": "Hi We Let Properties team,\n\nI work with estate_agent businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-10757992706",
-      "source": "OpenStreetMap",
-      "title": "Scorah — estate agent (Wilmslow Road)",
-      "description": "Business in Manchester. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.scorahproperty.co.uk/. Phone: +44 161 560 1583.",
-      "email": "manchester@scorahproperty.co.uk",
-      "phone": "+44 161 560 1583",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.scorahproperty.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.scorahproperty.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Scorah estate_agent Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Scorah — quick question about manual work that eats the week",
-        "body": "Hi Scorah team,\n\nI work with estate_agent businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-10947639754",
-      "source": "OpenStreetMap",
-      "title": "Flux Sports Therapy — clinic (Barlow Moor Road, Manchester)",
-      "description": "Business in Manchester. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://fluxsportstherapy.co.uk/. Phone: +44 7555 094432.",
-      "email": "admin@fluxsportstherapy.co.uk",
-      "phone": "+44 7555 094432",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://fluxsportstherapy.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://fluxsportstherapy.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Flux Sports Therapy clinic Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Flux Sports Therapy — quick question about missed calls and no-shows",
-        "body": "Hi Flux Sports Therapy team,\n\nI work with clinic businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/447555094432?text=Hello%20Flux%20Sports%20Therapy%2C%0A%0AI%20help%20businesses%20in%20Manchester%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11564919388",
-      "source": "OpenStreetMap",
-      "title": "Ultima Vitality — clinic (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://ultimavitality.co.uk/. Phone: +44 161 434 7373.",
-      "email": "info@ultimavitality.co.uk",
-      "phone": "+44 161 434 7373",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://ultimavitality.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://ultimavitality.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Ultima Vitality clinic Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Ultima Vitality — quick question about missed calls and no-shows",
-        "body": "Hi Ultima Vitality team,\n\nI work with clinic businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-11564919391",
-      "source": "OpenStreetMap",
-      "title": "Didsbury Jewellers — jewelry (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://didsbury-jewellers.uk/. Phone: +44 161 434 2225.",
-      "email": "info@didsbury-jewellers.uk",
-      "phone": "+44 161 434 2225",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://didsbury-jewellers.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://didsbury-jewellers.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Didsbury Jewellers jewelry Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Didsbury Jewellers — quick question about manual work that eats the week",
-        "body": "Hi Didsbury Jewellers team,\n\nI work with jewelry businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-11608828013",
-      "source": "OpenStreetMap",
-      "title": "Victoria Clinic — dentist (Corporation Street, Manchester)",
-      "description": "Business in Manchester. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://victoriaclinic.uk/. Phone: +44161 832 4153.",
-      "email": "info@victoriaclinic.uk",
-      "phone": "+44161 832 4153",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://victoriaclinic.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://victoriaclinic.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Victoria Clinic dentist Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Victoria Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Victoria Clinic team,\n\nI work with dentist businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-11731629921",
-      "source": "OpenStreetMap",
-      "title": "Woodlands Medical Practice — doctors",
-      "description": "Business in Manchester. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.thewoodlandsmedicalpractice.nhs.uk/. Phone: +44 1619 621332.",
-      "email": "gmicb-mh.woodlands@nhs.net",
-      "phone": "+44 1619 621332",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.thewoodlandsmedicalpractice.nhs.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.thewoodlandsmedicalpractice.nhs.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Woodlands Medical Practice doctors Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Woodlands Medical Practice — quick question about missed calls and no-shows",
-        "body": "Hi Woodlands Medical Practice team,\n\nI work with doctors businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-12646586490",
-      "source": "OpenStreetMap",
-      "title": "Kidz Matter Failsworth — childcare (Oldham Road, Manchester)",
-      "description": "Business in Manchester. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.kidzmatter.co.uk/. Phone: +44161 682 6825.",
-      "email": "info@kidzmatter.co.uk",
-      "phone": "+44161 682 6825",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.kidzmatter.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.kidzmatter.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Kidz Matter Failsworth childcare Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Kidz Matter Failsworth — quick question about manual work that eats the week",
-        "body": "Hi Kidz Matter Failsworth team,\n\nI work with childcare businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13308744196",
-      "source": "OpenStreetMap",
-      "title": "The Dental Article — dentist (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://thedentalarticle.co.uk/. Phone: +44 161 560 8121.",
-      "email": "hello@thedentalarticle.co.uk",
-      "phone": "+44 161 560 8121",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://thedentalarticle.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://thedentalarticle.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "The Dental Article dentist Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "The Dental Article — quick question about missed calls and no-shows",
-        "body": "Hi The Dental Article team,\n\nI work with dentist businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13426849474",
-      "source": "OpenStreetMap",
-      "title": "Gascoigne Halman — estate agent (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.gascoignehalman.co.uk/didsbury.html. Phone: +441614457474.",
-      "email": "didsbury@gascoignehalman.co.uk",
-      "phone": "+441614457474",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.gascoignehalman.co.uk/didsbury.html",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.gascoignehalman.co.uk/didsbury.html",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Gascoigne Halman estate_agent Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Gascoigne Halman — quick question about manual work that eats the week",
-        "body": "Hi Gascoigne Halman team,\n\nI work with estate_agent businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-13426858363",
-      "source": "OpenStreetMap",
-      "title": "Jordan Fishwick — estate agent (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://jordanfishwick.co.uk/branches/estate-agents-in-didsbury/. Phone: +44 161 434 5290.",
-      "email": "didsbury@jordanfishwick.co.uk",
-      "phone": "+44 161 434 5290",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://jordanfishwick.co.uk/branches/estate-agents-in-didsbury/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://jordanfishwick.co.uk/branches/estate-agents-in-didsbury/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Jordan Fishwick estate_agent Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Jordan Fishwick — quick question about manual work that eats the week",
-        "body": "Hi Jordan Fishwick team,\n\nI work with estate_agent businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-14105302901",
-      "source": "OpenStreetMap",
-      "title": "mydentist — dentist (Heaton Moor Road)",
-      "description": "Business in Manchester. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.mydentist.co.uk/dentists/practices/heaton-moor-road-stockport?pid=20388. Phone: +44 161 432 7400.",
-      "email": "stockport-rec@mydentist.co.uk",
-      "phone": "+44 161 432 7400",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.mydentist.co.uk/dentists/practices/heaton-moor-road-stockport?pid=20388",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.mydentist.co.uk/dentists/practices/heaton-moor-road-stockport?pid=20388",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "mydentist dentist Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "mydentist — quick question about missed calls and no-shows",
-        "body": "Hi mydentist team,\n\nI work with dentist businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-way-136843994",
-      "source": "OpenStreetMap",
-      "title": "Implant Centres of Excellence (ICE) Hospital — dentist (Furness Quay, Salford)",
-      "description": "Business in Manchester. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://icedentalimplants.co.uk/. Phone: +44 161 413 8330.",
-      "email": "reception@icedental.institute",
-      "phone": "+44 161 413 8330",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://icedentalimplants.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://icedentalimplants.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Implant Centres of Excellence (ICE) Hospital dentist Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Implant Centres of Excellence (ICE) Hospital — quick question about missed calls and no-shows",
-        "body": "Hi Implant Centres of Excellence (ICE) Hospital team,\n\nI work with dentist businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-way-211031153",
-      "source": "OpenStreetMap",
-      "title": "Windsor Dental Practice — dentist",
-      "description": "Business in Manchester. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://rodericksdentalpartners.co.uk/our-practices/windsor-salford-dental-practice. Phone: +44 1617 361397.",
-      "email": "windsorsalford.specialist@rodericksdental.co.uk",
-      "phone": "+44 1617 361397",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://rodericksdentalpartners.co.uk/our-practices/windsor-salford-dental-practice",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://rodericksdentalpartners.co.uk/our-practices/windsor-salford-dental-practice",
-      "postedAt": "2026-10-19T08:10:27.411Z",
-      "raw": "Windsor Dental Practice dentist Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Windsor Dental Practice — quick question about missed calls and no-shows",
-        "body": "Hi Windsor Dental Practice team,\n\nI work with dentist businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-way-496676413",
-      "source": "OpenStreetMap",
-      "title": "Bellissima — beauty (Marsland Road, Sale)",
-      "description": "Business in Manchester. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://www.bellissimabeautysalon.co.uk/. Phone: +44 161 976 4500.",
-      "email": "nfo@bellissimabeautysalon.co.uk",
-      "phone": "+44 161 976 4500",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.bellissimabeautysalon.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "http://www.bellissimabeautysalon.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.411Z",
-      "raw": "Bellissima beauty Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Bellissima — quick question about bookings and rebookings going cold",
-        "body": "Hi Bellissima team,\n\nI work with beauty businesses in Manchester on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-way-1444377608",
-      "source": "OpenStreetMap",
-      "title": "The Car Hive — car (Wellington Road North, Stockport)",
-      "description": "Business in Manchester. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://thecarhive.co.uk/. Phone: +447556556665.",
-      "email": "sales@thecarhive.co.uk",
-      "phone": "+447556556665",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://thecarhive.co.uk/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://thecarhive.co.uk/",
-      "postedAt": "2026-10-19T08:10:27.411Z",
-      "raw": "The Car Hive car Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "The Car Hive — quick question about manual work that eats the week",
-        "body": "Hi The Car Hive team,\n\nI work with car businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/447556556665?text=Hello%20The%20Car%20Hive%2C%0A%0AI%20help%20businesses%20in%20Manchester%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-6204706596",
-      "source": "OpenStreetMap",
-      "title": "QBE Business Insurance — insurance (Brown Street, Manchester)",
-      "description": "Business in Manchester. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: n/a. Phone: +44 161 838 7300.",
-      "email": "manchester@uk.qbe.com",
-      "phone": "+44 161 838 7300",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://www.openstreetmap.org/node/6204706596",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "QBE Business Insurance insurance Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -955,1452 +300,524 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "QBE Business Insurance — quick question about enquiry follow-up that never happens",
-        "body": "Hi QBE Business Insurance team,\n\nI work with insurance businesses in Manchester on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Need Make.com Expert to Debug & Launch Existi\"",
+        "body": "Hi,\n\nSaw your post: \"Need Make.com Expert to Debug & Launch Existing Outreach Automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-10045308198",
-      "source": "OpenStreetMap",
-      "title": "Woodcock Law & Notary Public — lawyer (Hardman Square, Manchester)",
-      "description": "Business in Manchester. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://woodcocknotarypublic.com/. Phone: +44 161 932 1450.",
-      "email": "info@woodcocknotarypublic.com",
-      "phone": "+44 161 932 1450",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://woodcocknotarypublic.com/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "lawyer",
+      "id": "n8n Community-321244",
+      "source": "n8n Community",
+      "title": "Looking for Founding n8n Automation Creators | Osmium",
+      "description": "Hey n8n builders! we’re Osmium , a newly launched marketplace for reusable software capabilities, AI systems, APIs, and automation tools. We’re inviting 20 independent developers and automation creators to join our founding vendor cohort. Who we’re looking for: n8n builders with original, reusable automation solutions AI agent and workflow developers API and backend integration creators Independent developers with working software they’d like to monetize What we’re offering: An additional channel to sell your existing work Freedom to set your own prices Ownership of your original software Personal onboarding assistance Opportunities to showcase available testing evidence This is an independent vendor opportunity, not salaried employment . Earnings depend on actual sales, and we cannot guarantee customers. If you’ve built something reusable, we’d love to explore bringing it to Osmium. Interested? Email: heythere@osmiumcodes.com Subject: Osmium Founding Vendor Tell us what you’ve built and share a demo or portfolio if available. Looking forward to meeting some brilliant builders!",
+      "url": "https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244",
+      "postedAt": "2026-10-14T07:03:57.126Z",
+      "raw": "Looking for Founding n8n Automation Creators | Osmium",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://woodcocknotarypublic.com/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Woodcock Law & Notary Public lawyer Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 5,
+      "score": 51,
       "outreach": {
-        "subject": "Woodcock Law & Notary Public — quick question about enquiry follow-up that never happens",
-        "body": "Hi Woodcock Law & Notary Public team,\n\nI work with lawyer businesses in Manchester on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for Founding n8n Automation Creators \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for Founding n8n Automation Creators | Osmium\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-11382085184",
-      "source": "OpenStreetMap",
-      "title": "Evie's Retreat — beauty (Lapwing Lane, Manchester)",
-      "description": "Business in Manchester. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +44 161 434 4400.",
-      "email": "evie@eviesretreat.com",
-      "phone": "+44 161 434 4400",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "beauty",
+      "id": "n8n Community-322466",
+      "source": "n8n Community",
+      "title": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
+      "description": "Hi, I’m looking for someone to do EVERYTHING for me. I don’t know anything about n8n. I need you to get everything set up and working automatically. What I want in the end: I just upload a video to a Google Drive folder and it publishes automatically on my Instagram / Facebook / YouTube accounts. What I need you to do (complete setup): Create the complete n8n workflow from scratch Set up the Google Drive trigger to monitor my folder Connect it to a Google Sheet where my captions are (file name = row) Configure publishing using the official Instagram, Facebook Page, and YouTube APIs Get it ready to scale to 100+ accounts by reading tokens from the Sheet Set up all connections, error handling, and Telegram notifications Deliver it tested and working. I just want to upload videos. What I provide: Drive access The Sheet Access to my n8n / Meta and Google developer accounts (you tell me what to create) I don’t want a template, I want you to set it up and explain it to me in a 5-minute video on how to use it. This first job is a test for $20 for 1-3 accounts. If you do it well, I’ll pay you for the full scale to 300 accounts. If you can do the complete setup ready to use, message me on D",
+      "url": "https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466",
+      "postedAt": "2026-10-18T22:16:03.272Z",
+      "raw": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/11382085184",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Evie's Retreat beauty Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 20,
+      "ageDays": 1,
+      "score": 50,
       "outreach": {
-        "subject": "Evie's Retreat — quick question about bookings and rebookings going cold",
-        "body": "Hi Evie's Retreat team,\n\nI work with beauty businesses in Manchester on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "*Título en español:* Necesito Setup Completo en n8n: Dr — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $20 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-13326048560",
-      "source": "OpenStreetMap",
-      "title": "Sudlows — it (Hollinwood Avenue, Oldham)",
-      "description": "Business in Manchester. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.sudlows.com/. Phone: +44800 783 5697.",
-      "email": "hello@sudlows.com",
-      "phone": "+44800 783 5697",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.sudlows.com/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "it",
+      "id": "n8n Community-317073",
+      "source": "n8n Community",
+      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
+      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
+      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
+      "postedAt": "2026-09-28T05:23:36.357Z",
+      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
       "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.sudlows.com/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Sudlows it Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 21,
+      "score": 46,
       "outreach": {
-        "subject": "Sudlows — quick question about manual work that eats the week",
-        "body": "Hi Sudlows team,\n\nI work with it businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-13390296097",
-      "source": "OpenStreetMap",
-      "title": "爱可飞书法教室 — language school (Kylemore Way, Manchester)",
-      "description": "Business in Manchester. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: n/a. Phone: +44 7857 600009.",
-      "email": "ngskiang@hotmail.com",
-      "phone": "+44 7857 600009",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "language_school",
+      "id": "n8n Community-318516",
+      "source": "n8n Community",
+      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
+      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
+      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
+      "postedAt": "2026-10-03T13:30:09.564Z",
+      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
       "services": [
-        "Enrolment automation",
-        "lead nurturing"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/13390296097",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "爱可飞书法教室 language_school Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Enrolment automation",
-        "lead nurturing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 16,
+      "score": 46,
       "outreach": {
-        "subject": "爱可飞书法教室 — quick question about manual work that eats the week",
-        "body": "Hi 爱可飞书法教室 team,\n\nI work with language_school businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/447857600009?text=Hello%20%E7%88%B1%E5%8F%AF%E9%A3%9E%E4%B9%A6%E6%B3%95%E6%95%99%E5%AE%A4%2C%0A%0AI%20help%20businesses%20in%20Manchester%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-13426885504",
-      "source": "OpenStreetMap",
-      "title": "Dr Yusra Clinic — doctors (Wilmslow Road, Manchester)",
-      "description": "Business in Manchester. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://dryusra.com/. Phone: +44 333 224 4666.",
-      "email": "info@dryusra.com",
-      "phone": "+44 333 224 4666",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://dryusra.com/",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://dryusra.com/",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Dr Yusra Clinic doctors Manchester",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr Yusra Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Dr Yusra Clinic team,\n\nI work with doctors businesses in Manchester on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
+        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-14237631811",
-      "source": "OpenStreetMap",
-      "title": "Blackmont Legal — lawyer (Balloon Street, Manchester)",
-      "description": "Business in Manchester. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://blackmontlegal.com. Phone: +44 333 305 9957.",
-      "email": "info@blackmontlegal.com",
-      "phone": "+44 333 305 9957",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://blackmontlegal.com",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "lawyer",
+      "id": "n8n Community-200092",
+      "source": "n8n Community",
+      "title": "Hiring n8n experts for ongoing collaboration - remote",
+      "description": "I’m working with a small group of AI engineers on high-impact multi-agent and automation projects. This post is an open door for ongoing collaborations with sharp, execution-driven builders. What I’m Looking For Workflow automations and AI agents : n8n, Airtable, custom Python flows Business growth systems: small-business operations, M&amp;A, or data-driven marketing (Bonus) Experience with funnels, ads, or growth ops What You Should Bring Can ship fast MVPs that actually run Writes clean, logical workflows Communicates clearly, works async, delivers on time How to Apply Share one project you’ve built Tell me what you’re best at, agents, workflows, APIs, etc. This is always open, I’m building a circle of reliable, fast, and clear automation pros. If that’s you, let’s test a build.",
+      "url": "https://community.n8n.io/t/hiring-n8n-experts-for-ongoing-collaboration-remote/200092",
+      "postedAt": "2025-10-06T01:53:59.293Z",
+      "raw": "Hiring n8n experts for ongoing collaboration - remote",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://blackmontlegal.com",
-      "postedAt": "2026-10-19T08:10:27.410Z",
-      "raw": "Blackmont Legal lawyer Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 379,
+      "score": 43,
       "outreach": {
-        "subject": "Blackmont Legal — quick question about enquiry follow-up that never happens",
-        "body": "Hi Blackmont Legal team,\n\nI work with lawyer businesses in Manchester on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring n8n experts for ongoing collaboration \"",
+        "body": "Hi,\n\nSaw your post: \"Hiring n8n experts for ongoing collaboration - remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-256274594",
-      "source": "OpenStreetMap",
-      "title": "Kidz Corner Childcare — childcare (Oldfield Road, Salford)",
-      "description": "Business in Manchester. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +44 161 877 1570.",
-      "email": "kidz-corner@outlook.com",
-      "phone": "+44 161 877 1570",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Manchester",
-      "tz": "Europe/London",
-      "category": "childcare",
+      "id": "n8n Community-299853",
+      "source": "n8n Community",
+      "title": "🚀 Hiring: Freelance AI Automation Engineer (Remote)",
+      "description": "I’m looking for an elite AI Automation Engineer / AI Systems Builder to join the team at TargetPatientsMD.com. We are looking for an expert to help design, implement, and manage AI-powered workflows to scale our online lead generation. If you know how to build and optimize systems that turn traffic and scraped data into qualified leads, we want to talk to you. The Non-Negotiables: - Claude Expertise: Minimum 2 years of hands-on experience working specifically with Claude (Anthropic) APIs and prompt engineering. - Lead Gen Mastery: Proven track record of building and running AI systems specifically for online lead generation and outbound outreach. - Perfect Communication: Fluent/excellent spoken and written English. - Time Zone: Must be available to work and communicate during USA EST (New York) business hours. Projects You Will Work On: - Scale our existing outbound engine: Take over our custom-built system that scrapes Google Maps data, generates lead spreadsheets for our cold callers, and sends automated emails via Instantly. Our IPs are already warmed up—we just need you to run it at full speed, troubleshoot issues, and improve the workflow. - Build AI lead qualification chatbot",
+      "url": "https://community.n8n.io/t/hiring-freelance-ai-automation-engineer-remote/299853",
+      "postedAt": "2026-06-17T18:33:40.441Z",
+      "raw": "🚀 Hiring: Freelance AI Automation Engineer (Remote)",
       "services": [
-        "Enquiry automation",
-        "parent communication"
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.openstreetmap.org/way/256274594",
-      "postedAt": "2026-10-19T08:10:27.411Z",
-      "raw": "Kidz Corner Childcare childcare Manchester",
-      "_emailLead": true,
       "titleServices": [
-        "Enquiry automation",
-        "parent communication"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 124,
+      "score": 43,
       "outreach": {
-        "subject": "Kidz Corner Childcare — quick question about manual work that eats the week",
-        "body": "Hi Kidz Corner Childcare team,\n\nI work with childcare businesses in Manchester on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"🚀 Hiring: Freelance AI Automation Engineer (\"",
+        "body": "Hi,\n\nSaw your post: \"🚀 Hiring: Freelance AI Automation Engineer (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-475365926",
-      "source": "OpenStreetMap",
-      "title": "Wyse Property — estate agent (Leeson Street Upper)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.wyse.ie/. Phone: +353 1 568 8900.",
-      "email": "info@wyse.ie",
-      "phone": "+353 1 568 8900",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.wyse.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
+      "id": "n8n Community-235497",
+      "source": "n8n Community",
+      "title": "Automation Systems Builder (n8n) – Europe (Remote)",
+      "description": "Hi, We’re looking for a practical n8n builder to help us design and maintain production-grade workflows. This is ongoing work on real systems (not one-off zaps, not experiments). The work You’ll be building and maintaining n8n workflows that: • Integrate APIs (REST, webhooks, OAuth) • Handle pagination, retries, rate limits • Deduplicate safely (idempotency matters) • Send alerts only when something *actually* fails • Are readable and maintainable over time There’s room to help shape the logic, not just wire nodes. What we’re looking for You’re likely a good fit if: • You’ve built real workflows in n8n, not just demos • You’re comfortable inspecting execution data • You think about edge cases and failure modes • You’re happy working async • You’re based in Europe (time-zone overlap) No degrees, no corporate titles required. Nice to have (not required) • Stripe, CRMs, internal tools • Function nodes / light JS • Experience maintaining long-running workflows Time &amp; pay • 10–30 hrs / week (flexible) • €25–45 / hour depending on experience • Paid test task (2–3 hrs) • Long-term collaboration if it works well",
+      "url": "https://community.n8n.io/t/automation-systems-builder-n8n-europe-remote/235497",
+      "postedAt": "2025-12-13T13:36:21.745Z",
+      "raw": "Automation Systems Builder (n8n) – Europe (Remote)",
       "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation",
+        "Dashboards & internal tools"
       ],
-      "url": "https://www.wyse.ie/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "Wyse Property estate_agent Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 310,
+      "score": 43,
       "outreach": {
-        "subject": "Wyse Property — quick question about manual work that eats the week",
-        "body": "Hi Wyse Property team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Automation Systems Builder (n8n) – Europe (Re\"",
+        "body": "Hi,\n\nSaw your post: \"Automation Systems Builder (n8n) – Europe (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-564076265",
-      "source": "OpenStreetMap",
-      "title": "SISU Clinic — beauty (Fields Terrace, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://sisuclinic.com/sisu-clinic-ranelagh-dublin/. Phone: n/a.",
-      "email": "info@sisuclinic.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://sisuclinic.com/sisu-clinic-ranelagh-dublin/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
+      "id": "Make.com Community-117579",
+      "source": "Make.com Community",
+      "title": "Beginner in workflow autmations",
+      "description": "What is your goal? Hello everyone! I’m new to Make.com and looking for guidance. I’m interested in learning workflow automation, but I’m finding it difficult to understand the basics on my own. I’d love to connect with other beginners and experienced automation builders who are willing to share advice, recommend beginner-friendly learning resources, or explain how they got started. My goal is to learn step by step and eventually build practical workflows that solve real business problems. If you have any advice for a complete beginner, I’d really appreciate it. Thank you!",
+      "url": "https://community.make.com/t/beginner-in-workflow-autmations/117579",
+      "postedAt": "2026-10-19T06:38:36.738Z",
+      "raw": "Beginner in workflow autmations",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
-      "url": "https://sisuclinic.com/sisu-clinic-ranelagh-dublin/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "SISU Clinic beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
+      "titleServices": [],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
       "ageDays": 0,
-      "score": 54,
+      "score": 42,
       "outreach": {
-        "subject": "SISU Clinic — quick question about bookings and rebookings going cold",
-        "body": "Hi SISU Clinic team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Beginner in workflow autmations\"",
+        "body": "Hi,\n\nSaw your post: \"Beginner in workflow autmations\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-564907484",
-      "source": "OpenStreetMap",
-      "title": "D6 Dental (Connellan & Associates) — dentist (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://d6dental.ie/. Phone: +353 1 496 6246.",
-      "email": "reception@d6dental.ie",
-      "phone": "+353 1 496 6246",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://d6dental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
+      "id": "Make.com Community-113875",
+      "source": "Make.com Community",
+      "title": "Need Make + Airtable expert to finish MCA CRM automation",
+      "description": "I have a mostly built Make.com automation for a business-funding/MCA operation and I’m looking for someone experienced with Make + Airtable + AI document extraction to audit and finish it. Current workflow already handles Gmail intake, Google Drive uploads, AI extraction from funding applications/bank statements, and Airtable writes. I need help finishing the system so it: creates one clean merchant record per business prevents duplicates uses application data as the primary merchant source extracts business name, owner, phone, email, amount requested, monthly revenue, industry, time in business, credit score, funding purpose, existing positions/lenders, business address, EIN, and SSN last 4 extracts bank-statement data separately prevents later documents from overwriting good application data with blanks never confuses broker/ISO/funder contact info with merchant info links documents properly in Airtable/Drive runs automatically with proper error handling Most of the scenario is already built. I’m looking for someone who can inspect and fix what exists rather than unnecessarily rebuild everything from scratch. I’m open to paying for a short audit first, then having the same person",
+      "url": "https://community.make.com/t/need-make-airtable-expert-to-finish-mca-crm-automation/113875",
+      "postedAt": "2026-08-26T07:47:01.264Z",
+      "raw": "Need Make + Airtable expert to finish MCA CRM automation",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation",
+        "CRM automation"
       ],
-      "url": "https://d6dental.ie/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "D6 Dental (Connellan & Associates) dentist Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "CRM automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 54,
+      "score": 39,
       "outreach": {
-        "subject": "D6 Dental (Connellan & Associates) — quick question about missed calls and no-shows",
-        "body": "Hi D6 Dental (Connellan & Associates) team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Need Make + Airtable expert to finish MCA CRM\"",
+        "body": "Hi,\n\nSaw your post: \"Need Make + Airtable expert to finish MCA CRM automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-646871427",
-      "source": "OpenStreetMap",
-      "title": "Giraffe Childcare Harcourt Road — childcare (Charlemont Street, Dublin)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.giraffe.ie/. Phone: +353 1 254 1347.",
-      "email": "info@giraffe.ie",
-      "phone": "+353 1 254 1347",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.giraffe.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
+      "id": "Make.com Community-113873",
+      "source": "Make.com Community",
+      "title": "Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)",
+      "description": "We’re looking for an experienced Airtable + Make.com Automation Systems Specialist for an ongoing, long-term role. Our company runs a significant part of its internal operations through Airtable and Make. We already have an automation specialist managing these systems, and the person we hire will initially work alongside him, learn our infrastructure, help maintain and improve it, and gradually take ownership of important workflows. A major goal for us is redundancy: we do not want critical automation infrastructure to depend on only one person. Because of that, documentation, communication, reliability, and maintainable system design are just as important to us as building new automations. This is not a one-time project . We’re looking for someone who can become a long-term part of our operations. What we need experience with: Strong real-world Airtable experience, including relational database design, linked records, formulas, automations, interfaces, and ideally scripting Strong Make.com experience with multi-step scenarios, routers, filters, iterators, aggregators, webhooks, error handling, retries, and debugging API integrations, HTTP requests, JSON, authentication, and webhoo",
+      "url": "https://community.make.com/t/hiring-long-term-airtable-make-automation-systems-specialist-18-25-hr/113873",
+      "postedAt": "2026-08-26T07:46:52.864Z",
+      "raw": "Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)",
       "services": [
-        "Enquiry automation",
-        "parent communication"
+        "Workflow automation"
       ],
-      "url": "https://www.giraffe.ie/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "Giraffe Childcare Harcourt Road childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
+      "titleServices": [],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 18,
+      "ageDays": 54,
+      "score": 39,
       "outreach": {
-        "subject": "Giraffe Childcare Harcourt Road — quick question about manual work that eats the week",
-        "body": "Hi Giraffe Childcare Harcourt Road team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Hiring: Long-Term Airtable + Make Automation Systems Sp — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"Hiring: Long-Term Airtable + Make Automation Systems Specialist ($18–$25/hr)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $18 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-1423538031",
-      "source": "OpenStreetMap",
-      "title": "Phoenix Dental — dentist (Ashtown Road)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://phoenixdental.ie/. Phone: +353 1 866 4080.",
-      "email": "hello@phoenixdental.ie",
-      "phone": "+353 1 866 4080",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://phoenixdental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
+      "id": "n8n Community-312281",
+      "source": "n8n Community",
+      "title": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
+      "description": "I’m Rami. I’m evaluating developers for a focused quote-preparation prototype for electrical parts distributors. This is the scoping and quotation stage. Development has not been commissioned yet. The scope: • Read customer quotation requests from one agreed format, initially a text-based PDF. • Extract product codes, descriptions, quantities and units. • Match items against a supplied catalogue and approved price list. • Flag uncertain matches for human review. • Export an Excel quotation draft. Prices must come from the approved data. Product substitutions require human approval. ERP integration, automatic email sending and a full dashboard are outside this phase. I’m looking for relevant experience with n8n, document extraction and Excel/CSV processing. Send a proposal covering: One relevant project you personally delivered, with a demo if available. Your proposed approach. Estimated fixed price and delivery time, with assumptions and exclusions. Ongoing software costs. Source code, workflow files and handover documentation included. The final scope and price will be agreed after reviewing sample files. Any engagement will begin with a separately agreed paid test and clear deliv",
+      "url": "https://community.n8n.io/t/seeking-estimates-n8n-developer-for-a-small-rfq-to-quote-prototype/312281",
+      "postedAt": "2026-09-10T00:05:41.994Z",
+      "raw": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation",
+        "Dashboards & internal tools"
       ],
-      "url": "https://phoenixdental.ie/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "Phoenix Dental dentist Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 40,
+      "score": 39,
       "outreach": {
-        "subject": "Phoenix Dental — quick question about missed calls and no-shows",
-        "body": "Hi Phoenix Dental team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
+        "body": "Hi,\n\nSaw your post: \"Seeking estimates: n8n developer for a small RFQ-to-quote prototype\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-1609324726",
-      "source": "OpenStreetMap",
-      "title": "Kobash Jewellers & Goldsmith — jewelry (Main Street, Blackrock)",
-      "description": "Business in Dublin. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: http://www.kobash.ie/. Phone: +353 1 559 2034.",
-      "email": "info@kobash.ie",
-      "phone": "+353 1 559 2034",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.kobash.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "jewelry",
+      "id": "n8n Community-322016",
+      "source": "n8n Community",
+      "title": "N8n + MirrorFly Developer for Video Conferencing Automation",
+      "description": "Hi everyone, I’m looking for an experienced automation developer who can help me build a video conferencing automation system using n8n + MirrorFly + API integrations. This is a paid freelance project with clear requirements and a defined scope. I’ll keep this as concise and technical as possible so you know exactly what’s involved. Project Overview I need to build an automated video conferencing workflow using n8n and MirrorFly that will: Create video meetings automatically based on predefined triggers. Generate meeting details and share them with participants. Schedule meetings using calendar integrations. Send meeting invitations and reminders through email or messaging services. Manage meeting related events through webhooks and APIs. (Optional add-on) Automate meeting recordings and post meeting notifications. All of this needs to run through n8n workflows, with MirrorFly providing the video conferencing capabilities. Core Requirements 1. MirrorFly Video Conferencing Integration Integrate MirrorFly Video Call API and SDK. Create and manage video meetings through supported APIs. Generate or retrieve meeting joining details. Handle meeting events through webhooks or callbacks wh",
+      "url": "https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016",
+      "postedAt": "2026-10-16T20:38:11.146Z",
+      "raw": "N8n + MirrorFly Developer for Video Conferencing Automation",
       "services": [
-        "Clienteling automation",
-        "order follow-up"
+        "Workflow automation"
       ],
-      "url": "http://www.kobash.ie/",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "Kobash Jewellers & Goldsmith jewelry Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 3,
+      "score": 35,
       "outreach": {
-        "subject": "Kobash Jewellers & Goldsmith — quick question about manual work that eats the week",
-        "body": "Hi Kobash Jewellers & Goldsmith team,\n\nI work with jewelry businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n + MirrorFly Developer for Video Conferenc\"",
+        "body": "Hi,\n\nSaw your post: \"N8n + MirrorFly Developer for Video Conferencing Automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-1720549569",
-      "source": "OpenStreetMap",
-      "title": "MSL Service Centre — car (North Circular Road)",
-      "description": "Business in Dublin. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre. Phone: +353 1 869 1350.",
-      "email": "customercareteam@msl.ie",
-      "phone": "+353 1 869 1350",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "car",
+      "id": "n8n Community-321496",
+      "source": "n8n Community",
+      "title": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
+      "description": "Hi, I’m Pony, founder of Weft. I’m looking to connect with n8n implementers who work on SaaS customer-request workflows across support, product and engineering. To be clear: I’m validating the service and have no client build to refer yet. This is an exploratory partner introduction, not an open paid job or a promise of work. Weft’s package covers reviewing one workflow, mapping the current and proposed process, defining owners and required data, and documenting exception paths and acceptance checks. Implementation is separately scoped. The collaboration I’d like to explore is: Weft prepares the process brief; an implementer checks technical feasibility and, if there is a suitable client project, quotes the build separately. Access, APIs, hosting, monitoring and support responsibilities would need agreement before any build. For example, a customer update should depend on confirmed release availability for that account, rather than just a task moving to Done. I want the handover brief to explain that rule and what happens when data is missing or a sync fails. An illustrative sample of the planning deliverable is here: Weft | Sample SaaS workflow improvement blueprint It is not a cl",
+      "url": "https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496",
+      "postedAt": "2026-10-14T19:43:02.445Z",
+      "raw": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
       "services": [
-        "Lead follow-up automation",
-        "CRM integration"
+        "Workflow automation"
       ],
-      "url": "https://www.msl.ie/locations/mercedes-benz/north-dublin-service-centre",
-      "postedAt": "2026-10-19T08:11:49.387Z",
-      "raw": "MSL Service Centre car Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 5,
+      "score": 35,
       "outreach": {
-        "subject": "MSL Service Centre — quick question about manual work that eats the week",
-        "body": "Hi MSL Service Centre team,\n\nI work with car businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Exploring n8n implementation partnerships for\"",
+        "body": "Hi,\n\nSaw your post: \"Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2001070418",
-      "source": "OpenStreetMap",
-      "title": "Blow Hair & Beauty — beauty (Leeson Street Upper, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.blow.ie/. Phone: +353 1 607 0222.",
-      "email": "info@blow.ie",
-      "phone": "+353 1 607 0222",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.blow.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
+      "id": "Make.com Community-116649",
+      "source": "Make.com Community",
+      "title": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
+      "description": "Hi everyone, I run Drochaid AI, a UK agency sourcing AI automation projects for B2B tech companies. We handle 100% of client acquisition, scoping, and account management. Looking for 1–2 reliable Make.com developers for white-label execution (per-project payout or revenue share). If you have a solid portfolio of Make / AI workflows and capacity for extra client deals, send me a DM with 2–3 examples of past builds.",
+      "url": "https://community.make.com/t/looking-for-white-label-make-com-automation-developers-agency-partner/116649",
+      "postedAt": "2026-10-05T08:08:03.941Z",
+      "raw": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
-      "url": "https://www.blow.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Blow Hair & Beauty beauty Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 14,
+      "score": 34,
       "outreach": {
-        "subject": "Blow Hair & Beauty — quick question about bookings and rebookings going cold",
-        "body": "Hi Blow Hair & Beauty team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for White-Label Make.com Automation D\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for White-Label Make.com Automation Developers (Agency Partner)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2531423259",
-      "source": "OpenStreetMap",
-      "title": "Tan n Glo — beauty (Hyde Court, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +353 85 276 404.",
-      "email": "tan-n-glo@hotmail.com",
-      "phone": "+353 85 276 404",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
+      "id": "Make.com Community-115942",
+      "source": "Make.com Community",
+      "title": "WordPress, Make.com & Brevo Integration Expert",
+      "description": "Project Overview We are looking for an experienced WordPress and automation specialist to help us complete the technical setup and integration of our website, Brevo email marketing platform, and existing technology stack. This project involves several interconnected systems, including WordPress, Brevo, Make.com , webhooks, lead-capture forms, and an online portal . Because the setup is relatively complex, we are looking for someone with strong technical expertise who can independently troubleshoot integrations and ensure everything works reliably. Key Responsibilities Set up and configure our new Brevo email marketing platform. Connect Brevo with our existing technology stack using Make.com . Configure and troubleshoot Make.com scenarios, APIs, webhooks, and data flows . Remove our existing Mailchimp integration from the website and related systems. Migrate relevant Mailchimp contacts, lists, campaigns, and other applicable assets to Brevo. The main database has been migrated to Brevo. Integrate Brevo with our WordPress website . Implement and configure lead-capture pop-ups, subscription links, contact forms, and sign-up pages . Test all integrations and data flows to ensure contac",
+      "url": "https://community.make.com/t/wordpress-make-com-brevo-integration-expert/115942",
+      "postedAt": "2026-09-25T18:02:24.026Z",
+      "raw": "WordPress, Make.com & Brevo Integration Expert",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/2531423259",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Tan n Glo beauty Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 24,
+      "score": 31,
       "outreach": {
-        "subject": "Tan n Glo — quick question about bookings and rebookings going cold",
-        "body": "Hi Tan n Glo team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"WordPress, Make.com & Brevo Integration Exper\"",
+        "body": "Hi,\n\nSaw your post: \"WordPress, Make.com & Brevo Integration Expert\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2772635770",
-      "source": "OpenStreetMap",
-      "title": "The Rathgar Medical Practice — doctors (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.rathgarmedicalpractice.ie/. Phone: +353 1 497 7106.",
-      "email": "reception@rathgarmedicalpractice.ie",
-      "phone": "+353 1 497 7106",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rathgarmedicalpractice.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
+      "id": "n8n Community-315672",
+      "source": "n8n Community",
+      "title": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
+      "description": "Hi, I’m building a small automation service and I’m looking for reliable n8n / Make specialists for ongoing project-based work. I’m looking for people who can work on clearly defined fixed-price projects with agreed deadlines. Typical work may include: • n8n / Make automations • CRM integrations • API integrations • AI workflows • Email and form automations • Shopify / e-commerce automations I’m especially interested in specialists who are comfortable working with fixed project prices rather than hourly billing. Payment would be agreed per project or milestone and paid after the corresponding client milestone is approved and funds are released. Please send: 2–3 examples of workflows you have built Your typical fixed price for a small project Your typical fixed price for a medium project How quickly you can usually start I’m looking for long-term cooperation if the first projects go well.",
+      "url": "https://community.n8n.io/t/looking-for-n8n-make-automation-specialist-for-ongoing-fixed-price-projects/315672",
+      "postedAt": "2026-09-22T16:54:24.169Z",
+      "raw": "Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
-      "url": "https://www.rathgarmedicalpractice.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "The Rathgar Medical Practice doctors Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 27,
+      "score": 27,
       "outreach": {
-        "subject": "The Rathgar Medical Practice — quick question about missed calls and no-shows",
-        "body": "Hi The Rathgar Medical Practice team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / Make Automation Specialist \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / Make Automation Specialist for Ongoing Fixed-Price Projects\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2797135297",
-      "source": "OpenStreetMap",
-      "title": "Sherry FitzGerald — estate agent (Rathmines Road Lower, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.sherryfitz.ie/branch/rathmines. Phone: +353 1 496 6066.",
-      "email": "rathmines@sherryfitz.ie",
-      "phone": "+353 1 496 6066",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.sherryfitz.ie/branch/rathmines",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
+      "id": "n8n Community-314417",
+      "source": "n8n Community",
+      "title": "N8n Freelancer needed for workflow",
+      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
+      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
+      "postedAt": "2026-09-18T03:45:18.563Z",
+      "raw": "N8n Freelancer needed for workflow",
       "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
-      "url": "https://www.sherryfitz.ie/branch/rathmines",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Sherry FitzGerald estate_agent Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 32,
+      "score": 27,
       "outreach": {
-        "subject": "Sherry FitzGerald — quick question about manual work that eats the week",
-        "body": "Hi Sherry FitzGerald team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
+        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2886074909",
-      "source": "OpenStreetMap",
-      "title": "Rathgar Dental Clinic — dentist (Rathgar Road, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.rathgardentist.ie/. Phone: +353 1 496 9596.",
-      "email": "info@rathgardentist.ie",
-      "phone": "+353 87 271 7797",
-      "mobileNumber": "+353 87 271 7797",
-      "hasMobile": true,
-      "website": "https://www.rathgardentist.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
+      "id": "n8n Community-310860",
+      "source": "n8n Community",
+      "title": "Looking for 3 n8n users with real workflow reliability issues — free pilot audit",
+      "description": "Good morning or good afternoon to everyone in the n8n community. I am looking for three n8n users who have a real-world workflow that seems to be working correctly but still raises doubts or concerns, or simply isn’t doing exactly what you expect. I am working on a small pilot project focused on automation reliability and human oversight, and I want to test it against real-world issues rather than just examples we’ve invented ourselves. I am looking for n8n workflows involving issues such as: the workflow appears green or successful, but the expected outcome never actually happened; an execution completes only partially; a retry might repeat or duplicate an action; data being overwritten or modified incorrectly; uncertainty regarding permissions, credentials, or what actions an automation should be allowed to perform; actions that you believe should require human review or authorization; or cases where it is unclear whether an external action actually completed. For the first three cases we select, I would like to conduct a limited, no-cost pilot audit. The goal is to provide you with a brief report on the findings we can verify, such as: what action was expected to occur; what act",
+      "url": "https://community.n8n.io/t/looking-for-3-n8n-users-with-real-workflow-reliability-issues-free-pilot-audit/310860",
+      "postedAt": "2026-09-02T16:53:24.704Z",
+      "raw": "Looking for 3 n8n users with real workflow reliability issues — free pilot audit",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
-      "url": "https://www.rathgardentist.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Rathgar Dental Clinic dentist Dublin",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 47,
+      "score": 27,
       "outreach": {
-        "subject": "Rathgar Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Rathgar Dental Clinic team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/353872717797?text=Hello%20Rathgar%20Dental%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Dublin%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2886210902",
-      "source": "OpenStreetMap",
-      "title": "Rathmines Dental — dentist (Rathmines Road Lower)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.rathminesdental.ie/. Phone: +353 1 497 6543.",
-      "email": "rathminesdental183@gmail.com",
-      "phone": "+353 1 497 6543",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rathminesdental.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.rathminesdental.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Rathmines Dental dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rathmines Dental — quick question about missed calls and no-shows",
-        "body": "Hi Rathmines Dental team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for 3 n8n users with real workflow re\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for 3 n8n users with real workflow reliability issues — free pilot audit\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2985495379",
-      "source": "OpenStreetMap",
-      "title": "Charltons Solicitors — lawyer (Leeson Street Upper, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://charltons.ie/. Phone: +353 1 230 2881.",
-      "email": "info@charltons.ie",
-      "phone": "+353 1 230 2881",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://charltons.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
+      "id": "Make.com Community-114603",
+      "source": "Make.com Community",
+      "title": "I'm looking for freelancer for one of my project",
+      "description": "I want to create simple make.com work flow, based on keyword, genrate content then publish on wordpress blog, with defined a specific formmat of page &amp; categroy &amp; tags, seo etc…",
+      "url": "https://community.make.com/t/im-looking-for-freelancer-for-one-of-my-project/114603",
+      "postedAt": "2026-09-07T14:39:38.172Z",
+      "raw": "I'm looking for freelancer for one of my project",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
-      "url": "https://charltons.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Charltons Solicitors lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
+      "titleServices": [],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 42,
+      "score": 27,
       "outreach": {
-        "subject": "Charltons Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Charltons Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2986730985",
-      "source": "OpenStreetMap",
-      "title": "Reliance — estate agent (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://reliancepropertyconsultants.ie/. Phone: +353 1 537 7800.",
-      "email": "office@reliancepropertyconsultants.ie",
-      "phone": "+353 1 537 7800",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://reliancepropertyconsultants.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://reliancepropertyconsultants.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Reliance estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Reliance — quick question about manual work that eats the week",
-        "body": "Hi Reliance team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2994960417",
-      "source": "OpenStreetMap",
-      "title": "Brady — doctors (Harrington Street, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://doctorbrady.ie/. Phone: +353 1 475 6300.",
-      "email": "info@doctorbrady.ie",
-      "phone": "+353 1 475 6300",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://doctorbrady.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://doctorbrady.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Brady doctors Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Brady — quick question about missed calls and no-shows",
-        "body": "Hi Brady team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-2995295930",
-      "source": "OpenStreetMap",
-      "title": "Ups a Daisy Childcare — childcare (Somerville Park)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: http://www.upsadaisy.ie. Phone: +353 1 455 0035.",
-      "email": "info@upsadaisy.ie",
-      "phone": "+353 1 455 0035",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.upsadaisy.ie",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "http://www.upsadaisy.ie",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Ups a Daisy Childcare childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ups a Daisy Childcare — quick question about manual work that eats the week",
-        "body": "Hi Ups a Daisy Childcare team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3005887709",
-      "source": "OpenStreetMap",
-      "title": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://dmpc.ie/. Phone: +353 1 4967574.",
-      "email": "info@dmpc.ie",
-      "phone": "+353 1 4967574",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://dmpc.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://dmpc.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Dillon Marshall estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dillon Marshall — quick question about manual work that eats the week",
-        "body": "Hi Dillon Marshall team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3005899377",
-      "source": "OpenStreetMap",
-      "title": "Brian Crowe & Co. Solicitors — lawyer (Harold's Cross Road, Dublin)",
-      "description": "Business in Dublin. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.bcrowe.ie/. Phone: +353 1 4911380.",
-      "email": "info@bcrowe.ie",
-      "phone": "+353 1 4911380",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.bcrowe.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.bcrowe.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Brian Crowe & Co. Solicitors lawyer Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Brian Crowe & Co. Solicitors — quick question about enquiry follow-up that never happens",
-        "body": "Hi Brian Crowe & Co. Solicitors team,\n\nI work with lawyer businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3042075585",
-      "source": "OpenStreetMap",
-      "title": "Blink & Wink — beauty (Dawson Street, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +353 1 662 4772.",
-      "email": "hello@blinkandwink.ie",
-      "phone": "+353 1 662 4772",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/3042075585",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Blink & Wink beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Blink & Wink — quick question about bookings and rebookings going cold",
-        "body": "Hi Blink & Wink team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3042216354",
-      "source": "OpenStreetMap",
-      "title": "New Ireland Assurance Company plc — insurance (Dawson Street, Dublin)",
-      "description": "Business in Dublin. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.newireland.ie/. Phone: +353 1 617 2000.",
-      "email": "info@newireland.ie",
-      "phone": "+353 1 617 2000",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.newireland.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "insurance",
-      "services": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "url": "https://www.newireland.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "New Ireland Assurance Company plc insurance Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "New Ireland Assurance Company plc — quick question about enquiry follow-up that never happens",
-        "body": "Hi New Ireland Assurance Company plc team,\n\nI work with insurance businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3055647958",
-      "source": "OpenStreetMap",
-      "title": "Belgrave Dental Clinic — dentist (Belgrave Square East, Dublin)",
-      "description": "Business in Dublin. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.belgravedentalclinic.ie/. Phone: +353 1 496 7661.",
-      "email": "info@belgravedentalclinic.ie",
-      "phone": "+353 1 496 7661",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.belgravedentalclinic.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "http://www.belgravedentalclinic.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Belgrave Dental Clinic dentist Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Belgrave Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Belgrave Dental Clinic team,\n\nI work with dentist businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3055715816",
-      "source": "OpenStreetMap",
-      "title": "Young's Estate Agents — estate agent (Ranelagh, Dublin)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://youngs.ie/. Phone: +353 1 497 5581.",
-      "email": "info@youngs.ie",
-      "phone": "+353 1 497 5581",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://youngs.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://youngs.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Young's Estate Agents estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Young's Estate Agents — quick question about manual work that eats the week",
-        "body": "Hi Young's Estate Agents team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3106271526",
-      "source": "OpenStreetMap",
-      "title": "Ray Cooke — estate agent (Terenure Road North)",
-      "description": "Business in Dublin. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.raycooke.ie/. Phone: +353 1 687 5800.",
-      "email": "terenure@raycooke.ie",
-      "phone": "+353 1 687 5800",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.raycooke.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.raycooke.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Ray Cooke estate_agent Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ray Cooke — quick question about manual work that eats the week",
-        "body": "Hi Ray Cooke team,\n\nI work with estate_agent businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3106286535",
-      "source": "OpenStreetMap",
-      "title": "Cronin & Company — accountant (Terenure Place)",
-      "description": "Business in Dublin. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: https://www.croninco.ie/. Phone: +353 1 490 1670.",
-      "email": "info@croninco.ie",
-      "phone": "+353 1 490 1670",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.croninco.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "https://www.croninco.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Cronin & Company accountant Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Cronin & Company — quick question about enquiry follow-up that never happens",
-        "body": "Hi Cronin & Company team,\n\nI work with accountant businesses in Dublin on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3124379310",
-      "source": "OpenStreetMap",
-      "title": "Bumbles Creche & Montessori — childcare (Rathmines Road Upper, Dublin)",
-      "description": "Business in Dublin. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: http://www.bumbles.ie/. Phone: +353 1 4911051.",
-      "email": "bumbles@eircom.net",
-      "phone": "+353 1 4911051",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.bumbles.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "http://www.bumbles.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Bumbles Creche & Montessori childcare Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bumbles Creche & Montessori — quick question about manual work that eats the week",
-        "body": "Hi Bumbles Creche & Montessori team,\n\nI work with childcare businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3133935919",
-      "source": "OpenStreetMap",
-      "title": "The Dawson Spa — beauty (Dawson Street)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.thedawson.ie/the-dawnson-spa.html. Phone: +353 1 671 7099.",
-      "email": "spa@thedawson.ie",
-      "phone": "+353 1 671 7099",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.thedawson.ie/the-dawnson-spa.html",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.thedawson.ie/the-dawnson-spa.html",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "The Dawson Spa beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "The Dawson Spa — quick question about bookings and rebookings going cold",
-        "body": "Hi The Dawson Spa team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3136124827",
-      "source": "OpenStreetMap",
-      "title": "Linders Renault Finglas — car (Clearwater Shopping Centre, Dublin)",
-      "description": "Business in Dublin. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.lindersrenault.ie/. Phone: +353 1 8648212.",
-      "email": "finglas@lindersrenault.ie",
-      "phone": "+353 1 8648212",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.lindersrenault.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://www.lindersrenault.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Linders Renault Finglas car Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Linders Renault Finglas — quick question about manual work that eats the week",
-        "body": "Hi Linders Renault Finglas team,\n\nI work with car businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3191509818",
-      "source": "OpenStreetMap",
-      "title": "Mercer's Medical Centre — doctors (Stephen Street Lower, Dublin)",
-      "description": "Business in Dublin. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.mercersmedicalcentre.com/. Phone: +353 1 402 2300.",
-      "email": "gpreception@rcsi.com",
-      "phone": "+353 1 402 2300",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.mercersmedicalcentre.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.mercersmedicalcentre.com/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Mercer's Medical Centre doctors Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Mercer's Medical Centre — quick question about missed calls and no-shows",
-        "body": "Hi Mercer's Medical Centre team,\n\nI work with doctors businesses in Dublin on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3436216532",
-      "source": "OpenStreetMap",
-      "title": "Savvi Beauty Salon — beauty (Swords Road, Dublin)",
-      "description": "Business in Dublin. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.savvibeauty.ie/. Phone: +353 1 8428653.",
-      "email": "info@savvibeauty.ie",
-      "phone": "+353 1 8428653",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.savvibeauty.ie/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.savvibeauty.ie/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Savvi Beauty Salon beauty Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Savvi Beauty Salon — quick question about bookings and rebookings going cold",
-        "body": "Hi Savvi Beauty Salon team,\n\nI work with beauty businesses in Dublin on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3450108625",
-      "source": "OpenStreetMap",
-      "title": "Celtrino — it (Parnell Street, Dublin)",
-      "description": "Business in Dublin. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.celtrino.com/. Phone: +353 1 8739900.",
-      "email": "info@celtrino.com",
-      "phone": "+353 1 8739900",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.celtrino.com/",
-      "city": "Dublin",
-      "tz": "Europe/Dublin",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://www.celtrino.com/",
-      "postedAt": "2026-10-19T08:11:49.388Z",
-      "raw": "Celtrino it Dublin",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Celtrino — quick question about manual work that eats the week",
-        "body": "Hi Celtrino team,\n\nI work with it businesses in Dublin on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"I'm looking for freelancer for one of my proj\"",
+        "body": "Hi,\n\nSaw your post: \"I'm looking for freelancer for one of my project\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
