@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-20T22:03:17.240Z",
+    "text": "*LEAD MACHINE* — 21/10/2026, 02:03:17\n\nScanned 170 · qualified *22*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 22,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-20T15:29:11.007Z",
     "text": "*LEAD MACHINE* — 20/10/2026, 19:29:10\n\nScanned 330 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -789,12 +797,5 @@
     "kind": "new_leads",
     "count": 45,
     "hot": 2
-  },
-  {
-    "at": "2026-09-19T14:03:34.452Z",
-    "text": "*Lead Machine* — 9/19/2026, 2:03:34 PM\n\nScanned 327 · qualified *60*\nListed pipeline: $0\n\nTop lead: Feathair Hair Growth Center — clinic (Jalan Telawi)\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
-    "kind": "new_leads",
-    "count": 60,
-    "hot": 0
   }
 ]

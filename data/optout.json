@@ -338,5 +338,10 @@
     "email": "info@brookerlaw.com",
     "reason": "bounced: spam block",
     "at": "2026-10-18T14:14:07.153Z"
+  },
+  {
+    "email": "info@arizonalawgroup.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-20T22:03:30.559Z"
   }
 ]
