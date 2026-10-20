@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-20T15:29:11.007Z",
+    "text": "*LEAD MACHINE* — 20/10/2026, 19:29:10\n\nScanned 330 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-20T08:03:20.573Z",
     "text": "*LEAD MACHINE* — 20/10/2026, 12:03:20\n\nScanned 250 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -788,12 +796,5 @@
     "kind": "new_leads",
     "count": 60,
     "hot": 0
-  },
-  {
-    "at": "2026-09-19T11:10:02.161Z",
-    "text": "*Lead Machine* — 9/19/2026, 11:10:02 AM\n\nScanned 335 · qualified *60*\nListed pipeline: $0\n\n*HOT — needs your closing:*\n1. [70] Hiring: Automation Developer (n8n, Make.com, GoHighLevel) - full-time, remote fr\n   n8n Community\n   https://community.n8n.io/t/hiring-automation-developer-n8n-make-com-gohighlevel-full-time-remote-from-india-inr-9-6-13-2l/314206\n\nReply \"1\" to log a contact, \"2\" to see all leads.",
-    "kind": "new_leads",
-    "count": 60,
-    "hot": 1
   }
 ]
