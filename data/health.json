@@ -1,6 +1,6 @@
 {
   "sends": [],
   "bounces": [],
-  "resetAt": "now",
-  "note": "Cleared: all recorded bounces belonged to a DIFFERENT system sending from the same Gmail account. engine/bounce.mjs now only counts addresses this engine actually emailed."
+  "resetAt": "2026-10-22T18:54:06.059Z",
+  "note": "Cleared: all recorded bounces belonged to a DIFFERENT system sending from the same Gmail. bounce.mjs now only counts addresses this engine emailed."
 }
