@@ -15,6 +15,7 @@ import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { fetchRecentHeaders } from "./imap.mjs";
 import { recordBounces } from "./health.mjs";
+import { loadLog } from "./followup.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -35,6 +36,11 @@ export async function processBounces({ days = 3 } = {}) {
   const inbox = await fetchRecentHeaders({ days });
   if (!inbox.ok) return { ok: false, reason: inbox.reason };
 
+  // ONLY count bounces for addresses OUR engine emailed. Another system also
+  // sends from this Gmail; its bounces silently paused this engine for 3 weeks.
+  const ours = new Set((await loadLog()).map((e) => (e.email || "").toLowerCase()));
+  try { (await load("data/contacted.json", [])).forEach((c) => ours.add((c.email || "").toLowerCase())); } catch {}
+
   const optout = await load("data/optout.json", []);
   const block = await load("data/domain-block.json", { domains: [] });
   const haveEmail = new Set(optout.map((x) => (x.email || "").toLowerCase()));
@@ -49,6 +55,7 @@ export async function processBounces({ days = 3 } = {}) {
     let addr = "";
     for (const re of FAILED) { const x = blob.match(re); if (x) { addr = x[1].toLowerCase(); break; } }
     if (!addr || haveEmail.has(addr)) continue;
+    if (ours.size && !ours.has(addr)) continue;   // not ours -> ignore
 
     const isSpam = SPAM_BLOCK.test(blob);
     const reason = isSpam ? "bounced: spam block" : "bounced: undeliverable";
@@ -74,5 +81,5 @@ export async function processBounces({ days = 3 } = {}) {
     block.note = "auto-added: hosts that spam-blocked us";
     await save("data/domain-block.json", block);
   }
-  return { ok: true, scanned: inbox.messages.length, suppressed: fresh, newDomains };
+  return { ok: true, scanned: inbox.messages.length, suppressed: fresh, newDomains, oursCount: ours.size };
 }
