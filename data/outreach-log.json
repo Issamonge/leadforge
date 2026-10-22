@@ -6,8 +6,8 @@
     "city": "Johannesburg",
     "service": "Booking automation",
     "sentAt": "2026-09-19T10:20:16.888Z",
-    "lastSentAt": "2026-09-22T17:51:15.943Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:09.489Z",
+    "step": 2
   },
   {
     "email": "admin1@suzukirivonia.co.za",
@@ -16,8 +16,8 @@
     "city": "Johannesburg",
     "service": "Lead follow-up automation",
     "sentAt": "2026-09-19T10:20:18.751Z",
-    "lastSentAt": "2026-09-22T17:51:18.760Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:10.700Z",
+    "step": 2
   },
   {
     "email": "albert@huang.co.za",
@@ -26,8 +26,8 @@
     "city": "Johannesburg",
     "service": "Client intake automation",
     "sentAt": "2026-09-19T10:20:20.484Z",
-    "lastSentAt": "2026-09-22T17:51:21.257Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:11.934Z",
+    "step": 2
   },
   {
     "email": "michael@shainproperties.co.za",
@@ -36,8 +36,8 @@
     "city": "Johannesburg",
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-19T10:20:22.284Z",
-    "lastSentAt": "2026-09-22T17:51:23.072Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:13.241Z",
+    "step": 2
   },
   {
     "email": "change@changesrehab.co.za",
@@ -46,8 +46,8 @@
     "city": "Johannesburg",
     "service": "Patient booking automation",
     "sentAt": "2026-09-19T10:20:24.254Z",
-    "lastSentAt": "2026-09-22T17:51:25.041Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:14.697Z",
+    "step": 2
   },
   {
     "email": "info@lawtonsafrica.com",
@@ -56,8 +56,8 @@
     "city": "Johannesburg",
     "service": "Client intake automation",
     "sentAt": "2026-09-19T10:20:26.067Z",
-    "lastSentAt": "2026-09-22T17:51:26.750Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:15.849Z",
+    "step": 2
   },
   {
     "email": "irma@hashtagnails.co.za",
@@ -66,8 +66,8 @@
     "city": "Johannesburg",
     "service": "Booking automation",
     "sentAt": "2026-09-19T10:20:27.500Z",
-    "lastSentAt": "2026-09-22T17:51:29.104Z",
-    "step": 1
+    "lastSentAt": "2026-10-22T18:58:16.918Z",
+    "step": 2
   },
   {
     "email": "rivoniavillage@sorbet.co.za",
@@ -1347,6 +1347,36 @@
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-25T15:40:31.776Z",
     "lastSentAt": "2026-09-25T15:40:31.776Z",
+    "step": 0
+  },
+  {
+    "email": "comms@farmerline.co",
+    "business": "Farmerline Accra Office — it",
+    "niche": "it",
+    "city": "Accra",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-10-22T18:58:06.089Z",
+    "lastSentAt": "2026-10-22T18:58:06.089Z",
+    "step": 0
+  },
+  {
+    "email": "support@zewnic.com",
+    "business": "Zewnic — electronics (La Bawaleshi Road, Accra)",
+    "niche": "electronics",
+    "city": "Accra",
+    "service": "Lead automation",
+    "sentAt": "2026-10-22T18:58:07.200Z",
+    "lastSentAt": "2026-10-22T18:58:07.200Z",
+    "step": 0
+  },
+  {
+    "email": "christcapgh@yahoo.com",
+    "business": "Christcap Systems — electronics",
+    "niche": "electronics",
+    "city": "Accra",
+    "service": "Lead automation",
+    "sentAt": "2026-10-22T18:58:08.420Z",
+    "lastSentAt": "2026-10-22T18:58:08.420Z",
     "step": 0
   }
 ]

@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-22T18:57:52.471Z",
+    "text": "*LEAD MACHINE* — 22/10/2026, 22:57:52\n\nScanned 264 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-22T18:50:24.699Z",
     "text": "*LEAD MACHINE* — 22/10/2026, 22:50:24\n\nScanned 170 · qualified *18*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -790,13 +798,5 @@
     "count": 60,
     "tapToChat": 0,
     "hot": 0
-  },
-  {
-    "at": "2026-09-21T08:19:02.726Z",
-    "text": "*LEAD MACHINE* — 21/09/2026, 12:19:02\n\nScanned 288 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [68] N8n Developer Needed: AI-Powered Business \n   https://community.n8n.io/t/n8n-developer-needed-ai-powered-business-performance-analyzer/267328\n\n_Open the dashboard for the full list._",
-    "kind": "new_leads",
-    "count": 60,
-    "tapToChat": 0,
-    "hot": 1
   }
 ]

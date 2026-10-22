@@ -2026,5 +2026,65 @@
     "at": "2026-09-25T15:40:31.776Z",
     "business": "RE/MAX du Cartier — estate agent (Avenue Bernard, Montréal)",
     "status": "sent"
+  },
+  {
+    "email": "comms@farmerline.co",
+    "at": "2026-10-22T18:58:06.089Z",
+    "business": "Farmerline Accra Office — it",
+    "status": "sent"
+  },
+  {
+    "email": "support@zewnic.com",
+    "at": "2026-10-22T18:58:07.200Z",
+    "business": "Zewnic — electronics (La Bawaleshi Road, Accra)",
+    "status": "sent"
+  },
+  {
+    "email": "christcapgh@yahoo.com",
+    "at": "2026-10-22T18:58:08.420Z",
+    "business": "Christcap Systems — electronics",
+    "status": "sent"
+  },
+  {
+    "email": "vet@boskruinvet.co.za",
+    "at": "2026-10-22T18:58:09.489Z",
+    "business": "Boskruin Veterinary Clinic — veterinary (Kowie Road)",
+    "status": "followup_2"
+  },
+  {
+    "email": "admin1@suzukirivonia.co.za",
+    "at": "2026-10-22T18:58:10.700Z",
+    "business": "Suzuki Rivonia — car",
+    "status": "followup_2"
+  },
+  {
+    "email": "albert@huang.co.za",
+    "at": "2026-10-22T18:58:11.934Z",
+    "business": "Huang Attorneys Inc — lawyer (Cumberland Road)",
+    "status": "followup_2"
+  },
+  {
+    "email": "michael@shainproperties.co.za",
+    "at": "2026-10-22T18:58:13.241Z",
+    "business": "Shain Properties — estate agent (Boundary Lane, Parkmore)",
+    "status": "followup_2"
+  },
+  {
+    "email": "change@changesrehab.co.za",
+    "at": "2026-10-22T18:58:14.697Z",
+    "business": "Changes Addiction Rehab — clinic (Weltevreden Road)",
+    "status": "followup_2"
+  },
+  {
+    "email": "info@lawtonsafrica.com",
+    "at": "2026-10-22T18:58:15.849Z",
+    "business": "Lawtons Africa — lawyer (West Street, Sandton)",
+    "status": "followup_2"
+  },
+  {
+    "email": "irma@hashtagnails.co.za",
+    "at": "2026-10-22T18:58:16.918Z",
+    "business": "Hashtag Nails — beauty (11th Avenue)",
+    "status": "followup_2"
   }
 ]

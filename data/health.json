@@ -1,5 +1,16 @@
 {
-  "sends": [],
+  "sends": [
+    "2026-10-22T18:58:08.772Z",
+    "2026-10-22T18:58:08.772Z",
+    "2026-10-22T18:58:08.772Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z",
+    "2026-10-22T18:58:17.272Z"
+  ],
   "bounces": [],
   "resetAt": "2026-10-22T18:54:06.059Z",
   "note": "Cleared: all recorded bounces belonged to a DIFFERENT system sending from the same Gmail. bounce.mjs now only counts addresses this engine emailed."
