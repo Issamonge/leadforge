@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T08:04:29.341Z",
+  "generatedAt": "2026-10-22T15:46:32.389Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,25 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 183,
-    "qualified": 34,
-    "pipelineValue": 55,
+    "totalScanned": 283,
+    "qualified": 60,
+    "pipelineValue": 35,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 10,
-      "OpenStreetMap": 13,
+      "OpenStreetMap": 113,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 3,
-    "phoneLeads": 11,
+    "whatsappCapable": 24,
+    "phoneLeads": 54,
     "replies": 0,
     "newSuppressed": 0,
     "bounceRate": 37,
-    "emailLeads": 13,
+    "emailLeads": 54,
     "byNiche": {
       "veterinary": {
         "sent": 6,
@@ -165,83 +165,215 @@
       "waLink": ""
     },
     {
-      "id": "n8n Community-275368",
-      "source": "n8n Community",
-      "title": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
-      "description": "Hey everyone, We’re a recruitment (marketing) company based in the Netherlands. We’re looking for a freelance AI Automation Engineer to help us build and maintain automation systems across our operations. What you’ll be building: Meta Ads ops automation (ad copy, creatives, campaign setup) LinkedIn &amp; Indeed scraper for sales outreach Sales &amp; outbound automation workflows Automated dashboards and reporting pipelines Image &amp; creative design automation Stack: n8n, Make, OpenAI/Claude, Meta Graph API, WhatsApp API, Notion, Lemlist (and we want to be on top of the game in with new stuff) The role is a bit more than just building , you’d also be the product owner of our automation systems. That means triaging bugs, evaluating feature requests from the team and owning the weekly alignment with me (founder). Freelance / project-based. Remote, worldwide. must be fluent in English. Rate negotiable. If you’ve built real workflows with n8n and APIs and want interesting projects, reply here or DM me. Tell me what you’ve built.",
-      "url": "https://community.n8n.io/t/hiring-freelance-agency-ai-automation-engineer-n8n-make-apis-remote/275368",
-      "postedAt": "2026-03-10T10:53:26.006Z",
-      "raw": "📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote",
-      "services": [
-        "Workflow automation",
-        "Data & scraping",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 226,
-      "score": 55,
-      "outreach": {
-        "subject": "Quick idea for \"📣 HIRING: Freelance/Agency AI Automation Eng\"",
-        "body": "Hi,\n\nSaw your post: \"📣 HIRING: Freelance/Agency AI Automation Engineer (n8n / Make / APIs) — Remote\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-314555",
-      "source": "n8n Community",
-      "title": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
-      "description": "Hi everyone, We’re NUBO , a small AI implementation agency building AI agents, automations and integrations for companies in Spain and Latin America. n8n is a core part of our technical stack. We’re looking for an experienced n8n builder to work with us on an ongoing, project-by-project basis as our workload grows. We’re not necessarily looking for a senior software developer, we’re looking for someone who is very comfortable with n8n, AI tools and integrations, and who can take well-defined tasks and build them independently. What the work looks like: Building and maintaining n8n workflows for AI agents and business automations. Integrating LLMs such as OpenAI, Claude and Gemini. Working with APIs, webhooks, CRMs, WhatsApp/messaging platforms and databases. Configuring prompts and agent logic. Troubleshooting and improving existing workflows. Occasionally writing or modifying small pieces of JavaScript/Python with the help of AI coding tools such as Claude Code. Configure and mantain automations in Go High Level. Working on different client projects across sales, customer service and operations. We provide the architecture, requirements and guidance for each project. Your role is ",
-      "url": "https://community.n8n.io/t/espanol-looking-for-an-n8n-ai-automation-builder-for-ongoing-freelance-work/314555",
-      "postedAt": "2026-09-18T18:47:56.112Z",
-      "raw": "[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work",
-      "services": [
-        "AI agents",
-        "Workflow automation",
-        "CRM automation"
-      ],
-      "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 34,
-      "score": 55,
-      "outreach": {
-        "subject": "Quick idea for \"[ESPAÑOL] Looking for an n8n + AI Automation \"",
-        "body": "Hi,\n\nSaw your post: \"[ESPAÑOL] Looking for an n8n + AI Automation Builder for ongoing freelance work\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-3608331210",
+      "id": "osm-node-3157297143",
       "source": "OpenStreetMap",
-      "title": "White Light Services Trading LLC — electronics (MBD South)",
-      "description": "Business in Muscat. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: n/a.",
-      "email": "info@whitelight.om",
-      "phone": "",
+      "title": "Dis Doktoru Cem DUNDAR — dentist (Bağdat Caddesi, istanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://disdoktoru.com/. Phone: +90 216 360 5570.",
+      "email": "cemdundar@disdoktoru.com",
+      "phone": "+90 216 360 5570",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://disdoktoru.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://disdoktoru.com/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Dis Doktoru Cem DUNDAR dentist Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dis Doktoru Cem DUNDAR — quick question about missed calls and no-shows",
+        "body": "Hi Dis Doktoru Cem DUNDAR team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4159807689",
+      "source": "OpenStreetMap",
+      "title": "I Can Advisory — lawyer (Bağdat Caddesi)",
+      "description": "Business in Istanbul. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://icanadvisory.com/. Phone: +90 216 804 20 15.",
+      "email": "ican@icanadvisory.com",
+      "phone": "+90 216 804 20 15",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://icanadvisory.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "https://icanadvisory.com/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "I Can Advisory lawyer Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "I Can Advisory — quick question about enquiry follow-up that never happens",
+        "body": "Hi I Can Advisory team,\n\nI work with lawyer businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4465325493",
+      "source": "OpenStreetMap",
+      "title": "Organic Me — beauty (Yeni Çarşı Caddesi)",
+      "description": "Business in Istanbul. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://www.gatetattoo.com. Phone: +90 212 243 18 07.",
+      "email": "info@gatetattoo.com",
+      "phone": "+90 212 243 18 07",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.gatetattoo.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "http://www.gatetattoo.com",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Organic Me beauty Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Organic Me — quick question about bookings and rebookings going cold",
+        "body": "Hi Organic Me team,\n\nI work with beauty businesses in Istanbul on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4467289589",
+      "source": "OpenStreetMap",
+      "title": "UDC Universaldent — dentist (Teşvikiye Caddesi)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.udc.com.tr/. Phone: +902123434990.",
+      "email": "info@udc.com.tr",
+      "phone": "+902123434990",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.udc.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.udc.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "UDC Universaldent dentist Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "UDC Universaldent — quick question about missed calls and no-shows",
+        "body": "Hi UDC Universaldent team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-4481115191",
+      "source": "OpenStreetMap",
+      "title": "Nalan Rukun Kalıcı Makyaj Stüdyosu — beauty (Reşit Belgesay Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: n/a.",
+      "email": "nalan.rkn@gmail.com",
+      "phone": "+90 544 239 82 70",
+      "mobileNumber": "+90 544 239 82 70",
+      "hasMobile": true,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.openstreetmap.org/node/4481115191",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Nalan Rukun Kalıcı Makyaj Stüdyosu beauty Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nalan Rukun Kalıcı Makyaj Stüdyosu — quick question about bookings and rebookings going cold",
+        "body": "Hi Nalan Rukun Kalıcı Makyaj Stüdyosu team,\n\nI work with beauty businesses in Istanbul on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905442398270?text=Hello%20Nalan%20Rukun%20Kal%C4%B1c%C4%B1%20Makyaj%20St%C3%BCdyosu%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-4485047691",
+      "source": "OpenStreetMap",
+      "title": "ALTUĞ ELEKTRONİK — electronics (Çuhadarağa Sokak)",
+      "description": "Business in Istanbul. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: n/a. Phone: +90 536 321 16 26.",
+      "email": "aaygin@hotmail.com",
+      "phone": "+90 536 321 16 26",
       "mobileNumber": "",
       "hasMobile": false,
       "website": "",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "electronics",
       "services": [
         "Lead automation",
         "inventory reporting"
       ],
-      "url": "https://www.openstreetmap.org/node/3608331210",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "White Light Services Trading LLC electronics Muscat",
+      "url": "https://www.openstreetmap.org/node/4485047691",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "ALTUĞ ELEKTRONİK electronics Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Lead automation",
@@ -253,37 +385,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "White Light Services Trading LLC — quick question about manual work that eats the week",
-        "body": "Hi White Light Services Trading LLC team,\n\nI work with electronics businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "ALTUĞ ELEKTRONİK — quick question about manual work that eats the week",
+        "body": "Hi ALTUĞ ELEKTRONİK team,\n\nI work with electronics businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905363211626?text=Hello%20ALTU%C4%9E%20ELEKTRON%C4%B0K%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-4655195492",
+      "id": "osm-node-4578100188",
       "source": "OpenStreetMap",
-      "title": "Creative Initiative Montessori - CIM — childcare (6303 Way)",
-      "description": "Business in Muscat. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: https://www.cimnursery.com/. Phone: 24595652.",
-      "email": "cimnurseryoman@outlook.com",
-      "phone": "24595652",
+      "title": "English Time — language school (Ali Galip Bey Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: n/a. Phone: n/a.",
+      "email": "gaziosmanpasasube@englishtime.com",
+      "phone": "",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.cimnursery.com/",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "childcare",
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "language_school",
       "services": [
-        "Enquiry automation",
-        "parent communication"
+        "Enrolment automation",
+        "lead nurturing"
       ],
-      "url": "https://www.cimnursery.com/",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "Creative Initiative Montessori - CIM childcare Muscat",
+      "url": "https://www.openstreetmap.org/node/4578100188",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "English Time language_school Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Enquiry automation",
-        "parent communication"
+        "Enrolment automation",
+        "lead nurturing"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -291,37 +423,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Creative Initiative Montessori - CIM — quick question about manual work that eats the week",
-        "body": "Hi Creative Initiative Montessori - CIM team,\n\nI work with childcare businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "English Time — quick question about manual work that eats the week",
+        "body": "Hi English Time team,\n\nI work with language_school businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4724598589",
+      "id": "osm-node-4744577223",
       "source": "OpenStreetMap",
-      "title": "First Chiropractic — clinic",
-      "description": "Business in Muscat. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.firstchiropracticoman.com/. Phone: +968 2447 2274.",
-      "email": "info@firstchiropracticoman.com",
-      "phone": "+968 2447 2274",
+      "title": "Dr I Cem Ozkurt Ortodonti Kliniği — dentist (Ebulula Mardin Caddesi, Istanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.ico-ortodonti.com/. Phone: n/a.",
+      "email": "iletisim@ico-ortodonti.com",
+      "phone": "",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.firstchiropracticoman.com/",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "clinic",
+      "website": "https://www.ico-ortodonti.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
-      "url": "https://www.firstchiropracticoman.com/",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "First Chiropractic clinic Muscat",
+      "url": "https://www.ico-ortodonti.com/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Dr I Cem Ozkurt Ortodonti Kliniği dentist Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -329,33 +461,185 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "First Chiropractic — quick question about missed calls and no-shows",
-        "body": "Hi First Chiropractic team,\n\nI work with clinic businesses in Muscat on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Dr I Cem Ozkurt Ortodonti Kliniği — quick question about missed calls and no-shows",
+        "body": "Hi Dr I Cem Ozkurt Ortodonti Kliniği team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4956958349",
+      "id": "osm-node-4993230921",
       "source": "OpenStreetMap",
-      "title": "S & S Homes — estate agent (E 170 S #301, St George)",
-      "description": "Business in Muscat. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://sshomes.info. Phone: 435-628-1904.",
-      "email": "support@sshomes.info",
-      "phone": "435-628-1904",
+      "title": "Akyol Dijital Ölçüm Cihazları — electronics (Hoca Tahsin Sk.)",
+      "description": "Business in Istanbul. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://www.sanayimalzemeleri.com/. Phone: +90 212 244 21 50.",
+      "email": "bilgi@akyol.net",
+      "phone": "+90 212 244 21 50",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://sshomes.info",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "website": "https://www.sanayimalzemeleri.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "electronics",
+      "services": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "url": "https://www.sanayimalzemeleri.com/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Akyol Dijital Ölçüm Cihazları electronics Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead automation",
+        "inventory reporting"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Akyol Dijital Ölçüm Cihazları — quick question about manual work that eats the week",
+        "body": "Hi Akyol Dijital Ölçüm Cihazları team,\n\nI work with electronics businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5038181321",
+      "source": "OpenStreetMap",
+      "title": "Naature Teknoloji — computer (Çınarlı Sk.)",
+      "description": "Business in Istanbul. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.naature.net/. Phone: +908508408340.",
+      "email": "bilgi@naature.net",
+      "phone": "+908508408340",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.naature.net/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.naature.net/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Naature Teknoloji computer Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Naature Teknoloji — quick question about manual work that eats the week",
+        "body": "Hi Naature Teknoloji team,\n\nI work with computer businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5108838357",
+      "source": "OpenStreetMap",
+      "title": "ORYOX — computer (Cağaloğlu Yokuşu, İstanbul)",
+      "description": "Business in Istanbul. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.oryox.com/. Phone: +90 850 840 0212.",
+      "email": "oryox@oryox.com",
+      "phone": "+90 850 840 0212",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.oryox.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.oryox.com/",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "ORYOX computer Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "ORYOX — quick question about manual work that eats the week",
+        "body": "Hi ORYOX team,\n\nI work with computer businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5122230335",
+      "source": "OpenStreetMap",
+      "title": "Mio Sedia — furniture (Kanarya sk., İstanbul)",
+      "description": "Business in Istanbul. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.miosedia.com. Phone: n/a.",
+      "email": "info@miosedia.com",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.miosedia.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.miosedia.com",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Mio Sedia furniture Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Mio Sedia — quick question about manual work that eats the week",
+        "body": "Hi Mio Sedia team,\n\nI work with furniture businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5305158821",
+      "source": "OpenStreetMap",
+      "title": "Sanya emlak — estate agent (Bâlipaşa Caddesi)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +90 507 185 87 08.",
+      "email": "njammutafa@yahoo.com",
+      "phone": "+90 507 185 87 08",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "estate_agent",
       "services": [
         "Deal pipeline automation",
         "lead enrichment"
       ],
-      "url": "https://sshomes.info",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "S & S Homes estate_agent Muscat",
+      "url": "https://www.openstreetmap.org/node/5305158821",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Sanya emlak estate_agent Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Deal pipeline automation",
@@ -367,37 +651,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "S & S Homes — quick question about manual work that eats the week",
-        "body": "Hi S & S Homes team,\n\nI work with estate_agent businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Sanya emlak — quick question about manual work that eats the week",
+        "body": "Hi Sanya emlak team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905071858708?text=Hello%20Sanya%20emlak%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-4957657677",
+      "id": "osm-node-5570545280",
       "source": "OpenStreetMap",
-      "title": "Al Sider United llc — electronics (Al Baladiya Street)",
-      "description": "Business in Muscat. Category: electronics. Services to pitch: Lead automation, inventory reporting. Website: https://www.alsiderunited.com/. Phone: +96894388266.",
-      "email": "alsiderunited@gmail.com",
-      "phone": "+96894388266",
+      "title": "Baran Emlak — estate agent",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +90 216 450 44 45;+90 535 896 39 02.",
+      "email": "tarkan_tprk@hotmail.com",
+      "phone": "+90 216 450 44 45;+90 535 896 39 02",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.alsiderunited.com/",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "electronics",
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "Lead automation",
-        "inventory reporting"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
-      "url": "https://www.alsiderunited.com/",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "Al Sider United llc electronics Muscat",
+      "url": "https://www.openstreetmap.org/node/5570545280",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Baran Emlak estate_agent Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Lead automation",
-        "inventory reporting"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -405,33 +689,147 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Al Sider United llc — quick question about manual work that eats the week",
-        "body": "Hi Al Sider United llc team,\n\nI work with electronics businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Baran Emlak — quick question about manual work that eats the week",
+        "body": "Hi Baran Emlak team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": true,
-      "waLink": "https://wa.me/96894388266?text=Hello%20Al%20Sider%20United%20llc%2C%0A%0AI%20help%20businesses%20in%20Muscat%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waLink": "https://wa.me/905358963902?text=Hello%20Baran%20Emlak%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-5253915499",
+      "id": "osm-node-5616246953",
       "source": "OpenStreetMap",
-      "title": "Rahima Al Kharusi & Mona Amer Lawyers & Legal Consultancy. — lawyer (Ruwi ST, Muscat)",
-      "description": "Business in Muscat. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: n/a.",
-      "email": "alyaa@rmlaw-firm.com",
+      "title": "Vetmemorial Veterinerlik A. Ş. — veterinary (Adile Naşit Sokak, İstanbul)",
+      "description": "Business in Istanbul. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: http://www.vetmemorial.com.tr. Phone: +90 216 363 1 363.",
+      "email": "info@vetmemorial.com.tr",
+      "phone": "+90 216 363 1 363",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.vetmemorial.com.tr",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "veterinary",
+      "services": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "url": "http://www.vetmemorial.com.tr",
+      "postedAt": "2026-10-22T15:45:47.839Z",
+      "raw": "Vetmemorial Veterinerlik A. Ş. veterinary Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "reminder sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Vetmemorial Veterinerlik A. Ş. — quick question about manual work that eats the week",
+        "body": "Hi Vetmemorial Veterinerlik A. Ş. team,\n\nI work with veterinary businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5667618640",
+      "source": "OpenStreetMap",
+      "title": "Opel — car (Londra Asfaltı, İstanbul)",
+      "description": "Business in Istanbul. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.odakopel.com.tr/. Phone: +90 212 449 1313.",
+      "email": "musteri.iliskileri@opel.com",
+      "phone": "+90 212 449 1313",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.odakopel.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.odakopel.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Opel car Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Opel — quick question about manual work that eats the week",
+        "body": "Hi Opel team,\n\nI work with car businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5687096022",
+      "source": "OpenStreetMap",
+      "title": "Nebim — computer (Yıldız Posta Caddesi)",
+      "description": "Business in Istanbul. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.nebim.com.tr/. Phone: +902122750775.",
+      "email": "info@nebim.com.tr",
+      "phone": "+902122750775",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.nebim.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "computer",
+      "services": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "url": "https://www.nebim.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Nebim computer Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "AI workflow automation",
+        "data pipelines"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nebim — quick question about manual work that eats the week",
+        "body": "Hi Nebim team,\n\nI work with computer businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5694650222",
+      "source": "OpenStreetMap",
+      "title": "ESA Hukuk Burosu — lawyer (Talatpaşa Caddesi)",
+      "description": "Business in Istanbul. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: http://www.esahukuk.com. Phone: n/a.",
+      "email": "info@esahukuk.com",
       "phone": "",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "website": "http://www.esahukuk.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "lawyer",
       "services": [
         "Client intake automation",
         "document extraction"
       ],
-      "url": "https://www.openstreetmap.org/node/5253915499",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "Rahima Al Kharusi & Mona Amer Lawyers & Legal Consultancy. lawyer Muscat",
+      "url": "http://www.esahukuk.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "ESA Hukuk Burosu lawyer Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Client intake automation",
@@ -443,37 +841,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Rahima Al Kharusi & Mona Amer Lawyers & Legal Cons — quick question about enquiry follow-up that never happens",
-        "body": "Hi Rahima Al Kharusi & Mona Amer Lawyers & Legal Cons team,\n\nI work with lawyer businesses in Muscat on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "ESA Hukuk Burosu — quick question about enquiry follow-up that never happens",
+        "body": "Hi ESA Hukuk Burosu team,\n\nI work with lawyer businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-5365879323",
+      "id": "osm-node-5822233281",
       "source": "OpenStreetMap",
-      "title": "مشاريع الانصب الجديدة للتجارة — furniture (سكة 4211)",
-      "description": "Business in Muscat. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: 0096892145240.",
-      "email": "saleemnadir2@gmail.com",
-      "phone": "0096892145240",
+      "title": "Webcad Bilgi ve Enerji Teknolojileri — it",
+      "description": "Business in Istanbul. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://webcad.com.tr. Phone: +90 850 346 66 88.",
+      "email": "info@webcad.com.tr",
+      "phone": "+90 850 346 66 88",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "furniture",
+      "website": "https://webcad.com.tr",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "it",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
-      "url": "https://www.openstreetmap.org/node/5365879323",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "مشاريع الانصب الجديدة للتجارة furniture Muscat",
+      "url": "https://webcad.com.tr",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Webcad Bilgi ve Enerji Teknolojileri it Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -481,37 +879,75 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "مشاريع الانصب الجديدة للتجارة — quick question about manual work that eats the week",
-        "body": "Hi مشاريع الانصب الجديدة للتجارة team,\n\nI work with furniture businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Webcad Bilgi ve Enerji Teknolojileri — quick question about manual work that eats the week",
+        "body": "Hi Webcad Bilgi ve Enerji Teknolojileri team,\n\nI work with it businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-5822646753",
+      "source": "OpenStreetMap",
+      "title": "Op. Dr. Ümit Yaşar Çelemli — doctors (Bağdat Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://www.umitcelemli.com. Phone: +905424167878.",
+      "email": "doktor@umitcelemli.com",
+      "phone": "+905424167878",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "http://www.umitcelemli.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "http://www.umitcelemli.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Op. Dr. Ümit Yaşar Çelemli doctors Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Op. Dr. Ümit Yaşar Çelemli — quick question about missed calls and no-shows",
+        "body": "Hi Op. Dr. Ümit Yaşar Çelemli team,\n\nI work with doctors businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": true,
-      "waLink": "https://wa.me/96892145240?text=Hello%20%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%20%D8%A7%D9%84%D8%A7%D9%86%D8%B5%D8%A8%20%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20%D9%84%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9%2C%0A%0AI%20help%20businesses%20in%20Muscat%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waLink": "https://wa.me/905424167878?text=Hello%20Op.%20Dr.%20%C3%9Cmit%20Ya%C5%9Far%20%C3%87elemli%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-5644335421",
+      "id": "osm-node-5869684085",
       "source": "OpenStreetMap",
-      "title": "Gate wadi bani-Khalid Trad. — furniture (سكة 4211)",
-      "description": "Business in Muscat. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: 95070372.",
-      "email": "gatewadi.banikhalid@gmail.com",
-      "phone": "95070372",
+      "title": "Dr. Ebru OKAN — dentist (Valikonağı Caddesi)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.ebruokan.com. Phone: +902122340561.",
+      "email": "eoklinik@gmail.com",
+      "phone": "+902122340561",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "furniture",
+      "website": "http://www.ebruokan.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
-      "url": "https://www.openstreetmap.org/node/5644335421",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "Gate wadi bani-Khalid Trad. furniture Muscat",
+      "url": "http://www.ebruokan.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Dr. Ebru OKAN dentist Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -519,33 +955,33 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Gate wadi bani-Khalid Trad. — quick question about manual work that eats the week",
-        "body": "Hi Gate wadi bani-Khalid Trad. team,\n\nI work with furniture businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Dr. Ebru OKAN — quick question about missed calls and no-shows",
+        "body": "Hi Dr. Ebru OKAN team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-6002569885",
+      "id": "osm-node-6027426885",
       "source": "OpenStreetMap",
-      "title": "فاطمة الحبسية للمحاماة والاستشارات القانونية — lawyer (سكة 5507)",
-      "description": "Business in Muscat. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.fatemaalhabsi.com/. Phone: 92950248.",
-      "email": "alaafatema123habsi@gmail.com",
-      "phone": "92950248",
+      "title": "Nişancı Hukuk Bürosu — lawyer (Yemenici Abdüllatif Sokak, İstanbul)",
+      "description": "Business in Istanbul. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.nisancihukukburosu.com. Phone: +902122521337.",
+      "email": "bilgi@nisancihukukburosu.com",
+      "phone": "+902122521337",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.fatemaalhabsi.com/",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "website": "https://www.nisancihukukburosu.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "lawyer",
       "services": [
         "Client intake automation",
         "document extraction"
       ],
-      "url": "https://www.fatemaalhabsi.com/",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "فاطمة الحبسية للمحاماة والاستشارات القانونية lawyer Muscat",
+      "url": "https://www.nisancihukukburosu.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Nişancı Hukuk Bürosu lawyer Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Client intake automation",
@@ -557,37 +993,37 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "فاطمة الحبسية للمحاماة والاستشارات القانونية — quick question about enquiry follow-up that never happens",
-        "body": "Hi فاطمة الحبسية للمحاماة والاستشارات القانونية team,\n\nI work with lawyer businesses in Muscat on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Nişancı Hukuk Bürosu — quick question about enquiry follow-up that never happens",
+        "body": "Hi Nişancı Hukuk Bürosu team,\n\nI work with lawyer businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-8633714117",
+      "id": "osm-node-6525160825",
       "source": "OpenStreetMap",
-      "title": "مركز الكوري لطب الأسنان — clinic (شارع المها)",
-      "description": "Business in Muscat. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: 92822456.",
-      "email": "omanhilla@gmail.com",
-      "phone": "92822456",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "clinic",
+      "title": "Ali Emir Körpeoğlu / Onur Çataldaş / Diş Hekimi — dentist (General Asım Gündüz Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.modadishekimi.com. Phone: n/a.",
+      "email": "modadishekimi@gmail.com",
+      "phone": "+905414141020",
+      "mobileNumber": "+905414141020",
+      "hasMobile": true,
+      "website": "https://www.modadishekimi.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
-      "url": "https://www.openstreetmap.org/node/8633714117",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "مركز الكوري لطب الأسنان clinic Muscat",
+      "url": "https://www.modadishekimi.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Ali Emir Körpeoğlu / Onur Çataldaş / Diş Hekimi dentist Istanbul",
       "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
       "isCompetitor": false,
       "isHiring": true,
@@ -595,71 +1031,185 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "مركز الكوري لطب الأسنان — quick question about missed calls and no-shows",
-        "body": "Hi مركز الكوري لطب الأسنان team,\n\nI work with clinic businesses in Muscat on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-9796977525",
-      "source": "OpenStreetMap",
-      "title": "Invocure — clinic",
-      "description": "Business in Muscat. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://invocurehealth.com. Phone: +968 22 850724, +968 95479028.",
-      "email": "info@invocurehealth.com",
-      "phone": "+968 22 850724, +968 95479028",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://invocurehealth.com",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "http://invocurehealth.com",
-      "postedAt": "2026-10-22T08:02:56.626Z",
-      "raw": "Invocure clinic Muscat",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Invocure — quick question about missed calls and no-shows",
-        "body": "Hi Invocure team,\n\nI work with clinic businesses in Muscat on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Ali Emir Körpeoğlu / Onur Çataldaş / Diş Hekimi — quick question about missed calls and no-shows",
+        "body": "Hi Ali Emir Körpeoğlu / Onur Çataldaş / Diş Hekimi team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": true,
-      "waLink": "https://wa.me/96895479028?text=Hello%20Invocure%2C%0A%0AI%20help%20businesses%20in%20Muscat%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waLink": "https://wa.me/905414141020?text=Hello%20Ali%20Emir%20K%C3%B6rpeo%C4%9Flu%20%2F%20Onur%20%C3%87atalda%C5%9F%20%2F%20Di%C5%9F%20Hekimi%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "osm-node-11149744647",
+      "id": "osm-node-7223697085",
       "source": "OpenStreetMap",
-      "title": "Pan Home — furniture",
-      "description": "Business in Muscat. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.panhomestores.com. Phone: +968 800 72636.",
-      "email": "care@panhomestores.com",
-      "phone": "+968 800 72636",
+      "title": "SANYA TURIZM — estate agent (Akşemsettin Mahallesi okumuş adam Sok)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: +90 212 631 87 08.",
+      "email": "sanyaistanbul@gmail.com",
+      "phone": "+90 212 631 87 08",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.panhomestores.com",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.openstreetmap.org/node/7223697085",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "SANYA TURIZM estate_agent Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "SANYA TURIZM — quick question about manual work that eats the week",
+        "body": "Hi SANYA TURIZM team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-7569391793",
+      "source": "OpenStreetMap",
+      "title": "Medis Estetik ve Güzellik Merkezi — beauty (Halaskargazi Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.medisestetik.com/. Phone: +90 212 288 11 11.",
+      "email": "info@medisestetik.com",
+      "phone": "+90 212 288 11 11",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.medisestetik.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://www.medisestetik.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Medis Estetik ve Güzellik Merkezi beauty Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Medis Estetik ve Güzellik Merkezi — quick question about bookings and rebookings going cold",
+        "body": "Hi Medis Estetik ve Güzellik Merkezi team,\n\nI work with beauty businesses in Istanbul on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-7635021570",
+      "source": "OpenStreetMap",
+      "title": "Op.Dr.Alper Tuncel — doctors (Valikonağı Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: n/a. Phone: +905323038255.",
+      "email": "dralpertuncel@gmail.com",
+      "phone": "+905323038255",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.openstreetmap.org/node/7635021570",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Op.Dr.Alper Tuncel doctors Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Op.Dr.Alper Tuncel — quick question about missed calls and no-shows",
+        "body": "Hi Op.Dr.Alper Tuncel team,\n\nI work with doctors businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905323038255?text=Hello%20Op.Dr.Alper%20Tuncel%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-7797035165",
+      "source": "OpenStreetMap",
+      "title": "Seba Law Firm — lawyer (Kore Şehitleri Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: sebalegal.com/en. Phone: +90 212 500 05 05.",
+      "email": "info@sebalegal.com",
+      "phone": "+90 212 500 05 05",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "sebalegal.com/en",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "lawyer",
+      "services": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "url": "sebalegal.com/en",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Seba Law Firm lawyer Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Client intake automation",
+        "document extraction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Seba Law Firm — quick question about enquiry follow-up that never happens",
+        "body": "Hi Seba Law Firm team,\n\nI work with lawyer businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-8907042908",
+      "source": "OpenStreetMap",
+      "title": "ARS Möbel GmbH — furniture (Seçkin Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.arsmobel.com. Phone: +90 531 607 80 78.",
+      "email": "info@arsmobel.com",
+      "phone": "+90 531 607 80 78",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.arsmobel.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "furniture",
       "services": [
         "Lead follow-up",
         "quote automation"
       ],
-      "url": "https://www.panhomestores.com",
-      "postedAt": "2026-10-22T08:02:56.627Z",
-      "raw": "Pan Home furniture Muscat",
+      "url": "https://www.arsmobel.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "ARS Möbel GmbH furniture Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Lead follow-up",
@@ -671,33 +1221,147 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Pan Home — quick question about manual work that eats the week",
-        "body": "Hi Pan Home team,\n\nI work with furniture businesses in Muscat on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "ARS Möbel GmbH — quick question about manual work that eats the week",
+        "body": "Hi ARS Möbel GmbH team,\n\nI work with furniture businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905316078078?text=Hello%20ARS%20M%C3%B6bel%20GmbH%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-9496746002",
+      "source": "OpenStreetMap",
+      "title": "Toyota Plaza — car (Fethi Çelebi Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://www.toyotakar.com.tr/. Phone: +90 212 567 2222.",
+      "email": "satis@kar.toyota.com.tr",
+      "phone": "+90 212 567 2222",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.toyotakar.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "car",
+      "services": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "url": "https://www.toyotakar.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Toyota Plaza car Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up automation",
+        "CRM integration"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Toyota Plaza — quick question about manual work that eats the week",
+        "body": "Hi Toyota Plaza team,\n\nI work with car businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-12084976561",
+      "id": "osm-node-9610671096",
       "source": "OpenStreetMap",
-      "title": "Nextcare — insurance",
-      "description": "Business in Muscat. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.nextcarehealth.com/. Phone: +968 24 475710.",
-      "email": "nextcare@nextcarehealth.com",
-      "phone": "+968 24 475710",
+      "title": "Kiva Teknoloji — it (Ahsen Çıkmazı Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.kivacrm.com/tr. Phone: +90 216 405 1634.",
+      "email": "kiva@kiva.com.tr",
+      "phone": "+90 216 405 1634",
       "mobileNumber": "",
       "hasMobile": false,
-      "website": "https://www.nextcarehealth.com/",
-      "city": "Muscat",
-      "tz": "Asia/Muscat",
+      "website": "https://www.kivacrm.com/tr",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.kivacrm.com/tr",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Kiva Teknoloji it Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Kiva Teknoloji — quick question about manual work that eats the week",
+        "body": "Hi Kiva Teknoloji team,\n\nI work with it businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": false,
+      "waLink": ""
+    },
+    {
+      "id": "osm-node-9674185890",
+      "source": "OpenStreetMap",
+      "title": "MT AESTHETIC INTERNATIONAL — clinic (Teşvikiye Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.mtaestheticinternational.com. Phone: +905364382520.",
+      "email": "mtaestheticinternational@gmail.com",
+      "phone": "+905364382520",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.mtaestheticinternational.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.mtaestheticinternational.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "MT AESTHETIC INTERNATIONAL clinic Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "MT AESTHETIC INTERNATIONAL — quick question about missed calls and no-shows",
+        "body": "Hi MT AESTHETIC INTERNATIONAL team,\n\nI work with clinic businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905364382520?text=Hello%20MT%20AESTHETIC%20INTERNATIONAL%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-9853452883",
+      "source": "OpenStreetMap",
+      "title": "Hasar Kolay — insurance (Ecza Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.hasarkolay.com/. Phone: +90 212 325 5147.",
+      "email": "info@groupsar.com",
+      "phone": "+90 212 325 5147",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.hasarkolay.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
       "category": "insurance",
       "services": [
         "Quote follow-up automation",
         "document processing"
       ],
-      "url": "https://www.nextcarehealth.com/",
-      "postedAt": "2026-10-22T08:02:56.627Z",
-      "raw": "Nextcare insurance Muscat",
+      "url": "https://www.hasarkolay.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Hasar Kolay insurance Istanbul",
       "_emailLead": true,
       "titleServices": [
         "Quote follow-up automation",
@@ -709,508 +1373,1034 @@
       "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Nextcare — quick question about enquiry follow-up that never happens",
-        "body": "Hi Nextcare team,\n\nI work with insurance businesses in Muscat on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Hasar Kolay — quick question about enquiry follow-up that never happens",
+        "body": "Hi Hasar Kolay team,\n\nI work with insurance businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-319256",
-      "source": "n8n Community",
-      "title": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
-      "description": "Hi everyone, I’m looking for an experienced n8n specialist to review and stress-test several AI agents I’ve already built before I demonstrate them to paying clients. Stack includes n8n, Vapi, Twilio, ElevenLabs, OpenAI/Claude and APIs/webhooks . I’m looking for someone who can review existing workflows, identify bugs/failure points, test edge cases and error handling, check integrations and AI behaviour, and recommend/fix anything that isn’t client-ready. I’m not looking for the agents to be rebuilt from scratch. I’d like to start with one agent as a paid trial , with ongoing work available if we’re a good fit. If interested, please DM me with: Your location/time zone Your rate Relevant n8n/AI experience Any Vapi/Twilio/ElevenLabs experience Examples of similar work Thanks",
-      "url": "https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256",
-      "postedAt": "2026-10-06T21:10:54.225Z",
-      "raw": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
+      "id": "osm-node-9889913268",
+      "source": "OpenStreetMap",
+      "title": "Renault Demirkollar — car (Mahir İz Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://demirkollar.renault.com.tr/renault/anasayfa/. Phone: +90 216 474 2100.",
+      "email": "bilgi@demirkollar.com",
+      "phone": "+90 216 474 2100",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://demirkollar.renault.com.tr/renault/anasayfa/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "car",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "Chatbots & voice"
+        "Lead follow-up automation",
+        "CRM integration"
       ],
+      "url": "https://demirkollar.renault.com.tr/renault/anasayfa/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Renault Demirkollar car Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lead follow-up automation",
+        "CRM integration"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 15,
+      "ageDays": 0,
       "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Looking for n8n / AI Automation Specialist – \"",
-        "body": "Hi,\n\nSaw your post: \"Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Renault Demirkollar — quick question about manual work that eats the week",
+        "body": "Hi Renault Demirkollar team,\n\nI work with car businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-307744",
-      "source": "n8n Community",
-      "title": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
-      "description": "Hi all — looking for an experienced automation developer to build out a multi-agent lead pipeline for a licensed life insurance business (NC/SC markets). Stack: n8n or similar, GoHighLevel (CRM/calendar/SMS), Twilio, Claude API for the conversational/AI-agent layer. What’s being built (phase 1): **•** Lead capture → speed-to-lead SMS response (sub-60-second target) → AI-driven qualifying conversation → calendar booking → CRM sync, all as connected agent workflows **•** State-based filtering logic (NC/SC only) **•** Conditional branching for qualified vs. nurture paths **•** Reminder/confirmation automation tied to booked appointments I have the full architecture and workflow logic already mapped out (agent roles, data flow, branching logic) — I need someone who can translate that into a working, production-ready build, not someone starting from a blank canvas. Ideal experience: **•** Production n8n or GHL workflow builds involving AI agent nodes (Claude or GPT), not just basic Zapier-style automations **•** Comfortable with conditional logic, webhook triggers, and CRM API integrations **•** Bonus: experience with real-time audio/transcription pipelines (a later phase involves live-",
-      "url": "https://community.n8n.io/t/seeking-n8n-ghl-automation-developer-insurance-lead-pipeline-ai-agents-ongoing/307744",
-      "postedAt": "2026-08-15T05:34:14.389Z",
-      "raw": "Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}",
+      "id": "osm-node-9977917293",
+      "source": "OpenStreetMap",
+      "title": "İnalöz Clinic — clinic (Bağdat Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://inalozclinic.com/. Phone: +90 535 0560150.",
+      "email": "info@inalozclinic.com",
+      "phone": "+90 535 0560150",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://inalozclinic.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "clinic",
       "services": [
-        "AI agents",
-        "Workflow automation",
-        "CRM automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
+      "url": "https://inalozclinic.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "İnalöz Clinic clinic Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "AI agents",
-        "Workflow automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 68,
-      "score": 51,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Seeking n8n/GHL Automation Developer — Insura\"",
-        "body": "Hi,\n\nSaw your post: \"Seeking n8n/GHL Automation Developer — Insurance Lead Pipeline + AI Agents {Ongoing}\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "İnalöz Clinic — quick question about missed calls and no-shows",
+        "body": "Hi İnalöz Clinic team,\n\nI work with clinic businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905350560150?text=Hello%20%C4%B0nal%C3%B6z%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-318516",
-      "source": "n8n Community",
-      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
-      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
-      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
-      "postedAt": "2026-10-03T13:30:09.564Z",
-      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
+      "id": "osm-node-10066669131",
+      "source": "OpenStreetMap",
+      "title": "Beyaz Işık Diş Polikliniği — dentist (İstanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://beyazisik.com/. Phone: 4442412.",
+      "email": "info@beyazisik.com",
+      "phone": "4442412",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://beyazisik.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
+      "url": "https://beyazisik.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Beyaz Işık Diş Polikliniği dentist Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 19,
-      "score": 46,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
-        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Beyaz Işık Diş Polikliniği — quick question about missed calls and no-shows",
+        "body": "Hi Beyaz Işık Diş Polikliniği team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-321244",
-      "source": "n8n Community",
-      "title": "Looking for Founding n8n Automation Creators | Osmium",
-      "description": "Hey n8n builders! we’re Osmium , a newly launched marketplace for reusable software capabilities, AI systems, APIs, and automation tools. We’re inviting 20 independent developers and automation creators to join our founding vendor cohort. Who we’re looking for: n8n builders with original, reusable automation solutions AI agent and workflow developers API and backend integration creators Independent developers with working software they’d like to monetize What we’re offering: An additional channel to sell your existing work Freedom to set your own prices Ownership of your original software Personal onboarding assistance Opportunities to showcase available testing evidence This is an independent vendor opportunity, not salaried employment . Earnings depend on actual sales, and we cannot guarantee customers. If you’ve built something reusable, we’d love to explore bringing it to Osmium. Interested? Email: heythere@osmiumcodes.com Subject: Osmium Founding Vendor Tell us what you’ve built and share a demo or portfolio if available. Looking forward to meeting some brilliant builders!",
-      "url": "https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244",
-      "postedAt": "2026-10-14T07:03:57.126Z",
-      "raw": "Looking for Founding n8n Automation Creators | Osmium",
+      "id": "osm-node-10104661341",
+      "source": "OpenStreetMap",
+      "title": "Varol Sürücü Kursu — driving school",
+      "description": "Business in Istanbul. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: +902124772162.",
+      "email": "",
+      "phone": "+905549651292",
+      "mobileNumber": "+905549651292",
+      "hasMobile": true,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "driving_school",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Lesson booking automation",
+        "reminder sequences"
       ],
+      "url": "https://www.openstreetmap.org/node/10104661341",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Varol Sürücü Kursu driving_school Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lesson booking automation",
+        "reminder sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 8,
-      "score": 46,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Looking for Founding n8n Automation Creators \"",
-        "body": "Hi,\n\nSaw your post: \"Looking for Founding n8n Automation Creators | Osmium\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Quick idea for \"Varol Sürücü Kursu — driving school\"",
+        "body": "Hi,\n\nSaw your post: \"Varol Sürücü Kursu — driving school\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905549651292?text=Hello%20Varol%20S%C3%BCr%C3%BCc%C3%BC%20Kursu%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-317073",
-      "source": "n8n Community",
-      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
-      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
-      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
-      "postedAt": "2026-09-28T05:23:36.357Z",
-      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
+      "id": "osm-node-10104720028",
+      "source": "OpenStreetMap",
+      "title": "Diyetisyen Esma Bulut — clinic",
+      "description": "Business in Istanbul. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "+905421351215",
+      "mobileNumber": "+905421351215",
+      "hasMobile": true,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "clinic",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
+      "url": "https://www.openstreetmap.org/node/10104720028",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Diyetisyen Esma Bulut clinic Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "AI agents",
-        "Workflow automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 24,
-      "score": 43,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
-        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Quick idea for \"Diyetisyen Esma Bulut — clinic\"",
+        "body": "Hi,\n\nSaw your post: \"Diyetisyen Esma Bulut — clinic\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905421351215?text=Hello%20Diyetisyen%20Esma%20Bulut%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-200092",
-      "source": "n8n Community",
-      "title": "Hiring n8n experts for ongoing collaboration - remote",
-      "description": "I’m working with a small group of AI engineers on high-impact multi-agent and automation projects. This post is an open door for ongoing collaborations with sharp, execution-driven builders. What I’m Looking For Workflow automations and AI agents : n8n, Airtable, custom Python flows Business growth systems: small-business operations, M&amp;A, or data-driven marketing (Bonus) Experience with funnels, ads, or growth ops What You Should Bring Can ship fast MVPs that actually run Writes clean, logical workflows Communicates clearly, works async, delivers on time How to Apply Share one project you’ve built Tell me what you’re best at, agents, workflows, APIs, etc. This is always open, I’m building a circle of reliable, fast, and clear automation pros. If that’s you, let’s test a build.",
-      "url": "https://community.n8n.io/t/hiring-n8n-experts-for-ongoing-collaboration-remote/200092",
-      "postedAt": "2025-10-06T01:53:59.293Z",
-      "raw": "Hiring n8n experts for ongoing collaboration - remote",
+      "id": "osm-node-10110158093",
+      "source": "OpenStreetMap",
+      "title": "Başaran Sürücü Kursu — driving school",
+      "description": "Business in Istanbul. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: +902128924345.",
+      "email": "",
+      "phone": "+905418924345",
+      "mobileNumber": "+905418924345",
+      "hasMobile": true,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "driving_school",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Lesson booking automation",
+        "reminder sequences"
       ],
+      "url": "https://www.openstreetmap.org/node/10110158093",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Başaran Sürücü Kursu driving_school Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lesson booking automation",
+        "reminder sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 381,
-      "score": 43,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Hiring n8n experts for ongoing collaboration \"",
-        "body": "Hi,\n\nSaw your post: \"Hiring n8n experts for ongoing collaboration - remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Quick idea for \"Başaran Sürücü Kursu — driving school\"",
+        "body": "Hi,\n\nSaw your post: \"Başaran Sürücü Kursu — driving school\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905418924345?text=Hello%20Ba%C5%9Faran%20S%C3%BCr%C3%BCc%C3%BC%20Kursu%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-322466",
-      "source": "n8n Community",
-      "title": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
-      "description": "Hi, I’m looking for someone to do EVERYTHING for me. I don’t know anything about n8n. I need you to get everything set up and working automatically. What I want in the end: I just upload a video to a Google Drive folder and it publishes automatically on my Instagram / Facebook / YouTube accounts. What I need you to do (complete setup): Create the complete n8n workflow from scratch Set up the Google Drive trigger to monitor my folder Connect it to a Google Sheet where my captions are (file name = row) Configure publishing using the official Instagram, Facebook Page, and YouTube APIs Get it ready to scale to 100+ accounts by reading tokens from the Sheet Set up all connections, error handling, and Telegram notifications Deliver it tested and working. I just want to upload videos. What I provide: Drive access The Sheet Access to my n8n / Meta and Google developer accounts (you tell me what to create) I don’t want a template, I want you to set it up and explain it to me in a 5-minute video on how to use it. This first job is a test for $20 for 1-3 accounts. If you do it well, I’ll pay you for the full scale to 300 accounts. If you can do the complete setup ready to use, message me on D",
-      "url": "https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466",
-      "postedAt": "2026-10-18T22:16:03.272Z",
-      "raw": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
+      "id": "osm-node-10142484213",
+      "source": "OpenStreetMap",
+      "title": "Vizyon İstanbul — car (Rami Kışla Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: https://vizyonistanbul.com.tr/tr/araclarimiz. Phone: +90 212 565 8181.",
+      "email": "info@vizyonistanbul.net",
+      "phone": "+90 212 565 8181",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://vizyonistanbul.com.tr/tr/araclarimiz",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "car",
       "services": [
-        "Workflow automation"
+        "Lead follow-up automation",
+        "CRM integration"
       ],
+      "url": "https://vizyonistanbul.com.tr/tr/araclarimiz",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Vizyon İstanbul car Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": 20,
-      "ageDays": 3,
-      "score": 43,
-      "outreach": {
-        "subject": "*Título en español:* Necesito Setup Completo en n8n: Dr — fixed-scope plan",
-        "body": "Hi,\n\nSaw your post: \"*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $20 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "n8n Community-235497",
-      "source": "n8n Community",
-      "title": "Automation Systems Builder (n8n) – Europe (Remote)",
-      "description": "Hi, We’re looking for a practical n8n builder to help us design and maintain production-grade workflows. This is ongoing work on real systems (not one-off zaps, not experiments). The work You’ll be building and maintaining n8n workflows that: • Integrate APIs (REST, webhooks, OAuth) • Handle pagination, retries, rate limits • Deduplicate safely (idempotency matters) • Send alerts only when something *actually* fails • Are readable and maintainable over time There’s room to help shape the logic, not just wire nodes. What we’re looking for You’re likely a good fit if: • You’ve built real workflows in n8n, not just demos • You’re comfortable inspecting execution data • You think about edge cases and failure modes • You’re happy working async • You’re based in Europe (time-zone overlap) No degrees, no corporate titles required. Nice to have (not required) • Stripe, CRMs, internal tools • Function nodes / light JS • Experience maintaining long-running workflows Time &amp; pay • 10–30 hrs / week (flexible) • €25–45 / hour depending on experience • Paid test task (2–3 hrs) • Long-term collaboration if it works well",
-      "url": "https://community.n8n.io/t/automation-systems-builder-n8n-europe-remote/235497",
-      "postedAt": "2025-12-13T13:36:21.745Z",
-      "raw": "Automation Systems Builder (n8n) – Europe (Remote)",
-      "services": [
-        "Workflow automation",
-        "Dashboards & internal tools"
-      ],
-      "titleServices": [
-        "Workflow automation"
+        "Lead follow-up automation",
+        "CRM integration"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 313,
-      "score": 43,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Automation Systems Builder (n8n) – Europe (Re\"",
-        "body": "Hi,\n\nSaw your post: \"Automation Systems Builder (n8n) – Europe (Remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Vizyon İstanbul — quick question about manual work that eats the week",
+        "body": "Hi Vizyon İstanbul team,\n\nI work with car businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-320146",
-      "source": "n8n Community",
-      "title": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
-      "description": "AI Marketing &amp; n8n Automation Specialist for chill life — Potential Long-Term Partnership Hi, I’m Beth Levis, founder of chill life, a purpose-driven lifestyle brand. We believe happier people create healthier communities. Our apparel, products, and initiatives promote positivity, mental fitness, and meaningful real-life connection. Two key areas of our work are encouraging healthier youth sports culture and helping people take daily breaks from technology to be more present. I’m looking for an experienced AI marketing and automation specialist who can help translate this mission into consistent storytelling, audience growth, and measurable sales. What I’m looking to build A coordinated marketing system using n8n and AI tools such as Claude or OpenAI to: ● Develop content grounded in our brand voice, values, and product offerings. ● Create and repurpose social posts, video scripts, and email campaigns. ● Manage a content calendar and approval process. ● Connect relevant tools across our Shopify store, email marketing, and social channels. ● Track performance and use those insights to improve campaigns. Preserving the authenticity of chill life’s message is essential. The system",
-      "url": "https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146",
-      "postedAt": "2026-10-09T20:48:10.083Z",
-      "raw": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
+      "id": "osm-node-10159083741",
+      "source": "OpenStreetMap",
+      "title": "Setsa İnşaat — estate agent",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: n/a.",
+      "email": "",
+      "phone": "+905322544197",
+      "mobileNumber": "+905322544197",
+      "hasMobile": true,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
+      "url": "https://www.openstreetmap.org/node/10159083741",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Setsa İnşaat estate_agent Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 12,
-      "score": 42,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"AI Marketing & n8n Automation Specialist for \"",
-        "body": "Hi,\n\nSaw your post: \"AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Quick idea for \"Setsa İnşaat — estate agent\"",
+        "body": "Hi,\n\nSaw your post: \"Setsa İnşaat — estate agent\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905322544197?text=Hello%20Setsa%20%C4%B0n%C5%9Faat%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10159783372",
+      "source": "OpenStreetMap",
+      "title": "İstanbul İğneli Epilasyon by Gökçe Temuçin — beauty (Rumeli Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://igneepilasyon.com/. Phone: +905539279687.",
+      "email": "igneepilasyoncom@gmail.com",
+      "phone": "+905539279687",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://igneepilasyon.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "beauty",
+      "services": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "url": "https://igneepilasyon.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "İstanbul İğneli Epilasyon by Gökçe Temuçin beauty Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Booking automation",
+        "rebooking reminders"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "İstanbul İğneli Epilasyon by Gökçe Temuçin — quick question about bookings and rebookings going cold",
+        "body": "Hi İstanbul İğneli Epilasyon by Gökçe Temuçin team,\n\nI work with beauty businesses in Istanbul on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905539279687?text=Hello%20%C4%B0stanbul%20%C4%B0%C4%9Fneli%20Epilasyon%20by%20G%C3%B6k%C3%A7e%20Temu%C3%A7in%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10284787511",
+      "source": "OpenStreetMap",
+      "title": "Leva Psikoloji — clinic (Gündoğumu Caddesi)",
+      "description": "Business in Istanbul. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.levapsikoloji.com/. Phone: +905421525382.",
+      "email": "danismanlik@levapsikoloji.com",
+      "phone": "+905421525382",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.levapsikoloji.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "clinic",
+      "services": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "url": "https://www.levapsikoloji.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Leva Psikoloji clinic Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Patient booking automation",
+        "follow-up sequences"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Leva Psikoloji — quick question about missed calls and no-shows",
+        "body": "Hi Leva Psikoloji team,\n\nI work with clinic businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905421525382?text=Hello%20Leva%20Psikoloji%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10755644866",
+      "source": "OpenStreetMap",
+      "title": "Estetik Diş Hekimi (DentNis İmplantoloji ve Estetik Diş Kliniği (Dr.Abdulkadir Narin)) — dentist (Valikonağı Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://dentnis.com/. Phone: n/a.",
+      "email": "info@dentnis.com",
+      "phone": "",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://dentnis.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://dentnis.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Estetik Diş Hekimi (DentNis İmplantoloji ve Estetik Diş Kliniği (Dr.Abdulkadir Narin)) dentist Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Estetik Diş Hekimi (DentNis İmplantoloji ve Esteti — quick question about missed calls and no-shows",
+        "body": "Hi Estetik Diş Hekimi (DentNis İmplantoloji ve Esteti team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-312281",
-      "source": "n8n Community",
-      "title": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
-      "description": "I’m Rami. I’m evaluating developers for a focused quote-preparation prototype for electrical parts distributors. This is the scoping and quotation stage. Development has not been commissioned yet. The scope: • Read customer quotation requests from one agreed format, initially a text-based PDF. • Extract product codes, descriptions, quantities and units. • Match items against a supplied catalogue and approved price list. • Flag uncertain matches for human review. • Export an Excel quotation draft. Prices must come from the approved data. Product substitutions require human approval. ERP integration, automatic email sending and a full dashboard are outside this phase. I’m looking for relevant experience with n8n, document extraction and Excel/CSV processing. Send a proposal covering: One relevant project you personally delivered, with a demo if available. Your proposed approach. Estimated fixed price and delivery time, with assumptions and exclusions. Ongoing software costs. Source code, workflow files and handover documentation included. The final scope and price will be agreed after reviewing sample files. Any engagement will begin with a separately agreed paid test and clear deliv",
-      "url": "https://community.n8n.io/t/seeking-estimates-n8n-developer-for-a-small-rfq-to-quote-prototype/312281",
-      "postedAt": "2026-09-10T00:05:41.994Z",
-      "raw": "Seeking estimates: n8n developer for a small RFQ-to-quote prototype",
+      "id": "osm-node-10895607805",
+      "source": "OpenStreetMap",
+      "title": "777nails_beautybar — beauty (Söğütlüçeşme Caddesi)",
+      "description": "Business in Istanbul. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://instagram.com/777nails_beautybar. Phone: +90 533 328 12 42.",
+      "email": "matkulova.madina@bk.ru",
+      "phone": "+90 533 328 12 42",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://instagram.com/777nails_beautybar",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "beauty",
       "services": [
-        "Workflow automation",
-        "Dashboards & internal tools"
+        "Booking automation",
+        "rebooking reminders"
       ],
+      "url": "https://instagram.com/777nails_beautybar",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "777nails_beautybar beauty Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Booking automation",
+        "rebooking reminders"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 42,
-      "score": 39,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Seeking estimates: n8n developer for a small \"",
-        "body": "Hi,\n\nSaw your post: \"Seeking estimates: n8n developer for a small RFQ-to-quote prototype\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "777nails_beautybar — quick question about bookings and rebookings going cold",
+        "body": "Hi 777nails_beautybar team,\n\nI work with beauty businesses in Istanbul on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905333281242?text=Hello%20777nails_beautybar%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-10926050566",
+      "source": "OpenStreetMap",
+      "title": "Çiftçiler Sigorta — insurance (Barbaros Bulvarı, İstanbul)",
+      "description": "Business in Istanbul. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://www.ciftcilersigorta.com.tr/. Phone: +90 212 275 07 54.",
+      "email": "info@ciftcilersigorta.com.tr",
+      "phone": "+90 212 275 07 54",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.ciftcilersigorta.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "insurance",
+      "services": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "url": "https://www.ciftcilersigorta.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Çiftçiler Sigorta insurance Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Quote follow-up automation",
+        "document processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Çiftçiler Sigorta — quick question about enquiry follow-up that never happens",
+        "body": "Hi Çiftçiler Sigorta team,\n\nI work with insurance businesses in Istanbul on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-315655",
-      "source": "n8n Community",
-      "title": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
-      "description": "Buscamos AI Automation Engineer / n8n Developer Somos una empresa de procesamiento de pagos en Latinoamérica y buscamos un desarrollador con experiencia en n8n + IA para automatizar nuestro equipo de soporte. Queremos construir un sistema capaz de: • Entender y clasificar conversaciones • Responder automáticamente preguntas frecuentes • Consultar nuestras bases de datos y APIs • Ejecutar acciones automáticamente • Escalar casos complejos a operadores humanos • Mantener el contexto de las conversaciones Stack: n8n + LLMs + APIs Buscamos alguien que pueda entender un proceso de negocio y convertirlo en una solución de IA. Experiencia con n8n, AI agents, OpenAI/Claude, APIs, vector databases es importante. JavaScript/Python y PostgreSQL es preferiblemente. Experiencia en customer support es un plus. Trabajarás directamente con los fundadores y tendrás mucha autonomía para diseñar la solución Puede ser full-time o contractor, con posibilidad de colaboración a largo plazo. Interesado? Contáctame por WhatsApp: +573235816890 Por favor, comparte: • Tu experiencia con n8n + IA • 1–3 proyectos relevantes • GitHub/portfolio • Disponibilidad y tarifa aproximada",
-      "url": "https://community.n8n.io/t/buscamos-ai-automation-engineer-para-construir-nuestro-sistema-de-soporte-con-ia/315655",
-      "postedAt": "2026-09-22T16:52:06.596Z",
-      "raw": "Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA",
+      "id": "osm-node-10929770043",
+      "source": "OpenStreetMap",
+      "title": "Soyer Clinic — doctors (Nisbetiye Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://soyerclinic.com/. Phone: +90 553 830 37 77.",
+      "email": "info@soyerclinic.com",
+      "phone": "+90 553 830 37 77",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://soyerclinic.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "doctors",
       "services": [
-        "AI agents",
-        "Workflow automation"
+        "Appointment automation",
+        "intake processing"
       ],
+      "url": "https://soyerclinic.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Soyer Clinic doctors Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Appointment automation",
+        "intake processing"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 30,
-      "score": 39,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Buscamos AI Automation Engineer para construi\"",
-        "body": "Hi,\n\nSaw your post: \"Buscamos AI Automation Engineer para construir nuestro sistema de soporte con IA\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Soyer Clinic — quick question about missed calls and no-shows",
+        "body": "Hi Soyer Clinic team,\n\nI work with doctors businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905538303777?text=Hello%20Soyer%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11030649773",
+      "source": "OpenStreetMap",
+      "title": "Kelebek — furniture (Rami Kışla Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.kelebek.com/. Phone: +90 544 718 66 80.",
+      "email": "gaziosmanpasa@kelebekonline.com",
+      "phone": "+90 544 718 66 80",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.kelebek.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "furniture",
+      "services": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "url": "https://www.kelebek.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Kelebek furniture Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead follow-up",
+        "quote automation"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Kelebek — quick question about manual work that eats the week",
+        "body": "Hi Kelebek team,\n\nI work with furniture businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905447186680?text=Hello%20Kelebek%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11144825008",
+      "source": "OpenStreetMap",
+      "title": "Dr Ezgi Özkur — doctors (Mim Kemal Öke Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.drezgiozkur.com. Phone: +90532 254 08 22.",
+      "email": "ezgi.ozkur@trustmedclinic.com",
+      "phone": "+90532 254 08 22",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.drezgiozkur.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "doctors",
+      "services": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "url": "https://www.drezgiozkur.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Dr Ezgi Özkur doctors Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Appointment automation",
+        "intake processing"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Dr Ezgi Özkur — quick question about missed calls and no-shows",
+        "body": "Hi Dr Ezgi Özkur team,\n\nI work with doctors businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905322540822?text=Hello%20Dr%20Ezgi%20%C3%96zkur%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11226399364",
+      "source": "OpenStreetMap",
+      "title": "Nitra Yazılım LTD ŞTİ — it (Kasap Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.nitragames.com. Phone: +902124225007.",
+      "email": "info@nitragames.com",
+      "phone": "+902124225007",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.nitragames.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "it",
+      "services": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "url": "https://www.nitragames.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Nitra Yazılım LTD ŞTİ it Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "AI agent & workflow automation",
+        "internal tooling"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Nitra Yazılım LTD ŞTİ — quick question about manual work that eats the week",
+        "body": "Hi Nitra Yazılım LTD ŞTİ team,\n\nI work with it businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-322016",
-      "source": "n8n Community",
-      "title": "N8n + MirrorFly Developer for Video Conferencing Automation",
-      "description": "Hi everyone, I’m looking for an experienced automation developer who can help me build a video conferencing automation system using n8n + MirrorFly + API integrations. This is a paid freelance project with clear requirements and a defined scope. I’ll keep this as concise and technical as possible so you know exactly what’s involved. Project Overview I need to build an automated video conferencing workflow using n8n and MirrorFly that will: Create video meetings automatically based on predefined triggers. Generate meeting details and share them with participants. Schedule meetings using calendar integrations. Send meeting invitations and reminders through email or messaging services. Manage meeting related events through webhooks and APIs. (Optional add-on) Automate meeting recordings and post meeting notifications. All of this needs to run through n8n workflows, with MirrorFly providing the video conferencing capabilities. Core Requirements 1. MirrorFly Video Conferencing Integration Integrate MirrorFly Video Call API and SDK. Create and manage video meetings through supported APIs. Generate or retrieve meeting joining details. Handle meeting events through webhooks or callbacks wh",
-      "url": "https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016",
-      "postedAt": "2026-10-16T20:38:11.146Z",
-      "raw": "N8n + MirrorFly Developer for Video Conferencing Automation",
+      "id": "osm-node-11237071450",
+      "source": "OpenStreetMap",
+      "title": "Gamelab İstanbul — it (Kasap Sokağı)",
+      "description": "Business in Istanbul. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://gamelab.istanbul. Phone: +90 212 422 5007.",
+      "email": "info@gamelab.istanbul",
+      "phone": "+90 501 361 1437",
+      "mobileNumber": "+90 501 361 1437",
+      "hasMobile": true,
+      "website": "https://gamelab.istanbul",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "it",
       "services": [
-        "Workflow automation"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
+      "url": "https://gamelab.istanbul",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Gamelab İstanbul it Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "AI agent & workflow automation",
+        "internal tooling"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 5,
-      "score": 35,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"N8n + MirrorFly Developer for Video Conferenc\"",
-        "body": "Hi,\n\nSaw your post: \"N8n + MirrorFly Developer for Video Conferencing Automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Gamelab İstanbul — quick question about manual work that eats the week",
+        "body": "Hi Gamelab İstanbul team,\n\nI work with it businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905013611437?text=Hello%20Gamelab%20%C4%B0stanbul%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11566342505",
+      "source": "OpenStreetMap",
+      "title": "Diş Hekimi Dt. Ersoy Yıldız — dentist (Yazar Sokağı)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.ersoyyildiz.com. Phone: n/a.",
+      "email": "info@ersoyyildiz.com",
+      "phone": "+905323974644",
+      "mobileNumber": "+905323974644",
+      "hasMobile": true,
+      "website": "https://www.ersoyyildiz.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
+      "services": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "url": "https://www.ersoyyildiz.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Diş Hekimi Dt. Ersoy Yıldız dentist Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Lead capture & booking automation",
+        "no-show reduction"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Diş Hekimi Dt. Ersoy Yıldız — quick question about missed calls and no-shows",
+        "body": "Hi Diş Hekimi Dt. Ersoy Yıldız team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905323974644?text=Hello%20Di%C5%9F%20Hekimi%20Dt.%20Ersoy%20Y%C4%B1ld%C4%B1z%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11794380686",
+      "source": "OpenStreetMap",
+      "title": "Mehmet Kaleli Designer — jewelry (Ahmet Fetgeri Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: +90 533 666 1136.",
+      "email": "mehmetkalelidesigner@hotmail.com",
+      "phone": "+90 533 666 1136",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "jewelry",
+      "services": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "url": "https://www.openstreetmap.org/node/11794380686",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Mehmet Kaleli Designer jewelry Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Clienteling automation",
+        "order follow-up"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Mehmet Kaleli Designer — quick question about manual work that eats the week",
+        "body": "Hi Mehmet Kaleli Designer team,\n\nI work with jewelry businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+      },
+      "status": "new",
+      "waCapable": true,
+      "waLink": "https://wa.me/905336661136?text=Hello%20Mehmet%20Kaleli%20Designer%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+    },
+    {
+      "id": "osm-node-11897549598",
+      "source": "OpenStreetMap",
+      "title": "Başaran World Bulvar Satış Ofisi — estate agent (Ekrem Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.basaranworld.com.tr/. Phone: +90 212 535 4112.",
+      "email": "info@basaraninsaat.com.tr",
+      "phone": "+90 212 535 4112",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.basaranworld.com.tr/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
+      "services": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "url": "https://www.basaranworld.com.tr/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Başaran World Bulvar Satış Ofisi estate_agent Istanbul",
+      "_emailLead": true,
+      "titleServices": [
+        "Deal pipeline automation",
+        "lead enrichment"
+      ],
+      "isCompetitor": false,
+      "isHiring": true,
+      "budget": null,
+      "ageDays": 0,
+      "score": 54,
+      "outreach": {
+        "subject": "Başaran World Bulvar Satış Ofisi — quick question about manual work that eats the week",
+        "body": "Hi Başaran World Bulvar Satış Ofisi team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "Make.com Community-116649",
-      "source": "Make.com Community",
-      "title": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
-      "description": "Hi everyone, I run Drochaid AI, a UK agency sourcing AI automation projects for B2B tech companies. We handle 100% of client acquisition, scoping, and account management. Looking for 1–2 reliable Make.com developers for white-label execution (per-project payout or revenue share). If you have a solid portfolio of Make / AI workflows and capacity for extra client deals, send me a DM with 2–3 examples of past builds.",
-      "url": "https://community.make.com/t/looking-for-white-label-make-com-automation-developers-agency-partner/116649",
-      "postedAt": "2026-10-05T08:08:03.941Z",
-      "raw": "Looking for White-Label Make.com Automation Developers (Agency Partner)",
+      "id": "osm-node-11906827951",
+      "source": "OpenStreetMap",
+      "title": "TEKCE Real Estate | Cevizlibağ Office — estate agent (Yedikule Çırpıcı Yol Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://tekce.com. Phone: +90 850 811 23 23.",
+      "email": "info@tekce.com",
+      "phone": "+90 850 811 23 23",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://tekce.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
+      "url": "https://tekce.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "TEKCE Real Estate | Cevizlibağ Office estate_agent Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 17,
-      "score": 34,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Looking for White-Label Make.com Automation D\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for White-Label Make.com Automation Developers (Agency Partner)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "TEKCE Real Estate | Cevizlibağ Office — quick question about manual work that eats the week",
+        "body": "Hi TEKCE Real Estate | Cevizlibağ Office team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-315978",
-      "source": "n8n Community",
-      "title": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
-      "description": "Hi all! We’re a busy family in Los Angeles. We’d like to work with an independent engineer or a small studio to set up a private, dependable home system that uses AI to help run our household: calendars, notes, documents, email drafts, and a knowledge base we actually use. Privacy matters a lot to us, so sensitive documents should be handled on a machine in our house, with cloud AI used where it makes sense. It starts as a defined project. If it goes well, it turns into a light ongoing relationship: a check-in twice a year to keep things healthy and add new capabilities as the tools improve. What we have in mind (very open to your suggestions): A Mac mini at home running local models (Ollama or LM Studio) for private document search and processing Claude API / Claude Code for scheduling help, translation and workflow logic n8n for automation (our preference), or Google Apps Script / small custom services if they fit better Notion (family contacts, projects, how-to docs) alongside Google Workspace Meeting notes from Fathom or Granola What we’d like help with: Design how our data moves between the home machine and the cloud, and what stays where Build the automations: meeting notes, ",
-      "url": "https://community.n8n.io/t/hiring-part-time-household-cto-n8n-notion-local-llm-home-setup-la-remote/315978",
-      "postedAt": "2026-09-23T22:07:01.984Z",
-      "raw": "[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)",
+      "id": "osm-node-11906827952",
+      "source": "OpenStreetMap",
+      "title": "TEKCE Real Estate | Göztepe Office — estate agent (Nur Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://tekce.com. Phone: +90 850 811 23 23.",
+      "email": "info@tekce.com",
+      "phone": "+90 850 811 23 23",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://tekce.com",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
+      "url": "https://tekce.com",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "TEKCE Real Estate | Göztepe Office estate_agent Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 28,
-      "score": 31,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"[HIRING] Part-time \"household CTO\": n8n + Not\"",
-        "body": "Hi,\n\nSaw your post: \"[HIRING] Part-time \"household CTO\": n8n + Notion + local LLM home setup (LA / remote)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "TEKCE Real Estate | Göztepe Office — quick question about manual work that eats the week",
+        "body": "Hi TEKCE Real Estate | Göztepe Office team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-277583",
-      "source": "n8n Community",
-      "title": "[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)",
-      "description": "Hey everyone, I run a digital marketing agency. Looking for an experienced n8n specialist to partner with on an ongoing basis. Two projects to start: Project 1: B2B lead gen for a workplace food solutions company expanding in Poland. Need to automatically find and qualify companies with 50+ employees, enrich with decision-maker contacts, AI-score for fit, output to Google Sheets/Airtable. Runs daily. Project 2: Lead gen for a European fintech company. Need to identify newly registered businesses, e-commerce launches, startups across Europe that likely need banking/payment services. AI-score by likelihood, enrich with founder contacts, output daily. What I’m looking for: Someone who has built similar scraping + AI qualification workflows in n8n You propose the architecture and data sources — I want your expertise, not just execution Working proof-of-concept with real data before full payment Long-term collaboration: these are the first two of many workflows we’ll need built Ongoing: maintenance, optimization, and new workflow builds as we scale. If you’ve built something similar, I’d love to see examples. Drop a reply or DM me. Thanks!",
-      "url": "https://community.n8n.io/t/hiring-n8n-specialist-for-automated-b2b-lead-generation-systems-ongoing-work/277583",
-      "postedAt": "2026-03-16T09:40:47.675Z",
-      "raw": "[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)",
+      "id": "osm-node-12047672583",
+      "source": "OpenStreetMap",
+      "title": "EA Dent Clinique — dentist (Valikonağı Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +90 212 240 88 99.",
+      "email": "eaklinik@hotmail.com",
+      "phone": "+90 212 240 88 99",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "dentist",
       "services": [
-        "Workflow automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
+      "url": "https://www.openstreetmap.org/node/12047672583",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "EA Dent Clinique dentist Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Lead capture & booking automation",
+        "no-show reduction"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 220,
-      "score": 31,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"[Hiring] n8n Specialist for Automated B2B Lea\"",
-        "body": "Hi,\n\nSaw your post: \"[Hiring] n8n Specialist for Automated B2B Lead Generation Systems (Ongoing Work)\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "EA Dent Clinique — quick question about missed calls and no-shows",
+        "body": "Hi EA Dent Clinique team,\n\nI work with dentist businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-319139",
-      "source": "n8n Community",
-      "title": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
-      "description": "Hi everyone, I’m an independent n8n / AI automation builder based in Lithuania and I’m looking for a long-term lead generation / sales partner. I’m NOT looking for someone to build automations. I handle the technical side myself. What I need from a partner is: – identify businesses that may need automation – reach out to them by email / LinkedIn – have the initial conversation – confirm they have a real automation problem or need – gather basic context about what they want automated – introduce the qualified prospect to me by email/message From that point I handle everything else: technical discovery, pricing, implementation, revisions and delivery. I prefer client communication to continue primarily through email/chat rather than calls. I’m open to a performance-based model, for example 15–20% of collected project revenue for clients you source and qualify. Commission is paid after the client pays. Typical services include n8n workflows, AI integrations, APIs, CRM / Google Workspace automation, lead handling, email automation and other business process automation. I’m looking for someone who wants a genuine long-term partnership, not someone selling scraped lead lists. If interest",
-      "url": "https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139",
-      "postedAt": "2026-10-06T12:27:06.808Z",
-      "raw": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
+      "id": "osm-node-12182970847",
+      "source": "OpenStreetMap",
+      "title": "RE/MAX Müjde 1 — estate agent (Namzet Sokağı, İstanbul)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://remaxmujde.com/. Phone: +90 212 320 25 75.",
+      "email": "info@remax-mujde-ist.com",
+      "phone": "+90 212 320 25 75",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://remaxmujde.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
+      "url": "https://remaxmujde.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "RE/MAX Müjde 1 estate_agent Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 16,
-      "score": 30,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Looking for a B2B Lead Generation / Sales Par\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "RE/MAX Müjde 1 — quick question about manual work that eats the week",
+        "body": "Hi RE/MAX Müjde 1 team,\n\nI work with estate_agent businesses in Istanbul on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "n8n Community-316792",
-      "source": "n8n Community",
-      "title": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
-      "description": "Hi everyone, I’m building a new AI automation agency focused on WhatsApp automation for service businesses. We’re starting from zero, with no existing clients or fixed monthly salary. I’m looking for 1–2 reliable n8n builders to work on a project basis as clients are acquired. What I’m looking for You should be comfortable with: n8n workflow development WhatsApp Business/API integrations AI/LLM integrations APIs and webhooks Google Sheets, CRMs, calendars and other business tools Lead qualification, follow-ups and booking workflows Human handoff/fallback logic Error handling, testing and troubleshooting Deployment, monitoring and maintenance Basic technical documentation Strong WhatsApp automation experience is especially valuable. Example projects WhatsApp AI lead qualification FAQ and customer-support bots Lead capture and CRM integration Appointment booking and rescheduling Automated follow-ups Human-agent handoff Notifications and internal alerts AI-powered business workflows Working arrangement This is project-based, not salaried: Client acquired → scope agreed → builder assigned → paid build/testing → deployment → maintenance if required I am not asking anyone to work for fre",
-      "url": "https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792",
-      "postedAt": "2026-09-26T14:01:38.093Z",
-      "raw": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
+      "id": "osm-node-12228300860",
+      "source": "OpenStreetMap",
+      "title": "Merkez Emlak — estate agent (Orhan Veli Kanık Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://merkezemlakkavacik.sahibinden.com/. Phone: +902164134048.",
+      "email": "",
+      "phone": "+90 536 699 89 20",
+      "mobileNumber": "+90 536 699 89 20",
+      "hasMobile": true,
+      "website": "https://merkezemlakkavacik.sahibinden.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "estate_agent",
       "services": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
+      "url": "https://merkezemlakkavacik.sahibinden.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Merkez Emlak estate_agent Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Deal pipeline automation",
+        "lead enrichment"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 26,
-      "score": 27,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
-        "body": "Hi,\n\nSaw your post: \"Looking for 1–2 n8n Builders for Long-Term Collaboration\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Quick idea for \"Merkez Emlak — estate agent (Orhan Veli Kanık\"",
+        "body": "Hi,\n\nSaw your post: \"Merkez Emlak — estate agent (Orhan Veli Kanık Caddesi, İstanbul)\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": false,
-      "waLink": ""
+      "waCapable": true,
+      "waLink": "https://wa.me/905366998920?text=Hello%20Merkez%20Emlak%2C%0A%0AI%20help%20businesses%20in%20Istanbul%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     },
     {
-      "id": "n8n Community-314417",
-      "source": "n8n Community",
-      "title": "N8n Freelancer needed for workflow",
-      "description": "Hey Community. I’ve been playing around n8n for an urgent project of mine, but I’m afraid I’m stuck. I’m happy to pay for help at this point. It’s a simple workflow but I only started using n8n a week ago, so it all looks like gibberish to me. I’d be happy to discuss the workflow in more details with any freelancer that’s interested. You can drop a response in the thread or DM me and we can get the conversation going. Looking forward to the responses.",
-      "url": "https://community.n8n.io/t/n8n-freelancer-needed-for-workflow/314417",
-      "postedAt": "2026-09-18T03:45:18.563Z",
-      "raw": "N8n Freelancer needed for workflow",
+      "id": "osm-node-12253683052",
+      "source": "OpenStreetMap",
+      "title": "Eyüpsultan 16 Numaralı Aile Sağlığı Merkezi — clinic (Reşadiye Caddesi, İstanbul)",
+      "description": "Business in Istanbul. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.eyup14noluasm.com/. Phone: +90 212 615 9443.",
+      "email": "info@eyup14noluasm.com",
+      "phone": "+90 212 615 9443",
+      "mobileNumber": "",
+      "hasMobile": false,
+      "website": "https://www.eyup14noluasm.com/",
+      "city": "Istanbul",
+      "tz": "Europe/Istanbul",
+      "category": "clinic",
       "services": [
-        "Workflow automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
+      "url": "https://www.eyup14noluasm.com/",
+      "postedAt": "2026-10-22T15:45:47.840Z",
+      "raw": "Eyüpsultan 16 Numaralı Aile Sağlığı Merkezi clinic Istanbul",
+      "_emailLead": true,
       "titleServices": [
-        "Workflow automation"
+        "Patient booking automation",
+        "follow-up sequences"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 34,
-      "score": 27,
+      "ageDays": 0,
+      "score": 54,
       "outreach": {
-        "subject": "Quick idea for \"N8n Freelancer needed for workflow\"",
-        "body": "Hi,\n\nSaw your post: \"N8n Freelancer needed for workflow\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
+        "subject": "Eyüpsultan 16 Numaralı Aile Sağlığı Merkezi — quick question about missed calls and no-shows",
+        "body": "Hi Eyüpsultan 16 Numaralı Aile Sağlığı Merkezi team,\n\nI work with clinic businesses in Istanbul on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
       },
       "status": "new",
       "waCapable": false,
