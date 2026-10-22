@@ -343,5 +343,10 @@
     "email": "info@arizonalawgroup.com",
     "reason": "bounced: spam block",
     "at": "2026-10-20T22:03:30.559Z"
+  },
+  {
+    "email": "christcapgh@yahoo.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-22T22:02:30.116Z"
   }
 ]
