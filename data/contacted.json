@@ -1486,5 +1486,545 @@
     "at": "2026-09-22T17:51:37.648Z",
     "business": "Prof. H B Dullabh — dentist (Lilian Ngoyi Street)",
     "status": "followup_1"
+  },
+  {
+    "email": "roni@vajewellery.co.za",
+    "at": "2026-09-22T21:46:47.360Z",
+    "business": "Veronica Anderson Jewellery — jewelry",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@vilailai.co.za",
+    "at": "2026-09-22T21:46:49.439Z",
+    "business": "Vilai Lai Day Spa — beauty",
+    "status": "followup_1"
+  },
+  {
+    "email": "rvc@mweb.co.za",
+    "at": "2026-09-22T21:46:50.585Z",
+    "business": "Riverclub Veterinary Clinic — veterinary (13th Street, Johannesburg)",
+    "status": "followup_1"
+  },
+  {
+    "email": "hello@shinyrockpolished.com",
+    "at": "2026-09-22T21:46:51.888Z",
+    "business": "Shiny Rock Polished — jewelry (Jan Smuts Avenue, Johannesburg)",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:46:53.023Z",
+    "business": "ITworkup - Smartwatches — electronics (Augrabies Rd, Midrand)",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:46:54.913Z",
+    "business": "ITworkup Smartphones — electronics (Waterfall Office Park, Augrabies Rd, Midrand",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:46:56.062Z",
+    "business": "ITworkup Tablets — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:46:57.478Z",
+    "business": "ITworkup Headphones and Headsets — electronics (Waterfall Office Park, Augrabies",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:46:59.682Z",
+    "business": "ITworkup Desktop CPUs — electronics (Waterfall Office Park, Augrabies Rd, Midran",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-22T21:47:01.287Z",
+    "business": "ITworkup Graphics Cards — electronics (Waterfall Office Park, Augrabies Rd, Vorn",
+    "status": "followup_1"
+  },
+  {
+    "email": "sean.lai@millenniumwelt.com.my",
+    "at": "2026-09-23T08:03:43.725Z",
+    "business": "BMW Millennium Welt — car",
+    "status": "sent"
+  },
+  {
+    "email": "enquiry@christopherheng.com",
+    "at": "2026-09-23T08:03:45.478Z",
+    "business": "Christopher Heng & Co — accountant (Jalan Ipoh, Kuala Lumpur)",
+    "status": "sent"
+  },
+  {
+    "email": "admin@mcma.com.my",
+    "at": "2026-09-23T08:03:47.100Z",
+    "business": "Traditional Chinese Medical Institute Malaysia — clinic (Jalan Hang Jebat, Kuala",
+    "status": "sent"
+  },
+  {
+    "email": "enquiries@italautomalaysia.com",
+    "at": "2026-09-23T08:03:48.878Z",
+    "business": "Ferrari — car",
+    "status": "sent"
+  },
+  {
+    "email": "statekl@state.com.my",
+    "at": "2026-09-23T08:03:50.514Z",
+    "business": "State Insurance Brokers Sdn Bhd — insurance (Jalan Manau, Off Jalan Kampung Atta",
+    "status": "sent"
+  },
+  {
+    "email": "kliniklana@yahoo.com",
+    "at": "2026-09-23T08:03:52.162Z",
+    "business": "KLINIK LANA — clinic (Jalan PJS 1/50)",
+    "status": "sent"
+  },
+  {
+    "email": "exchangetrx@apple.com",
+    "at": "2026-09-23T08:03:53.736Z",
+    "business": "Apple Store — electronics (The Exchange TRX, Kuala Lumpur)",
+    "status": "sent"
+  },
+  {
+    "email": "info@brightclinic.com.my",
+    "at": "2026-09-23T08:03:55.339Z",
+    "business": "Bright Clinic Sunway Geo — clinic (Sunway Geo Avenue Jalan Lagoon Selatan Sunway",
+    "status": "sent"
+  },
+  {
+    "email": "midvalley@belle-sense.com",
+    "at": "2026-09-23T08:03:57.366Z",
+    "business": "Belle Sense Clinic — clinic (Lingkaran Syed Putra, Kuala Lumpur)",
+    "status": "sent"
+  },
+  {
+    "email": "weileng@ymcakl.com",
+    "at": "2026-09-23T08:03:59.475Z",
+    "business": "YMCA Language School — language school",
+    "status": "sent"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:03.065Z",
+    "business": "ITworkup M.2 and SATA SSD — electronics (Waterfall Office Park, Augrabies Rd, Mi",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:04.771Z",
+    "business": "ITworkup Webcams — electronics (Waterfall Office Park, Augrabies Rd, Midrand)",
+    "status": "followup_1"
+  },
+  {
+    "email": "social@itworkup.co.za",
+    "at": "2026-09-23T15:15:06.092Z",
+    "business": "ITworkup Desktop and Laptop DDR4 and DDR5 Memory — electronics (Waterfall Office",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@prometheus-systems.co.za",
+    "at": "2026-09-23T15:15:07.025Z",
+    "business": "Prometheus Systems — computer (Leicester Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "kernot@mweb.co.za",
+    "at": "2026-09-23T15:15:07.898Z",
+    "business": "Angela Kernot Realty — estate agent (Bridge Shopping centre)",
+    "status": "followup_1"
+  },
+  {
+    "email": "lajpatnagar@chandranipearls.net",
+    "at": "2026-09-23T15:15:08.839Z",
+    "business": "Chandrani Pearls — jewelry (Cinema Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "aagakhan_adv@yahoo.com",
+    "at": "2026-09-23T15:15:09.860Z",
+    "business": "Aaga khan — lawyer (Press Enclave Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "shubhgemsindia@gmail.com",
+    "at": "2026-09-23T15:15:10.774Z",
+    "business": "Shubh gems — jewelry (Shiv Mandir Marg, New Delhi)",
+    "status": "followup_1"
+  },
+  {
+    "email": "dr.skjain@yahoo.com",
+    "at": "2026-09-23T15:15:11.680Z",
+    "business": "Dr Jain's Clinic — clinic (C-20/A New Krishnapark)",
+    "status": "followup_1"
+  },
+  {
+    "email": "sunraz25@gmail.com",
+    "at": "2026-09-23T15:15:13.043Z",
+    "business": "Artline The Creation — computer",
+    "status": "followup_1"
+  },
+  {
+    "email": "zentekcomputereducation@gmail.com",
+    "at": "2026-09-23T21:55:25.697Z",
+    "business": "Zentek Educational  & Welfare Society — computer (Street No.4)",
+    "status": "followup_1"
+  },
+  {
+    "email": "sheetalsahunja2000@gmail.com",
+    "at": "2026-09-23T21:55:27.166Z",
+    "business": "The Dentist — dentist",
+    "status": "followup_1"
+  },
+  {
+    "email": "hebehealthclinic@gmail.com",
+    "at": "2026-09-23T21:55:29.229Z",
+    "business": "Hebe Health Clinic — doctors (New Delhi)",
+    "status": "followup_1"
+  },
+  {
+    "email": "drdipanjit@gmail.com",
+    "at": "2026-09-23T21:55:30.483Z",
+    "business": "Doctor Singh's Multispecialty Dental Clinic — dentist",
+    "status": "followup_1"
+  },
+  {
+    "email": "cashforgoldindelhincr@gmail.com",
+    "at": "2026-09-23T21:55:31.746Z",
+    "business": "Cash For Gold in Delhi — jewelry",
+    "status": "followup_1"
+  },
+  {
+    "email": "admin@feathair.com",
+    "at": "2026-09-23T21:55:33.199Z",
+    "business": "Feathair Hair Growth Center — clinic (Jalan Telawi)",
+    "status": "followup_1"
+  },
+  {
+    "email": "thedentist@dentalpro.org",
+    "at": "2026-09-23T21:55:34.803Z",
+    "business": "Dentalpro — dentist",
+    "status": "followup_1"
+  },
+  {
+    "email": "gbintangauto@live.com",
+    "at": "2026-09-23T21:55:36.049Z",
+    "business": "Le-Hase Auto Sdn. Bhd. — car (jalan 1 off jalan wawasan 4/2)",
+    "status": "followup_1"
+  },
+  {
+    "email": "bangsar@mydentist.com.my",
+    "at": "2026-09-23T21:55:37.638Z",
+    "business": "mydentist — dentist (Jalan Maarof)",
+    "status": "followup_1"
+  },
+  {
+    "email": "enquiries@imperialdsc.com",
+    "at": "2026-09-23T21:55:39.040Z",
+    "business": "Imperial Dental Specialist Centre — dentist (Jalan Telawi, Kuala Lumpur)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@wyse.ie",
+    "at": "2026-09-24T07:55:18.706Z",
+    "business": "Wyse Property — estate agent (Leeson Street Upper)",
+    "status": "sent"
+  },
+  {
+    "email": "info@sisuclinic.com",
+    "at": "2026-09-24T07:55:20.667Z",
+    "business": "SISU Clinic — beauty (Fields Terrace, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "reception@d6dental.ie",
+    "at": "2026-09-24T07:55:22.485Z",
+    "business": "D6 Dental (Connellan & Associates) — dentist (Rathgar Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@giraffe.ie",
+    "at": "2026-09-24T07:55:24.155Z",
+    "business": "Giraffe Childcare Harcourt Road — childcare (Charlemont Street, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "hello@phoenixdental.ie",
+    "at": "2026-09-24T07:55:25.815Z",
+    "business": "Phoenix Dental — dentist (Ashtown Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@kobash.ie",
+    "at": "2026-09-24T07:55:27.473Z",
+    "business": "Kobash Jewellers & Goldsmith — jewelry (Main Street, Blackrock)",
+    "status": "sent"
+  },
+  {
+    "email": "customercareteam@msl.ie",
+    "at": "2026-09-24T07:55:29.999Z",
+    "business": "MSL Service Centre — car (North Circular Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@blow.ie",
+    "at": "2026-09-24T07:55:31.663Z",
+    "business": "Blow Hair & Beauty — beauty (Leeson Street Upper, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "tan-n-glo@hotmail.com",
+    "at": "2026-09-24T07:55:33.372Z",
+    "business": "Tan n Glo — beauty (Hyde Court, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "reception@rathgarmedicalpractice.ie",
+    "at": "2026-09-24T07:55:34.981Z",
+    "business": "The Rathgar Medical Practice — doctors (Rathgar Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "learn@languages4life.com",
+    "at": "2026-09-24T15:36:53.162Z",
+    "business": "TEFL Iberia — language school (Carrer de València, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "soporte@traxtore.com",
+    "at": "2026-09-24T15:36:54.263Z",
+    "business": "Traxtore — computer (Carrer de Sepúlveda, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "sfamilia@garzondental.com",
+    "at": "2026-09-24T15:36:55.332Z",
+    "business": "Clínica Garzón Dental — dentist (Carrer de Provença, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "greenmegastore@pcgreen.com",
+    "at": "2026-09-24T15:36:56.287Z",
+    "business": "Green Megastore — computer",
+    "status": "sent"
+  },
+  {
+    "email": "info@loebelgonzalez.com",
+    "at": "2026-09-24T15:36:57.445Z",
+    "business": "Löbel & González — lawyer",
+    "status": "sent"
+  },
+  {
+    "email": "info@autoescuelaoton.com",
+    "at": "2026-09-24T15:36:58.405Z",
+    "business": "Oton autoescola — driving school",
+    "status": "sent"
+  },
+  {
+    "email": "cursos.barcelona@britishcouncil.es",
+    "at": "2026-09-24T15:36:59.459Z",
+    "business": "British Council — language school (Carrer d'Amigó, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "info@institutnordic.com",
+    "at": "2026-09-24T15:37:00.732Z",
+    "business": "Institut Nórdic — language school (Gran Via de les Corts Catalanes, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "administracion@sitep.com",
+    "at": "2026-09-24T15:37:01.925Z",
+    "business": "Sitep S.L. — it (Carrer de la Diputació, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "ainhoaestetica@hotmail.es",
+    "at": "2026-09-24T15:37:03.041Z",
+    "business": "Ainhoa Estetica — beauty (Carrer d'Europa, Badalona)",
+    "status": "sent"
+  },
+  {
+    "email": "jsliew621@gmail.com",
+    "at": "2026-09-24T21:54:54.223Z",
+    "business": "Aery Jo Academy — beauty (Jalan Pandan Indah 4/6, kuala lumpur)",
+    "status": "followup_1"
+  },
+  {
+    "email": "malaysiadyslexiahq@gmail.com",
+    "at": "2026-09-24T21:55:10.216Z",
+    "business": "Kelas Bimbingan Intensif Disleksia Ampang — childcare (Jalan Ampang)",
+    "status": "followup_1"
+  },
+  {
+    "email": "lkk_2778@yahoo.com",
+    "at": "2026-09-24T21:55:11.152Z",
+    "business": "LKK Speed Motors Sdn Bhd — insurance (JALAN 1/42, SEGAMBUT MUKIM BATU, Kuala Lum",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@cvskl.com",
+    "at": "2026-09-24T21:55:12.113Z",
+    "business": "Cardiac Vascular Sentral Kuala Lumpur — clinic",
+    "status": "followup_1"
+  },
+  {
+    "email": "afkl.information@gmail.com",
+    "at": "2026-09-24T21:55:13.122Z",
+    "business": "Alliance Française Kuala Lumpur — language school",
+    "status": "followup_1"
+  },
+  {
+    "email": "koushin-eifuku@joy.hi-ho.ne.jp",
+    "at": "2026-09-24T21:55:14.076Z",
+    "business": "光進電機 — electronics",
+    "status": "followup_1"
+  },
+  {
+    "email": "info.taulli@reframe1001.com",
+    "at": "2026-09-24T21:55:14.980Z",
+    "business": "Taulli Acupuncture & Massage — clinic (渋谷区)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@sakura-house.com",
+    "at": "2026-09-24T21:55:16.023Z",
+    "business": "Sakura House Lounge — estate agent (新宿区)",
+    "status": "followup_1"
+  },
+  {
+    "email": "ec-staff@raku-den.net",
+    "at": "2026-09-24T21:55:16.922Z",
+    "business": "ラクデン — electronics (豊島区)",
+    "status": "followup_1"
+  },
+  {
+    "email": "ueno@heya-ichiba.jp",
+    "at": "2026-09-24T21:55:17.812Z",
+    "business": "部屋市場 — estate agent",
+    "status": "followup_1"
+  },
+  {
+    "email": "kocinos@o2.pl",
+    "at": "2026-09-25T08:17:43.319Z",
+    "business": "Gabinet Weterynaryjny Kocinos — veterinary",
+    "status": "sent"
+  },
+  {
+    "email": "kontakt@magwise.pl",
+    "at": "2026-09-25T08:17:44.908Z",
+    "business": "Magwise — doctors",
+    "status": "sent"
+  },
+  {
+    "email": "warszawa1@almatur.pl",
+    "at": "2026-09-25T08:17:46.397Z",
+    "business": "Almatur — travel agent (Mikołaja Kopernika, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "fundacja@sakura.org.pl",
+    "at": "2026-09-25T08:17:47.778Z",
+    "business": "Sakura — language school (Próżna, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "biuro@kancelaria-praga.pl",
+    "at": "2026-09-25T08:17:49.165Z",
+    "business": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "przychodnia.grochowska@multimed.pl",
+    "at": "2026-09-25T08:17:50.658Z",
+    "business": "Multi Med — doctors (Grochowska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "sklep@format.com.pl",
+    "at": "2026-09-25T08:17:52.112Z",
+    "business": "Format — computer (Jagiellońska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "recepcja.targowa@polmed.pl",
+    "at": "2026-09-25T08:17:53.112Z",
+    "business": "Pol-Med — doctors (Targowa, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "sklep@meblezrattanu.pl",
+    "at": "2026-09-25T08:17:55.102Z",
+    "business": "Centrum Mebli Rattanowych i Stylowych — furniture (Antoniewska, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "wiktor@zxstudio.pl",
+    "at": "2026-09-25T08:17:56.629Z",
+    "business": "ZXStudio! — it (Siennicka, Warszawa)",
+    "status": "sent"
+  },
+  {
+    "email": "info@fultongrace.com",
+    "at": "2026-09-25T15:40:14.447Z",
+    "business": "Fulton Grace Realty — estate agent (North Milwaukee Avenue, Chicago)",
+    "status": "sent"
+  },
+  {
+    "email": "sservice8280@birks.com",
+    "at": "2026-09-25T15:40:15.612Z",
+    "business": "Maison Birks — jewelry (Rue Sainte-Catherine Ouest)",
+    "status": "sent"
+  },
+  {
+    "email": "bijouterielapuce@live.ca",
+    "at": "2026-09-25T15:40:16.749Z",
+    "business": "Bijouterie La Puce — jewelry (Rue Masson)",
+    "status": "sent"
+  },
+  {
+    "email": "info@koumbit.org",
+    "at": "2026-09-25T15:40:17.954Z",
+    "business": "Réseau Koumbit — it (Rue Atateken, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "c-stlouis@csdm.qc.ca",
+    "at": "2026-09-25T15:40:19.500Z",
+    "business": "Carrosserie du Nord;Centre Saint-Louis — language school (Rue Marie-Anne;Rue Dro",
+    "status": "sent"
+  },
+  {
+    "email": "info@inlibro.com",
+    "at": "2026-09-25T15:40:21.260Z",
+    "business": "Solutions inLibro inc. — it (Rue Waverly, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "tout-cha-tou@videotron.ca",
+    "at": "2026-09-25T15:40:22.575Z",
+    "business": "Touchattou — veterinary (Rue Atateken)",
+    "status": "sent"
+  },
+  {
+    "email": "info@accescomptabilite.ca",
+    "at": "2026-09-25T15:40:25.791Z",
+    "business": "Accès Comptabilité — accountant (Rue Sainte-Catherine Est, Montréal)",
+    "status": "sent"
+  },
+  {
+    "email": "office@amservices.ca",
+    "at": "2026-09-25T15:40:30.489Z",
+    "business": "A & M Services - Bookkeeping & Taxes — accountant (Rue Jean-Talon Ouest,, Montre",
+    "status": "sent"
+  },
+  {
+    "email": "outremont@remax-ducartier.qc.ca",
+    "at": "2026-09-25T15:40:31.776Z",
+    "business": "RE/MAX du Cartier — estate agent (Avenue Bernard, Montréal)",
+    "status": "sent"
   }
 ]

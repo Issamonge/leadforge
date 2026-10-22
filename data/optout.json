@@ -158,5 +158,190 @@
     "email": "info@scoute.com",
     "reason": "bounced: undeliverable",
     "at": "2026-09-20T17:48:58.541Z"
+  },
+  {
+    "email": "smac.phoenix@consultant.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-22T21:46:46.463Z"
+  },
+  {
+    "email": "greenmegastore@pcgreen.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-24T21:54:53.487Z"
+  },
+  {
+    "email": "sklep@format.com.pl",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.973Z"
+  },
+  {
+    "email": "pete+jobs@ambrahealth.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "bartosz.plotka@diamontech.de",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "recruiting@mu-energy.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "klee+careers@everquote.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T15:40:07.974Z"
+  },
+  {
+    "email": "tout-cha-tou@videotron.ca",
+    "reason": "bounced: spam block",
+    "at": "2026-09-25T21:55:13.141Z"
+  },
+  {
+    "email": "info@autoescuelaoton.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-25T21:55:13.141Z"
+  },
+  {
+    "email": "info@acmaintenancecompany.ae",
+    "reason": "bounced: spam block",
+    "at": "2026-09-26T14:50:32.024Z"
+  },
+  {
+    "email": "enquiries@cirruslegal.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-27T08:40:26.026Z"
+  },
+  {
+    "email": "info@arizonaluxurylawns.com",
+    "reason": "bounced: spam block",
+    "at": "2026-09-27T15:27:42.677Z"
+  },
+  {
+    "email": "cody@allveesplumbing.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-28T18:21:26.544Z"
+  },
+  {
+    "email": "ejemplo@misitio.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-29T16:42:35.774Z"
+  },
+  {
+    "email": "hialeah@patersoninjurylawyer.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-09-30T16:34:47.722Z"
+  },
+  {
+    "email": "info@arizonanativeroofing.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "contact@byrddavis.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "eben@eyebytes.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-01T17:11:47.337Z"
+  },
+  {
+    "email": "admin@lawsome.com.au",
+    "reason": "bounced: spam block",
+    "at": "2026-10-03T15:00:56.148Z"
+  },
+  {
+    "email": "contact@freedomlawgroup.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-06T17:00:06.220Z"
+  },
+  {
+    "email": "sethtopek@topekandtopek.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-06T17:00:06.220Z"
+  },
+  {
+    "email": "info@arizonaroofrescue.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "info@asapserve.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "michelle@mikesswatteam.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-07T17:36:30.993Z"
+  },
+  {
+    "email": "you@email.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-08T17:39:23.362Z"
+  },
+  {
+    "email": "info@walkertexaslawyer.us",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-11T16:27:43.822Z"
+  },
+  {
+    "email": "sferrell@ferrell-lawfirm.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-11T16:27:43.822Z"
+  },
+  {
+    "email": "info@1800hurt911ga.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-12T20:04:50.201Z"
+  },
+  {
+    "email": "contact@ey.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "hello@evolfe.co.uk",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "john.battison2@ntlworld.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "info@vistauae.com",
+    "reason": "bounced: undeliverable",
+    "at": "2026-10-14T15:39:46.942Z"
+  },
+  {
+    "email": "info@arcadiaelectric.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-15T15:25:19.566Z"
+  },
+  {
+    "email": "hello@mannalandscapes.com.au",
+    "reason": "bounced: spam block",
+    "at": "2026-10-15T15:25:19.566Z"
+  },
+  {
+    "email": "hector@deltorolaw.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-16T21:50:08.239Z"
+  },
+  {
+    "email": "info@brookerlaw.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-18T14:14:07.153Z"
+  },
+  {
+    "email": "info@arizonalawgroup.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-20T22:03:30.559Z"
   }
 ]
