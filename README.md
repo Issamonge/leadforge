@@ -1,3 +1,5 @@
+# ⚠️ AI AGENTS: read `AGENTS.md` first — it is the operating manual.
+
 # Lead Machine — AI Solutions Engine
 
 An **autonomous lead engine + dashboard** for selling AI/automation services

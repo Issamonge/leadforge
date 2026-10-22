@@ -2,7 +2,24 @@ name: Lead Engine — 5 rounds/day
 on:
   schedule:
     - cron: '0 3,7,11,15,19 * * *'   # 07:00, 11:00, 15:00, 19:00, 23:00 Dubai (UTC+4)
-  workflow_dispatch:                  # manual run from the Actions tab
+  workflow_dispatch:
+    inputs:
+      send_cap:
+        description: 'Max emails this run (new sends + follow-ups combined)'
+        required: false
+        default: '10'
+      daily_target:
+        description: 'Max qualified leads to collect'
+        required: false
+        default: '60'
+      cities:
+        description: 'auto = rotate 4 cities, or comma list e.g. Dubai,London'
+        required: false
+        default: 'auto'
+      dry_run:
+        description: 'true = find leads but DO NOT send any email'
+        required: false
+        default: 'false'
 permissions:
   contents: write
 jobs:
@@ -17,13 +34,13 @@ jobs:
 
       - name: Run lead engine
         env:
-          DAILY_TARGET: '60'
+          DAILY_TARGET: ${{ inputs.daily_target || '60' }}
           MIN_BUDGET: '0'
           PAYOUT_GOAL: '500'
           PILOT_PRICE: '350'
-          SEND_OUTREACH: 'true'
-          DAILY_SEND_CAP: '10'
-          TARGET_CITIES: 'auto'
+          SEND_OUTREACH: ${{ (inputs.dry_run == 'true') && 'false' || 'true' }}
+          DAILY_SEND_CAP: ${{ inputs.send_cap || '10' }}
+          TARGET_CITIES: ${{ inputs.cities || 'auto' }}
           CITY_BATCH: '4'
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
