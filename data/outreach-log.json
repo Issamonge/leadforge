@@ -176,8 +176,8 @@
     "city": "Johannesburg",
     "service": "Lead automation",
     "sentAt": "2026-09-19T10:20:46.606Z",
-    "lastSentAt": "2026-09-22T21:46:57.478Z",
-    "step": 1
+    "lastSentAt": "2026-10-23T08:05:24.945Z",
+    "step": 2
   },
   {
     "email": "social@itworkup.co.za",
@@ -186,8 +186,8 @@
     "city": "Johannesburg",
     "service": "Lead automation",
     "sentAt": "2026-09-19T10:20:48.603Z",
-    "lastSentAt": "2026-09-22T21:46:59.682Z",
-    "step": 1
+    "lastSentAt": "2026-10-23T08:05:25.948Z",
+    "step": 2
   },
   {
     "email": "social@itworkup.co.za",
@@ -196,8 +196,8 @@
     "city": "Johannesburg",
     "service": "Lead automation",
     "sentAt": "2026-09-19T10:20:50.233Z",
-    "lastSentAt": "2026-09-22T21:47:01.287Z",
-    "step": 1
+    "lastSentAt": "2026-10-23T08:05:26.940Z",
+    "step": 2
   },
   {
     "email": "social@itworkup.co.za",
@@ -206,8 +206,8 @@
     "city": "Johannesburg",
     "service": "Lead automation",
     "sentAt": "2026-09-19T10:20:52.155Z",
-    "lastSentAt": "2026-09-23T15:15:03.065Z",
-    "step": 1
+    "lastSentAt": "2026-10-23T08:05:27.894Z",
+    "step": 2
   },
   {
     "email": "social@itworkup.co.za",
@@ -1377,6 +1377,66 @@
     "service": "Lead automation",
     "sentAt": "2026-10-22T18:58:08.420Z",
     "lastSentAt": "2026-10-22T18:58:08.420Z",
+    "step": 0
+  },
+  {
+    "email": "enquiry@eamdialysis.com",
+    "business": "EAM Dialysis Centre — clinic",
+    "niche": "clinic",
+    "city": "Kuala Lumpur",
+    "service": "Patient booking automation",
+    "sentAt": "2026-10-23T08:05:18.758Z",
+    "lastSentAt": "2026-10-23T08:05:18.758Z",
+    "step": 0
+  },
+  {
+    "email": "care@rjclinic.my",
+    "business": "RJ Clinic Segambut — clinic (Jalan Segambut, Kuala Lumpur)",
+    "niche": "clinic",
+    "city": "Kuala Lumpur",
+    "service": "Patient booking automation",
+    "sentAt": "2026-10-23T08:05:19.713Z",
+    "lastSentAt": "2026-10-23T08:05:19.713Z",
+    "step": 0
+  },
+  {
+    "email": "info@law-partnership.com",
+    "business": "LAW Partnership — lawyer (Avenue 5)",
+    "niche": "lawyer",
+    "city": "Kuala Lumpur",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-23T08:05:20.767Z",
+    "lastSentAt": "2026-10-23T08:05:20.767Z",
+    "step": 0
+  },
+  {
+    "email": "carenne@perfectdesign.my",
+    "business": "Perfect Design — it (Jalan Bangsar, Kuala Lumpur)",
+    "niche": "it",
+    "city": "Kuala Lumpur",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-10-23T08:05:21.972Z",
+    "lastSentAt": "2026-10-23T08:05:21.972Z",
+    "step": 0
+  },
+  {
+    "email": "hq@bigbrainfurniture.com",
+    "business": "Big Brain Petaling Jaya (Furniture Shop) — furniture (Jalan Profesor Diraja Ungk",
+    "niche": "furniture",
+    "city": "Kuala Lumpur",
+    "service": "Lead follow-up",
+    "sentAt": "2026-10-23T08:05:22.928Z",
+    "lastSentAt": "2026-10-23T08:05:22.928Z",
+    "step": 0
+  },
+  {
+    "email": "customerservice.ikeamy@ikano.asia",
+    "business": "IKEA — furniture (Jalan Cochrane, Kuala Lumpur)",
+    "niche": "furniture",
+    "city": "Kuala Lumpur",
+    "service": "Lead follow-up",
+    "sentAt": "2026-10-23T08:05:23.912Z",
+    "lastSentAt": "2026-10-23T08:05:23.912Z",
     "step": 0
   }
 ]
