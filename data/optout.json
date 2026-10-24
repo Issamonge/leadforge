@@ -348,5 +348,10 @@
     "email": "christcapgh@yahoo.com",
     "reason": "bounced: undeliverable",
     "at": "2026-10-22T22:02:30.116Z"
+  },
+  {
+    "email": "info@rathgardentist.ie",
+    "reason": "bounced: spam block",
+    "at": "2026-10-24T14:13:03.740Z"
   }
 ]

@@ -57,7 +57,7 @@
   },
   "hotmail.com": {
     "ok": true,
-    "at": "2026-09-18T19:26:29.111Z"
+    "at": "2026-10-24T14:13:03.791Z"
   },
   "eurostarwll.com": {
     "ok": false,
@@ -1942,5 +1942,25 @@
   "perfectdesign.my": {
     "ok": true,
     "at": "2026-10-23T08:05:17.910Z"
+  },
+  "cainfor.es": {
+    "ok": true,
+    "at": "2026-10-24T14:13:04.242Z"
+  },
+  "kebek.es": {
+    "ok": true,
+    "at": "2026-10-24T14:13:04.314Z"
+  },
+  "harpermorganenglish.com": {
+    "ok": false,
+    "at": "2026-10-24T14:13:04.350Z"
+  },
+  "berlitz.es": {
+    "ok": true,
+    "at": "2026-10-24T14:13:04.495Z"
+  },
+  "winterschool.net": {
+    "ok": true,
+    "at": "2026-10-24T14:13:04.654Z"
   }
 }

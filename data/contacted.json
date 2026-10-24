@@ -2386,5 +2386,65 @@
     "at": "2026-10-24T07:44:19.930Z",
     "business": "Ray Cooke — estate agent (Terenure Road North)",
     "status": "sent"
+  },
+  {
+    "email": "asesoriaalcazar@telefonica.net",
+    "at": "2026-10-24T14:13:06.982Z",
+    "business": "Assessoria Alcázar — estate agent (Carrer de Pérez Galdós, Badalona)",
+    "status": "sent"
+  },
+  {
+    "email": "martinezsempere@martinezsempere.com",
+    "at": "2026-10-24T14:13:08.581Z",
+    "business": "Martínez Sempere & Associats S.L. — insurance (Plaça de Trafalgar, Badalona)",
+    "status": "sent"
+  },
+  {
+    "email": "rcd@rcdslp.com",
+    "at": "2026-10-24T14:13:10.167Z",
+    "business": "Rousaud Costas Duran — lawyer (Carrer de les Escoles Pies, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "info@rgreform.com",
+    "at": "2026-10-24T14:13:11.549Z",
+    "business": "RG Reforms Co. — estate agent (Plaça de Trafalgar, Badalona)",
+    "status": "sent"
+  },
+  {
+    "email": "info@axxonsoft.com",
+    "at": "2026-10-24T14:13:12.820Z",
+    "business": "AxxonSoft — it (Avinguda del Portal de l'Àngel, Barcelona)",
+    "status": "sent"
+  },
+  {
+    "email": "mq@xp-mq.com",
+    "at": "2026-10-24T14:13:14.252Z",
+    "business": "Moreno Quesada Advocats — lawyer",
+    "status": "sent"
+  },
+  {
+    "email": "info@datosexpress.com",
+    "at": "2026-10-24T14:13:15.517Z",
+    "business": "Grup Tècnic Informàtic Artech — computer (Carrer de la Garrotxa 6)",
+    "status": "sent"
+  },
+  {
+    "email": "info@gestoriak2.com",
+    "at": "2026-10-24T14:13:16.847Z",
+    "business": "K2 asesores y gestores — estate agent (Carrer d'Aribau)",
+    "status": "sent"
+  },
+  {
+    "email": "info@frenchkissbeauty.com",
+    "at": "2026-10-24T14:13:18.089Z",
+    "business": "French kiss beauty — beauty (Avinguda del Portal de l'Àngel)",
+    "status": "sent"
+  },
+  {
+    "email": "barcelona@ergodinamica.com",
+    "at": "2026-10-24T14:13:19.548Z",
+    "business": "Ergodinámica — doctors (Passeig de la Bonanova, Barcelona)",
+    "status": "sent"
   }
 ]

@@ -1538,5 +1538,105 @@
     "sentAt": "2026-10-24T07:44:19.930Z",
     "lastSentAt": "2026-10-24T07:44:19.930Z",
     "step": 0
+  },
+  {
+    "email": "asesoriaalcazar@telefonica.net",
+    "business": "Assessoria Alcázar — estate agent (Carrer de Pérez Galdós, Badalona)",
+    "niche": "estate_agent",
+    "city": "Barcelona",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T14:13:06.982Z",
+    "lastSentAt": "2026-10-24T14:13:06.982Z",
+    "step": 0
+  },
+  {
+    "email": "martinezsempere@martinezsempere.com",
+    "business": "Martínez Sempere & Associats S.L. — insurance (Plaça de Trafalgar, Badalona)",
+    "niche": "insurance",
+    "city": "Barcelona",
+    "service": "Quote follow-up automation",
+    "sentAt": "2026-10-24T14:13:08.581Z",
+    "lastSentAt": "2026-10-24T14:13:08.581Z",
+    "step": 0
+  },
+  {
+    "email": "rcd@rcdslp.com",
+    "business": "Rousaud Costas Duran — lawyer (Carrer de les Escoles Pies, Barcelona)",
+    "niche": "lawyer",
+    "city": "Barcelona",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-24T14:13:10.167Z",
+    "lastSentAt": "2026-10-24T14:13:10.167Z",
+    "step": 0
+  },
+  {
+    "email": "info@rgreform.com",
+    "business": "RG Reforms Co. — estate agent (Plaça de Trafalgar, Badalona)",
+    "niche": "estate_agent",
+    "city": "Barcelona",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T14:13:11.549Z",
+    "lastSentAt": "2026-10-24T14:13:11.549Z",
+    "step": 0
+  },
+  {
+    "email": "info@axxonsoft.com",
+    "business": "AxxonSoft — it (Avinguda del Portal de l'Àngel, Barcelona)",
+    "niche": "it",
+    "city": "Barcelona",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-10-24T14:13:12.820Z",
+    "lastSentAt": "2026-10-24T14:13:12.820Z",
+    "step": 0
+  },
+  {
+    "email": "mq@xp-mq.com",
+    "business": "Moreno Quesada Advocats — lawyer",
+    "niche": "lawyer",
+    "city": "Barcelona",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-24T14:13:14.252Z",
+    "lastSentAt": "2026-10-24T14:13:14.252Z",
+    "step": 0
+  },
+  {
+    "email": "info@datosexpress.com",
+    "business": "Grup Tècnic Informàtic Artech — computer (Carrer de la Garrotxa 6)",
+    "niche": "computer",
+    "city": "Barcelona",
+    "service": "AI workflow automation",
+    "sentAt": "2026-10-24T14:13:15.517Z",
+    "lastSentAt": "2026-10-24T14:13:15.517Z",
+    "step": 0
+  },
+  {
+    "email": "info@gestoriak2.com",
+    "business": "K2 asesores y gestores — estate agent (Carrer d'Aribau)",
+    "niche": "estate_agent",
+    "city": "Barcelona",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T14:13:16.847Z",
+    "lastSentAt": "2026-10-24T14:13:16.847Z",
+    "step": 0
+  },
+  {
+    "email": "info@frenchkissbeauty.com",
+    "business": "French kiss beauty — beauty (Avinguda del Portal de l'Àngel)",
+    "niche": "beauty",
+    "city": "Barcelona",
+    "service": "Booking automation",
+    "sentAt": "2026-10-24T14:13:18.089Z",
+    "lastSentAt": "2026-10-24T14:13:18.089Z",
+    "step": 0
+  },
+  {
+    "email": "barcelona@ergodinamica.com",
+    "business": "Ergodinámica — doctors (Passeig de la Bonanova, Barcelona)",
+    "niche": "doctors",
+    "city": "Barcelona",
+    "service": "Appointment automation",
+    "sentAt": "2026-10-24T14:13:19.548Z",
+    "lastSentAt": "2026-10-24T14:13:19.548Z",
+    "step": 0
   }
 ]

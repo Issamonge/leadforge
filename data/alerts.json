@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-24T14:12:49.136Z",
+    "text": "*LEAD MACHINE* — 24/10/2026, 18:12:49\n\nScanned 410 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-24T07:43:43.551Z",
     "text": "*LEAD MACHINE* — 24/10/2026, 11:43:43\n\nScanned 410 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -790,13 +798,5 @@
     "count": 60,
     "tapToChat": 0,
     "hot": 0
-  },
-  {
-    "at": "2026-09-22T17:50:40.381Z",
-    "text": "*LEAD MACHINE* — 22/09/2026, 21:50:40\n\nScanned 278 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n*HOT LEADS (needs your closing):*\n• [68] [HIRING] N8N AI Automation Developer (Remo\n   https://community.n8n.io/t/hiring-n8n-ai-automation-developer-remote/298577\n\n_Open the dashboard for the full list._",
-    "kind": "new_leads",
-    "count": 60,
-    "tapToChat": 0,
-    "hot": 1
   }
 ]
