@@ -1438,5 +1438,105 @@
     "sentAt": "2026-10-23T08:05:23.912Z",
     "lastSentAt": "2026-10-23T08:05:23.912Z",
     "step": 0
+  },
+  {
+    "email": "rathmines@sherryfitz.ie",
+    "business": "Sherry FitzGerald — estate agent (Rathmines Road Lower, Dublin)",
+    "niche": "estate_agent",
+    "city": "Dublin",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T07:44:07.920Z",
+    "lastSentAt": "2026-10-24T07:44:07.920Z",
+    "step": 0
+  },
+  {
+    "email": "info@rathgardentist.ie",
+    "business": "Rathgar Dental Clinic — dentist (Rathgar Road, Dublin)",
+    "niche": "dentist",
+    "city": "Dublin",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-24T07:44:09.113Z",
+    "lastSentAt": "2026-10-24T07:44:09.113Z",
+    "step": 0
+  },
+  {
+    "email": "info@charltons.ie",
+    "business": "Charltons Solicitors — lawyer (Leeson Street Upper, Dublin)",
+    "niche": "lawyer",
+    "city": "Dublin",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-24T07:44:10.251Z",
+    "lastSentAt": "2026-10-24T07:44:10.251Z",
+    "step": 0
+  },
+  {
+    "email": "office@reliancepropertyconsultants.ie",
+    "business": "Reliance — estate agent (Harold's Cross Road, Dublin)",
+    "niche": "estate_agent",
+    "city": "Dublin",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T07:44:11.502Z",
+    "lastSentAt": "2026-10-24T07:44:11.502Z",
+    "step": 0
+  },
+  {
+    "email": "info@doctorbrady.ie",
+    "business": "Brady — doctors (Harrington Street, Dublin)",
+    "niche": "doctors",
+    "city": "Dublin",
+    "service": "Appointment automation",
+    "sentAt": "2026-10-24T07:44:12.912Z",
+    "lastSentAt": "2026-10-24T07:44:12.912Z",
+    "step": 0
+  },
+  {
+    "email": "info@dmpc.ie",
+    "business": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
+    "niche": "estate_agent",
+    "city": "Dublin",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T07:44:14.200Z",
+    "lastSentAt": "2026-10-24T07:44:14.200Z",
+    "step": 0
+  },
+  {
+    "email": "info@bcrowe.ie",
+    "business": "Brian Crowe & Co. Solicitors — lawyer (Harold's Cross Road, Dublin)",
+    "niche": "lawyer",
+    "city": "Dublin",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-24T07:44:15.808Z",
+    "lastSentAt": "2026-10-24T07:44:15.808Z",
+    "step": 0
+  },
+  {
+    "email": "info@newireland.ie",
+    "business": "New Ireland Assurance Company plc — insurance (Dawson Street, Dublin)",
+    "niche": "insurance",
+    "city": "Dublin",
+    "service": "Quote follow-up automation",
+    "sentAt": "2026-10-24T07:44:17.355Z",
+    "lastSentAt": "2026-10-24T07:44:17.355Z",
+    "step": 0
+  },
+  {
+    "email": "info@youngs.ie",
+    "business": "Young's Estate Agents — estate agent (Ranelagh, Dublin)",
+    "niche": "estate_agent",
+    "city": "Dublin",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T07:44:18.576Z",
+    "lastSentAt": "2026-10-24T07:44:18.576Z",
+    "step": 0
+  },
+  {
+    "email": "terenure@raycooke.ie",
+    "business": "Ray Cooke — estate agent (Terenure Road North)",
+    "niche": "estate_agent",
+    "city": "Dublin",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-24T07:44:19.930Z",
+    "lastSentAt": "2026-10-24T07:44:19.930Z",
+    "step": 0
   }
 ]

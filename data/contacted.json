@@ -2326,5 +2326,65 @@
     "at": "2026-10-23T21:49:45.807Z",
     "business": "Aery Jo Academy — beauty (Jalan Pandan Indah 4/6, kuala lumpur)",
     "status": "followup_2"
+  },
+  {
+    "email": "rathmines@sherryfitz.ie",
+    "at": "2026-10-24T07:44:07.920Z",
+    "business": "Sherry FitzGerald — estate agent (Rathmines Road Lower, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@rathgardentist.ie",
+    "at": "2026-10-24T07:44:09.113Z",
+    "business": "Rathgar Dental Clinic — dentist (Rathgar Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@charltons.ie",
+    "at": "2026-10-24T07:44:10.251Z",
+    "business": "Charltons Solicitors — lawyer (Leeson Street Upper, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "office@reliancepropertyconsultants.ie",
+    "at": "2026-10-24T07:44:11.502Z",
+    "business": "Reliance — estate agent (Harold's Cross Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@doctorbrady.ie",
+    "at": "2026-10-24T07:44:12.912Z",
+    "business": "Brady — doctors (Harrington Street, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@dmpc.ie",
+    "at": "2026-10-24T07:44:14.200Z",
+    "business": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@bcrowe.ie",
+    "at": "2026-10-24T07:44:15.808Z",
+    "business": "Brian Crowe & Co. Solicitors — lawyer (Harold's Cross Road, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@newireland.ie",
+    "at": "2026-10-24T07:44:17.355Z",
+    "business": "New Ireland Assurance Company plc — insurance (Dawson Street, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "info@youngs.ie",
+    "at": "2026-10-24T07:44:18.576Z",
+    "business": "Young's Estate Agents — estate agent (Ranelagh, Dublin)",
+    "status": "sent"
+  },
+  {
+    "email": "terenure@raycooke.ie",
+    "at": "2026-10-24T07:44:19.930Z",
+    "business": "Ray Cooke — estate agent (Terenure Road North)",
+    "status": "sent"
   }
 ]
