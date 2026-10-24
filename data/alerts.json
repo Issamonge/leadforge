@@ -1,5 +1,13 @@
 [
   {
+    "at": "2026-10-24T17:46:40.602Z",
+    "text": "*LEAD MACHINE* — 24/10/2026, 21:46:40\n\nScanned 250 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
+    "kind": "new_leads",
+    "count": 60,
+    "tapToChat": 0,
+    "hot": 0
+  },
+  {
     "at": "2026-10-24T14:12:49.136Z",
     "text": "*LEAD MACHINE* — 24/10/2026, 18:12:49\n\nScanned 410 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
@@ -786,14 +794,6 @@
   {
     "at": "2026-09-23T08:03:27.342Z",
     "text": "*LEAD MACHINE* — 23/09/2026, 12:03:27\n\nScanned 312 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
-    "kind": "new_leads",
-    "count": 60,
-    "tapToChat": 0,
-    "hot": 0
-  },
-  {
-    "at": "2026-09-22T21:45:30.586Z",
-    "text": "*LEAD MACHINE* — 23/09/2026, 01:45:30\n\nScanned 372 · qualified *60*\nTap-to-chat: *0* · Mobile numbers: 0\n\n_No mobile numbers in this batch — email-only run._\n\n_Open the dashboard for the full list._",
     "kind": "new_leads",
     "count": 60,
     "tapToChat": 0,

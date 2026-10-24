@@ -353,5 +353,10 @@
     "email": "info@rathgardentist.ie",
     "reason": "bounced: spam block",
     "at": "2026-10-24T14:13:03.740Z"
+  },
+  {
+    "email": "martinezsempere@martinezsempere.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-24T17:46:52.327Z"
   }
 ]

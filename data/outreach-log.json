@@ -416,8 +416,8 @@
     "city": "Kuala Lumpur",
     "service": "Enquiry automation",
     "sentAt": "2026-09-19T14:04:05.895Z",
-    "lastSentAt": "2026-09-24T21:55:10.216Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:53.190Z",
+    "step": 2
   },
   {
     "email": "lkk_2778@yahoo.com",
@@ -426,8 +426,8 @@
     "city": "Kuala Lumpur",
     "service": "Quote follow-up automation",
     "sentAt": "2026-09-19T14:04:07.927Z",
-    "lastSentAt": "2026-09-24T21:55:11.152Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:54.409Z",
+    "step": 2
   },
   {
     "email": "info@cvskl.com",
@@ -436,8 +436,8 @@
     "city": "Kuala Lumpur",
     "service": "Patient booking automation",
     "sentAt": "2026-09-19T14:04:10.392Z",
-    "lastSentAt": "2026-09-24T21:55:12.113Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:55.501Z",
+    "step": 2
   },
   {
     "email": "afkl.information@gmail.com",
@@ -446,8 +446,8 @@
     "city": "Kuala Lumpur",
     "service": "Enrolment automation",
     "sentAt": "2026-09-19T14:04:12.344Z",
-    "lastSentAt": "2026-09-24T21:55:13.122Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:56.526Z",
+    "step": 2
   },
   {
     "email": "koushin-eifuku@joy.hi-ho.ne.jp",
@@ -456,8 +456,8 @@
     "city": "Tokyo",
     "service": "Lead automation",
     "sentAt": "2026-09-19T17:37:52.087Z",
-    "lastSentAt": "2026-09-24T21:55:14.076Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:57.508Z",
+    "step": 2
   },
   {
     "email": "info.taulli@reframe1001.com",
@@ -466,8 +466,8 @@
     "city": "Tokyo",
     "service": "Patient booking automation",
     "sentAt": "2026-09-19T17:37:53.724Z",
-    "lastSentAt": "2026-09-24T21:55:14.980Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:58.592Z",
+    "step": 2
   },
   {
     "email": "info@sakura-house.com",
@@ -476,8 +476,8 @@
     "city": "Tokyo",
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-19T17:37:55.341Z",
-    "lastSentAt": "2026-09-24T21:55:16.023Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:46:59.588Z",
+    "step": 2
   },
   {
     "email": "ec-staff@raku-den.net",
@@ -486,8 +486,8 @@
     "city": "Tokyo",
     "service": "Lead automation",
     "sentAt": "2026-09-19T17:37:56.962Z",
-    "lastSentAt": "2026-09-24T21:55:16.922Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:47:00.568Z",
+    "step": 2
   },
   {
     "email": "ueno@heya-ichiba.jp",
@@ -496,8 +496,8 @@
     "city": "Tokyo",
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-19T17:37:58.582Z",
-    "lastSentAt": "2026-09-24T21:55:17.812Z",
-    "step": 1
+    "lastSentAt": "2026-10-24T17:47:01.518Z",
+    "step": 2
   },
   {
     "email": "info@steadiness-law.jp",
@@ -506,8 +506,8 @@
     "city": "Tokyo",
     "service": "Client intake automation",
     "sentAt": "2026-09-19T17:38:00.232Z",
-    "lastSentAt": "2026-09-19T17:38:00.232Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T17:47:02.483Z",
+    "step": 1
   },
   {
     "email": "japan@tesla.com",
