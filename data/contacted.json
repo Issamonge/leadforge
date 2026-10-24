@@ -2506,5 +2506,65 @@
     "at": "2026-10-24T17:47:02.483Z",
     "business": "法律事務所Steadiness — lawyer (港区)",
     "status": "followup_1"
+  },
+  {
+    "email": "info@poliformvancouver.com",
+    "at": "2026-10-24T21:19:52.882Z",
+    "business": "Poliform — furniture (West Pender Street, Vancouver)",
+    "status": "sent"
+  },
+  {
+    "email": "japan@tesla.com",
+    "at": "2026-10-24T21:19:54.238Z",
+    "business": "テスラ - 東京 - 板橋 — car",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@rodin-dental.jp",
+    "at": "2026-10-24T21:19:55.858Z",
+    "business": "Rodin Dental Office Tokyo — dentist (港区)",
+    "status": "followup_1"
+  },
+  {
+    "email": "tokyo@genkijacs.com",
+    "at": "2026-10-24T21:19:57.182Z",
+    "business": "Genki Japanese & Culture School — language school (新宿区)",
+    "status": "followup_1"
+  },
+  {
+    "email": "wu@nishi-tokyo-jls.com",
+    "at": "2026-10-24T21:19:58.683Z",
+    "business": "芝浦ジャパニーズスクール/東新宿 — language school",
+    "status": "followup_1"
+  },
+  {
+    "email": "berlin-alexanderplatz@saturn.de",
+    "at": "2026-10-24T21:20:00.062Z",
+    "business": "Saturn — electronics (Berlin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@system-ritus.com",
+    "at": "2026-10-24T21:20:01.550Z",
+    "business": "Ritus Möbelsystem — furniture (Lausitzer Platz, Berlin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "kitatu@stw.berlin",
+    "at": "2026-10-24T21:20:03.079Z",
+    "business": "Kita an der Technischen Universität Berlin — childcare (Marchstraße, Berlin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "kontakt@zahnarztpraxis-speda.de",
+    "at": "2026-10-24T21:20:04.428Z",
+    "business": "Zahnärztliche Gemeinschaftspraxis — dentist",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@zahnaerzte-wedding.de",
+    "at": "2026-10-24T21:20:06.027Z",
+    "business": "Zahnärzte am Weddingplatz MVZ — dentist (Reinickendorfer Straße, Berlin)",
+    "status": "followup_1"
   }
 ]

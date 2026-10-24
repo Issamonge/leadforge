@@ -516,8 +516,8 @@
     "city": "Tokyo",
     "service": "Lead follow-up automation",
     "sentAt": "2026-09-19T17:38:01.933Z",
-    "lastSentAt": "2026-09-19T17:38:01.933Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:19:54.238Z",
+    "step": 1
   },
   {
     "email": "info@rodin-dental.jp",
@@ -526,8 +526,8 @@
     "city": "Tokyo",
     "service": "Lead capture & booking automation",
     "sentAt": "2026-09-19T17:38:03.726Z",
-    "lastSentAt": "2026-09-19T17:38:03.726Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:19:55.858Z",
+    "step": 1
   },
   {
     "email": "tokyo@genkijacs.com",
@@ -536,8 +536,8 @@
     "city": "Tokyo",
     "service": "Enrolment automation",
     "sentAt": "2026-09-19T17:38:05.465Z",
-    "lastSentAt": "2026-09-19T17:38:05.465Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:19:57.182Z",
+    "step": 1
   },
   {
     "email": "wu@nishi-tokyo-jls.com",
@@ -546,8 +546,8 @@
     "city": "Tokyo",
     "service": "Enrolment automation",
     "sentAt": "2026-09-19T17:38:07.290Z",
-    "lastSentAt": "2026-09-19T17:38:07.290Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:19:58.683Z",
+    "step": 1
   },
   {
     "email": "berlin-alexanderplatz@saturn.de",
@@ -556,8 +556,8 @@
     "city": "Berlin",
     "service": "Lead automation",
     "sentAt": "2026-09-20T07:59:46.158Z",
-    "lastSentAt": "2026-09-20T07:59:46.158Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:20:00.062Z",
+    "step": 1
   },
   {
     "email": "info@system-ritus.com",
@@ -566,8 +566,8 @@
     "city": "Berlin",
     "service": "Lead follow-up",
     "sentAt": "2026-09-20T07:59:47.264Z",
-    "lastSentAt": "2026-09-20T07:59:47.264Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:20:01.550Z",
+    "step": 1
   },
   {
     "email": "kitatu@stw.berlin",
@@ -576,8 +576,8 @@
     "city": "Berlin",
     "service": "Enquiry automation",
     "sentAt": "2026-09-20T07:59:48.176Z",
-    "lastSentAt": "2026-09-20T07:59:48.177Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:20:03.079Z",
+    "step": 1
   },
   {
     "email": "kontakt@zahnarztpraxis-speda.de",
@@ -586,8 +586,8 @@
     "city": "Berlin",
     "service": "Lead capture & booking automation",
     "sentAt": "2026-09-20T07:59:49.186Z",
-    "lastSentAt": "2026-09-20T07:59:49.186Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:20:04.428Z",
+    "step": 1
   },
   {
     "email": "info@zahnaerzte-wedding.de",
@@ -596,8 +596,8 @@
     "city": "Berlin",
     "service": "Lead capture & booking automation",
     "sentAt": "2026-09-20T07:59:50.198Z",
-    "lastSentAt": "2026-09-20T07:59:50.198Z",
-    "step": 0
+    "lastSentAt": "2026-10-24T21:20:06.027Z",
+    "step": 1
   },
   {
     "email": "karlshorst@zahnklinik-ost.de",
@@ -1637,6 +1637,16 @@
     "service": "Appointment automation",
     "sentAt": "2026-10-24T14:13:19.548Z",
     "lastSentAt": "2026-10-24T14:13:19.548Z",
+    "step": 0
+  },
+  {
+    "email": "info@poliformvancouver.com",
+    "business": "Poliform — furniture (West Pender Street, Vancouver)",
+    "niche": "furniture",
+    "city": "Vancouver",
+    "service": "Lead follow-up",
+    "sentAt": "2026-10-24T21:19:52.882Z",
+    "lastSentAt": "2026-10-24T21:19:52.882Z",
     "step": 0
   }
 ]
