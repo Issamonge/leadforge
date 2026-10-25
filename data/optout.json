@@ -358,5 +358,10 @@
     "email": "martinezsempere@martinezsempere.com",
     "reason": "bounced: spam block",
     "at": "2026-10-24T17:46:52.327Z"
+  },
+  {
+    "email": "ucsp.ajuda@arslvt.min-saude.pt",
+    "reason": "bounced: spam block",
+    "at": "2026-10-25T14:44:13.678Z"
   }
 ]

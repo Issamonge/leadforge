@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T07:56:11.845Z",
+  "generatedAt": "2026-10-25T14:43:59.096Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,28 +18,25 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 282,
-    "qualified": 60,
-    "pipelineValue": 35,
+    "totalScanned": 170,
+    "qualified": 15,
+    "pipelineValue": 80,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 10,
-      "OpenStreetMap": 112,
+      "OpenStreetMap": 0,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 56,
-    "phoneLeads": 56,
+    "whatsappCapable": 0,
+    "phoneLeads": 0,
     "replies": 0,
-    "newSuppressed": 0,
-    "bounceRate": 3.3,
-    "emailLeads": 58,
-    "sent": 0,
-    "sendSkipped": 0,
-    "guardRejected": 0,
+    "newSuppressed": 1,
+    "bounceRate": 4,
+    "emailLeads": 0,
     "followupsSent": 10,
     "byNiche": {
       "veterinary": {
@@ -141,44 +138,6 @@
   },
   "leads": [
     {
-      "id": "osm-node-12066816706",
-      "source": "OpenStreetMap",
-      "title": "Fulton Grace Realty — estate agent (North Milwaukee Avenue, Chicago)",
-      "description": "Business in Chicago. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.fultongrace.com/il/about-us/offices/. Phone: +1 773-698-6648.",
-      "email": "info@fultongrace.com",
-      "phone": "+1 773-698-6648",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.fultongrace.com/il/about-us/offices/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.fultongrace.com/il/about-us/offices/",
-      "postedAt": "2026-10-25T07:54:40.573Z",
-      "raw": "Fulton Grace Realty estate_agent Chicago",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 58,
-      "outreach": {
-        "subject": "Fulton Grace Realty — quick question about manual work that eats the week",
-        "body": "Hi Fulton Grace Realty team,\n\nI work with estate_agent businesses in Chicago on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/17736986648?text=Hello%20Fulton%20Grace%20Realty%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
       "id": "n8n Community-322445",
       "source": "n8n Community",
       "title": "[HIRING] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share",
@@ -207,2208 +166,392 @@
       "waLink": ""
     },
     {
-      "id": "osm-node-1205171470",
-      "source": "OpenStreetMap",
-      "title": "Maison Birks — jewelry (Rue Sainte-Catherine Ouest)",
-      "description": "Business in Montreal. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.maisonbirks.com/on/demandware.store/Sites-maison-birks-ca-Site/en_CA/Stores-Details?storeID=maison-birks-montreal-centre-ville. Phone: +1 514-397-2511.",
-      "email": "sservice8280@birks.com",
-      "phone": "+1 514-397-2511",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.maisonbirks.com/on/demandware.store/Sites-maison-birks-ca-Site/en_CA/Stores-Details?storeID=maison-birks-montreal-centre-ville",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "jewelry",
+      "id": "n8n Community-319256",
+      "source": "n8n Community",
+      "title": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
+      "description": "Hi everyone, I’m looking for an experienced n8n specialist to review and stress-test several AI agents I’ve already built before I demonstrate them to paying clients. Stack includes n8n, Vapi, Twilio, ElevenLabs, OpenAI/Claude and APIs/webhooks . I’m looking for someone who can review existing workflows, identify bugs/failure points, test edge cases and error handling, check integrations and AI behaviour, and recommend/fix anything that isn’t client-ready. I’m not looking for the agents to be rebuilt from scratch. I’d like to start with one agent as a paid trial , with ongoing work available if we’re a good fit. If interested, please DM me with: Your location/time zone Your rate Relevant n8n/AI experience Any Vapi/Twilio/ElevenLabs experience Examples of similar work Thanks",
+      "url": "https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256",
+      "postedAt": "2026-10-06T21:10:54.225Z",
+      "raw": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
       "services": [
-        "Clienteling automation",
-        "order follow-up"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.maisonbirks.com/on/demandware.store/Sites-maison-birks-ca-Site/en_CA/Stores-Details?storeID=maison-birks-montreal-centre-ville",
-      "postedAt": "2026-10-25T07:52:29.667Z",
-      "raw": "Maison Birks jewelry Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 19,
       "score": 54,
       "outreach": {
-        "subject": "Maison Birks — quick question about manual work that eats the week",
-        "body": "Hi Maison Birks team,\n\nI work with jewelry businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143972511?text=Hello%20Maison%20Birks%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-1401297987",
-      "source": "OpenStreetMap",
-      "title": "Bijouterie La Puce — jewelry (Rue Masson)",
-      "description": "Business in Montreal. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://bijouterielapuced%E2%80%99or. Phone: +1 5147219988.",
-      "email": "bijouterielapuce@live.ca",
-      "phone": "+1 5147219988",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://bijouterielapuced%E2%80%99or",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://bijouterielapuced%E2%80%99or",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Bijouterie La Puce jewelry Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bijouterie La Puce — quick question about manual work that eats the week",
-        "body": "Hi Bijouterie La Puce team,\n\nI work with jewelry businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147219988?text=Hello%20Bijouterie%20La%20Puce%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-1537159695",
-      "source": "OpenStreetMap",
-      "title": "Réseau Koumbit — it (Rue Atateken, Montréal)",
-      "description": "Business in Montreal. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://www.koumbit.org/. Phone: n/a.",
-      "email": "info@koumbit.org",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.koumbit.org/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://www.koumbit.org/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Réseau Koumbit it Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Réseau Koumbit — quick question about manual work that eats the week",
-        "body": "Hi Réseau Koumbit team,\n\nI work with it businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / AI Automation Specialist – \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2404202437",
-      "source": "OpenStreetMap",
-      "title": "Solutions inLibro inc. — it (Rue Waverly, Montréal)",
-      "description": "Business in Montreal. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://inlibro.com/. Phone: +1-833-465-4276.",
-      "email": "info@inlibro.com",
-      "phone": "+1-833-465-4276",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://inlibro.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "it",
+      "id": "n8n Community-323862",
+      "source": "n8n Community",
+      "title": "N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)",
+      "description": "We’re a D2C wellness brand in India selling a digital product with a one-time payment. We get 50–100 customer queries a day on WhatsApp and email, and want an AI agent to handle most of them. What we want built An AI agent on WhatsApp Business that answers common questions (product, access, payments, refunds) in Hindi and English, using our FAQ and policy docs Order and payment lookup via Razorpay so the agent can confirm purchase status Refund requests logged to Google Sheets and routed to our team for approval Complex or unhappy conversations escalated to a human in Slack, with the full chat history The same agent handles incoming support emails (Gmail), with drafted replies for review A weekly report: query volume, top topics, resolution rate, escalations We’re open to a phased rollout, starting with steps 1–4. What we’re looking for Proven n8n experience with AI agents and RAG/knowledge-base setups Experience with WhatsApp Business Cloud API Clear documentation and handover To apply, please share: 1–2 relevant n8n projects or portfolio links Your pricing model (hourly or fixed) and estimated cost for phase 1 and the full build Estimated timeline Monthly maintenance options Expe",
+      "url": "https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862",
+      "postedAt": "2026-10-23T04:25:46.606Z",
+      "raw": "N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)",
       "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://inlibro.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Solutions inLibro inc. it Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 2,
       "score": 54,
       "outreach": {
-        "subject": "Solutions inLibro inc. — quick question about manual work that eats the week",
-        "body": "Hi Solutions inLibro inc. team,\n\nI work with it businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/18334654276?text=Hello%20Solutions%20inLibro%20inc.%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2422318913",
-      "source": "OpenStreetMap",
-      "title": "Touchattou — veterinary (Rue Atateken)",
-      "description": "Business in Montreal. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: n/a. Phone: +1-514-597-2428.",
-      "email": "tout-cha-tou@videotron.ca",
-      "phone": "+1-514-597-2428",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "veterinary",
-      "services": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/2422318913",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Touchattou veterinary Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Touchattou — quick question about manual work that eats the week",
-        "body": "Hi Touchattou team,\n\nI work with veterinary businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15145972428?text=Hello%20Touchattou%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2503417968",
-      "source": "OpenStreetMap",
-      "title": "Accès Comptabilité — accountant (Rue Sainte-Catherine Est, Montréal)",
-      "description": "Business in Montreal. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: https://www.accescomptabilite.ca. Phone: +1 514 771 0176.",
-      "email": "info@accescomptabilite.ca",
-      "phone": "+1 514 771 0176",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.accescomptabilite.ca",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "https://www.accescomptabilite.ca",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Accès Comptabilité accountant Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Accès Comptabilité — quick question about enquiry follow-up that never happens",
-        "body": "Hi Accès Comptabilité team,\n\nI work with accountant businesses in Montreal on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147710176?text=Hello%20Acc%C3%A8s%20Comptabilit%C3%A9%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2540834912",
-      "source": "OpenStreetMap",
-      "title": "A & M Services - Bookkeeping & Taxes — accountant (Rue Jean-Talon Ouest,, Montreal)",
-      "description": "Business in Montreal. Category: accountant. Services to pitch: Receipt & expense automation, client reminders. Website: http://www.amservices.ca. Phone: +1 514 212 6023.",
-      "email": "office@amservices.ca",
-      "phone": "+1 514 212 6023",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.amservices.ca",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "accountant",
-      "services": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "url": "http://www.amservices.ca",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "A & M Services - Bookkeeping & Taxes accountant Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Receipt & expense automation",
-        "client reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "A & M Services - Bookkeeping & Taxes — quick question about enquiry follow-up that never happens",
-        "body": "Hi A & M Services - Bookkeeping & Taxes team,\n\nI work with accountant businesses in Montreal on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142126023?text=Hello%20A%20%26%20M%20Services%20-%20Bookkeeping%20%26%20Taxes%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3241488631",
-      "source": "OpenStreetMap",
-      "title": "RE/MAX du Cartier — estate agent (Avenue Bernard, Montréal)",
-      "description": "Business in Montreal. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.remax-quebec.com/. Phone: +1-514-271-2131.",
-      "email": "outremont@remax-ducartier.qc.ca",
-      "phone": "+1-514-271-2131",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.remax-quebec.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.remax-quebec.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "RE/MAX du Cartier estate_agent Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "RE/MAX du Cartier — quick question about manual work that eats the week",
-        "body": "Hi RE/MAX du Cartier team,\n\nI work with estate_agent businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142712131?text=Hello%20RE%2FMAX%20du%20Cartier%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3243460895",
-      "source": "OpenStreetMap",
-      "title": "LASIK MD — clinic (Boulevard René-Lévesque Ouest, Montréal)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.lasikmd.com/montreal. Phone: +1-514-362-8677.",
-      "email": "info@lasikmd.com",
-      "phone": "+1-514-362-8677",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.lasikmd.com/montreal",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "http://www.lasikmd.com/montreal",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "LASIK MD clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "LASIK MD — quick question about missed calls and no-shows",
-        "body": "Hi LASIK MD team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143628677?text=Hello%20LASIK%20MD%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3284070821",
-      "source": "OpenStreetMap",
-      "title": "Artemano — furniture (Boulevard Saint-Laurent, Montréal)",
-      "description": "Business in Montreal. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.artemano.ca/. Phone: +1 514-439-9335.",
-      "email": "stlaurent@artemano.ca",
-      "phone": "+1 514-439-9335",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.artemano.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "furniture",
-      "services": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "url": "https://www.artemano.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Artemano furniture Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Artemano — quick question about manual work that eats the week",
-        "body": "Hi Artemano team,\n\nI work with furniture businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15144399335?text=Hello%20Artemano%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3573356893",
-      "source": "OpenStreetMap",
-      "title": "École De Conduite Omega Iberville — driving school (Rue Jean-Talon Est, Montréal)",
-      "description": "Business in Montreal. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://ecoledeconduite-omega.com/. Phone: +1 514-728-0404.",
-      "email": "ecoleomega@hotmail.com",
-      "phone": "+1 514-728-0404",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://ecoledeconduite-omega.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "driving_school",
-      "services": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://ecoledeconduite-omega.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "École De Conduite Omega Iberville driving_school Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "École De Conduite Omega Iberville — quick question about manual work that eats the week",
-        "body": "Hi École De Conduite Omega Iberville team,\n\nI work with driving_school businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147280404?text=Hello%20%C3%89cole%20De%20Conduite%20Omega%20Iberville%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-3590409223",
-      "source": "OpenStreetMap",
-      "title": "RE/MAX — estate agent (Rue Beaubien Est, Montréal)",
-      "description": "Business in Montreal. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://remax-alliance.ca. Phone: +1-514-374-4000.",
-      "email": "alliance@remax-quebec.com",
-      "phone": "+1-514-374-4000",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://remax-alliance.ca",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://remax-alliance.ca",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "RE/MAX estate_agent Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "RE/MAX — quick question about manual work that eats the week",
-        "body": "Hi RE/MAX team,\n\nI work with estate_agent businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143744000?text=Hello%20RE%2FMAX%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4357697794",
-      "source": "OpenStreetMap",
-      "title": "Clinique Dr Bita Inc., Psychologues — clinic (Avenue Greene, Westmount)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.clinicdrbita.com/. Phone: n/a.",
-      "email": "info@clinicdrbita.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.clinicdrbita.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.clinicdrbita.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Dr Bita Inc., Psychologues clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique Dr Bita Inc., Psychologues — quick question about missed calls and no-shows",
-        "body": "Hi Clinique Dr Bita Inc., Psychologues team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n Expert Needed: AI WhatsApp Support Agent \"",
+        "body": "Hi,\n\nSaw your post: \"N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4422093092",
-      "source": "OpenStreetMap",
-      "title": "Clinique médicale Angus — doctors (Rue William-Tremblay)",
-      "description": "Business in Montreal. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.cliniqueangus.com/. Phone: +1-514-807-2333.",
-      "email": "info@cliniqueangus.com",
-      "phone": "+1-514-807-2333",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.cliniqueangus.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "doctors",
+      "id": "n8n Community-322645",
+      "source": "n8n Community",
+      "title": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
+      "description": "I’m looking for an opportunity as an n8n Developer / AI Automation Engineer. What’s actually built, not “worked on”: → 36 workflows, 3 production systems, not tutorial projects, systems that run → Multi-agent AI stacks wired into real databases, not a spreadsheet pretending to be a backend → APIs, webhooks, end-to-end business logic. The unglamorous plumbing that decides whether a company’s ops actually work or just look like they do Every system is documented down to the architecture, not a screenshot dump, an actual paper trail of decisions. Portfolio: https://bykeyur.vercel.app Go roast it if you want. Genuinely open to reviews of the systems I’ve built, if something’s weak, I’d rather hear it from you than find out in an interview. Open to remote India or international, if the role’s legit. Hiring, or know someone who is? Say something. Silence doesn’t close deals.",
+      "url": "https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645",
+      "postedAt": "2026-10-19T02:44:27.207Z",
+      "raw": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
       "services": [
-        "Appointment automation",
-        "intake processing"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.cliniqueangus.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique médicale Angus doctors Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "Appointment automation",
-        "intake processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 6,
+      "score": 51,
       "outreach": {
-        "subject": "Clinique médicale Angus — quick question about missed calls and no-shows",
-        "body": "Hi Clinique médicale Angus team,\n\nI work with doctors businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15148072333?text=Hello%20Clinique%20m%C3%A9dicale%20Angus%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5380668031",
-      "source": "OpenStreetMap",
-      "title": "Clinique Podiatrique Angus — clinic (Rue Molson)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.podiatrieangus.com. Phone: +1-514-284-0909.",
-      "email": "info@podiatrieangus.com",
-      "phone": "+1-514-284-0909",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.podiatrieangus.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.podiatrieangus.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Podiatrique Angus clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique Podiatrique Angus — quick question about missed calls and no-shows",
-        "body": "Hi Clinique Podiatrique Angus team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142840909?text=Hello%20Clinique%20Podiatrique%20Angus%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5756962189",
-      "source": "OpenStreetMap",
-      "title": "Garderie Sous la Bonne Étoile — childcare",
-      "description": "Business in Montreal. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +1 514 521 5999.",
-      "email": "garderiesbe@gmail.com",
-      "phone": "+1 514 521 5999",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/5756962189",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Garderie Sous la Bonne Étoile childcare Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Garderie Sous la Bonne Étoile — quick question about manual work that eats the week",
-        "body": "Hi Garderie Sous la Bonne Étoile team,\n\nI work with childcare businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15145215999?text=Hello%20Garderie%20Sous%20la%20Bonne%20%C3%89toile%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-6347505939",
-      "source": "OpenStreetMap",
-      "title": "Clinique OPUS — clinic (Rue Peel, Montréal)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.cliniqueopus.com. Phone: +1-514-787-6787.",
-      "email": "info@cliniqueopus.com",
-      "phone": "+1-514-787-6787",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.cliniqueopus.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.cliniqueopus.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique OPUS clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique OPUS — quick question about missed calls and no-shows",
-        "body": "Hi Clinique OPUS team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147876787?text=Hello%20Clinique%20OPUS%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7035672482",
-      "source": "OpenStreetMap",
-      "title": "Logiciels Radio IP Software — it (Rue Saint-Charles Ouest, Longueuil)",
-      "description": "Business in Montreal. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: n/a. Phone: +1-877-717-2242.",
-      "email": "sales@radio-ip.com",
-      "phone": "+1-877-717-2242",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://www.openstreetmap.org/node/7035672482",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Logiciels Radio IP Software it Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Logiciels Radio IP Software — quick question about manual work that eats the week",
-        "body": "Hi Logiciels Radio IP Software team,\n\nI work with it businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/18777172242?text=Hello%20Logiciels%20Radio%20IP%20Software%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7133788795",
-      "source": "OpenStreetMap",
-      "title": "Institut de beauté Renaissance inc — beauty (Rue de Castelnau Est, Montréal)",
-      "description": "Business in Montreal. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://institutdebeauterenaissance.com/. Phone: +1-514-227-6997.",
-      "email": "institutrenaissance@hotmail.com",
-      "phone": "+1-514-227-6997",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://institutdebeauterenaissance.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://institutdebeauterenaissance.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Institut de beauté Renaissance inc beauty Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Institut de beauté Renaissance inc — quick question about bookings and rebookings going cold",
-        "body": "Hi Institut de beauté Renaissance inc team,\n\nI work with beauty businesses in Montreal on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142276997?text=Hello%20Institut%20de%20beaut%C3%A9%20Renaissance%20inc%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7624470931",
-      "source": "OpenStreetMap",
-      "title": "Vintage Parc — furniture (Avenue du Parc, Montréal)",
-      "description": "Business in Montreal. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.facebook.com/marco.vintageparc. Phone: +1 514-995-3988.",
-      "email": "aveparc@gmail.com",
-      "phone": "+1 514-995-3988",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.facebook.com/marco.vintageparc",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "furniture",
-      "services": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "url": "https://www.facebook.com/marco.vintageparc",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Vintage Parc furniture Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Vintage Parc — quick question about manual work that eats the week",
-        "body": "Hi Vintage Parc team,\n\nI work with furniture businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15149953988?text=Hello%20Vintage%20Parc%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7791455135",
-      "source": "OpenStreetMap",
-      "title": "Le Bar Beauté Et Couleur — beauty (Chemin Queen Mary, Montréal)",
-      "description": "Business in Montreal. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +1-514-489-2225.",
-      "email": "angelitasbeauty@gmail.com",
-      "phone": "+1-514-489-2225",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/7791455135",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Le Bar Beauté Et Couleur beauty Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Le Bar Beauté Et Couleur — quick question about bookings and rebookings going cold",
-        "body": "Hi Le Bar Beauté Et Couleur team,\n\nI work with beauty businesses in Montreal on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15144892225?text=Hello%20Le%20Bar%20Beaut%C3%A9%20Et%20Couleur%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7806719547",
-      "source": "OpenStreetMap",
-      "title": "Rentals.ca — estate agent (Rue Sherbrooke Ouest, Montréal)",
-      "description": "Business in Montreal. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://rentals.ca/fr/a-louer-montreal. Phone: +1 514-907-7514.",
-      "email": "contact@rentals.ca",
-      "phone": "+1 514-907-7514",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://rentals.ca/fr/a-louer-montreal",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://rentals.ca/fr/a-louer-montreal",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Rentals.ca estate_agent Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rentals.ca — quick question about manual work that eats the week",
-        "body": "Hi Rentals.ca team,\n\nI work with estate_agent businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15149077514?text=Hello%20Rentals.ca%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8153533025",
-      "source": "OpenStreetMap",
-      "title": "Venom CB — it",
-      "description": "Business in Montreal. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: https://venomcb.ca/. Phone: +1-855-665-9966.",
-      "email": "contact@venomcb.ca",
-      "phone": "+1-855-665-9966",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://venomcb.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "https://venomcb.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Venom CB it Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Venom CB — quick question about manual work that eats the week",
-        "body": "Hi Venom CB team,\n\nI work with it businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/18556659966?text=Hello%20Venom%20CB%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8319672947",
-      "source": "OpenStreetMap",
-      "title": "LiMuro Montréal — furniture (Boulevard Saint-Laurent, Montréal)",
-      "description": "Business in Montreal. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: https://www.limuro.com. Phone: +15148450308.",
-      "email": "info@limuro.com",
-      "phone": "+15148450308",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.limuro.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "furniture",
-      "services": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "url": "https://www.limuro.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "LiMuro Montréal furniture Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up",
-        "quote automation"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "LiMuro Montréal — quick question about manual work that eats the week",
-        "body": "Hi LiMuro Montréal team,\n\nI work with furniture businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15148450308?text=Hello%20LiMuro%20Montr%C3%A9al%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8530490317",
-      "source": "OpenStreetMap",
-      "title": "Radiologix — clinic (Rue Saint-Hubert, Montréal)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://radiologix.ca/. Phone: +1-514-228-5153.",
-      "email": "info@radiologix.ca",
-      "phone": "+1-514-228-5153",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://radiologix.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://radiologix.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Radiologix clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Radiologix — quick question about missed calls and no-shows",
-        "body": "Hi Radiologix team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142285153?text=Hello%20Radiologix%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8791997329",
-      "source": "OpenStreetMap",
-      "title": "Garderie éducative Mila Inc. — childcare (Rue Masson, Montréal)",
-      "description": "Business in Montreal. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +1-514-376-5312.",
-      "email": "garderiemila@icloud.com",
-      "phone": "+1-514-376-5312",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/8791997329",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Garderie éducative Mila Inc. childcare Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Garderie éducative Mila Inc. — quick question about manual work that eats the week",
-        "body": "Hi Garderie éducative Mila Inc. team,\n\nI work with childcare businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143765312?text=Hello%20Garderie%20%C3%A9ducative%20Mila%20Inc.%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-9234150250",
-      "source": "OpenStreetMap",
-      "title": "École de conduite Pconduite — driving school (Avenue Victoria, Montréal)",
-      "description": "Business in Montreal. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: https://pconduite.com/. Phone: +1-438-387-6644.",
-      "email": "info@pconduite.com",
-      "phone": "+1-438-387-6644",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://pconduite.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "driving_school",
-      "services": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://pconduite.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "École de conduite Pconduite driving_school Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "École de conduite Pconduite — quick question about manual work that eats the week",
-        "body": "Hi École de conduite Pconduite team,\n\nI work with driving_school businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/14383876644?text=Hello%20%C3%89cole%20de%20conduite%20Pconduite%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-9281589034",
-      "source": "OpenStreetMap",
-      "title": "Clinique Médicale Crescent — clinic (Rue Crescent, Montréal)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.cliniquemedicalecrescent.ca/. Phone: +1 514-933-8383.",
-      "email": "info@cliniquemedicalecrescent.ca",
-      "phone": "+1 514-933-8383",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.cliniquemedicalecrescent.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.cliniquemedicalecrescent.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Médicale Crescent clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique Médicale Crescent — quick question about missed calls and no-shows",
-        "body": "Hi Clinique Médicale Crescent team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15149338383?text=Hello%20Clinique%20M%C3%A9dicale%20Crescent%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11011447311",
-      "source": "OpenStreetMap",
-      "title": "Garderie Éducative Les Petits Koalas — childcare (Rue Masson)",
-      "description": "Business in Montreal. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +1 514-728-1818.",
-      "email": "nadiaoussadi@hotmail.ca",
-      "phone": "+1 514-728-1818",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/11011447311",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Garderie Éducative Les Petits Koalas childcare Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Garderie Éducative Les Petits Koalas — quick question about manual work that eats the week",
-        "body": "Hi Garderie Éducative Les Petits Koalas team,\n\nI work with childcare businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147281818?text=Hello%20Garderie%20%C3%89ducative%20Les%20Petits%20Koalas%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11018636633",
-      "source": "OpenStreetMap",
-      "title": "Centre Dentaire Masson — dentist (Rue Masson)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.centredentairemasson.ca/. Phone: +1-514-728-4589.",
-      "email": "info@centredentairemasson.ca",
-      "phone": "+1-514-728-4589",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.centredentairemasson.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.centredentairemasson.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Centre Dentaire Masson dentist Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Centre Dentaire Masson — quick question about missed calls and no-shows",
-        "body": "Hi Centre Dentaire Masson team,\n\nI work with dentist businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147284589?text=Hello%20Centre%20Dentaire%20Masson%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11018636697",
-      "source": "OpenStreetMap",
-      "title": "Ongles Sunny — beauty (Rue Masson)",
-      "description": "Business in Montreal. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://onglessunnybeaute.com/. Phone: +1 514-729-3422.",
-      "email": "info@onglessunnybeaute.com",
-      "phone": "+1 514-729-3422",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://onglessunnybeaute.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://onglessunnybeaute.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Ongles Sunny beauty Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ongles Sunny — quick question about bookings and rebookings going cold",
-        "body": "Hi Ongles Sunny team,\n\nI work with beauty businesses in Montreal on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147293422?text=Hello%20Ongles%20Sunny%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11093333204",
-      "source": "OpenStreetMap",
-      "title": "Tite-dent — dentist (Rue Saint-Zotique Est)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.titedent.com. Phone: +1-514-721-2421.",
-      "email": "info@titedent.com",
-      "phone": "+1-514-721-2421",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.titedent.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.titedent.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Tite-dent dentist Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Tite-dent — quick question about missed calls and no-shows",
-        "body": "Hi Tite-dent team,\n\nI work with dentist businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147212421?text=Hello%20Tite-dent%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11257692759",
-      "source": "OpenStreetMap",
-      "title": "CIF Properties — estate agent (Rue du Fort)",
-      "description": "Business in Montreal. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://cifproperties.com. Phone: +1-514-288-7752.",
-      "email": "general@cifproperties.com",
-      "phone": "+1-514-288-7752",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cifproperties.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://cifproperties.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "CIF Properties estate_agent Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "CIF Properties — quick question about manual work that eats the week",
-        "body": "Hi CIF Properties team,\n\nI work with estate_agent businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15142887752?text=Hello%20CIF%20Properties%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12000076187",
-      "source": "OpenStreetMap",
-      "title": "Dantech — computer (Boulevard Saint-Laurent, Montréal)",
-      "description": "Business in Montreal. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.dantech.ca/. Phone: +1 514 849 2999.",
-      "email": "info@dantech.ca",
-      "phone": "+1 514 849 2999",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.dantech.ca/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://www.dantech.ca/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Dantech computer Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dantech — quick question about manual work that eats the week",
-        "body": "Hi Dantech team,\n\nI work with computer businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15148492999?text=Hello%20Dantech%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12097788623",
-      "source": "OpenStreetMap",
-      "title": "Centre dentaire Rachel — dentist (Rue Molson, Montréal)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.centredentairerachel.com/. Phone: +1 514-379-3322.",
-      "email": "info@centredentairemontrose.com",
-      "phone": "+1 514-379-3322",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.centredentairerachel.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.centredentairerachel.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Centre dentaire Rachel dentist Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Centre dentaire Rachel — quick question about missed calls and no-shows",
-        "body": "Hi Centre dentaire Rachel team,\n\nI work with dentist businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143793322?text=Hello%20Centre%20dentaire%20Rachel%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12109410178",
-      "source": "OpenStreetMap",
-      "title": "Clinique Vétérinaire du Vieux-Rosemont — veterinary (2e Avenue)",
-      "description": "Business in Montreal. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://www.vetrosemont.com/. Phone: +1 4382646289.",
-      "email": "info@vetrosemont.com",
-      "phone": "+1 4382646289",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.vetrosemont.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "veterinary",
-      "services": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://www.vetrosemont.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Vétérinaire du Vieux-Rosemont veterinary Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique Vétérinaire du Vieux-Rosemont — quick question about manual work that eats the week",
-        "body": "Hi Clinique Vétérinaire du Vieux-Rosemont team,\n\nI work with veterinary businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/14382646289?text=Hello%20Clinique%20V%C3%A9t%C3%A9rinaire%20du%20Vieux-Rosemont%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12125348451",
-      "source": "OpenStreetMap",
-      "title": "Bronzage, Coiffure, Esthétique VIP 2000 — beauty (Rue Masson)",
-      "description": "Business in Montreal. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +1-514-725-4444.",
-      "email": "chakof2000@hotmail.com",
-      "phone": "+1-514-725-4444",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/12125348451",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Bronzage, Coiffure, Esthétique VIP 2000 beauty Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Bronzage, Coiffure, Esthétique VIP 2000 — quick question about bookings and rebookings going cold",
-        "body": "Hi Bronzage, Coiffure, Esthétique VIP 2000 team,\n\nI work with beauty businesses in Montreal on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147254444?text=Hello%20Bronzage%2C%20Coiffure%2C%20Esth%C3%A9tique%20VIP%202000%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12658481096",
-      "source": "OpenStreetMap",
-      "title": "Clinique Médicale Quorum — clinic (Boulevard De Maisonneuve Est, Montréal)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://cliniquequorum.com/. Phone: +15143600614.",
-      "email": "info@cliniquequorum.com",
-      "phone": "+15143600614",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cliniquequorum.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://cliniquequorum.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Médicale Quorum clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Clinique Médicale Quorum — quick question about missed calls and no-shows",
-        "body": "Hi Clinique Médicale Quorum team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143600614?text=Hello%20Clinique%20M%C3%A9dicale%20Quorum%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12705359901",
-      "source": "OpenStreetMap",
-      "title": "Nuo Dental — dentist (Rue Crescent)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://nuodental.com/. Phone: +1-514-400-9344.",
-      "email": "contact@nuodental.com",
-      "phone": "+1-514-400-9344",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://nuodental.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://nuodental.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Nuo Dental dentist Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Nuo Dental — quick question about missed calls and no-shows",
-        "body": "Hi Nuo Dental team,\n\nI work with dentist businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15144009344?text=Hello%20Nuo%20Dental%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-13537157131",
-      "source": "OpenStreetMap",
-      "title": "Centre Implantologie et Art dentaire île-des-soeurs — dentist (Place du Commerce, Verdun)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+1-514-762-3232",
-      "mobileNumber": "+1-514-762-3232",
-      "hasMobile": true,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.openstreetmap.org/node/13537157131",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Centre Implantologie et Art dentaire île-des-soeurs dentist Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Centre Implantologie et Art dentaire île-des-\"",
-        "body": "Hi,\n\nSaw your post: \"Centre Implantologie et Art dentaire île-des-soeurs — dentist (Place du Commerce, Verdun)\". This is exactly the kind of lead capture & booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147623232?text=Hello%20Centre%20Implantologie%20et%20Art%20dentaire%20%C3%AEle-des-soeur%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-13966763190",
-      "source": "OpenStreetMap",
-      "title": "CPE Villeneuve - installation de Gaspé — childcare (Avenue De Gaspé, Montréal)",
-      "description": "Business in Montreal. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +1-514-543-5804.",
-      "email": "marie@cpevilleneuve.org",
-      "phone": "+1-514-543-5804",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/13966763190",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "CPE Villeneuve - installation de Gaspé childcare Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "CPE Villeneuve - installation de Gaspé — quick question about manual work that eats the week",
-        "body": "Hi CPE Villeneuve - installation de Gaspé team,\n\nI work with childcare businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15145435804?text=Hello%20CPE%20Villeneuve%20-%20installation%20de%20Gasp%C3%A9%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-14006950246",
-      "source": "OpenStreetMap",
-      "title": "Physio Verdun — clinic (Rue de l'Église, Verdun)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.physioverdun.com. Phone: +1 514 362 8945.",
-      "email": "info@physioverdun.com",
-      "phone": "+1 514 362 8945",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.physioverdun.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.physioverdun.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Physio Verdun clinic Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Physio Verdun — quick question about missed calls and no-shows",
-        "body": "Hi Physio Verdun team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15143628945?text=Hello%20Physio%20Verdun%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-14064915001",
-      "source": "OpenStreetMap",
-      "title": "Argent Tonic — jewelry (Boulevard Saint-Laurent)",
-      "description": "Business in Montreal. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://argenttonic.com/. Phone: n/a.",
-      "email": "argenttonic@gmail.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://argenttonic.com/",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://argenttonic.com/",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Argent Tonic jewelry Montreal",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Argent Tonic — quick question about manual work that eats the week",
-        "body": "Hi Argent Tonic team,\n\nI work with jewelry businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Stop calling it \"workflow automation.\" That's\"",
+        "body": "Hi,\n\nSaw your post: \"Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-14189344302",
-      "source": "OpenStreetMap",
-      "title": "Galerie Dentaire Soleil — dentist (Chemin de la Côte-des-Neiges)",
-      "description": "Business in Montreal. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://galeriedentairesoleil.com. Phone: +1 514-731-1443.",
-      "email": "info@galeriedentairesoleil.com",
-      "phone": "+1 514-731-1443",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://galeriedentairesoleil.com",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "dentist",
+      "id": "Make.com Community-118015",
+      "source": "Make.com Community",
+      "title": "Hiring: Make.com + Airtable + Telegram Bot Automation Specialist",
+      "description": "Budget: $25 - Quick Fix I’m looking for someone experienced with Make.com , Airtable, and Telegram bots to help finish an automation I’ve already built. What I need: I have an Airtable trading journal that automatically generates a unique Trade SKU whenever someone submits an Entry Form. I want that SKU automatically sent through Telegram to the specific person who submitted the form , using my existing Telegram bot. What’s already working: Airtable Entry Form and automatic SKU generation Airtable webhook connected to Make.com Telegram bot successfully sending dynamic SKU messages Telegram registration scenario capturing Chat IDs Existing username lookup, routing, and duplicate-prevention logic What’s left to fix: The system isn’t consistently associating each Telegram username with its corresponding Chat ID, preventing reliable delivery to individual traders. I need someone to troubleshoot the existing setup, fix recipient matching, and verify that each trader receives their own unique SKU automatically. Expected result: Trader submits Airtable Entry Form → Make.com identifies the correct Telegram account → Trader receives their unique SKU. The completed automation must work for m",
+      "url": "https://community.make.com/t/hiring-make-com-airtable-telegram-bot-automation-specialist/118015",
+      "postedAt": "2026-10-23T15:59:19.444Z",
+      "raw": "Hiring: Make.com + Airtable + Telegram Bot Automation Specialist",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
-      "url": "https://galeriedentairesoleil.com",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Galerie Dentaire Soleil dentist Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 25,
+      "ageDays": 2,
+      "score": 50,
       "outreach": {
-        "subject": "Galerie Dentaire Soleil — quick question about missed calls and no-shows",
-        "body": "Hi Galerie Dentaire Soleil team,\n\nI work with dentist businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Hiring: Make.com + Airtable + Telegram Bot Automation S — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"Hiring: Make.com + Airtable + Telegram Bot Automation Specialist\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $25 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15147311443?text=Hello%20Galerie%20Dentaire%20Soleil%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-14213179201",
-      "source": "OpenStreetMap",
-      "title": "Clinique Santé Plateau — clinic (Avenue du Mont-Royal Est)",
-      "description": "Business in Montreal. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://cliniquesante-plateau.ca. Phone: +1-514-819-2247.",
-      "email": "info@cliniquesante-plateau.ca",
-      "phone": "+1-514-819-2247",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cliniquesante-plateau.ca",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "clinic",
+      "id": "n8n Community-321244",
+      "source": "n8n Community",
+      "title": "Looking for Founding n8n Automation Creators | Osmium",
+      "description": "Hey n8n builders! we’re Osmium , a newly launched marketplace for reusable software capabilities, AI systems, APIs, and automation tools. We’re inviting 20 independent developers and automation creators to join our founding vendor cohort. Who we’re looking for: n8n builders with original, reusable automation solutions AI agent and workflow developers API and backend integration creators Independent developers with working software they’d like to monetize What we’re offering: An additional channel to sell your existing work Freedom to set your own prices Ownership of your original software Personal onboarding assistance Opportunities to showcase available testing evidence This is an independent vendor opportunity, not salaried employment . Earnings depend on actual sales, and we cannot guarantee customers. If you’ve built something reusable, we’d love to explore bringing it to Osmium. Interested? Email: heythere@osmiumcodes.com Subject: Osmium Founding Vendor Tell us what you’ve built and share a demo or portfolio if available. Looking forward to meeting some brilliant builders!",
+      "url": "https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244",
+      "postedAt": "2026-10-14T07:03:57.126Z",
+      "raw": "Looking for Founding n8n Automation Creators | Osmium",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://cliniquesante-plateau.ca",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Clinique Santé Plateau clinic Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 11,
+      "score": 46,
       "outreach": {
-        "subject": "Clinique Santé Plateau — quick question about missed calls and no-shows",
-        "body": "Hi Clinique Santé Plateau team,\n\nI work with clinic businesses in Montreal on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for Founding n8n Automation Creators \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for Founding n8n Automation Creators | Osmium\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15148192247?text=Hello%20Clinique%20Sant%C3%A9%20Plateau%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-14313565700",
-      "source": "OpenStreetMap",
-      "title": "Confucius Institute in Quebec — language school (Rue Sainte-Catherine Ouest, Montreal)",
-      "description": "Business in Montreal. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: n/a. Phone: +1-514-568-8550.",
-      "email": "info@confuciusinstitute.qc.ca",
-      "phone": "+1-514-568-8550",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Montreal",
-      "tz": "America/Toronto",
-      "category": "language_school",
+      "id": "n8n Community-317073",
+      "source": "n8n Community",
+      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
+      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
+      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
+      "postedAt": "2026-09-28T05:23:36.357Z",
+      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
       "services": [
-        "Enrolment automation",
-        "lead nurturing"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/14313565700",
-      "postedAt": "2026-10-25T07:52:29.668Z",
-      "raw": "Confucius Institute in Quebec language_school Montreal",
-      "_emailLead": true,
       "titleServices": [
-        "Enrolment automation",
-        "lead nurturing"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 27,
+      "score": 43,
       "outreach": {
-        "subject": "Confucius Institute in Quebec — quick question about manual work that eats the week",
-        "body": "Hi Confucius Institute in Quebec team,\n\nI work with language_school businesses in Montreal on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/15145688550?text=Hello%20Confucius%20Institute%20in%20Quebec%2C%0A%0AI%20help%20businesses%20in%20Montreal%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-3372776774",
-      "source": "OpenStreetMap",
-      "title": "Law Offices of Jonhathan M Aven, LTD — lawyer (North Michigan Avenue, Chicago)",
-      "description": "Business in Chicago. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.avenlaw.com/. Phone: +1-312-251-8777.",
-      "email": "jonathan@avenlaw.com",
-      "phone": "+1-312-251-8777",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.avenlaw.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "lawyer",
+      "id": "n8n Community-318516",
+      "source": "n8n Community",
+      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
+      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
+      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
+      "postedAt": "2026-10-03T13:30:09.564Z",
+      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.avenlaw.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Law Offices of Jonhathan M Aven, LTD lawyer Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 22,
+      "score": 43,
       "outreach": {
-        "subject": "Law Offices of Jonhathan M Aven, LTD — quick question about enquiry follow-up that never happens",
-        "body": "Hi Law Offices of Jonhathan M Aven, LTD team,\n\nI work with lawyer businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
+        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13122518777?text=Hello%20Law%20Offices%20of%20Jonhathan%20M%20Aven%2C%20LTD%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-3652941310",
-      "source": "OpenStreetMap",
-      "title": "Wicker Park Veterinary Clinic — veterinary (North Milwaukee Avenue, Chicago)",
-      "description": "Business in Chicago. Category: veterinary. Services to pitch: Booking automation, reminder sequences. Website: https://wickerparkvet.com/. Phone: +1-773-227-9700.",
-      "email": "info@wickerparkvet.com",
-      "phone": "+1-773-227-9700",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://wickerparkvet.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "veterinary",
+      "id": "n8n Community-322466",
+      "source": "n8n Community",
+      "title": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
+      "description": "Hi, I’m looking for someone to do EVERYTHING for me. I don’t know anything about n8n. I need you to get everything set up and working automatically. What I want in the end: I just upload a video to a Google Drive folder and it publishes automatically on my Instagram / Facebook / YouTube accounts. What I need you to do (complete setup): Create the complete n8n workflow from scratch Set up the Google Drive trigger to monitor my folder Connect it to a Google Sheet where my captions are (file name = row) Configure publishing using the official Instagram, Facebook Page, and YouTube APIs Get it ready to scale to 100+ accounts by reading tokens from the Sheet Set up all connections, error handling, and Telegram notifications Deliver it tested and working. I just want to upload videos. What I provide: Drive access The Sheet Access to my n8n / Meta and Google developer accounts (you tell me what to create) I don’t want a template, I want you to set it up and explain it to me in a 5-minute video on how to use it. This first job is a test for $20 for 1-3 accounts. If you do it well, I’ll pay you for the full scale to 300 accounts. If you can do the complete setup ready to use, message me on D",
+      "url": "https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466",
+      "postedAt": "2026-10-18T22:16:03.272Z",
+      "raw": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
       "services": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
-      "url": "https://wickerparkvet.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Wicker Park Veterinary Clinic veterinary Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "reminder sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 20,
+      "ageDays": 7,
+      "score": 43,
       "outreach": {
-        "subject": "Wicker Park Veterinary Clinic — quick question about manual work that eats the week",
-        "body": "Hi Wicker Park Veterinary Clinic team,\n\nI work with veterinary businesses in Chicago on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "*Título en español:* Necesito Setup Completo en n8n: Dr — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $20 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/17732279700?text=Hello%20Wicker%20Park%20Veterinary%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-3659464574",
-      "source": "OpenStreetMap",
-      "title": "Ruby Room — beauty (West Division Street, Chicago)",
-      "description": "Business in Chicago. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.rubyroom.com/. Phone: +1-773-235-2323.",
-      "email": "concierge@rubyroom.com",
-      "phone": "+1-773-235-2323",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rubyroom.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "beauty",
+      "id": "n8n Community-320146",
+      "source": "n8n Community",
+      "title": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
+      "description": "AI Marketing &amp; n8n Automation Specialist for chill life — Potential Long-Term Partnership Hi, I’m Beth Levis, founder of chill life, a purpose-driven lifestyle brand. We believe happier people create healthier communities. Our apparel, products, and initiatives promote positivity, mental fitness, and meaningful real-life connection. Two key areas of our work are encouraging healthier youth sports culture and helping people take daily breaks from technology to be more present. I’m looking for an experienced AI marketing and automation specialist who can help translate this mission into consistent storytelling, audience growth, and measurable sales. What I’m looking to build A coordinated marketing system using n8n and AI tools such as Claude or OpenAI to: ● Develop content grounded in our brand voice, values, and product offerings. ● Create and repurpose social posts, video scripts, and email campaigns. ● Manage a content calendar and approval process. ● Connect relevant tools across our Shopify store, email marketing, and social channels. ● Track performance and use those insights to improve campaigns. Preserving the authenticity of chill life’s message is essential. The system",
+      "url": "https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146",
+      "postedAt": "2026-10-09T20:48:10.083Z",
+      "raw": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.rubyroom.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Ruby Room beauty Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 16,
+      "score": 42,
       "outreach": {
-        "subject": "Ruby Room — quick question about bookings and rebookings going cold",
-        "body": "Hi Ruby Room team,\n\nI work with beauty businesses in Chicago on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"AI Marketing & n8n Automation Specialist for \"",
+        "body": "Hi,\n\nSaw your post: \"AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/17732352323?text=Hello%20Ruby%20Room%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-3846187457",
-      "source": "OpenStreetMap",
-      "title": "Orthodontic Experts — dentist (West 18th Street, Chicago)",
-      "description": "Business in Chicago. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.orthodonticexprts.com/chicago-pilsen-orthodontist.html. Phone: +1-312-767-2009.",
-      "email": "illinoishealthcareers@gmail.com",
-      "phone": "+1-312-767-2009",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.orthodonticexprts.com/chicago-pilsen-orthodontist.html",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "dentist",
+      "id": "n8n Community-316359",
+      "source": "n8n Community",
+      "title": "Looking for an n8n Freelancer / Automation Builder",
+      "description": "I’m looking for an experienced n8n freelancer to help build WhatsApp automations for local service businesses, including real estate, salons, dealerships, hotels, and home-service companies. You’ll handle technical implementation while I manage clients, requirements, communication, and project management. Projects may include: WhatsApp chatbots Lead capture and qualification AI FAQ responses Human handoff Booking workflows CRM, Sheets, and database integrations Notifications, follow-ups, APIs, and webhooks You should have hands-on n8n experience, understand APIs, JSON, and webhooks, and be comfortable with WhatsApp Business and AI/LLM integrations. Reliability, clear communication, documentation, and maintainable workflows are essential. This starts as project-based freelance work, with potential for a long-term relationship. You’ll handle implementation, testing, documentation, and agreed fixes. To apply, send: Your n8n experience and years of use 2–3 workflow examples WhatsApp/API and AI/LLM experience Pricing and weekly availability Timezone Interest in ongoing projects Portfolio, GitHub, screenshots, or other proof of work A small paid test project may come first. Please DM me ",
+      "url": "https://community.n8n.io/t/looking-for-an-n8n-freelancer-automation-builder/316359",
+      "postedAt": "2026-09-25T15:00:21.415Z",
+      "raw": "Looking for an n8n Freelancer / Automation Builder",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "http://www.orthodonticexprts.com/chicago-pilsen-orthodontist.html",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Orthodontic Experts dentist Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 30,
+      "score": 39,
       "outreach": {
-        "subject": "Orthodontic Experts — quick question about missed calls and no-shows",
-        "body": "Hi Orthodontic Experts team,\n\nI work with dentist businesses in Chicago on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for an n8n Freelancer / Automation Bu\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for an n8n Freelancer / Automation Builder\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13127672009?text=Hello%20Orthodontic%20Experts%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-5159471279",
-      "source": "OpenStreetMap",
-      "title": "Theisen & Roche, Ltd. — lawyer (West Madison Street, Chicago)",
-      "description": "Business in Chicago. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.trlawyer.com/. Phone: +1-312-782-8190.",
-      "email": "info@trlawyer.com",
-      "phone": "+1-312-782-8190",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.trlawyer.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "lawyer",
+      "id": "n8n Community-319139",
+      "source": "n8n Community",
+      "title": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
+      "description": "Hi everyone, I’m an independent n8n / AI automation builder based in Lithuania and I’m looking for a long-term lead generation / sales partner. I’m NOT looking for someone to build automations. I handle the technical side myself. What I need from a partner is: – identify businesses that may need automation – reach out to them by email / LinkedIn – have the initial conversation – confirm they have a real automation problem or need – gather basic context about what they want automated – introduce the qualified prospect to me by email/message From that point I handle everything else: technical discovery, pricing, implementation, revisions and delivery. I prefer client communication to continue primarily through email/chat rather than calls. I’m open to a performance-based model, for example 15–20% of collected project revenue for clients you source and qualify. Commission is paid after the client pays. Typical services include n8n workflows, AI integrations, APIs, CRM / Google Workspace automation, lead handling, email automation and other business process automation. I’m looking for someone who wants a genuine long-term partnership, not someone selling scraped lead lists. If interest",
+      "url": "https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139",
+      "postedAt": "2026-10-06T12:27:06.808Z",
+      "raw": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
-      "url": "https://www.trlawyer.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Theisen & Roche, Ltd. lawyer Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 19,
+      "score": 30,
       "outreach": {
-        "subject": "Theisen & Roche, Ltd. — quick question about enquiry follow-up that never happens",
-        "body": "Hi Theisen & Roche, Ltd. team,\n\nI work with lawyer businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for a B2B Lead Generation / Sales Par\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13127828190?text=Hello%20Theisen%20%26%20Roche%2C%20Ltd.%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-5735495543",
-      "source": "OpenStreetMap",
-      "title": "Cheap Car Insurance Chicago IL — insurance (West Calhoun Place, Chicago)",
-      "description": "Business in Chicago. Category: insurance. Services to pitch: Quote follow-up automation, document processing. Website: https://cheapcarinsurancechicagoil.com/. Phone: +1-872-240-5128.",
-      "email": "cheapcarinsurancechicago@gmail.com",
-      "phone": "+1-872-240-5128",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://cheapcarinsurancechicagoil.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "insurance",
+      "id": "n8n Community-322016",
+      "source": "n8n Community",
+      "title": "N8n + MirrorFly Developer for Video Conferencing Automation",
+      "description": "Hi everyone, I’m looking for an experienced automation developer who can help me build a video conferencing automation system using n8n + MirrorFly + API integrations. This is a paid freelance project with clear requirements and a defined scope. I’ll keep this as concise and technical as possible so you know exactly what’s involved. Project Overview I need to build an automated video conferencing workflow using n8n and MirrorFly that will: Create video meetings automatically based on predefined triggers. Generate meeting details and share them with participants. Schedule meetings using calendar integrations. Send meeting invitations and reminders through email or messaging services. Manage meeting related events through webhooks and APIs. (Optional add-on) Automate meeting recordings and post meeting notifications. All of this needs to run through n8n workflows, with MirrorFly providing the video conferencing capabilities. Core Requirements 1. MirrorFly Video Conferencing Integration Integrate MirrorFly Video Call API and SDK. Create and manage video meetings through supported APIs. Generate or retrieve meeting joining details. Handle meeting events through webhooks or callbacks wh",
+      "url": "https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016",
+      "postedAt": "2026-10-16T20:38:11.146Z",
+      "raw": "N8n + MirrorFly Developer for Video Conferencing Automation",
       "services": [
-        "Quote follow-up automation",
-        "document processing"
+        "Workflow automation"
       ],
-      "url": "https://cheapcarinsurancechicagoil.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Cheap Car Insurance Chicago IL insurance Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Quote follow-up automation",
-        "document processing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 9,
+      "score": 30,
       "outreach": {
-        "subject": "Cheap Car Insurance Chicago IL — quick question about enquiry follow-up that never happens",
-        "body": "Hi Cheap Car Insurance Chicago IL team,\n\nI work with insurance businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n + MirrorFly Developer for Video Conferenc\"",
+        "body": "Hi,\n\nSaw your post: \"N8n + MirrorFly Developer for Video Conferencing Automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/18722405128?text=Hello%20Cheap%20Car%20Insurance%20Chicago%20IL%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-6029028703",
-      "source": "OpenStreetMap",
-      "title": "Veritas House — estate agent (South Wabash Avenue, Chicago)",
-      "description": "Business in Chicago. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://soberlivingchicago.org/. Phone: +1-312-736-0322.",
-      "email": "veritashousechicago@gmail.com",
-      "phone": "+1-312-736-0322",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://soberlivingchicago.org/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "estate_agent",
+      "id": "n8n Community-321496",
+      "source": "n8n Community",
+      "title": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
+      "description": "Hi, I’m Pony, founder of Weft. I’m looking to connect with n8n implementers who work on SaaS customer-request workflows across support, product and engineering. To be clear: I’m validating the service and have no client build to refer yet. This is an exploratory partner introduction, not an open paid job or a promise of work. Weft’s package covers reviewing one workflow, mapping the current and proposed process, defining owners and required data, and documenting exception paths and acceptance checks. Implementation is separately scoped. The collaboration I’d like to explore is: Weft prepares the process brief; an implementer checks technical feasibility and, if there is a suitable client project, quotes the build separately. Access, APIs, hosting, monitoring and support responsibilities would need agreement before any build. For example, a customer update should depend on confirmed release availability for that account, rather than just a task moving to Done. I want the handover brief to explain that rule and what happens when data is missing or a sync fails. An illustrative sample of the planning deliverable is here: Weft | Sample SaaS workflow improvement blueprint It is not a cl",
+      "url": "https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496",
+      "postedAt": "2026-10-14T19:43:02.445Z",
+      "raw": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
       "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
-      "url": "https://soberlivingchicago.org/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Veritas House estate_agent Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 11,
+      "score": 30,
       "outreach": {
-        "subject": "Veritas House — quick question about manual work that eats the week",
-        "body": "Hi Veritas House team,\n\nI work with estate_agent businesses in Chicago on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Exploring n8n implementation partnerships for\"",
+        "body": "Hi,\n\nSaw your post: \"Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13127360322?text=Hello%20Veritas%20House%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     },
     {
-      "id": "osm-node-7144764878",
-      "source": "OpenStreetMap",
-      "title": "Michael C. Craven — lawyer (West Upper Wacker Drive, Chicago)",
-      "description": "Business in Chicago. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.divorcelawyerschicago.org/. Phone: +1-312-621-5234.",
-      "email": "mcraven@harrisonheld.com",
-      "phone": "+1-312-621-5234",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.divorcelawyerschicago.org/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "lawyer",
+      "id": "n8n Community-316792",
+      "source": "n8n Community",
+      "title": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
+      "description": "Hi everyone, I’m building a new AI automation agency focused on WhatsApp automation for service businesses. We’re starting from zero, with no existing clients or fixed monthly salary. I’m looking for 1–2 reliable n8n builders to work on a project basis as clients are acquired. What I’m looking for You should be comfortable with: n8n workflow development WhatsApp Business/API integrations AI/LLM integrations APIs and webhooks Google Sheets, CRMs, calendars and other business tools Lead qualification, follow-ups and booking workflows Human handoff/fallback logic Error handling, testing and troubleshooting Deployment, monitoring and maintenance Basic technical documentation Strong WhatsApp automation experience is especially valuable. Example projects WhatsApp AI lead qualification FAQ and customer-support bots Lead capture and CRM integration Appointment booking and rescheduling Automated follow-ups Human-agent handoff Notifications and internal alerts AI-powered business workflows Working arrangement This is project-based, not salaried: Client acquired → scope agreed → builder assigned → paid build/testing → deployment → maintenance if required I am not asking anyone to work for fre",
+      "url": "https://community.n8n.io/t/looking-for-1-2-n8n-builders-for-long-term-collaboration/316792",
+      "postedAt": "2026-09-26T14:01:38.093Z",
+      "raw": "Looking for 1–2 n8n Builders for Long-Term Collaboration",
       "services": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
-      "url": "https://www.divorcelawyerschicago.org/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Michael C. Craven lawyer Chicago",
-      "_emailLead": true,
       "titleServices": [
-        "Client intake automation",
-        "document extraction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 29,
+      "score": 27,
       "outreach": {
-        "subject": "Michael C. Craven — quick question about enquiry follow-up that never happens",
-        "body": "Hi Michael C. Craven team,\n\nI work with lawyer businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for 1–2 n8n Builders for Long-Term Co\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for 1–2 n8n Builders for Long-Term Collaboration\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13126215234?text=Hello%20Michael%20C.%20Craven%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7190157232",
-      "source": "OpenStreetMap",
-      "title": "North Suburban Legal Services LLC — lawyer (North Clark Street, Chicago)",
-      "description": "Business in Chicago. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://www.nslslaw.com/. Phone: +1-312-909-6089.",
-      "email": "nslegalteam@gmail.com",
-      "phone": "+1-312-909-6089",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.nslslaw.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.nslslaw.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "North Suburban Legal Services LLC lawyer Chicago",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "North Suburban Legal Services LLC — quick question about enquiry follow-up that never happens",
-        "body": "Hi North Suburban Legal Services LLC team,\n\nI work with lawyer businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13129096089?text=Hello%20North%20Suburban%20Legal%20Services%20LLC%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7733855567",
-      "source": "OpenStreetMap",
-      "title": "Uche P.C. — lawyer (North Loomis Street, Chicago)",
-      "description": "Business in Chicago. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: https://uchelitigation.com/. Phone: +1-312-380-5341.",
-      "email": "nenye.uche@uchelitigation.com",
-      "phone": "+1-312-380-5341",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://uchelitigation.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://uchelitigation.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Uche P.C. lawyer Chicago",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Uche P.C. — quick question about enquiry follow-up that never happens",
-        "body": "Hi Uche P.C. team,\n\nI work with lawyer businesses in Chicago on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13123805341?text=Hello%20Uche%20P.C.%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20manual%20follow-up%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7781903767",
-      "source": "OpenStreetMap",
-      "title": "Tom Campone Real Estate | South Loop — estate agent (South Indiana Avenue, Chicago)",
-      "description": "Business in Chicago. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.tomcampone.com/. Phone: +1-702-528-2267.",
-      "email": "tom@tcgroup.realty",
-      "phone": "+1-702-528-2267",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.tomcampone.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.tomcampone.com/",
-      "postedAt": "2026-10-25T07:54:40.572Z",
-      "raw": "Tom Campone Real Estate | South Loop estate_agent Chicago",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Tom Campone Real Estate | South Loop — quick question about manual work that eats the week",
-        "body": "Hi Tom Campone Real Estate | South Loop team,\n\nI work with estate_agent businesses in Chicago on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/17025282267?text=Hello%20Tom%20Campone%20Real%20Estate%20%7C%20South%20Loop%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8519054762",
-      "source": "OpenStreetMap",
-      "title": "Chicago Dental Boutique — dentist (East Benton Place, Chicago)",
-      "description": "Business in Chicago. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.chicagodentalboutique.com/. Phone: +1-312-868-0301.",
-      "email": "info@chicagodentalboutique.com",
-      "phone": "+1-312-868-0301",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.chicagodentalboutique.com/",
-      "city": "Chicago",
-      "tz": "America/Chicago",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.chicagodentalboutique.com/",
-      "postedAt": "2026-10-25T07:54:40.573Z",
-      "raw": "Chicago Dental Boutique dentist Chicago",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Chicago Dental Boutique — quick question about missed calls and no-shows",
-        "body": "Hi Chicago Dental Boutique team,\n\nI work with dentist businesses in Chicago on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/13128680301?text=Hello%20Chicago%20Dental%20Boutique%2C%0A%0AI%20help%20businesses%20in%20Chicago%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
+      "waCapable": false,
+      "waLink": ""
     }
   ]
 }
