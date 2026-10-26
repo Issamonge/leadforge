@@ -2926,5 +2926,65 @@
     "at": "2026-10-26T17:06:25.125Z",
     "business": "Löbel & González — lawyer",
     "status": "followup_1"
+  },
+  {
+    "email": "info@autoescuelaoton.com",
+    "at": "2026-10-26T22:59:51.873Z",
+    "business": "Oton autoescola — driving school",
+    "status": "followup_1"
+  },
+  {
+    "email": "cursos.barcelona@britishcouncil.es",
+    "at": "2026-10-26T22:59:53.550Z",
+    "business": "British Council — language school (Carrer d'Amigó, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@institutnordic.com",
+    "at": "2026-10-26T22:59:55.184Z",
+    "business": "Institut Nórdic — language school (Gran Via de les Corts Catalanes, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "administracion@sitep.com",
+    "at": "2026-10-26T22:59:56.892Z",
+    "business": "Sitep S.L. — it (Carrer de la Diputació, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "ainhoaestetica@hotmail.es",
+    "at": "2026-10-26T22:59:58.684Z",
+    "business": "Ainhoa Estetica — beauty (Carrer d'Europa, Badalona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "kocinos@o2.pl",
+    "at": "2026-10-26T23:00:00.372Z",
+    "business": "Gabinet Weterynaryjny Kocinos — veterinary",
+    "status": "followup_1"
+  },
+  {
+    "email": "kontakt@magwise.pl",
+    "at": "2026-10-26T23:00:02.089Z",
+    "business": "Magwise — doctors",
+    "status": "followup_1"
+  },
+  {
+    "email": "warszawa1@almatur.pl",
+    "at": "2026-10-26T23:00:03.869Z",
+    "business": "Almatur — travel agent (Mikołaja Kopernika, Warszawa)",
+    "status": "followup_1"
+  },
+  {
+    "email": "fundacja@sakura.org.pl",
+    "at": "2026-10-26T23:00:05.536Z",
+    "business": "Sakura — language school (Próżna, Warszawa)",
+    "status": "followup_1"
+  },
+  {
+    "email": "biuro@kancelaria-praga.pl",
+    "at": "2026-10-26T23:00:07.161Z",
+    "business": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
+    "status": "followup_1"
   }
 ]

@@ -1106,8 +1106,8 @@
     "city": "Barcelona",
     "service": "Lesson booking automation",
     "sentAt": "2026-09-24T15:36:58.405Z",
-    "lastSentAt": "2026-09-24T15:36:58.405Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T22:59:51.873Z",
+    "step": 1
   },
   {
     "email": "cursos.barcelona@britishcouncil.es",
@@ -1116,8 +1116,8 @@
     "city": "Barcelona",
     "service": "Enrolment automation",
     "sentAt": "2026-09-24T15:36:59.459Z",
-    "lastSentAt": "2026-09-24T15:36:59.459Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T22:59:53.550Z",
+    "step": 1
   },
   {
     "email": "info@institutnordic.com",
@@ -1126,8 +1126,8 @@
     "city": "Barcelona",
     "service": "Enrolment automation",
     "sentAt": "2026-09-24T15:37:00.732Z",
-    "lastSentAt": "2026-09-24T15:37:00.732Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T22:59:55.184Z",
+    "step": 1
   },
   {
     "email": "administracion@sitep.com",
@@ -1136,8 +1136,8 @@
     "city": "Barcelona",
     "service": "AI agent & workflow automation",
     "sentAt": "2026-09-24T15:37:01.925Z",
-    "lastSentAt": "2026-09-24T15:37:01.925Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T22:59:56.892Z",
+    "step": 1
   },
   {
     "email": "ainhoaestetica@hotmail.es",
@@ -1146,8 +1146,8 @@
     "city": "Barcelona",
     "service": "Booking automation",
     "sentAt": "2026-09-24T15:37:03.041Z",
-    "lastSentAt": "2026-09-24T15:37:03.041Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T22:59:58.684Z",
+    "step": 1
   },
   {
     "email": "kocinos@o2.pl",
@@ -1156,8 +1156,8 @@
     "city": "Warsaw",
     "service": "Booking automation",
     "sentAt": "2026-09-25T08:17:43.319Z",
-    "lastSentAt": "2026-09-25T08:17:43.319Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T23:00:00.372Z",
+    "step": 1
   },
   {
     "email": "kontakt@magwise.pl",
@@ -1166,8 +1166,8 @@
     "city": "Warsaw",
     "service": "Appointment automation",
     "sentAt": "2026-09-25T08:17:44.908Z",
-    "lastSentAt": "2026-09-25T08:17:44.908Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T23:00:02.089Z",
+    "step": 1
   },
   {
     "email": "warszawa1@almatur.pl",
@@ -1176,8 +1176,8 @@
     "city": "Warsaw",
     "service": "Booking automation",
     "sentAt": "2026-09-25T08:17:46.397Z",
-    "lastSentAt": "2026-09-25T08:17:46.397Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T23:00:03.869Z",
+    "step": 1
   },
   {
     "email": "fundacja@sakura.org.pl",
@@ -1186,8 +1186,8 @@
     "city": "Warsaw",
     "service": "Enrolment automation",
     "sentAt": "2026-09-25T08:17:47.778Z",
-    "lastSentAt": "2026-09-25T08:17:47.778Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T23:00:05.536Z",
+    "step": 1
   },
   {
     "email": "biuro@kancelaria-praga.pl",
@@ -1196,8 +1196,8 @@
     "city": "Warsaw",
     "service": "Client intake automation",
     "sentAt": "2026-09-25T08:17:49.165Z",
-    "lastSentAt": "2026-09-25T08:17:49.165Z",
-    "step": 0
+    "lastSentAt": "2026-10-26T23:00:07.161Z",
+    "step": 1
   },
   {
     "email": "przychodnia.grochowska@multimed.pl",
