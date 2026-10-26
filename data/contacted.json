@@ -2806,5 +2806,65 @@
     "at": "2026-10-25T21:21:50.513Z",
     "business": "Phoenix Dental — dentist (Ashtown Road)",
     "status": "followup_1"
+  },
+  {
+    "email": "fetomaternal@hotmail.com",
+    "at": "2026-10-26T08:15:38.957Z",
+    "business": "Fetomaternal Centre — clinic (380 Markhiya Street)",
+    "status": "sent"
+  },
+  {
+    "email": "care@panhomestores.com",
+    "at": "2026-10-26T08:15:40.473Z",
+    "business": "Pan Home — furniture (Salwa Road)",
+    "status": "sent"
+  },
+  {
+    "email": "sales@diamondshouse.com",
+    "at": "2026-10-26T08:15:41.897Z",
+    "business": "Diamonds House — jewelry (Khalid Bin Al Waleed Street)",
+    "status": "sent"
+  },
+  {
+    "email": "info@acornqatar.com",
+    "at": "2026-10-26T08:15:43.336Z",
+    "business": "Acorn Nursery - Ain Khalid — childcare (Doha)",
+    "status": "sent"
+  },
+  {
+    "email": "info@zabarjadjewelry.com",
+    "at": "2026-10-26T08:15:44.623Z",
+    "business": "Zabarjad Jewelry Gold Souq — jewelry (Alashat Street, Doha)",
+    "status": "sent"
+  },
+  {
+    "email": "info@braintrack.com.qa",
+    "at": "2026-10-26T08:15:46.063Z",
+    "business": "BrainTrack IT solutions WLL — it (Salwa Road - Retaj Building, Doha)",
+    "status": "sent"
+  },
+  {
+    "email": "info@asmc.qa",
+    "at": "2026-10-26T08:15:47.324Z",
+    "business": "Al Siraj Medical Center — clinic",
+    "status": "sent"
+  },
+  {
+    "email": "info@theskinart.qa",
+    "at": "2026-10-26T08:15:48.931Z",
+    "business": "The Skin art medical center — clinic (المسحبية, Al Gharafah)",
+    "status": "sent"
+  },
+  {
+    "email": "sales@microserve.qa",
+    "at": "2026-10-26T08:15:50.278Z",
+    "business": "Microserve — it (طريق الريان, الدوحة)",
+    "status": "sent"
+  },
+  {
+    "email": "info@dr.qa",
+    "at": "2026-10-26T08:15:51.733Z",
+    "business": "Microserve Data Recovery W.L.L. — it (طريق الريان, الدوحة)",
+    "status": "sent"
   }
 ]
