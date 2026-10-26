@@ -2866,5 +2866,65 @@
     "at": "2026-10-26T08:15:51.733Z",
     "business": "Microserve Data Recovery W.L.L. — it (طريق الريان, الدوحة)",
     "status": "sent"
+  },
+  {
+    "email": "info@kobash.ie",
+    "at": "2026-10-26T17:06:11.823Z",
+    "business": "Kobash Jewellers & Goldsmith — jewelry (Main Street, Blackrock)",
+    "status": "followup_1"
+  },
+  {
+    "email": "customercareteam@msl.ie",
+    "at": "2026-10-26T17:06:13.994Z",
+    "business": "MSL Service Centre — car (North Circular Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@blow.ie",
+    "at": "2026-10-26T17:06:15.468Z",
+    "business": "Blow Hair & Beauty — beauty (Leeson Street Upper, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "tan-n-glo@hotmail.com",
+    "at": "2026-10-26T17:06:16.980Z",
+    "business": "Tan n Glo — beauty (Hyde Court, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "reception@rathgarmedicalpractice.ie",
+    "at": "2026-10-26T17:06:18.227Z",
+    "business": "The Rathgar Medical Practice — doctors (Rathgar Road, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "learn@languages4life.com",
+    "at": "2026-10-26T17:06:19.484Z",
+    "business": "TEFL Iberia — language school (Carrer de València, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "soporte@traxtore.com",
+    "at": "2026-10-26T17:06:20.751Z",
+    "business": "Traxtore — computer (Carrer de Sepúlveda, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "sfamilia@garzondental.com",
+    "at": "2026-10-26T17:06:22.562Z",
+    "business": "Clínica Garzón Dental — dentist (Carrer de Provença, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "greenmegastore@pcgreen.com",
+    "at": "2026-10-26T17:06:23.852Z",
+    "business": "Green Megastore — computer",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@loebelgonzalez.com",
+    "at": "2026-10-26T17:06:25.125Z",
+    "business": "Löbel & González — lawyer",
+    "status": "followup_1"
   }
 ]
