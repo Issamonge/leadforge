@@ -363,5 +363,15 @@
     "email": "ucsp.ajuda@arslvt.min-saude.pt",
     "reason": "bounced: spam block",
     "at": "2026-10-25T14:44:13.678Z"
+  },
+  {
+    "email": "seapoint@placecol.com",
+    "reason": "bounced: spam block",
+    "at": "2026-10-27T16:12:19.083Z"
+  },
+  {
+    "email": "info@thetreatbydany.co.za",
+    "reason": "bounced: spam block",
+    "at": "2026-10-27T16:12:19.083Z"
   }
 ]

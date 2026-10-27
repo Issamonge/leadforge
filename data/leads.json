@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T08:31:20.076Z",
+  "generatedAt": "2026-10-27T16:11:45.202Z",
   "config": {
     "dailyTarget": 60,
     "minBudget": 0,
@@ -18,33 +18,30 @@
     "cityBatch": 4
   },
   "stats": {
-    "totalScanned": 270,
-    "qualified": 60,
-    "pipelineValue": 0,
+    "totalScanned": 170,
+    "qualified": 17,
+    "pipelineValue": 80,
     "sources": {
       "n8n Community": 30,
       "Make.com Community": 30,
       "Hacker News": 1,
       "RemoteOK": 99,
       "Remotive": 10,
-      "OpenStreetMap": 100,
+      "OpenStreetMap": 0,
       "Google Maps": 0
     },
     "payoutGoal": 500,
-    "whatsappCapable": 25,
-    "phoneLeads": 48,
-    "replies": 0,
-    "newSuppressed": 0,
-    "bounceRate": 2,
-    "emailLeads": 49,
-    "sent": 10,
-    "sendSkipped": 0,
-    "guardRejected": 3,
+    "whatsappCapable": 0,
+    "phoneLeads": 0,
+    "newSuppressed": 2,
+    "bounceRate": 3,
+    "emailLeads": 0,
+    "followupsSent": 10,
     "byNiche": {
       "veterinary": {
         "sent": 6,
-        "replied": 0,
-        "rate": 0
+        "replied": 1,
+        "rate": 16.7
       },
       "car": {
         "sent": 6,
@@ -57,17 +54,17 @@
         "rate": 0
       },
       "estate_agent": {
-        "sent": 16,
+        "sent": 17,
         "replied": 0,
         "rate": 0
       },
       "clinic": {
-        "sent": 20,
+        "sent": 21,
         "replied": 0,
         "rate": 0
       },
       "beauty": {
-        "sent": 10,
+        "sent": 12,
         "replied": 0,
         "rate": 0
       },
@@ -77,12 +74,12 @@
         "rate": 0
       },
       "dentist": {
-        "sent": 16,
+        "sent": 17,
         "replied": 0,
         "rate": 0
       },
       "jewelry": {
-        "sent": 12,
+        "sent": 13,
         "replied": 0,
         "rate": 0
       },
@@ -102,17 +99,17 @@
         "rate": 0
       },
       "childcare": {
-        "sent": 4,
+        "sent": 5,
         "replied": 0,
         "rate": 0
       },
       "language_school": {
-        "sent": 9,
+        "sent": 11,
         "replied": 0,
         "rate": 0
       },
       "furniture": {
-        "sent": 7,
+        "sent": 8,
         "replied": 0,
         "rate": 0
       },
@@ -157,7 +154,7 @@
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 1,
+      "ageDays": 2,
       "score": 58,
       "outreach": {
         "subject": "Quick idea for \"[HIRING] Digital Projects & AI Assistant | Re\"",
@@ -168,2246 +165,449 @@
       "waLink": ""
     },
     {
-      "id": "osm-node-484617936",
-      "source": "OpenStreetMap",
-      "title": "Tafelberg Furnishers N1 Northgate — furniture (Platinum Drive, Cape Town)",
-      "description": "Business in Cape Town. Category: furniture. Services to pitch: Lead follow-up, quote automation. Website: n/a. Phone: +27 21 514 5600.",
-      "email": "northgate@tafelberg.co.za",
-      "phone": "+27 21 514 5600",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "furniture",
+      "id": "Make.com Community-118447",
+      "source": "Make.com Community",
+      "title": "Via Agentic: AI agent and n8n/Make automation consulting, agent safety reviews, embedded engineers",
+      "description": "Via Agentic is an AI agent consultancy led by founder Itsik Mauyhas. We design and build automations and AI agents on Make and n8n, connected to your CRM, email, databases and Slack, with PII redaction, allow-lists and human approval steps. We also run agent safety and data-segregation reviews (identity-scoped tools, prompt-injection defences, audit logging), and embed forward-deployed engineers in your team. Remote worldwide. Rates: contact for a quote. Free 30-minute intro call. Website: https://via-agentic.io Contact: customer-rfq@via-agentic.io",
+      "url": "https://community.make.com/t/via-agentic-ai-agent-and-n8n-make-automation-consulting-agent-safety-reviews-embedded-engineers/118447",
+      "postedAt": "2026-10-27T12:18:38.693Z",
+      "raw": "Via Agentic: AI agent and n8n/Make automation consulting, agent safety reviews, embedded engineers",
       "services": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/484617936",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Tafelberg Furnishers N1 Northgate furniture Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Lead follow-up",
-        "quote automation"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
       "ageDays": 0,
-      "score": 54,
+      "score": 58,
       "outreach": {
-        "subject": "Tafelberg Furnishers N1 Northgate — quick question about manual work that eats the week",
-        "body": "Hi Tafelberg Furnishers N1 Northgate team,\n\nI work with furniture businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Via Agentic: AI agent and n8n/Make automation\"",
+        "body": "Hi,\n\nSaw your post: \"Via Agentic: AI agent and n8n/Make automation consulting, agent safety reviews, embedded engineers\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2505871209",
-      "source": "OpenStreetMap",
-      "title": "Kenilworth Medicross — clinic (Rosmead Avenue, Kenilworth)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 86 605 5061.",
-      "email": "kenilworth@medicross.co.za",
-      "phone": "+27 86 605 5061",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-319256",
+      "source": "n8n Community",
+      "title": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
+      "description": "Hi everyone, I’m looking for an experienced n8n specialist to review and stress-test several AI agents I’ve already built before I demonstrate them to paying clients. Stack includes n8n, Vapi, Twilio, ElevenLabs, OpenAI/Claude and APIs/webhooks . I’m looking for someone who can review existing workflows, identify bugs/failure points, test edge cases and error handling, check integrations and AI behaviour, and recommend/fix anything that isn’t client-ready. I’m not looking for the agents to be rebuilt from scratch. I’d like to start with one agent as a paid trial , with ongoing work available if we’re a good fit. If interested, please DM me with: Your location/time zone Your rate Relevant n8n/AI experience Any Vapi/Twilio/ElevenLabs experience Examples of similar work Thanks",
+      "url": "https://community.n8n.io/t/looking-for-n8n-ai-automation-specialist-paid-qa-stress-testing/319256",
+      "postedAt": "2026-10-06T21:10:54.225Z",
+      "raw": "Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation",
+        "Chatbots & voice"
       ],
-      "url": "https://www.openstreetmap.org/node/2505871209",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Kenilworth Medicross clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
+      "ageDays": 21,
       "score": 54,
       "outreach": {
-        "subject": "Kenilworth Medicross — quick question about missed calls and no-shows",
-        "body": "Hi Kenilworth Medicross team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/27866055061?text=Hello%20Kenilworth%20Medicross%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2688093345",
-      "source": "OpenStreetMap",
-      "title": "International House Cape Town — language school (Cape Town)",
-      "description": "Business in Cape Town. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: https://ihcapetown.com. Phone: +27 71 680 9508.",
-      "email": "info@ihcapetown.com",
-      "phone": "+27 71 680 9508",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://ihcapetown.com",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "language_school",
-      "services": [
-        "Enrolment automation",
-        "lead nurturing"
-      ],
-      "url": "https://ihcapetown.com",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "International House Cape Town language_school Cape Town",
-      "_emailLead": true,
-      "titleServices": [
-        "Enrolment automation",
-        "lead nurturing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "International House Cape Town — quick question about manual work that eats the week",
-        "body": "Hi International House Cape Town team,\n\nI work with language_school businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/27716809508?text=Hello%20International%20House%20Cape%20Town%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-2688093370",
-      "source": "OpenStreetMap",
-      "title": "Live Real Estate — estate agent (Regent Road, Cape Town)",
-      "description": "Business in Cape Town. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: https://www.liverealestate.co.za. Phone: n/a.",
-      "email": "live@liverealestate.co.za",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.liverealestate.co.za",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.liverealestate.co.za",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Live Real Estate estate_agent Cape Town",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Live Real Estate — quick question about manual work that eats the week",
-        "body": "Hi Live Real Estate team,\n\nI work with estate_agent businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for n8n / AI Automation Specialist – \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for n8n / AI Automation Specialist – Paid QA & Stress Testing\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-2696432195",
-      "source": "OpenStreetMap",
-      "title": "Placecol Sea Point — beauty",
-      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: http://placecol.com/store/placecol-sea-point. Phone: +27 21 433 1890.",
-      "email": "seapoint@placecol.com",
-      "phone": "+27 21 433 1890",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://placecol.com/store/placecol-sea-point",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "beauty",
+      "id": "Make.com Community-117972",
+      "source": "Make.com Community",
+      "title": "Digital Projects & AI Assistant — remote freelance, minimum 50%",
+      "description": "French OR Italian, plus working English.** Remote freelance · Part-time, minimum 50% · Percentage negotiable We are looking for a resourceful freelancer to work directly with the founder across business projects in different sectors. You will help turn ideas into working pages, useful tools, clear content and completed projects. You should enjoy experimenting with AI, learning unfamiliar tools and improving your work through feedback. We already work with a digital marketing agency. Understanding the basics of digital marketing will help you connect its work with the customer journey: clear landing pages, useful content, simple enquiry forms and sensible ways to check what is working. What you will work on Build and improve landing pages, forms, simple dashboards and workflows using AI-assisted coding and other suitable tools. Prepare website copy, social posts, presentations and visual assets. Research providers, compare options, follow up on requests and present recommendations supported by sources. Test customer journeys and internal tools, reproduce issues and implement straightforward fixes with appropriate review. Help improve the path from an ad, search result or social post",
+      "url": "https://community.make.com/t/digital-projects-ai-assistant-remote-freelance-minimum-50/117972",
+      "postedAt": "2026-10-23T09:21:02.658Z",
+      "raw": "Digital Projects & AI Assistant — remote freelance, minimum 50%",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "AI agents",
+        "Dashboards & internal tools"
       ],
-      "url": "http://placecol.com/store/placecol-sea-point",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Placecol Sea Point beauty Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "AI agents"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 4,
+      "score": 51,
       "outreach": {
-        "subject": "Placecol Sea Point — quick question about bookings and rebookings going cold",
-        "body": "Hi Placecol Sea Point team,\n\nI work with beauty businesses in Cape Town on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Digital Projects & AI Assistant — remote free\"",
+        "body": "Hi,\n\nSaw your post: \"Digital Projects & AI Assistant — remote freelance, minimum 50%\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4238633210",
-      "source": "OpenStreetMap",
-      "title": "The Diamond Works — jewelry (Christiaan Barnard Street, Cape Town)",
-      "description": "Business in Cape Town. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://www.thediamondworks.co.za. Phone: +27 21 425 1970.",
-      "email": "thediamondworks@tjd.co.za",
-      "phone": "+27 21 425 1970",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.thediamondworks.co.za",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "jewelry",
+      "id": "n8n Community-322445",
+      "source": "n8n Community",
+      "title": "[HIRING] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share",
+      "description": "Hi all, I’m Boston. I run Young Automation Studio, a new agency on Upwork. We fix Shopify tracking (Meta Pixel / Conversions API duplicates, GA4 purchases), tune up Klaviyo, and build n8n automations for Shopify stores. From December we add lead-response and CRM automations for service businesses and agencies. We use AI heavily to scope, draft and prototype, so we need an expert to build it right, test it, and be the person clients talk to. What you’d do Deliver 72-hour Tracking Fix Sprints: Meta Pixel + Conversions API de-duplication (event_id), GA4 purchase events from Shopify Customer Events, and cleanup after Shopify retired Additional Scripts. Klaviyo health checks and flow tune-ups (abandoned checkout, browse, post-purchase, winback), plus deliverability basics (SPF, DKIM, DMARC). n8n builds for Shopify, and from December lead-response / CRM builds (GoHighLevel, HubSpot). Review AI-drafted workflows and our demos before clients see them. Own client calls: usually 1–3 short calls a week, scheduled within 24 hours. Everything else is written. Be the named specialist on our Upwork agency proposals, as a non-exclusive member. You keep your own profile and clients. Must have Hands",
+      "url": "https://community.n8n.io/t/hiring-shopify-tracking-n8n-specialist-part-time-ongoing-35-hr-guaranteed-revenue-share/322445",
+      "postedAt": "2026-10-18T19:32:55.290Z",
+      "raw": "[HIRING] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share",
       "services": [
-        "Clienteling automation",
-        "order follow-up"
+        "Workflow automation",
+        "CRM automation"
       ],
-      "url": "https://www.thediamondworks.co.za",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "The Diamond Works jewelry Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 35,
+      "ageDays": 9,
+      "score": 50,
       "outreach": {
-        "subject": "The Diamond Works — quick question about manual work that eats the week",
-        "body": "Hi The Diamond Works team,\n\nI work with jewelry businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "[HIRING] Shopify tracking + n8n specialist, part-time o — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Shopify tracking + n8n specialist, part-time ongoing, $35/hr guaranteed + revenue share\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $35 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4349376695",
-      "source": "OpenStreetMap",
-      "title": "Dr. B.M. Sher — dentist (Ashstead Road)",
-      "description": "Business in Cape Town. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: http://www.mydentist.co.za. Phone: +27214344521.",
-      "email": "bryan@mydentist.co.za",
-      "phone": "+27214344521",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.mydentist.co.za",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "dentist",
+      "id": "n8n Community-323862",
+      "source": "n8n Community",
+      "title": "N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)",
+      "description": "We’re a D2C wellness brand in India selling a digital product with a one-time payment. We get 50–100 customer queries a day on WhatsApp and email, and want an AI agent to handle most of them. What we want built An AI agent on WhatsApp Business that answers common questions (product, access, payments, refunds) in Hindi and English, using our FAQ and policy docs Order and payment lookup via Razorpay so the agent can confirm purchase status Refund requests logged to Google Sheets and routed to our team for approval Complex or unhappy conversations escalated to a human in Slack, with the full chat history The same agent handles incoming support emails (Gmail), with drafted replies for review A weekly report: query volume, top topics, resolution rate, escalations We’re open to a phased rollout, starting with steps 1–4. What we’re looking for Proven n8n experience with AI agents and RAG/knowledge-base setups Experience with WhatsApp Business Cloud API Clear documentation and handover To apply, please share: 1–2 relevant n8n projects or portfolio links Your pricing model (hourly or fixed) and estimated cost for phase 1 and the full build Estimated timeline Monthly maintenance options Expe",
+      "url": "https://community.n8n.io/t/n8n-expert-needed-ai-whatsapp-support-agent-hindi-english/323862",
+      "postedAt": "2026-10-23T04:25:46.606Z",
+      "raw": "N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "http://www.mydentist.co.za",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Dr. B.M. Sher dentist Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 4,
+      "score": 47,
       "outreach": {
-        "subject": "Dr. B.M. Sher — quick question about missed calls and no-shows",
-        "body": "Hi Dr. B.M. Sher team,\n\nI work with dentist businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n Expert Needed: AI WhatsApp Support Agent \"",
+        "body": "Hi,\n\nSaw your post: \"N8n Expert Needed: AI WhatsApp Support Agent (Hindi + English)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-4723921343",
-      "source": "OpenStreetMap",
-      "title": "Good Hope Studies — language school (Saint George's Mall, Cape Town)",
-      "description": "Business in Cape Town. Category: language_school. Services to pitch: Enrolment automation, lead nurturing. Website: n/a. Phone: n/a.",
-      "email": "mailbox@ghs.co.za",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "language_school",
+      "id": "n8n Community-321244",
+      "source": "n8n Community",
+      "title": "Looking for Founding n8n Automation Creators | Osmium",
+      "description": "Hey n8n builders! we’re Osmium , a newly launched marketplace for reusable software capabilities, AI systems, APIs, and automation tools. We’re inviting 20 independent developers and automation creators to join our founding vendor cohort. Who we’re looking for: n8n builders with original, reusable automation solutions AI agent and workflow developers API and backend integration creators Independent developers with working software they’d like to monetize What we’re offering: An additional channel to sell your existing work Freedom to set your own prices Ownership of your original software Personal onboarding assistance Opportunities to showcase available testing evidence This is an independent vendor opportunity, not salaried employment . Earnings depend on actual sales, and we cannot guarantee customers. If you’ve built something reusable, we’d love to explore bringing it to Osmium. Interested? Email: heythere@osmiumcodes.com Subject: Osmium Founding Vendor Tell us what you’ve built and share a demo or portfolio if available. Looking forward to meeting some brilliant builders!",
+      "url": "https://community.n8n.io/t/looking-for-founding-n8n-automation-creators-osmium/321244",
+      "postedAt": "2026-10-14T07:03:57.126Z",
+      "raw": "Looking for Founding n8n Automation Creators | Osmium",
       "services": [
-        "Enrolment automation",
-        "lead nurturing"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/4723921343",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Good Hope Studies language_school Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Enrolment automation",
-        "lead nurturing"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 13,
+      "score": 46,
       "outreach": {
-        "subject": "Good Hope Studies — quick question about manual work that eats the week",
-        "body": "Hi Good Hope Studies team,\n\nI work with language_school businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for Founding n8n Automation Creators \"",
+        "body": "Hi,\n\nSaw your post: \"Looking for Founding n8n Automation Creators | Osmium\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-8067683380",
-      "source": "OpenStreetMap",
-      "title": "The Treat — beauty",
-      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://thetreatbydany.co.za. Phone: n/a.",
-      "email": "info@thetreatbydany.co.za",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://thetreatbydany.co.za",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "beauty",
+      "id": "n8n Community-322645",
+      "source": "n8n Community",
+      "title": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
+      "description": "I’m looking for an opportunity as an n8n Developer / AI Automation Engineer. What’s actually built, not “worked on”: → 36 workflows, 3 production systems, not tutorial projects, systems that run → Multi-agent AI stacks wired into real databases, not a spreadsheet pretending to be a backend → APIs, webhooks, end-to-end business logic. The unglamorous plumbing that decides whether a company’s ops actually work or just look like they do Every system is documented down to the architecture, not a screenshot dump, an actual paper trail of decisions. Portfolio: https://bykeyur.vercel.app Go roast it if you want. Genuinely open to reviews of the systems I’ve built, if something’s weak, I’d rather hear it from you than find out in an interview. Open to remote India or international, if the role’s legit. Hiring, or know someone who is? Say something. Silence doesn’t close deals.",
+      "url": "https://community.n8n.io/t/stop-calling-it-workflow-automation-thats-what-someone-does-in-an-afternoon-with-three-zapier-nodes-and-a-prayer-i-design-systems/322645",
+      "postedAt": "2026-10-19T02:44:27.207Z",
+      "raw": "Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.",
       "services": [
-        "Booking automation",
-        "rebooking reminders"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://thetreatbydany.co.za",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "The Treat beauty Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 9,
+      "score": 46,
       "outreach": {
-        "subject": "The Treat — quick question about bookings and rebookings going cold",
-        "body": "Hi The Treat team,\n\nI work with beauty businesses in Cape Town on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Stop calling it \"workflow automation.\" That's\"",
+        "body": "Hi,\n\nSaw your post: \"Stop calling it \"workflow automation.\" That's what someone does in an afternoon with three Zapier nodes and a prayer. I design systems.\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-9489012098",
-      "source": "OpenStreetMap",
-      "title": "The Salvation Army Bonteheuwel Nursery School — childcare",
-      "description": "Business in Cape Town. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: +27 66 582 6863.",
-      "email": "bonteheuwel.ecd@saf.salvationarmy.org",
-      "phone": "+27 66 582 6863",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "childcare",
+      "id": "Make.com Community-118015",
+      "source": "Make.com Community",
+      "title": "Hiring: Make.com + Airtable + Telegram Bot Automation Specialist",
+      "description": "Budget: $25 - Quick Fix I’m looking for someone experienced with Make.com , Airtable, and Telegram bots to help finish an automation I’ve already built. What I need: I have an Airtable trading journal that automatically generates a unique Trade SKU whenever someone submits an Entry Form. I want that SKU automatically sent through Telegram to the specific person who submitted the form , using my existing Telegram bot. What’s already working: Airtable Entry Form and automatic SKU generation Airtable webhook connected to Make.com Telegram bot successfully sending dynamic SKU messages Telegram registration scenario capturing Chat IDs Existing username lookup, routing, and duplicate-prevention logic What’s left to fix: The system isn’t consistently associating each Telegram username with its corresponding Chat ID, preventing reliable delivery to individual traders. I need someone to troubleshoot the existing setup, fix recipient matching, and verify that each trader receives their own unique SKU automatically. Expected result: Trader submits Airtable Entry Form → Make.com identifies the correct Telegram account → Trader receives their unique SKU. The completed automation must work for m",
+      "url": "https://community.make.com/t/hiring-make-com-airtable-telegram-bot-automation-specialist/118015",
+      "postedAt": "2026-10-23T15:59:19.444Z",
+      "raw": "Hiring: Make.com + Airtable + Telegram Bot Automation Specialist",
       "services": [
-        "Enquiry automation",
-        "parent communication"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/node/9489012098",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "The Salvation Army Bonteheuwel Nursery School childcare Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Enquiry automation",
-        "parent communication"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 25,
+      "ageDays": 4,
+      "score": 43,
       "outreach": {
-        "subject": "The Salvation Army Bonteheuwel Nursery School — quick question about manual work that eats the week",
-        "body": "Hi The Salvation Army Bonteheuwel Nursery School team,\n\nI work with childcare businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/27665826863?text=Hello%20The%20Salvation%20Army%20Bonteheuwel%20Nursery%20School%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11813443382",
-      "source": "OpenStreetMap",
-      "title": "Yemenya Spa and Hair — beauty (Regent Road)",
-      "description": "Business in Cape Town. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: https://www.yemaya.co.za/. Phone: +27 21 439 2266.",
-      "email": "info@yemaya.co.za",
-      "phone": "+27 21 439 2266",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.yemaya.co.za/",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.yemaya.co.za/",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Yemenya Spa and Hair beauty Cape Town",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Yemenya Spa and Hair — quick question about bookings and rebookings going cold",
-        "body": "Hi Yemenya Spa and Hair team,\n\nI work with beauty businesses in Cape Town on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Hiring: Make.com + Airtable + Telegram Bot Automation S — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"Hiring: Make.com + Airtable + Telegram Bot Automation Specialist\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $25 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-node-12600076700",
-      "source": "OpenStreetMap",
-      "title": "Shiny Rock Polished — jewelry (Dock Road, Waterfront CPT)",
-      "description": "Business in Cape Town. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: https://shinyrockpolished.com/. Phone: +27872502824.",
-      "email": "hello@shinyrockpolished.com",
-      "phone": "+27872502824",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://shinyrockpolished.com/",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "jewelry",
+      "id": "n8n Community-317073",
+      "source": "n8n Community",
+      "title": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
+      "description": "We are Henan Zhuowei New Energy, a manufacturer selling sodium-ion &amp; lithium-ion battery energy storage systems worldwide. We’re seeking an experienced AI Agent developer with deep expertise in n8n and LangGraph to build our multi-agent global lead acquisition system (Codex-style architecture). Project Scope: POC (2–4 weeks, fixed price) Automatically discover and enrich qualified B2B leads within the energy storage sector Build AI agents to research target company profiles and craft highly personalized outreach emails Develop end-to-end workflows in n8n, integrating LLMs and CRM Requirements Solid proven experience building production-ready agents with n8n, LangGraph or CrewAI Hands-on experience with B2B lead generation automation Only official APIs allowed. No unauthorized scraping. Deliverables: Exportable n8n workflow JSON, technical documentation, working demo Engagement Terms Fixed-price POC project, fully remote, project-based contract. This is not a full-time role . Please DM me with links or demos of your relevant past agent automation projects. 中文备注：可以中文沟通，欢迎国内开发者私信。",
+      "url": "https://community.n8n.io/t/hiring-multi-agent-b2b-lead-gen-system-n8n-langgraph-energy-storage-na-li-battery/317073",
+      "postedAt": "2026-09-28T05:23:36.357Z",
+      "raw": "[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)",
       "services": [
-        "Clienteling automation",
-        "order follow-up"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://shinyrockpolished.com/",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Shiny Rock Polished jewelry Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
+        "AI agents",
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 29,
+      "score": 43,
       "outreach": {
-        "subject": "Shiny Rock Polished — quick question about manual work that eats the week",
-        "body": "Hi Shiny Rock Polished team,\n\nI work with jewelry businesses in Cape Town on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/27872502824?text=Hello%20Shiny%20Rock%20Polished%2C%0A%0AI%20help%20businesses%20in%20Cape%20Town%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-way-336895066",
-      "source": "OpenStreetMap",
-      "title": "Adriaanse Clinic — clinic (40th Avenue, Clarke Estate)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 444 2396.",
-      "email": "adriaanse.clinic@capetown.gov.za",
-      "phone": "+27 21 444 2396",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/way/336895066",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Adriaanse Clinic clinic Cape Town",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Adriaanse Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Adriaanse Clinic team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"[HIRING] Multi-Agent B2B Lead Gen System | n8\"",
+        "body": "Hi,\n\nSaw your post: \"[HIRING] Multi-Agent B2B Lead Gen System | n8n + LangGraph | Energy Storage (Na/Li Battery)\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-738309521",
-      "source": "OpenStreetMap",
-      "title": "Apffelstaedt & Associates — clinic (Hennie Winterbach Street, Panorama, Cape Town)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 930 2662.",
-      "email": "info@apffelstaedt.com",
-      "phone": "+27 21 930 2662",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-318516",
+      "source": "n8n Community",
+      "title": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
+      "description": "About the Role We are a Saudi-based AI &amp; Digital Transformation Agency building end-to-end digital systems, WhatsApp AI engines, process automations, and CRM integrations for fast-growing businesses in the Arab world and MENA region. We are looking for a Hands-on AI &amp; Operations Lead to help us build a fully AI-First operational hub . This is not a traditional PM role — we need a system builder, an automation architect, and a problem solver who loves turning complex operational bottlenecks into sleek, automated n8n &amp; Make.com workflows. What You’ll Be Building &amp; Managing AI-First Operations: Designing and deploying scalable workflows using n8n , LLM APIs (OpenAI, Claude, Gemini), and custom webhooks to eliminate repetitive internal tasks. WhatsApp AI Automations: Building advanced WhatsApp Business API flows integrated with CRMs and AI agents for client and internal operations. Content Engine Automations: Setting up end-to-end workflows for multi-channel content generation, scheduling, and asset creation (text, image, reel scripts/video inputs). Project &amp; Delivery Management: Leading internal dev/design projects, managing freelancers, and ensuring deliverables m",
+      "url": "https://community.n8n.io/t/hiring-senior-ai-automation-operations-lead-n8n-make-specialist-remote/318516",
+      "postedAt": "2026-10-03T13:30:09.564Z",
+      "raw": "Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/way/738309521",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Apffelstaedt & Associates clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 24,
+      "score": 43,
       "outreach": {
-        "subject": "Apffelstaedt & Associates — quick question about missed calls and no-shows",
-        "body": "Hi Apffelstaedt & Associates team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Hiring Senior AI & Automation Operations Lead\"",
+        "body": "Hi,\n\nSaw your post: \"Hiring Senior AI & Automation Operations Lead (n8n & Make Specialist) | Remote\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-738309523",
-      "source": "OpenStreetMap",
-      "title": "Panorama Oncology Centre — clinic (Hennie Winterbach Street, Cape Town, South Africa)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 939 7790.",
-      "email": "info@pacso.co.za",
-      "phone": "+27 21 939 7790",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-324371",
+      "source": "n8n Community",
+      "title": "Looking for an AI WhatsApp Business Chatbot Developer — Long-Term Collaboration",
+      "description": "Hello everyone, I’m the CEO of Marca Aumentada, an artificial intelligence agency. We’re looking for experienced developers specializing in AI-powered WhatsApp Business chatbots to establish potential long-term collaborations. What we’re looking for: Experience developing chatbots for WhatsApp Business. AI integration and knowledge base implementation. Conversation automation, lead qualification, and human handoff. Ability to implement, test, and maintain chatbot solutions. To learn more about your experience, please share: Your background and examples of previous projects. The tools and technologies you work with. Your implementation and maintenance rates. Your availability for potential future collaborations. We’re currently building our network of collaborators for future projects. This is not a full-time employment offer, and we do not currently have a confirmed project available. If you’re interested, please reply to this thread or send me a private message. Thank you! Replies are closed - contact the author using email, application form or direct message. Read more here .",
+      "url": "https://community.n8n.io/t/looking-for-an-ai-whatsapp-business-chatbot-developer-long-term-collaboration/324371",
+      "postedAt": "2026-10-26T02:41:04.046Z",
+      "raw": "Looking for an AI WhatsApp Business Chatbot Developer — Long-Term Collaboration",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Chatbots & voice"
       ],
-      "url": "https://www.openstreetmap.org/way/738309523",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Panorama Oncology Centre clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Chatbots & voice"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 2,
+      "score": 42,
       "outreach": {
-        "subject": "Panorama Oncology Centre — quick question about missed calls and no-shows",
-        "body": "Hi Panorama Oncology Centre team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for an AI WhatsApp Business Chatbot D\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for an AI WhatsApp Business Chatbot Developer — Long-Term Collaboration\". This is exactly the kind of chatbots & voice work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-738338365",
-      "source": "OpenStreetMap",
-      "title": "Panorama Plastic Surgery Clinic — clinic (Hennie Winterbach Street Panorama, Cape Town, South Africa)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 930 1855.",
-      "email": "plclaser@mweb.co.za",
-      "phone": "+27 21 930 1855",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-320146",
+      "source": "n8n Community",
+      "title": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
+      "description": "AI Marketing &amp; n8n Automation Specialist for chill life — Potential Long-Term Partnership Hi, I’m Beth Levis, founder of chill life, a purpose-driven lifestyle brand. We believe happier people create healthier communities. Our apparel, products, and initiatives promote positivity, mental fitness, and meaningful real-life connection. Two key areas of our work are encouraging healthier youth sports culture and helping people take daily breaks from technology to be more present. I’m looking for an experienced AI marketing and automation specialist who can help translate this mission into consistent storytelling, audience growth, and measurable sales. What I’m looking to build A coordinated marketing system using n8n and AI tools such as Claude or OpenAI to: ● Develop content grounded in our brand voice, values, and product offerings. ● Create and repurpose social posts, video scripts, and email campaigns. ● Manage a content calendar and approval process. ● Connect relevant tools across our Shopify store, email marketing, and social channels. ● Track performance and use those insights to improve campaigns. Preserving the authenticity of chill life’s message is essential. The system",
+      "url": "https://community.n8n.io/t/ai-marketing-n8n-automation-specialist-for-chill-life-potential-long-term-partnership/320146",
+      "postedAt": "2026-10-09T20:48:10.083Z",
+      "raw": "AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "AI agents",
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/way/738338365",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Panorama Plastic Surgery Clinic clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 18,
+      "score": 42,
       "outreach": {
-        "subject": "Panorama Plastic Surgery Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Panorama Plastic Surgery Clinic team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"AI Marketing & n8n Automation Specialist for \"",
+        "body": "Hi,\n\nSaw your post: \"AI Marketing & n8n Automation Specialist for chill life — Potential Long-Term Partnership\". This is exactly the kind of ai agents work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-899583686",
-      "source": "OpenStreetMap",
-      "title": "Spencer Road Clinic — clinic (Spencer Road, Salt River, Cape Town)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
-      "email": "spencer_road.clinic@capetown.gov.za",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-322466",
+      "source": "n8n Community",
+      "title": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
+      "description": "Hi, I’m looking for someone to do EVERYTHING for me. I don’t know anything about n8n. I need you to get everything set up and working automatically. What I want in the end: I just upload a video to a Google Drive folder and it publishes automatically on my Instagram / Facebook / YouTube accounts. What I need you to do (complete setup): Create the complete n8n workflow from scratch Set up the Google Drive trigger to monitor my folder Connect it to a Google Sheet where my captions are (file name = row) Configure publishing using the official Instagram, Facebook Page, and YouTube APIs Get it ready to scale to 100+ accounts by reading tokens from the Sheet Set up all connections, error handling, and Telegram notifications Deliver it tested and working. I just want to upload videos. What I provide: Drive access The Sheet Access to my n8n / Meta and Google developer accounts (you tell me what to create) I don’t want a template, I want you to set it up and explain it to me in a 5-minute video on how to use it. This first job is a test for $20 for 1-3 accounts. If you do it well, I’ll pay you for the full scale to 300 accounts. If you can do the complete setup ready to use, message me on D",
+      "url": "https://community.n8n.io/t/titulo-en-espanol-necesito-setup-completo-en-n8n-drive-a-100-cuentas-automatico-yo-no-se-nada-necesito-todo-listo/322466",
+      "postedAt": "2026-10-18T22:16:03.272Z",
+      "raw": "*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/way/899583686",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Spencer Road Clinic clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "budget": 20,
+      "ageDays": 9,
+      "score": 38,
       "outreach": {
-        "subject": "Spencer Road Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Spencer Road Clinic team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "*Título en español:* Necesito Setup Completo en n8n: Dr — fixed-scope plan",
+        "body": "Hi,\n\nSaw your post: \"*Título en español:* Necesito Setup Completo en n8n: Drive a 100 Cuentas Automático - Yo No Sé Nada, Necesito Todo Listo\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nYour listed budget of $20 works for a fixed-scope pilot.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-911649246",
-      "source": "OpenStreetMap",
-      "title": "Harmony Dental Laboratory — dentist (Lauda Road, Killarney Gardens, Cape Town)",
-      "description": "Business in Cape Town. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.harmonydental.co.za. Phone: +27219109100.",
-      "email": "info@harmonydental.co.za",
-      "phone": "+27219109100",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.harmonydental.co.za",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "dentist",
+      "id": "n8n Community-319139",
+      "source": "n8n Community",
+      "title": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
+      "description": "Hi everyone, I’m an independent n8n / AI automation builder based in Lithuania and I’m looking for a long-term lead generation / sales partner. I’m NOT looking for someone to build automations. I handle the technical side myself. What I need from a partner is: – identify businesses that may need automation – reach out to them by email / LinkedIn – have the initial conversation – confirm they have a real automation problem or need – gather basic context about what they want automated – introduce the qualified prospect to me by email/message From that point I handle everything else: technical discovery, pricing, implementation, revisions and delivery. I prefer client communication to continue primarily through email/chat rather than calls. I’m open to a performance-based model, for example 15–20% of collected project revenue for clients you source and qualify. Commission is paid after the client pays. Typical services include n8n workflows, AI integrations, APIs, CRM / Google Workspace automation, lead handling, email automation and other business process automation. I’m looking for someone who wants a genuine long-term partnership, not someone selling scraped lead lists. If interest",
+      "url": "https://community.n8n.io/t/looking-for-a-b2b-lead-generation-sales-partner-for-n8n-ai-automation-revenue-share/319139",
+      "postedAt": "2026-10-06T12:27:06.808Z",
+      "raw": "Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share",
       "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
-      "url": "https://www.harmonydental.co.za",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Harmony Dental Laboratory dentist Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 21,
+      "score": 30,
       "outreach": {
-        "subject": "Harmony Dental Laboratory — quick question about missed calls and no-shows",
-        "body": "Hi Harmony Dental Laboratory team,\n\nI work with dentist businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Looking for a B2B Lead Generation / Sales Par\"",
+        "body": "Hi,\n\nSaw your post: \"Looking for a B2B Lead Generation / Sales Partner for n8n & AI Automation – Revenue Share\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-1016858332",
-      "source": "OpenStreetMap",
-      "title": "Maitland Clinic — clinic (Norfolk Street, Cape Town)",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 400 4333.",
-      "email": "maitland.clinic@capetown.gov.za",
-      "phone": "+27 21 400 4333",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-322016",
+      "source": "n8n Community",
+      "title": "N8n + MirrorFly Developer for Video Conferencing Automation",
+      "description": "Hi everyone, I’m looking for an experienced automation developer who can help me build a video conferencing automation system using n8n + MirrorFly + API integrations. This is a paid freelance project with clear requirements and a defined scope. I’ll keep this as concise and technical as possible so you know exactly what’s involved. Project Overview I need to build an automated video conferencing workflow using n8n and MirrorFly that will: Create video meetings automatically based on predefined triggers. Generate meeting details and share them with participants. Schedule meetings using calendar integrations. Send meeting invitations and reminders through email or messaging services. Manage meeting related events through webhooks and APIs. (Optional add-on) Automate meeting recordings and post meeting notifications. All of this needs to run through n8n workflows, with MirrorFly providing the video conferencing capabilities. Core Requirements 1. MirrorFly Video Conferencing Integration Integrate MirrorFly Video Call API and SDK. Create and manage video meetings through supported APIs. Generate or retrieve meeting joining details. Handle meeting events through webhooks or callbacks wh",
+      "url": "https://community.n8n.io/t/n8n-mirrorfly-developer-for-video-conferencing-automation/322016",
+      "postedAt": "2026-10-16T20:38:11.146Z",
+      "raw": "N8n + MirrorFly Developer for Video Conferencing Automation",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/way/1016858332",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Maitland Clinic clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 11,
+      "score": 30,
       "outreach": {
-        "subject": "Maitland Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Maitland Clinic team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"N8n + MirrorFly Developer for Video Conferenc\"",
+        "body": "Hi,\n\nSaw your post: \"N8n + MirrorFly Developer for Video Conferencing Automation\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
     },
     {
-      "id": "osm-way-1286192211",
-      "source": "OpenStreetMap",
-      "title": "Valhalla Park Clinic — clinic",
-      "description": "Business in Cape Town. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +27 21 934 0101.",
-      "email": "valhalla.clinic@capetown.gov.za",
-      "phone": "+27 21 934 0101",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Cape Town",
-      "tz": "Africa/Johannesburg",
-      "category": "clinic",
+      "id": "n8n Community-321496",
+      "source": "n8n Community",
+      "title": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
+      "description": "Hi, I’m Pony, founder of Weft. I’m looking to connect with n8n implementers who work on SaaS customer-request workflows across support, product and engineering. To be clear: I’m validating the service and have no client build to refer yet. This is an exploratory partner introduction, not an open paid job or a promise of work. Weft’s package covers reviewing one workflow, mapping the current and proposed process, defining owners and required data, and documenting exception paths and acceptance checks. Implementation is separately scoped. The collaboration I’d like to explore is: Weft prepares the process brief; an implementer checks technical feasibility and, if there is a suitable client project, quotes the build separately. Access, APIs, hosting, monitoring and support responsibilities would need agreement before any build. For example, a customer update should depend on confirmed release availability for that account, rather than just a task moving to Done. I want the handover brief to explain that rule and what happens when data is missing or a sync fails. An illustrative sample of the planning deliverable is here: Weft | Sample SaaS workflow improvement blueprint It is not a cl",
+      "url": "https://community.n8n.io/t/exploring-n8n-implementation-partnerships-for-saas-workflow-plans-no-active-project-yet/321496",
+      "postedAt": "2026-10-14T19:43:02.445Z",
+      "raw": "Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet",
       "services": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
-      "url": "https://www.openstreetmap.org/way/1286192211",
-      "postedAt": "2026-10-27T08:28:29.317Z",
-      "raw": "Valhalla Park Clinic clinic Cape Town",
-      "_emailLead": true,
       "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
+        "Workflow automation"
       ],
       "isCompetitor": false,
       "isHiring": true,
       "budget": null,
-      "ageDays": 0,
-      "score": 54,
+      "ageDays": 13,
+      "score": 30,
       "outreach": {
-        "subject": "Valhalla Park Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Valhalla Park Clinic team,\n\nI work with clinic businesses in Cape Town on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
+        "subject": "Quick idea for \"Exploring n8n implementation partnerships for\"",
+        "body": "Hi,\n\nSaw your post: \"Exploring n8n implementation partnerships for SaaS workflow plans — no active project yet\". This is exactly the kind of workflow automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
       },
       "status": "new",
       "waCapable": false,
       "waLink": ""
-    },
-    {
-      "id": "osm-node-2171375797",
-      "source": "OpenStreetMap",
-      "title": "Urban Thai Spa — beauty (Dr Ambedkar Road, Bandra West, Mumbai)",
-      "description": "Business in Mumbai. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: +91 98703 64444.",
-      "email": "ubonthaispaindia@gmail.com",
-      "phone": "+91 98703 64444",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/2171375797",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Urban Thai Spa beauty Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Urban Thai Spa — quick question about bookings and rebookings going cold",
-        "body": "Hi Urban Thai Spa team,\n\nI work with beauty businesses in Mumbai on one specific thing: bookings and rebookings going cold.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919870364444?text=Hello%20Urban%20Thai%20Spa%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-4307051392",
-      "source": "OpenStreetMap",
-      "title": "Dr.Bina Pansare ,  Child Specialist — doctors",
-      "description": "Business in Mumbai. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://mumbaichildspecialist.com. Phone: 24441454.",
-      "email": "bina_pansare@yahoo.com",
-      "phone": "24441454",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://mumbaichildspecialist.com",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://mumbaichildspecialist.com",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Dr.Bina Pansare ,  Child Specialist doctors Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr.Bina Pansare ,  Child Specialist — quick question about missed calls and no-shows",
-        "body": "Hi Dr.Bina Pansare ,  Child Specialist team,\n\nI work with doctors businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4307052091",
-      "source": "OpenStreetMap",
-      "title": "Radhakrishna Clinic. Dr Bina Pansare — doctors (Sitram Jadhav Marg (Sun Mill Road))",
-      "description": "Business in Mumbai. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: http://mumbaichildspecialist.com. Phone: 9022397585.",
-      "email": "bina_pansare@yahoo.com",
-      "phone": "9022397585",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://mumbaichildspecialist.com",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "http://mumbaichildspecialist.com",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Radhakrishna Clinic. Dr Bina Pansare doctors Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Radhakrishna Clinic. Dr Bina Pansare — quick question about missed calls and no-shows",
-        "body": "Hi Radhakrishna Clinic. Dr Bina Pansare team,\n\nI work with doctors businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4316268695",
-      "source": "OpenStreetMap",
-      "title": "Royal Traders — jewelry (Sarang Street)",
-      "description": "Business in Mumbai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: 02223453372.",
-      "email": "royaltraders72@gmail.com",
-      "phone": "02223453372",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.openstreetmap.org/node/4316268695",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Royal Traders jewelry Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Royal Traders — quick question about manual work that eats the week",
-        "body": "Hi Royal Traders team,\n\nI work with jewelry businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4316269092",
-      "source": "OpenStreetMap",
-      "title": "S.K Creation — jewelry (Sutar Chawl)",
-      "description": "Business in Mumbai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: 8108957786.",
-      "email": "karimshaikhsk@gmail.com",
-      "phone": "8108957786",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.openstreetmap.org/node/4316269092",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "S.K Creation jewelry Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "S.K Creation — quick question about manual work that eats the week",
-        "body": "Hi S.K Creation team,\n\nI work with jewelry businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4421308689",
-      "source": "OpenStreetMap",
-      "title": "Smile Invent Dental Clinic — dentist",
-      "description": "Business in Mumbai. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: +912226570941.",
-      "email": "drarjunpanikar@gmail.com",
-      "phone": "+912226570941",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.openstreetmap.org/node/4421308689",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Smile Invent Dental Clinic dentist Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Smile Invent Dental Clinic — quick question about missed calls and no-shows",
-        "body": "Hi Smile Invent Dental Clinic team,\n\nI work with dentist businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4731675323",
-      "source": "OpenStreetMap",
-      "title": "Local business — computer (Universal Mobile,DVD and Travelling shop)",
-      "description": "Business in Mumbai. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: n/a. Phone: 02229658949.",
-      "email": "singh5633@gmail.com",
-      "phone": "02229658949",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://www.openstreetmap.org/node/4731675323",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Local business computer Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Local business — quick question about manual work that eats the week",
-        "body": "Hi Local business team,\n\nI work with computer businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4778093665",
-      "source": "OpenStreetMap",
-      "title": "Office of Nawaz Haindaday — lawyer (Raja Bahadur Compound Road)",
-      "description": "Business in Mumbai. Category: lawyer. Services to pitch: Client intake automation, document extraction. Website: n/a. Phone: n/a.",
-      "email": "office@haindaday.in",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "lawyer",
-      "services": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "url": "https://www.openstreetmap.org/node/4778093665",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Office of Nawaz Haindaday lawyer Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Client intake automation",
-        "document extraction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Office of Nawaz Haindaday — quick question about enquiry follow-up that never happens",
-        "body": "Hi Office of Nawaz Haindaday team,\n\nI work with lawyer businesses in Mumbai on one specific thing: enquiry follow-up that never happens.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-4826357525",
-      "source": "OpenStreetMap",
-      "title": "Otatva — jewelry (Saat Bangla Road)",
-      "description": "Business in Mumbai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: +919594622129.",
-      "email": "otatva@gmail.com",
-      "phone": "+919594622129",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.openstreetmap.org/node/4826357525",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Otatva jewelry Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Otatva — quick question about manual work that eats the week",
-        "body": "Hi Otatva team,\n\nI work with jewelry businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919594622129?text=Hello%20Otatva%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-5085177621",
-      "source": "OpenStreetMap",
-      "title": "Arete Clinics- Eye and Dental — clinic (Mathew Road, Mumbai)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: http://www.areteclinics.in. Phone: +912223645350.",
-      "email": "areteclinics@gmail.com",
-      "phone": "+912223645350",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "http://www.areteclinics.in",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "http://www.areteclinics.in",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Arete Clinics- Eye and Dental clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Arete Clinics- Eye and Dental — quick question about missed calls and no-shows",
-        "body": "Hi Arete Clinics- Eye and Dental team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5256641023",
-      "source": "OpenStreetMap",
-      "title": "Eager Beavers Preschool — childcare (St John Baptist Road, Mumbai)",
-      "description": "Business in Mumbai. Category: childcare. Services to pitch: Enquiry automation, parent communication. Website: n/a. Phone: 022 6952 2222.",
-      "email": "bandraw@eagerbeavers.in",
-      "phone": "022 6952 2222",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "childcare",
-      "services": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "url": "https://www.openstreetmap.org/node/5256641023",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Eager Beavers Preschool childcare Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Enquiry automation",
-        "parent communication"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Eager Beavers Preschool — quick question about manual work that eats the week",
-        "body": "Hi Eager Beavers Preschool team,\n\nI work with childcare businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-5457597021",
-      "source": "OpenStreetMap",
-      "title": "Smile Matters — clinic (Saint John's Street)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: 26443324.",
-      "email": "smilemattersmumbai@gmail.com",
-      "phone": "26443324",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/5457597021",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Smile Matters clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Smile Matters — quick question about missed calls and no-shows",
-        "body": "Hi Smile Matters team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-6315949385",
-      "source": "OpenStreetMap",
-      "title": "Men Tsee Khang — clinic (Swami Vivekanand Road)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://men-tsee-khang.org/. Phone: 9930721062.",
-      "email": "malad@men-tsee-khang.org",
-      "phone": "9930721062",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://men-tsee-khang.org/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://men-tsee-khang.org/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Men Tsee Khang clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Men Tsee Khang — quick question about missed calls and no-shows",
-        "body": "Hi Men Tsee Khang team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7004045785",
-      "source": "OpenStreetMap",
-      "title": "HARE RAMA Gems & Arts — jewelry (S Bahl Path)",
-      "description": "Business in Mumbai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: +919819666288.",
-      "email": "hareramagems@gmail.com",
-      "phone": "+919819666288",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.openstreetmap.org/node/7004045785",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "HARE RAMA Gems & Arts jewelry Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "HARE RAMA Gems & Arts — quick question about manual work that eats the week",
-        "body": "Hi HARE RAMA Gems & Arts team,\n\nI work with jewelry businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919819666288?text=Hello%20HARE%20RAMA%20Gems%20%26%20Arts%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7043534838",
-      "source": "OpenStreetMap",
-      "title": "Dr Khandeparkar's Nursing Home — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://khandeparkarsivf.com/. Phone: n/a.",
-      "email": "info@khandeparkarsivf.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://khandeparkarsivf.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://khandeparkarsivf.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Dr Khandeparkar's Nursing Home clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr Khandeparkar's Nursing Home — quick question about missed calls and no-shows",
-        "body": "Hi Dr Khandeparkar's Nursing Home team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7044521580",
-      "source": "OpenStreetMap",
-      "title": "Rhushabh Nursing Home & Laparoscopic Centre — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.rhushabhnursinghome.com/. Phone: n/a.",
-      "email": "urvins93@gmail.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.rhushabhnursinghome.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.rhushabhnursinghome.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Rhushabh Nursing Home & Laparoscopic Centre clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Rhushabh Nursing Home & Laparoscopic Centre — quick question about missed calls and no-shows",
-        "body": "Hi Rhushabh Nursing Home & Laparoscopic Centre team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7045255055",
-      "source": "OpenStreetMap",
-      "title": "Mahavir Medical Research Centre — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.mmrchospital.com/. Phone: 2226040676.",
-      "email": "info@mmrchospital.com",
-      "phone": "2226040676",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.mmrchospital.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.mmrchospital.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Mahavir Medical Research Centre clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Mahavir Medical Research Centre — quick question about missed calls and no-shows",
-        "body": "Hi Mahavir Medical Research Centre team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7045681876",
-      "source": "OpenStreetMap",
-      "title": "Eye-Q Vision Care — doctors (Babulnath Marg, Mumbai)",
-      "description": "Business in Mumbai. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: n/a. Phone: +91-22-23637745, +91-22-23637746.",
-      "email": "info@eyeqvisioncare.com",
-      "phone": "+91-9821032683, +91-9821320493, +91-9892936296, +91-9967241887",
-      "mobileNumber": "+91-9821032683, +91-9821320493, +91-9892936296, +91-9967241887",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.openstreetmap.org/node/7045681876",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Eye-Q Vision Care doctors Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Eye-Q Vision Care — quick question about missed calls and no-shows",
-        "body": "Hi Eye-Q Vision Care team,\n\nI work with doctors businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919821032683?text=Hello%20Eye-Q%20Vision%20Care%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7052051938",
-      "source": "OpenStreetMap",
-      "title": "Aayush Eye Clinic & Aayush Lasik Centre — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.aayusheye.com/. Phone: n/a.",
-      "email": "aayusheye@yahoo.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.aayusheye.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.aayusheye.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Aayush Eye Clinic & Aayush Lasik Centre clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Aayush Eye Clinic & Aayush Lasik Centre — quick question about missed calls and no-shows",
-        "body": "Hi Aayush Eye Clinic & Aayush Lasik Centre team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7072535181",
-      "source": "OpenStreetMap",
-      "title": "Dr Mukul Dabholkar — doctors",
-      "description": "Business in Mumbai. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: https://www.drmukul.com/. Phone: n/a.",
-      "email": "drmukuldabholkar@gmail.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.drmukul.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.drmukul.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Dr Mukul Dabholkar doctors Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr Mukul Dabholkar — quick question about missed calls and no-shows",
-        "body": "Hi Dr Mukul Dabholkar team,\n\nI work with doctors businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7072544674",
-      "source": "OpenStreetMap",
-      "title": "Dr. Gandhi's Nusing Home — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.drgandhi.org/. Phone: n/a.",
-      "email": "info@drgandhi.org",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.drgandhi.org/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.drgandhi.org/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Dr. Gandhi's Nusing Home clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr. Gandhi's Nusing Home — quick question about missed calls and no-shows",
-        "body": "Hi Dr. Gandhi's Nusing Home team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-7425718021",
-      "source": "OpenStreetMap",
-      "title": "The Black Dahlia Unisex Salon — beauty (Mumbai)",
-      "description": "Business in Mumbai. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-81692-14680",
-      "mobileNumber": "+91-81692-14680",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/7425718021",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "The Black Dahlia Unisex Salon beauty Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"The Black Dahlia Unisex Salon — beauty (Mumba\"",
-        "body": "Hi,\n\nSaw your post: \"The Black Dahlia Unisex Salon — beauty (Mumbai)\". This is exactly the kind of booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/918169214680?text=Hello%20The%20Black%20Dahlia%20Unisex%20Salon%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-7426184246",
-      "source": "OpenStreetMap",
-      "title": "J B jewellers — jewelry",
-      "description": "Business in Mumbai. Category: jewelry. Services to pitch: Clienteling automation, order follow-up. Website: n/a. Phone: +91-22-2632-6052;+91-22-2639-3629.",
-      "email": "",
-      "phone": "+91-9321-9942-23",
-      "mobileNumber": "+91-9321-9942-23",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "jewelry",
-      "services": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "url": "https://www.openstreetmap.org/node/7426184246",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "J B jewellers jewelry Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Clienteling automation",
-        "order follow-up"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"J B jewellers — jewelry\"",
-        "body": "Hi,\n\nSaw your post: \"J B jewellers — jewelry\". This is exactly the kind of clienteling automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919321994223?text=Hello%20J%20B%20jewellers%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8065431802",
-      "source": "OpenStreetMap",
-      "title": "Suntech Business Solutions — computer",
-      "description": "Business in Mumbai. Category: computer. Services to pitch: AI workflow automation, data pipelines. Website: https://www.suntech-global.com/. Phone: +91 22 4972 4686;+91 74004 36581;+91 74004 36585.",
-      "email": "info@suntech-global.com",
-      "phone": "+91 22 4972 4686;+91 74004 36581;+91 74004 36585",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.suntech-global.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "computer",
-      "services": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "url": "https://www.suntech-global.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Suntech Business Solutions computer Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "AI workflow automation",
-        "data pipelines"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Suntech Business Solutions — quick question about manual work that eats the week",
-        "body": "Hi Suntech Business Solutions team,\n\nI work with computer businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/917400436581?text=Hello%20Suntech%20Business%20Solutions%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-8568015047",
-      "source": "OpenStreetMap",
-      "title": "MASnology SEO and Web Dev. Agency — it (Ranade Road, Mumbai)",
-      "description": "Business in Mumbai. Category: it. Services to pitch: AI agent & workflow automation, internal tooling. Website: info@masnology.com. Phone: +917030792003.",
-      "email": "info@masnology.com",
-      "phone": "+917030792003",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "info@masnology.com",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "it",
-      "services": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "url": "info@masnology.com",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "MASnology SEO and Web Dev. Agency it Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "AI agent & workflow automation",
-        "internal tooling"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "MASnology SEO and Web Dev. Agency — quick question about manual work that eats the week",
-        "body": "Hi MASnology SEO and Web Dev. Agency team,\n\nI work with it businesses in Mumbai on one specific thing: manual work that eats the week.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/917030792003?text=Hello%20MASnology%20SEO%20and%20Web%20Dev.%20Agency%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-9990028713",
-      "source": "OpenStreetMap",
-      "title": "Shri Gowalia Tank Shankheswara Parshwanath Jain Medical Centre & Kankutara Diagnostic Medi — clinic (Tejpal Marg, Mumbai)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +91-22-23823583, +91-22-23823584, +91-22-23823531, +91-22-23823532, +91-8282825836, +91-8282825837, +91-8282821926, +91-8282821927.",
-      "email": "spjmcgowaliatank@gmail.com",
-      "phone": "+91-22-23823583, +91-22-23823584, +91-22-23823531, +91-22-23823532, +91-8282825836, +91-8282825837, +91-8282821926, +91-8282821927",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/9990028713",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Shri Gowalia Tank Shankheswara Parshwanath Jain Medical Centre & Kankutara Diagnostic Medi clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Shri Gowalia Tank Shankheswara Parshwanath Jain Me — quick question about missed calls and no-shows",
-        "body": "Hi Shri Gowalia Tank Shankheswara Parshwanath Jain Me team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/918282825836?text=Hello%20Shri%20Gowalia%20Tank%20Shankheswara%20Parshwanath%20Jain%20Me%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11342048111",
-      "source": "OpenStreetMap",
-      "title": "Ganatra's Dental Care — dentist (Hill Road, Mumbai)",
-      "description": "Business in Mumbai. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: n/a. Phone: n/a.",
-      "email": "ganatrasdentalcare@gmail.com",
-      "phone": "+91 98674 40803",
-      "mobileNumber": "+91 98674 40803",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.openstreetmap.org/node/11342048111",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Ganatra's Dental Care dentist Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Ganatra's Dental Care — quick question about missed calls and no-shows",
-        "body": "Hi Ganatra's Dental Care team,\n\nI work with dentist businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919867440803?text=Hello%20Ganatra's%20Dental%20Care%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11372185928",
-      "source": "OpenStreetMap",
-      "title": "Dr. Khanna's Dental Care — dentist (Juhu Tara Road, Mumbai)",
-      "description": "Business in Mumbai. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://khannadentalcare.com/. Phone: n/a.",
-      "email": "info@khannadentalcare.com",
-      "phone": "+91 98677 13688",
-      "mobileNumber": "+91 98677 13688",
-      "hasMobile": true,
-      "website": "https://khannadentalcare.com/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://khannadentalcare.com/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Dr. Khanna's Dental Care dentist Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Dr. Khanna's Dental Care — quick question about missed calls and no-shows",
-        "body": "Hi Dr. Khanna's Dental Care team,\n\nI work with dentist businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919867713688?text=Hello%20Dr.%20Khanna's%20Dental%20Care%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-11383288504",
-      "source": "OpenStreetMap",
-      "title": "Bhavi Motor Driving School — driving school",
-      "description": "Business in Mumbai. Category: driving_school. Services to pitch: Lesson booking automation, reminder sequences. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91 98691 55710",
-      "mobileNumber": "+91 98691 55710",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "driving_school",
-      "services": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/11383288504",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Bhavi Motor Driving School driving_school Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lesson booking automation",
-        "reminder sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Bhavi Motor Driving School — driving school\"",
-        "body": "Hi,\n\nSaw your post: \"Bhavi Motor Driving School — driving school\". This is exactly the kind of lesson booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919869155710?text=Hello%20Bhavi%20Motor%20Driving%20School%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12119816053",
-      "source": "OpenStreetMap",
-      "title": "Tisekar Clinic — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91 9869150923",
-      "mobileNumber": "+91 9869150923",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/12119816053",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Tisekar Clinic clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Tisekar Clinic — clinic\"",
-        "body": "Hi,\n\nSaw your post: \"Tisekar Clinic — clinic\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919869150923?text=Hello%20Tisekar%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12149280946",
-      "source": "OpenStreetMap",
-      "title": "Sparkle Dental Care  — dentist (Gopalrao Deshmukh Marg, Mumbai)",
-      "description": "Business in Mumbai. Category: dentist. Services to pitch: Lead capture & booking automation, no-show reduction. Website: https://www.sparkledentalcare.co.in/. Phone: +919967733736.",
-      "email": "kayannush@sparkledentalcare.co.in",
-      "phone": "+919967733736",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.sparkledentalcare.co.in/",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "dentist",
-      "services": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "url": "https://www.sparkledentalcare.co.in/",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Sparkle Dental Care  dentist Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead capture & booking automation",
-        "no-show reduction"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Sparkle Dental Care — quick question about missed calls and no-shows",
-        "body": "Hi Sparkle Dental Care team,\n\nI work with dentist businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919967733736?text=Hello%20Sparkle%20Dental%20Care%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12290053682",
-      "source": "OpenStreetMap",
-      "title": "Amin Estate Agency and Consultancy — estate agent",
-      "description": "Business in Mumbai. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-98202-75485;+91-88499-70778",
-      "mobileNumber": "+91-98202-75485;+91-88499-70778",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.openstreetmap.org/node/12290053682",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Amin Estate Agency and Consultancy estate_agent Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Amin Estate Agency and Consultancy — estate a\"",
-        "body": "Hi,\n\nSaw your post: \"Amin Estate Agency and Consultancy — estate agent\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919820275485?text=Hello%20Amin%20Estate%20Agency%20and%20Consultancy%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12290060214",
-      "source": "OpenStreetMap",
-      "title": "Walk In care — clinic (Oshiwara Garden Road)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: +91 77385 05906; +91 92244 12662; +91 97689 02660.",
-      "email": "walkincare26@gmail.com",
-      "phone": "+91 77385 05906; +91 92244 12662; +91 97689 02660",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/12290060214",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Walk In care clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Walk In care — quick question about missed calls and no-shows",
-        "body": "Hi Walk In care team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/917738505906?text=Hello%20Walk%20In%20care%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12290072821",
-      "source": "OpenStreetMap",
-      "title": "Delta Realtors — estate agent (Ajit Glass Road, Mumbai)",
-      "description": "Business in Mumbai. Category: estate_agent. Services to pitch: Deal pipeline automation, lead enrichment. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-98197-22057;+91-84259-84548",
-      "mobileNumber": "+91-98197-22057;+91-84259-84548",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "estate_agent",
-      "services": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "url": "https://www.openstreetmap.org/node/12290072821",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Delta Realtors estate_agent Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Deal pipeline automation",
-        "lead enrichment"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Delta Realtors — estate agent (Ajit Glass Roa\"",
-        "body": "Hi,\n\nSaw your post: \"Delta Realtors — estate agent (Ajit Glass Road, Mumbai)\". This is exactly the kind of deal pipeline automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919819722057?text=Hello%20Delta%20Realtors%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12317766062",
-      "source": "OpenStreetMap",
-      "title": "K's Studio — beauty",
-      "description": "Business in Mumbai. Category: beauty. Services to pitch: Booking automation, rebooking reminders. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-98335-03959;+91-720-817-6434",
-      "mobileNumber": "+91-98335-03959;+91-720-817-6434",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "beauty",
-      "services": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "url": "https://www.openstreetmap.org/node/12317766062",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "K's Studio beauty Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Booking automation",
-        "rebooking reminders"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"K's Studio — beauty\"",
-        "body": "Hi,\n\nSaw your post: \"K's Studio — beauty\". This is exactly the kind of booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919833503959?text=Hello%20K's%20Studio%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12331380259",
-      "source": "OpenStreetMap",
-      "title": "Delta Cars — car (Ajit Glass Road, Mumbai)",
-      "description": "Business in Mumbai. Category: car. Services to pitch: Lead follow-up automation, CRM integration. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-810-891-7791;+91-95619-77861;+91-98708-000-78;+91-86527-16105",
-      "mobileNumber": "+91-810-891-7791;+91-95619-77861;+91-98708-000-78;+91-86527-16105",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "car",
-      "services": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "url": "https://www.openstreetmap.org/node/12331380259",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Delta Cars car Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Lead follow-up automation",
-        "CRM integration"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Delta Cars — car (Ajit Glass Road, Mumbai)\"",
-        "body": "Hi,\n\nSaw your post: \"Delta Cars — car (Ajit Glass Road, Mumbai)\". This is exactly the kind of lead follow-up automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/918108917791?text=Hello%20Delta%20Cars%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20repetitive%20manual%20work%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12346531464",
-      "source": "OpenStreetMap",
-      "title": "Jain Clinic — clinic",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91 97201 14377",
-      "mobileNumber": "+91 97201 14377",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.openstreetmap.org/node/12346531464",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Jain Clinic clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Jain Clinic — clinic\"",
-        "body": "Hi,\n\nSaw your post: \"Jain Clinic — clinic\". This is exactly the kind of patient booking automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919720114377?text=Hello%20Jain%20Clinic%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
-    },
-    {
-      "id": "osm-node-12389405268",
-      "source": "OpenStreetMap",
-      "title": "24byMe Diabetes Treatment Clinic — clinic (Sarojani Path, Vile Parle West)",
-      "description": "Business in Mumbai. Category: clinic. Services to pitch: Patient booking automation, follow-up sequences. Website: https://www.24byme.com. Phone: n/a.",
-      "email": "hi@24byme.com",
-      "phone": "",
-      "mobileNumber": "",
-      "hasMobile": false,
-      "website": "https://www.24byme.com",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "clinic",
-      "services": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "url": "https://www.24byme.com",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "24byMe Diabetes Treatment Clinic clinic Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Patient booking automation",
-        "follow-up sequences"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "24byMe Diabetes Treatment Clinic — quick question about missed calls and no-shows",
-        "body": "Hi 24byMe Diabetes Treatment Clinic team,\n\nI work with clinic businesses in Mumbai on one specific thing: missed calls and no-shows.\n\nQuick question — is that something your team handles manually right now, or have you already got a system for it?\n\nIf it's a problem, I have an approach that takes about a week to set up and then runs on its own. If it's not, just say so and I won't follow up again.\n\nEither answer is genuinely useful.\n\n— Issa Hakizimana\nAI Automation Studio, Dubai\n\nReply \"stop\" to be removed immediately."
-      },
-      "status": "new",
-      "waCapable": false,
-      "waLink": ""
-    },
-    {
-      "id": "osm-node-12411907710",
-      "source": "OpenStreetMap",
-      "title": "Meraki — doctors",
-      "description": "Business in Mumbai. Category: doctors. Services to pitch: Appointment automation, intake processing. Website: n/a. Phone: n/a.",
-      "email": "",
-      "phone": "+91-908-232-4636",
-      "mobileNumber": "+91-908-232-4636",
-      "hasMobile": true,
-      "website": "",
-      "city": "Mumbai",
-      "tz": "Asia/Kolkata",
-      "category": "doctors",
-      "services": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "url": "https://www.openstreetmap.org/node/12411907710",
-      "postedAt": "2026-10-27T08:29:54.411Z",
-      "raw": "Meraki doctors Mumbai",
-      "_emailLead": true,
-      "titleServices": [
-        "Appointment automation",
-        "intake processing"
-      ],
-      "isCompetitor": false,
-      "isHiring": true,
-      "budget": null,
-      "ageDays": 0,
-      "score": 54,
-      "outreach": {
-        "subject": "Quick idea for \"Meraki — doctors\"",
-        "body": "Hi,\n\nSaw your post: \"Meraki — doctors\". This is exactly the kind of appointment automation work I do.\n\nHere is how I would approach it:\n1. A short scoping call to lock the outcome (30 min).\n2. A working prototype delivered in 48-72h.\n3. Handover with documentation, plus optional ongoing support.\n\nI usually start with a small fixed-price pilot ($150-$500) so you can see it working before committing further.\n\nThree questions so I can quote precisely: what does success look like, which tools are already in place, and what is your deadline?\n\nReply here or email me and I will send a 2-minute walkthrough of a near-identical build.\n\nReserve the pilot here (pay and I start immediately): https://paypal.me/7900861\nBest,"
-      },
-      "status": "new",
-      "waCapable": true,
-      "waLink": "https://wa.me/919082324636?text=Hello%20Meraki%2C%0A%0AI%20help%20businesses%20in%20Mumbai%20cut%20missed%20calls%20and%20no-shows%20using%20AI%20automation%20%E2%80%94%20booking%2C%20follow-ups%20and%20reminders%20running%20on%20their%20own.%0A%0AI%20offer%20a%20fixed-price%20%24350%20pilot%2C%20delivered%20in%2048%E2%80%9372%20hours.%20If%20it%20does%20not%20save%20you%20time%2C%20you%20walk%20away.%0A%0AWould%20a%2015-minute%20call%20this%20week%20be%20useful%3F%0A%0A%E2%80%94%20Issa%20Hakizimana%2C%20AI%20Automation%20Studio"
     }
   ]
 }

@@ -1206,8 +1206,8 @@
     "city": "Warsaw",
     "service": "Appointment automation",
     "sentAt": "2026-09-25T08:17:50.658Z",
-    "lastSentAt": "2026-09-25T08:17:50.658Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:20.536Z",
+    "step": 1
   },
   {
     "email": "sklep@format.com.pl",
@@ -1216,8 +1216,8 @@
     "city": "Warsaw",
     "service": "AI workflow automation",
     "sentAt": "2026-09-25T08:17:52.112Z",
-    "lastSentAt": "2026-09-25T08:17:52.112Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:22.116Z",
+    "step": 1
   },
   {
     "email": "recepcja.targowa@polmed.pl",
@@ -1226,8 +1226,8 @@
     "city": "Warsaw",
     "service": "Appointment automation",
     "sentAt": "2026-09-25T08:17:53.112Z",
-    "lastSentAt": "2026-09-25T08:17:53.112Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:23.458Z",
+    "step": 1
   },
   {
     "email": "sklep@meblezrattanu.pl",
@@ -1236,8 +1236,8 @@
     "city": "Warsaw",
     "service": "Lead follow-up",
     "sentAt": "2026-09-25T08:17:55.102Z",
-    "lastSentAt": "2026-09-25T08:17:55.102Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:25.058Z",
+    "step": 1
   },
   {
     "email": "wiktor@zxstudio.pl",
@@ -1246,8 +1246,8 @@
     "city": "Warsaw",
     "service": "AI agent & workflow automation",
     "sentAt": "2026-09-25T08:17:56.629Z",
-    "lastSentAt": "2026-09-25T08:17:56.629Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:26.265Z",
+    "step": 1
   },
   {
     "email": "info@fultongrace.com",
@@ -1256,8 +1256,8 @@
     "city": "Chicago",
     "service": "Deal pipeline automation",
     "sentAt": "2026-09-25T15:40:14.447Z",
-    "lastSentAt": "2026-09-25T15:40:14.447Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:27.819Z",
+    "step": 1
   },
   {
     "email": "sservice8280@birks.com",
@@ -1266,8 +1266,8 @@
     "city": "Montreal",
     "service": "Clienteling automation",
     "sentAt": "2026-09-25T15:40:15.612Z",
-    "lastSentAt": "2026-09-25T15:40:15.612Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:29.483Z",
+    "step": 1
   },
   {
     "email": "bijouterielapuce@live.ca",
@@ -1276,8 +1276,8 @@
     "city": "Montreal",
     "service": "Clienteling automation",
     "sentAt": "2026-09-25T15:40:16.749Z",
-    "lastSentAt": "2026-09-25T15:40:16.749Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:31.140Z",
+    "step": 1
   },
   {
     "email": "info@koumbit.org",
@@ -1286,8 +1286,8 @@
     "city": "Montreal",
     "service": "AI agent & workflow automation",
     "sentAt": "2026-09-25T15:40:17.955Z",
-    "lastSentAt": "2026-09-25T15:40:17.955Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:33.353Z",
+    "step": 1
   },
   {
     "email": "c-stlouis@csdm.qc.ca",
@@ -1296,8 +1296,8 @@
     "city": "Montreal",
     "service": "Enrolment automation",
     "sentAt": "2026-09-25T15:40:19.500Z",
-    "lastSentAt": "2026-09-25T15:40:19.500Z",
-    "step": 0
+    "lastSentAt": "2026-10-27T16:12:34.792Z",
+    "step": 1
   },
   {
     "email": "info@inlibro.com",
