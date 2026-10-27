@@ -505,7 +505,7 @@
   },
   "medicross.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:04.976Z"
+    "at": "2026-10-27T08:31:40.783Z"
   },
   "nizamiyecomplex.co.za": {
     "ok": true,
@@ -529,43 +529,43 @@
   },
   "tafelberg.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:09.209Z"
+    "at": "2026-10-27T08:31:40.367Z"
   },
   "ihcapetown.com": {
     "ok": true,
-    "at": "2026-09-19T10:20:09.362Z"
+    "at": "2026-10-27T08:31:40.828Z"
   },
   "liverealestate.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:10.712Z"
+    "at": "2026-10-27T08:31:42.290Z"
   },
   "placecol.com": {
     "ok": true,
-    "at": "2026-09-19T10:20:11.231Z"
+    "at": "2026-10-27T08:31:42.728Z"
   },
   "tjd.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:12.237Z"
+    "at": "2026-10-27T08:31:43.341Z"
   },
   "mydentist.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:12.849Z"
+    "at": "2026-10-27T08:31:43.981Z"
   },
   "ghs.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:13.963Z"
+    "at": "2026-10-27T08:31:44.793Z"
   },
   "thetreatbydany.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:14.778Z"
+    "at": "2026-10-27T08:31:45.001Z"
   },
   "saf.salvationarmy.org": {
     "ok": true,
-    "at": "2026-09-19T10:20:14.904Z"
+    "at": "2026-10-27T08:31:45.162Z"
   },
   "yemaya.co.za": {
     "ok": true,
-    "at": "2026-09-19T10:20:15.178Z"
+    "at": "2026-10-27T08:31:45.481Z"
   },
   "chandranipearls.net": {
     "ok": true,
@@ -1966,5 +1966,69 @@
   "poliformvancouver.com": {
     "ok": true,
     "at": "2026-10-24T21:19:51.983Z"
+  },
+  "capetown.gov.za": {
+    "ok": true,
+    "at": "2026-10-27T08:31:45.987Z"
+  },
+  "apffelstaedt.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:46.215Z"
+  },
+  "pacso.co.za": {
+    "ok": true,
+    "at": "2026-10-27T08:31:46.536Z"
+  },
+  "harmonydental.co.za": {
+    "ok": true,
+    "at": "2026-10-27T08:31:46.855Z"
+  },
+  "haindaday.in": {
+    "ok": true,
+    "at": "2026-10-27T08:31:46.865Z"
+  },
+  "eagerbeavers.in": {
+    "ok": true,
+    "at": "2026-10-27T08:31:47.121Z"
+  },
+  "men-tsee-khang.org": {
+    "ok": false,
+    "at": "2026-10-27T08:31:47.137Z"
+  },
+  "khandeparkarsivf.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:47.237Z"
+  },
+  "mmrchospital.com": {
+    "ok": false,
+    "at": "2026-10-27T08:31:47.287Z"
+  },
+  "eyeqvisioncare.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:47.428Z"
+  },
+  "drgandhi.org": {
+    "ok": true,
+    "at": "2026-10-27T08:31:47.880Z"
+  },
+  "suntech-global.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:47.911Z"
+  },
+  "masnology.com": {
+    "ok": false,
+    "at": "2026-10-27T08:31:47.962Z"
+  },
+  "khannadentalcare.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:48.032Z"
+  },
+  "sparkledentalcare.co.in": {
+    "ok": true,
+    "at": "2026-10-27T08:31:48.070Z"
+  },
+  "24byme.com": {
+    "ok": true,
+    "at": "2026-10-27T08:31:48.447Z"
   }
 }

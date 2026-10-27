@@ -2986,5 +2986,65 @@
     "at": "2026-10-26T23:00:07.161Z",
     "business": "Kancelaria Praga — lawyer (Terespolska, Warszawa)",
     "status": "followup_1"
+  },
+  {
+    "email": "northgate@tafelberg.co.za",
+    "at": "2026-10-27T08:31:49.792Z",
+    "business": "Tafelberg Furnishers N1 Northgate — furniture (Platinum Drive, Cape Town)",
+    "status": "sent"
+  },
+  {
+    "email": "kenilworth@medicross.co.za",
+    "at": "2026-10-27T08:31:51.700Z",
+    "business": "Kenilworth Medicross — clinic (Rosmead Avenue, Kenilworth)",
+    "status": "sent"
+  },
+  {
+    "email": "info@ihcapetown.com",
+    "at": "2026-10-27T08:31:53.154Z",
+    "business": "International House Cape Town — language school (Cape Town)",
+    "status": "sent"
+  },
+  {
+    "email": "live@liverealestate.co.za",
+    "at": "2026-10-27T08:31:54.557Z",
+    "business": "Live Real Estate — estate agent (Regent Road, Cape Town)",
+    "status": "sent"
+  },
+  {
+    "email": "seapoint@placecol.com",
+    "at": "2026-10-27T08:31:56.077Z",
+    "business": "Placecol Sea Point — beauty",
+    "status": "sent"
+  },
+  {
+    "email": "thediamondworks@tjd.co.za",
+    "at": "2026-10-27T08:31:57.925Z",
+    "business": "The Diamond Works — jewelry (Christiaan Barnard Street, Cape Town)",
+    "status": "sent"
+  },
+  {
+    "email": "bryan@mydentist.co.za",
+    "at": "2026-10-27T08:31:59.568Z",
+    "business": "Dr. B.M. Sher — dentist (Ashstead Road)",
+    "status": "sent"
+  },
+  {
+    "email": "mailbox@ghs.co.za",
+    "at": "2026-10-27T08:32:01.017Z",
+    "business": "Good Hope Studies — language school (Saint George's Mall, Cape Town)",
+    "status": "sent"
+  },
+  {
+    "email": "info@thetreatbydany.co.za",
+    "at": "2026-10-27T08:32:02.639Z",
+    "business": "The Treat — beauty",
+    "status": "sent"
+  },
+  {
+    "email": "bonteheuwel.ecd@saf.salvationarmy.org",
+    "at": "2026-10-27T08:32:04.167Z",
+    "business": "The Salvation Army Bonteheuwel Nursery School — childcare",
+    "status": "sent"
   }
 ]

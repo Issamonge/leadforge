@@ -1748,5 +1748,105 @@
     "sentAt": "2026-10-26T08:15:51.733Z",
     "lastSentAt": "2026-10-26T08:15:51.733Z",
     "step": 0
+  },
+  {
+    "email": "northgate@tafelberg.co.za",
+    "business": "Tafelberg Furnishers N1 Northgate — furniture (Platinum Drive, Cape Town)",
+    "niche": "furniture",
+    "city": "Cape Town",
+    "service": "Lead follow-up",
+    "sentAt": "2026-10-27T08:31:49.792Z",
+    "lastSentAt": "2026-10-27T08:31:49.792Z",
+    "step": 0
+  },
+  {
+    "email": "kenilworth@medicross.co.za",
+    "business": "Kenilworth Medicross — clinic (Rosmead Avenue, Kenilworth)",
+    "niche": "clinic",
+    "city": "Cape Town",
+    "service": "Patient booking automation",
+    "sentAt": "2026-10-27T08:31:51.700Z",
+    "lastSentAt": "2026-10-27T08:31:51.700Z",
+    "step": 0
+  },
+  {
+    "email": "info@ihcapetown.com",
+    "business": "International House Cape Town — language school (Cape Town)",
+    "niche": "language_school",
+    "city": "Cape Town",
+    "service": "Enrolment automation",
+    "sentAt": "2026-10-27T08:31:53.154Z",
+    "lastSentAt": "2026-10-27T08:31:53.154Z",
+    "step": 0
+  },
+  {
+    "email": "live@liverealestate.co.za",
+    "business": "Live Real Estate — estate agent (Regent Road, Cape Town)",
+    "niche": "estate_agent",
+    "city": "Cape Town",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-27T08:31:54.557Z",
+    "lastSentAt": "2026-10-27T08:31:54.557Z",
+    "step": 0
+  },
+  {
+    "email": "seapoint@placecol.com",
+    "business": "Placecol Sea Point — beauty",
+    "niche": "beauty",
+    "city": "Cape Town",
+    "service": "Booking automation",
+    "sentAt": "2026-10-27T08:31:56.077Z",
+    "lastSentAt": "2026-10-27T08:31:56.077Z",
+    "step": 0
+  },
+  {
+    "email": "thediamondworks@tjd.co.za",
+    "business": "The Diamond Works — jewelry (Christiaan Barnard Street, Cape Town)",
+    "niche": "jewelry",
+    "city": "Cape Town",
+    "service": "Clienteling automation",
+    "sentAt": "2026-10-27T08:31:57.925Z",
+    "lastSentAt": "2026-10-27T08:31:57.925Z",
+    "step": 0
+  },
+  {
+    "email": "bryan@mydentist.co.za",
+    "business": "Dr. B.M. Sher — dentist (Ashstead Road)",
+    "niche": "dentist",
+    "city": "Cape Town",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-27T08:31:59.568Z",
+    "lastSentAt": "2026-10-27T08:31:59.568Z",
+    "step": 0
+  },
+  {
+    "email": "mailbox@ghs.co.za",
+    "business": "Good Hope Studies — language school (Saint George's Mall, Cape Town)",
+    "niche": "language_school",
+    "city": "Cape Town",
+    "service": "Enrolment automation",
+    "sentAt": "2026-10-27T08:32:01.017Z",
+    "lastSentAt": "2026-10-27T08:32:01.017Z",
+    "step": 0
+  },
+  {
+    "email": "info@thetreatbydany.co.za",
+    "business": "The Treat — beauty",
+    "niche": "beauty",
+    "city": "Cape Town",
+    "service": "Booking automation",
+    "sentAt": "2026-10-27T08:32:02.639Z",
+    "lastSentAt": "2026-10-27T08:32:02.639Z",
+    "step": 0
+  },
+  {
+    "email": "bonteheuwel.ecd@saf.salvationarmy.org",
+    "business": "The Salvation Army Bonteheuwel Nursery School — childcare",
+    "niche": "childcare",
+    "city": "Cape Town",
+    "service": "Enquiry automation",
+    "sentAt": "2026-10-27T08:32:04.167Z",
+    "lastSentAt": "2026-10-27T08:32:04.167Z",
+    "step": 0
   }
 ]
