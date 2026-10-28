@@ -3166,5 +3166,65 @@
     "at": "2026-10-27T22:46:59.796Z",
     "business": "RJ Clinic Segambut — clinic (Jalan Segambut, Kuala Lumpur)",
     "status": "followup_1"
+  },
+  {
+    "email": "info@law-partnership.com",
+    "at": "2026-10-28T09:08:52.508Z",
+    "business": "LAW Partnership — lawyer (Avenue 5)",
+    "status": "followup_1"
+  },
+  {
+    "email": "carenne@perfectdesign.my",
+    "at": "2026-10-28T09:08:53.581Z",
+    "business": "Perfect Design — it (Jalan Bangsar, Kuala Lumpur)",
+    "status": "followup_1"
+  },
+  {
+    "email": "hq@bigbrainfurniture.com",
+    "at": "2026-10-28T09:08:54.669Z",
+    "business": "Big Brain Petaling Jaya (Furniture Shop) — furniture (Jalan Profesor Diraja Ungk",
+    "status": "followup_1"
+  },
+  {
+    "email": "customerservice.ikeamy@ikano.asia",
+    "at": "2026-10-28T09:08:55.917Z",
+    "business": "IKEA — furniture (Jalan Cochrane, Kuala Lumpur)",
+    "status": "followup_1"
+  },
+  {
+    "email": "rathmines@sherryfitz.ie",
+    "at": "2026-10-28T09:08:57.251Z",
+    "business": "Sherry FitzGerald — estate agent (Rathmines Road Lower, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@rathgardentist.ie",
+    "at": "2026-10-28T09:08:58.618Z",
+    "business": "Rathgar Dental Clinic — dentist (Rathgar Road, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@charltons.ie",
+    "at": "2026-10-28T09:08:59.577Z",
+    "business": "Charltons Solicitors — lawyer (Leeson Street Upper, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "office@reliancepropertyconsultants.ie",
+    "at": "2026-10-28T09:09:00.677Z",
+    "business": "Reliance — estate agent (Harold's Cross Road, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@doctorbrady.ie",
+    "at": "2026-10-28T09:09:02.118Z",
+    "business": "Brady — doctors (Harrington Street, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@dmpc.ie",
+    "at": "2026-10-28T09:09:03.333Z",
+    "business": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
+    "status": "followup_1"
   }
 ]
