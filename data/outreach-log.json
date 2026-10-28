@@ -1848,5 +1848,105 @@
     "sentAt": "2026-10-27T08:32:04.167Z",
     "lastSentAt": "2026-10-27T08:32:04.167Z",
     "step": 0
+  },
+  {
+    "email": "so@property-market.co.uk",
+    "business": "Rooms to Rent — estate agent (Bristol Road, Birmingham)",
+    "niche": "estate_agent",
+    "city": "Birmingham",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-28T16:55:53.259Z",
+    "lastSentAt": "2026-10-28T16:55:53.259Z",
+    "step": 0
+  },
+  {
+    "email": "johnhoggarth@live.co.uk",
+    "business": "Addison Road Car Sales — car (Addison Road, Birmingham)",
+    "niche": "car",
+    "city": "Birmingham",
+    "service": "Lead follow-up automation",
+    "sentAt": "2026-10-28T16:55:54.912Z",
+    "lastSentAt": "2026-10-28T16:55:54.912Z",
+    "step": 0
+  },
+  {
+    "email": "customercare@townhouse.co.uk",
+    "business": "Townhouse — beauty (Church Street, Birmingham)",
+    "niche": "beauty",
+    "city": "Birmingham",
+    "service": "Booking automation",
+    "sentAt": "2026-10-28T16:55:56.649Z",
+    "lastSentAt": "2026-10-28T16:55:56.649Z",
+    "step": 0
+  },
+  {
+    "email": "info@anthonycollins.com",
+    "business": "Anthony Collins — lawyer (Edmund Street)",
+    "niche": "lawyer",
+    "city": "Birmingham",
+    "service": "Client intake automation",
+    "sentAt": "2026-10-28T16:55:59.523Z",
+    "lastSentAt": "2026-10-28T16:55:59.523Z",
+    "step": 0
+  },
+  {
+    "email": "info@willmurphydentistry.co.uk",
+    "business": "Will Murphy Dentistry — dentist (Newhall Street, Birmingham)",
+    "niche": "dentist",
+    "city": "Birmingham",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-28T16:56:01.616Z",
+    "lastSentAt": "2026-10-28T16:56:01.616Z",
+    "step": 0
+  },
+  {
+    "email": "property@fleetmilne.co.uk",
+    "business": "Fleetmilne Property — estate agent (Colmore Row)",
+    "niche": "estate_agent",
+    "city": "Birmingham",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-28T16:56:03.561Z",
+    "lastSentAt": "2026-10-28T16:56:03.561Z",
+    "step": 0
+  },
+  {
+    "email": "info@topjewellery.co.uk",
+    "business": "Top Jewellery UK — jewelry (Warstone Lane, Birmingham)",
+    "niche": "jewelry",
+    "city": "Birmingham",
+    "service": "Clienteling automation",
+    "sentAt": "2026-10-28T16:56:05.350Z",
+    "lastSentAt": "2026-10-28T16:56:05.350Z",
+    "step": 0
+  },
+  {
+    "email": "bearwood@veterinary.org.uk",
+    "business": "The Bearwood Veterinary Clinic — veterinary (Lightwoods Road)",
+    "niche": "veterinary",
+    "city": "Birmingham",
+    "service": "Booking automation",
+    "sentAt": "2026-10-28T16:56:07.163Z",
+    "lastSentAt": "2026-10-28T16:56:07.163Z",
+    "step": 0
+  },
+  {
+    "email": "info@fairwoodaccountants.co.uk",
+    "business": "Fairwood Chartered Accountants — accountant (Hagley Road)",
+    "niche": "accountant",
+    "city": "Birmingham",
+    "service": "Receipt & expense automation",
+    "sentAt": "2026-10-28T16:56:08.589Z",
+    "lastSentAt": "2026-10-28T16:56:08.589Z",
+    "step": 0
+  },
+  {
+    "email": "info@mksservices.co.uk",
+    "business": "MKS Accounting & Bookkeeping Services — accountant (Bearwood Road)",
+    "niche": "accountant",
+    "city": "Birmingham",
+    "service": "Receipt & expense automation",
+    "sentAt": "2026-10-28T16:56:10.075Z",
+    "lastSentAt": "2026-10-28T16:56:10.075Z",
+    "step": 0
   }
 ]

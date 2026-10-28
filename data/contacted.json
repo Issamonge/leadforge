@@ -3226,5 +3226,65 @@
     "at": "2026-10-28T09:09:03.333Z",
     "business": "Dillon Marshall — estate agent (Harold's Cross Road, Dublin)",
     "status": "followup_1"
+  },
+  {
+    "email": "so@property-market.co.uk",
+    "at": "2026-10-28T16:55:53.259Z",
+    "business": "Rooms to Rent — estate agent (Bristol Road, Birmingham)",
+    "status": "sent"
+  },
+  {
+    "email": "johnhoggarth@live.co.uk",
+    "at": "2026-10-28T16:55:54.912Z",
+    "business": "Addison Road Car Sales — car (Addison Road, Birmingham)",
+    "status": "sent"
+  },
+  {
+    "email": "customercare@townhouse.co.uk",
+    "at": "2026-10-28T16:55:56.649Z",
+    "business": "Townhouse — beauty (Church Street, Birmingham)",
+    "status": "sent"
+  },
+  {
+    "email": "info@anthonycollins.com",
+    "at": "2026-10-28T16:55:59.523Z",
+    "business": "Anthony Collins — lawyer (Edmund Street)",
+    "status": "sent"
+  },
+  {
+    "email": "info@willmurphydentistry.co.uk",
+    "at": "2026-10-28T16:56:01.616Z",
+    "business": "Will Murphy Dentistry — dentist (Newhall Street, Birmingham)",
+    "status": "sent"
+  },
+  {
+    "email": "property@fleetmilne.co.uk",
+    "at": "2026-10-28T16:56:03.560Z",
+    "business": "Fleetmilne Property — estate agent (Colmore Row)",
+    "status": "sent"
+  },
+  {
+    "email": "info@topjewellery.co.uk",
+    "at": "2026-10-28T16:56:05.350Z",
+    "business": "Top Jewellery UK — jewelry (Warstone Lane, Birmingham)",
+    "status": "sent"
+  },
+  {
+    "email": "bearwood@veterinary.org.uk",
+    "at": "2026-10-28T16:56:07.163Z",
+    "business": "The Bearwood Veterinary Clinic — veterinary (Lightwoods Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@fairwoodaccountants.co.uk",
+    "at": "2026-10-28T16:56:08.589Z",
+    "business": "Fairwood Chartered Accountants — accountant (Hagley Road)",
+    "status": "sent"
+  },
+  {
+    "email": "info@mksservices.co.uk",
+    "at": "2026-10-28T16:56:10.075Z",
+    "business": "MKS Accounting & Bookkeeping Services — accountant (Bearwood Road)",
+    "status": "sent"
   }
 ]
