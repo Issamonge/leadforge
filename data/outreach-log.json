@@ -1506,8 +1506,8 @@
     "city": "Dublin",
     "service": "Client intake automation",
     "sentAt": "2026-10-24T07:44:15.808Z",
-    "lastSentAt": "2026-10-24T07:44:15.808Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:49.434Z",
+    "step": 1
   },
   {
     "email": "info@newireland.ie",
@@ -1516,8 +1516,8 @@
     "city": "Dublin",
     "service": "Quote follow-up automation",
     "sentAt": "2026-10-24T07:44:17.355Z",
-    "lastSentAt": "2026-10-24T07:44:17.355Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:51.136Z",
+    "step": 1
   },
   {
     "email": "info@youngs.ie",
@@ -1526,8 +1526,8 @@
     "city": "Dublin",
     "service": "Deal pipeline automation",
     "sentAt": "2026-10-24T07:44:18.576Z",
-    "lastSentAt": "2026-10-24T07:44:18.576Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:52.774Z",
+    "step": 1
   },
   {
     "email": "terenure@raycooke.ie",
@@ -1536,8 +1536,8 @@
     "city": "Dublin",
     "service": "Deal pipeline automation",
     "sentAt": "2026-10-24T07:44:19.930Z",
-    "lastSentAt": "2026-10-24T07:44:19.930Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:54.609Z",
+    "step": 1
   },
   {
     "email": "asesoriaalcazar@telefonica.net",
@@ -1546,8 +1546,8 @@
     "city": "Barcelona",
     "service": "Deal pipeline automation",
     "sentAt": "2026-10-24T14:13:06.982Z",
-    "lastSentAt": "2026-10-24T14:13:06.982Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:56.172Z",
+    "step": 1
   },
   {
     "email": "martinezsempere@martinezsempere.com",
@@ -1556,8 +1556,8 @@
     "city": "Barcelona",
     "service": "Quote follow-up automation",
     "sentAt": "2026-10-24T14:13:08.581Z",
-    "lastSentAt": "2026-10-24T14:13:08.581Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:58:57.983Z",
+    "step": 1
   },
   {
     "email": "rcd@rcdslp.com",
@@ -1566,8 +1566,8 @@
     "city": "Barcelona",
     "service": "Client intake automation",
     "sentAt": "2026-10-24T14:13:10.167Z",
-    "lastSentAt": "2026-10-24T14:13:10.167Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:59:00.174Z",
+    "step": 1
   },
   {
     "email": "info@rgreform.com",
@@ -1576,8 +1576,8 @@
     "city": "Barcelona",
     "service": "Deal pipeline automation",
     "sentAt": "2026-10-24T14:13:11.549Z",
-    "lastSentAt": "2026-10-24T14:13:11.549Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:59:01.909Z",
+    "step": 1
   },
   {
     "email": "info@axxonsoft.com",
@@ -1586,8 +1586,8 @@
     "city": "Barcelona",
     "service": "AI agent & workflow automation",
     "sentAt": "2026-10-24T14:13:12.820Z",
-    "lastSentAt": "2026-10-24T14:13:12.820Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:59:04.230Z",
+    "step": 1
   },
   {
     "email": "mq@xp-mq.com",
@@ -1596,8 +1596,8 @@
     "city": "Barcelona",
     "service": "Client intake automation",
     "sentAt": "2026-10-24T14:13:14.252Z",
-    "lastSentAt": "2026-10-24T14:13:14.252Z",
-    "step": 0
+    "lastSentAt": "2026-10-28T22:59:06.469Z",
+    "step": 1
   },
   {
     "email": "info@datosexpress.com",

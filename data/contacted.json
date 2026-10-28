@@ -3286,5 +3286,65 @@
     "at": "2026-10-28T16:56:10.075Z",
     "business": "MKS Accounting & Bookkeeping Services — accountant (Bearwood Road)",
     "status": "sent"
+  },
+  {
+    "email": "info@bcrowe.ie",
+    "at": "2026-10-28T22:58:49.434Z",
+    "business": "Brian Crowe & Co. Solicitors — lawyer (Harold's Cross Road, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@newireland.ie",
+    "at": "2026-10-28T22:58:51.136Z",
+    "business": "New Ireland Assurance Company plc — insurance (Dawson Street, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@youngs.ie",
+    "at": "2026-10-28T22:58:52.774Z",
+    "business": "Young's Estate Agents — estate agent (Ranelagh, Dublin)",
+    "status": "followup_1"
+  },
+  {
+    "email": "terenure@raycooke.ie",
+    "at": "2026-10-28T22:58:54.609Z",
+    "business": "Ray Cooke — estate agent (Terenure Road North)",
+    "status": "followup_1"
+  },
+  {
+    "email": "asesoriaalcazar@telefonica.net",
+    "at": "2026-10-28T22:58:56.172Z",
+    "business": "Assessoria Alcázar — estate agent (Carrer de Pérez Galdós, Badalona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "martinezsempere@martinezsempere.com",
+    "at": "2026-10-28T22:58:57.983Z",
+    "business": "Martínez Sempere & Associats S.L. — insurance (Plaça de Trafalgar, Badalona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "rcd@rcdslp.com",
+    "at": "2026-10-28T22:59:00.174Z",
+    "business": "Rousaud Costas Duran — lawyer (Carrer de les Escoles Pies, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@rgreform.com",
+    "at": "2026-10-28T22:59:01.909Z",
+    "business": "RG Reforms Co. — estate agent (Plaça de Trafalgar, Badalona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@axxonsoft.com",
+    "at": "2026-10-28T22:59:04.230Z",
+    "business": "AxxonSoft — it (Avinguda del Portal de l'Àngel, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "mq@xp-mq.com",
+    "at": "2026-10-28T22:59:06.469Z",
+    "business": "Moreno Quesada Advocats — lawyer",
+    "status": "followup_1"
   }
 ]
