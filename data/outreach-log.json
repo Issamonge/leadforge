@@ -1948,5 +1948,105 @@
     "sentAt": "2026-10-28T16:56:10.075Z",
     "lastSentAt": "2026-10-28T16:56:10.075Z",
     "step": 0
+  },
+  {
+    "email": "rmcka@tecnocasa.it",
+    "business": "Tecnocasa — estate agent (Via Veturia, Roma)",
+    "niche": "estate_agent",
+    "city": "Rome",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-29T09:05:03.696Z",
+    "lastSentAt": "2026-10-29T09:05:03.696Z",
+    "step": 0
+  },
+  {
+    "email": "gbgioielliroma@libero.it",
+    "business": "GB gioielli — jewelry (Via Veturia, Roma)",
+    "niche": "jewelry",
+    "city": "Rome",
+    "service": "Clienteling automation",
+    "sentAt": "2026-10-29T09:05:05.668Z",
+    "lastSentAt": "2026-10-29T09:05:05.668Z",
+    "step": 0
+  },
+  {
+    "email": "commerciale@hq2.it",
+    "business": "HQ2.it — computer (Via Tuscolana, Roma)",
+    "niche": "computer",
+    "city": "Rome",
+    "service": "AI workflow automation",
+    "sentAt": "2026-10-29T09:05:08.154Z",
+    "lastSentAt": "2026-10-29T09:05:08.154Z",
+    "step": 0
+  },
+  {
+    "email": "mediamarketroma@hotmail.it",
+    "business": "Media Market — electronics (Via Simone De Saint Bon, Roma)",
+    "niche": "electronics",
+    "city": "Rome",
+    "service": "Lead automation",
+    "sentAt": "2026-10-29T09:05:10.361Z",
+    "lastSentAt": "2026-10-29T09:05:10.361Z",
+    "step": 0
+  },
+  {
+    "email": "info@veterinariaroma.it",
+    "business": "Dott. Amerio Croce — veterinary (Via Alghero)",
+    "niche": "veterinary",
+    "city": "Rome",
+    "service": "Booking automation",
+    "sentAt": "2026-10-29T09:05:12.912Z",
+    "lastSentAt": "2026-10-29T09:05:12.912Z",
+    "step": 0
+  },
+  {
+    "email": "info@novasystem.it",
+    "business": "Nova System — computer (Via Cesare Baronio)",
+    "niche": "computer",
+    "city": "Rome",
+    "service": "AI workflow automation",
+    "sentAt": "2026-10-29T09:05:15.410Z",
+    "lastSentAt": "2026-10-29T09:05:15.410Z",
+    "step": 0
+  },
+  {
+    "email": "info@studiotudini.it",
+    "business": "Studio Tudini e Tudini Associazione Professionale — accountant (Via Quintiliano,",
+    "niche": "accountant",
+    "city": "Rome",
+    "service": "Receipt & expense automation",
+    "sentAt": "2026-10-29T09:05:17.510Z",
+    "lastSentAt": "2026-10-29T09:05:17.510Z",
+    "step": 0
+  },
+  {
+    "email": "studioelianto@live.it",
+    "business": "Studio Elianto Odontoiatria — dentist (Via Conca d'Oro, Roma)",
+    "niche": "dentist",
+    "city": "Rome",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-29T09:05:19.900Z",
+    "lastSentAt": "2026-10-29T09:05:19.900Z",
+    "step": 0
+  },
+  {
+    "email": "radiologia.cavalcanti@yahoo.it",
+    "business": "Radiologia Cavalcanti — clinic (Via Taranto, Roma)",
+    "niche": "clinic",
+    "city": "Rome",
+    "service": "Patient booking automation",
+    "sentAt": "2026-10-29T09:05:22.044Z",
+    "lastSentAt": "2026-10-29T09:05:22.044Z",
+    "step": 0
+  },
+  {
+    "email": "info@bludental.it",
+    "business": "Bludental — dentist (Piazza Carlo Mazzaresi, Roma)",
+    "niche": "dentist",
+    "city": "Rome",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-29T09:05:24.688Z",
+    "lastSentAt": "2026-10-29T09:05:24.688Z",
+    "step": 0
   }
 ]

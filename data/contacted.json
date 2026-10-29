@@ -3346,5 +3346,65 @@
     "at": "2026-10-28T22:59:06.469Z",
     "business": "Moreno Quesada Advocats — lawyer",
     "status": "followup_1"
+  },
+  {
+    "email": "rmcka@tecnocasa.it",
+    "at": "2026-10-29T09:05:03.696Z",
+    "business": "Tecnocasa — estate agent (Via Veturia, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "gbgioielliroma@libero.it",
+    "at": "2026-10-29T09:05:05.668Z",
+    "business": "GB gioielli — jewelry (Via Veturia, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "commerciale@hq2.it",
+    "at": "2026-10-29T09:05:08.154Z",
+    "business": "HQ2.it — computer (Via Tuscolana, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "mediamarketroma@hotmail.it",
+    "at": "2026-10-29T09:05:10.361Z",
+    "business": "Media Market — electronics (Via Simone De Saint Bon, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "info@veterinariaroma.it",
+    "at": "2026-10-29T09:05:12.912Z",
+    "business": "Dott. Amerio Croce — veterinary (Via Alghero)",
+    "status": "sent"
+  },
+  {
+    "email": "info@novasystem.it",
+    "at": "2026-10-29T09:05:15.410Z",
+    "business": "Nova System — computer (Via Cesare Baronio)",
+    "status": "sent"
+  },
+  {
+    "email": "info@studiotudini.it",
+    "at": "2026-10-29T09:05:17.510Z",
+    "business": "Studio Tudini e Tudini Associazione Professionale — accountant (Via Quintiliano,",
+    "status": "sent"
+  },
+  {
+    "email": "studioelianto@live.it",
+    "at": "2026-10-29T09:05:19.900Z",
+    "business": "Studio Elianto Odontoiatria — dentist (Via Conca d'Oro, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "radiologia.cavalcanti@yahoo.it",
+    "at": "2026-10-29T09:05:22.044Z",
+    "business": "Radiologia Cavalcanti — clinic (Via Taranto, Roma)",
+    "status": "sent"
+  },
+  {
+    "email": "info@bludental.it",
+    "at": "2026-10-29T09:05:24.688Z",
+    "business": "Bludental — dentist (Piazza Carlo Mazzaresi, Roma)",
+    "status": "sent"
   }
 ]
