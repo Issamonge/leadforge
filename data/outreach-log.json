@@ -2048,5 +2048,105 @@
     "sentAt": "2026-10-29T09:05:24.688Z",
     "lastSentAt": "2026-10-29T09:05:24.688Z",
     "step": 0
+  },
+  {
+    "email": "info@pusterla.ch",
+    "business": "Pusterla Elektronik AG — electronics (Kernstrasse, Zürich)",
+    "niche": "electronics",
+    "city": "Zurich",
+    "service": "Lead automation",
+    "sentAt": "2026-10-29T17:15:16.492Z",
+    "lastSentAt": "2026-10-29T17:15:16.492Z",
+    "step": 0
+  },
+  {
+    "email": "kita.imbirch@unsere-champions.ch",
+    "business": "Allegra Kinderhaus Im Birch — childcare",
+    "niche": "childcare",
+    "city": "Zurich",
+    "service": "Enquiry automation",
+    "sentAt": "2026-10-29T17:15:17.699Z",
+    "lastSentAt": "2026-10-29T17:15:17.699Z",
+    "step": 0
+  },
+  {
+    "email": "shop@k55.ch",
+    "business": "K55 — electronics (Universitätstrasse)",
+    "niche": "electronics",
+    "city": "Zurich",
+    "service": "Lead automation",
+    "sentAt": "2026-10-29T17:15:19.190Z",
+    "lastSentAt": "2026-10-29T17:15:19.190Z",
+    "step": 0
+  },
+  {
+    "email": "zh-walche@pfister.ch",
+    "business": "Pfister — furniture (Neumühlequai, Zürich)",
+    "niche": "furniture",
+    "city": "Zurich",
+    "service": "Lead follow-up",
+    "sentAt": "2026-10-29T17:15:20.776Z",
+    "lastSentAt": "2026-10-29T17:15:20.776Z",
+    "step": 0
+  },
+  {
+    "email": "info@bilaya.ch",
+    "business": "Bilaya Wohnbau AG — estate agent (Limmatstrasse, Zürich)",
+    "niche": "estate_agent",
+    "city": "Zurich",
+    "service": "Deal pipeline automation",
+    "sentAt": "2026-10-29T17:15:22.380Z",
+    "lastSentAt": "2026-10-29T17:15:22.380Z",
+    "step": 0
+  },
+  {
+    "email": "dr.neumann@stauffacherzahnarzt.ch",
+    "business": "Zahnarzt Am Stauffacher — dentist (Lutherstrasse, Zürich)",
+    "niche": "dentist",
+    "city": "Zurich",
+    "service": "Lead capture & booking automation",
+    "sentAt": "2026-10-29T17:15:23.701Z",
+    "lastSentAt": "2026-10-29T17:15:23.701Z",
+    "step": 0
+  },
+  {
+    "email": "info@netcetera.com",
+    "business": "Netcetera — it (Zypressenstrasse, Zürich)",
+    "niche": "it",
+    "city": "Zurich",
+    "service": "AI agent & workflow automation",
+    "sentAt": "2026-10-29T17:15:24.985Z",
+    "lastSentAt": "2026-10-29T17:15:24.985Z",
+    "step": 0
+  },
+  {
+    "email": "permanenceoerlikon@hin.ch",
+    "business": "Permanence Marktplatz Oerlikon — doctors",
+    "niche": "doctors",
+    "city": "Zurich",
+    "service": "Appointment automation",
+    "sentAt": "2026-10-29T17:15:26.286Z",
+    "lastSentAt": "2026-10-29T17:15:26.286Z",
+    "step": 0
+  },
+  {
+    "email": "wiedikon@santemed.ch",
+    "business": "Medbase Zürich Wiedikon — doctors (Seebahnstrasse, Zürich)",
+    "niche": "doctors",
+    "city": "Zurich",
+    "service": "Appointment automation",
+    "sentAt": "2026-10-29T17:15:27.521Z",
+    "lastSentAt": "2026-10-29T17:15:27.521Z",
+    "step": 0
+  },
+  {
+    "email": "geschaeftsstelle@vefz.ch",
+    "business": "Kindertagesstätte Pilgerbrunnen — childcare (Brahmsstrasse, Zürich)",
+    "niche": "childcare",
+    "city": "Zurich",
+    "service": "Enquiry automation",
+    "sentAt": "2026-10-29T17:15:29.513Z",
+    "lastSentAt": "2026-10-29T17:15:29.513Z",
+    "step": 0
   }
 ]

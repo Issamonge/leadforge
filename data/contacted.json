@@ -3406,5 +3406,65 @@
     "at": "2026-10-29T09:05:24.688Z",
     "business": "Bludental — dentist (Piazza Carlo Mazzaresi, Roma)",
     "status": "sent"
+  },
+  {
+    "email": "info@pusterla.ch",
+    "at": "2026-10-29T17:15:16.492Z",
+    "business": "Pusterla Elektronik AG — electronics (Kernstrasse, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "kita.imbirch@unsere-champions.ch",
+    "at": "2026-10-29T17:15:17.698Z",
+    "business": "Allegra Kinderhaus Im Birch — childcare",
+    "status": "sent"
+  },
+  {
+    "email": "shop@k55.ch",
+    "at": "2026-10-29T17:15:19.190Z",
+    "business": "K55 — electronics (Universitätstrasse)",
+    "status": "sent"
+  },
+  {
+    "email": "zh-walche@pfister.ch",
+    "at": "2026-10-29T17:15:20.776Z",
+    "business": "Pfister — furniture (Neumühlequai, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "info@bilaya.ch",
+    "at": "2026-10-29T17:15:22.380Z",
+    "business": "Bilaya Wohnbau AG — estate agent (Limmatstrasse, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "dr.neumann@stauffacherzahnarzt.ch",
+    "at": "2026-10-29T17:15:23.701Z",
+    "business": "Zahnarzt Am Stauffacher — dentist (Lutherstrasse, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "info@netcetera.com",
+    "at": "2026-10-29T17:15:24.985Z",
+    "business": "Netcetera — it (Zypressenstrasse, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "permanenceoerlikon@hin.ch",
+    "at": "2026-10-29T17:15:26.286Z",
+    "business": "Permanence Marktplatz Oerlikon — doctors",
+    "status": "sent"
+  },
+  {
+    "email": "wiedikon@santemed.ch",
+    "at": "2026-10-29T17:15:27.521Z",
+    "business": "Medbase Zürich Wiedikon — doctors (Seebahnstrasse, Zürich)",
+    "status": "sent"
+  },
+  {
+    "email": "geschaeftsstelle@vefz.ch",
+    "at": "2026-10-29T17:15:29.513Z",
+    "business": "Kindertagesstätte Pilgerbrunnen — childcare (Brahmsstrasse, Zürich)",
+    "status": "sent"
   }
 ]

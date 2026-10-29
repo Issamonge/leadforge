@@ -1517,7 +1517,7 @@
   },
   "netcentric.biz": {
     "ok": true,
-    "at": "2026-09-24T15:36:49.773Z"
+    "at": "2026-10-29T17:14:54.617Z"
   },
   "barnamedik.com": {
     "ok": true,
@@ -2394,5 +2394,217 @@
   "studiolegalebonannomurolo.it": {
     "ok": true,
     "at": "2026-10-29T09:05:01.800Z"
+  },
+  "pusterla.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:47.306Z"
+  },
+  "unsere-champions.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:47.374Z"
+  },
+  "k55.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:47.674Z"
+  },
+  "pfister.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:48.166Z"
+  },
+  "bilaya.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:48.399Z"
+  },
+  "stauffacherzahnarzt.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:48.487Z"
+  },
+  "netcetera.com": {
+    "ok": true,
+    "at": "2026-10-29T17:14:48.503Z"
+  },
+  "hin.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:48.550Z"
+  },
+  "santemed.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:49.272Z"
+  },
+  "vefz.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:49.303Z"
+  },
+  "beads.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:49.551Z"
+  },
+  "bratschi-law.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:50.079Z"
+  },
+  "engelvoelkers.com": {
+    "ok": true,
+    "at": "2026-10-29T17:14:50.104Z"
+  },
+  "adfinis.com": {
+    "ok": true,
+    "at": "2026-10-29T17:14:50.172Z"
+  },
+  "vshn.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:50.733Z"
+  },
+  "twofold.swiss": {
+    "ok": true,
+    "at": "2026-10-29T17:14:50.925Z"
+  },
+  "atelier-rs.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:51.163Z"
+  },
+  "swissmedikids.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:51.548Z"
+  },
+  "kanghua.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:51.638Z"
+  },
+  "oberon.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:52.114Z"
+  },
+  "gesundwohl-rundum.ch": {
+    "ok": false,
+    "at": "2026-10-29T17:14:52.234Z"
+  },
+  "nic.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:52.696Z"
+  },
+  "medbase.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:53.066Z"
+  },
+  "william-finanz.ch": {
+    "ok": false,
+    "at": "2026-10-29T17:14:53.303Z"
+  },
+  "2002beauty.space": {
+    "ok": true,
+    "at": "2026-10-29T17:14:53.436Z"
+  },
+  "revamp-it.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:53.577Z"
+  },
+  "zahnarztzentrum.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:53.887Z"
+  },
+  "dr-scholpp.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:54.289Z"
+  },
+  "eyelaser.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:54.518Z"
+  },
+  "adent.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:54.780Z"
+  },
+  "mptechnology.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:54.867Z"
+  },
+  "zahnfee28.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:55.382Z"
+  },
+  "garage-johann-frei.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:55.874Z"
+  },
+  "clinicutoquai.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:56.325Z"
+  },
+  "kinderkrippe-kruemel.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:59.206Z"
+  },
+  "zahnarztpraxis-buchegg.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:14:59.772Z"
+  },
+  "zzn.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:00.044Z"
+  },
+  "handwerkskollektiv.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:00.336Z"
+  },
+  "bauen-digtial.ch": {
+    "ok": false,
+    "at": "2026-10-29T17:15:00.457Z"
+  },
+  "heer-immobilien.com": {
+    "ok": true,
+    "at": "2026-10-29T17:15:00.672Z"
+  },
+  "steigerlegal.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:00.938Z"
+  },
+  "smiletowin.com": {
+    "ok": true,
+    "at": "2026-10-29T17:15:00.961Z"
+  },
+  "cividi.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:01.114Z"
+  },
+  "bbraun.com": {
+    "ok": true,
+    "at": "2026-10-29T17:15:01.758Z"
+  },
+  "mynicenails.ch": {
+    "ok": false,
+    "at": "2026-10-29T17:15:12.825Z"
+  },
+  "igelzentrum.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:13.060Z"
+  },
+  "kiddieland.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:13.206Z"
+  },
+  "scs.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:13.426Z"
+  },
+  "kitakibiz.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:13.932Z"
+  },
+  "evelineboeckx.com": {
+    "ok": false,
+    "at": "2026-10-29T17:15:14.018Z"
+  },
+  "bord.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:14.453Z"
+  },
+  "hno-wiedikon.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:14.606Z"
+  },
+  "checkpoint-zh.ch": {
+    "ok": true,
+    "at": "2026-10-29T17:15:15.000Z"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "offset": 44,
-  "lastRun": "2026-10-29T09:01:39.499Z",
+  "offset": 48,
+  "lastRun": "2026-10-29T17:08:39.038Z",
   "lastBatch": [
-    "Rome",
-    "Milan",
-    "Lisbon",
-    "Vienna"
+    "Zurich",
+    "Stockholm",
+    "Warsaw",
+    "Prague"
   ]
 }

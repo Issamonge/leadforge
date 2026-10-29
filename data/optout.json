@@ -373,5 +373,15 @@
     "email": "info@thetreatbydany.co.za",
     "reason": "bounced: spam block",
     "at": "2026-10-27T16:12:19.083Z"
+  },
+  {
+    "email": "commerciale@hq2.it",
+    "reason": "bounced: spam block",
+    "at": "2026-10-29T17:14:45.281Z"
+  },
+  {
+    "email": "info@novasystem.it",
+    "reason": "bounced: spam block",
+    "at": "2026-10-29T17:14:45.281Z"
   }
 ]
