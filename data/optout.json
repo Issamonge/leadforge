@@ -383,5 +383,10 @@
     "email": "info@novasystem.it",
     "reason": "bounced: spam block",
     "at": "2026-10-29T17:14:45.281Z"
+  },
+  {
+    "email": "wiedikon@santemed.ch",
+    "reason": "bounced: spam block",
+    "at": "2026-10-29T23:06:42.473Z"
   }
 ]

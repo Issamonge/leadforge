@@ -3466,5 +3466,65 @@
     "at": "2026-10-29T17:15:29.513Z",
     "business": "Kindertagesstätte Pilgerbrunnen — childcare (Brahmsstrasse, Zürich)",
     "status": "sent"
+  },
+  {
+    "email": "info@datosexpress.com",
+    "at": "2026-10-29T23:06:43.482Z",
+    "business": "Grup Tècnic Informàtic Artech — computer (Carrer de la Garrotxa 6)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@gestoriak2.com",
+    "at": "2026-10-29T23:06:45.314Z",
+    "business": "K2 asesores y gestores — estate agent (Carrer d'Aribau)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@frenchkissbeauty.com",
+    "at": "2026-10-29T23:06:48.322Z",
+    "business": "French kiss beauty — beauty (Avinguda del Portal de l'Àngel)",
+    "status": "followup_1"
+  },
+  {
+    "email": "barcelona@ergodinamica.com",
+    "at": "2026-10-29T23:06:50.976Z",
+    "business": "Ergodinámica — doctors (Passeig de la Bonanova, Barcelona)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@poliformvancouver.com",
+    "at": "2026-10-29T23:06:54.638Z",
+    "business": "Poliform — furniture (West Pender Street, Vancouver)",
+    "status": "followup_1"
+  },
+  {
+    "email": "fetomaternal@hotmail.com",
+    "at": "2026-10-29T23:06:57.046Z",
+    "business": "Fetomaternal Centre — clinic (380 Markhiya Street)",
+    "status": "followup_1"
+  },
+  {
+    "email": "care@panhomestores.com",
+    "at": "2026-10-29T23:06:58.348Z",
+    "business": "Pan Home — furniture (Salwa Road)",
+    "status": "followup_1"
+  },
+  {
+    "email": "sales@diamondshouse.com",
+    "at": "2026-10-29T23:06:59.698Z",
+    "business": "Diamonds House — jewelry (Khalid Bin Al Waleed Street)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@acornqatar.com",
+    "at": "2026-10-29T23:07:00.952Z",
+    "business": "Acorn Nursery - Ain Khalid — childcare (Doha)",
+    "status": "followup_1"
+  },
+  {
+    "email": "info@zabarjadjewelry.com",
+    "at": "2026-10-29T23:07:02.194Z",
+    "business": "Zabarjad Jewelry Gold Souq — jewelry (Alashat Street, Doha)",
+    "status": "followup_1"
   }
 ]
